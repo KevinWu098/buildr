@@ -13,7 +13,7 @@ export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [currentStep, setCurrentStep] = useState<(typeof STEPS)[number]>(
-    STEPS[1]
+    STEPS[0]
   );
 
   const DRAWER_ACTION = useMemo(() => {
@@ -60,7 +60,7 @@ export default function Page() {
           )}
           asChild
         >
-          <Button size="lg" className="">
+          <Button size="lg" className="text-lg">
             {DRAWER_ACTION}
           </Button>
         </DrawerTrigger>

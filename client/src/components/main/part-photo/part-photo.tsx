@@ -145,17 +145,27 @@ export function PartPhoto({
         <div className="flex w-full flex-row justify-center gap-2">
           {isProcessing ? null : capturedPhoto ? (
             <>
-              <Button variant="outline" onClick={retakePhoto}>
+              <Button
+                variant="outline"
+                onClick={retakePhoto}
+                size="lg"
+                className="text-lg"
+              >
                 <RefreshCwIcon className="size-4" />
                 Retake
               </Button>
-              <Button onClick={confirmPhoto}>
+              <Button onClick={confirmPhoto} size="lg" className="text-lg">
                 <CheckIcon className="size-4" />
                 Use Photo
               </Button>
             </>
           ) : (
-            <Button onClick={capturePhoto} disabled={!stream}>
+            <Button
+              onClick={capturePhoto}
+              disabled={!stream}
+              size="lg"
+              className="text-lg"
+            >
               <CameraIcon className="size-4" />
               Capture
             </Button>
