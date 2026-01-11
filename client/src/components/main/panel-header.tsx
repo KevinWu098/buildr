@@ -18,7 +18,7 @@ interface PanelHeaderProps {
   description?: string;
   /** Callback for back button. If provided, shows back button. */
   onBack?: () => void;
-  /** 
+  /**
    * If true, wraps back button in DrawerClose for nested drawers.
    * Use this when the panel is inside a vaul Drawer that should close on back.
    */
@@ -52,7 +52,7 @@ export function PanelHeader({
   );
 
   return (
-    <DrawerHeader className={cn("pb-0", className)}>
+    <DrawerHeader className={cn("", className)}>
       <div className="flex items-center gap-2">
         {onBack &&
           (asDrawerClose ? (
@@ -68,14 +68,17 @@ export function PanelHeader({
         >
           {title}
         </DrawerTitle>
-        {actions && <div className="ml-auto flex items-center gap-1">{actions}</div>}
+        {actions && (
+          <div className="ml-auto flex items-center gap-1">{actions}</div>
+        )}
       </div>
       {description ? (
-        <DrawerDescription className="text-left">{description}</DrawerDescription>
+        <DrawerDescription className="text-left">
+          {description}
+        </DrawerDescription>
       ) : (
         <DrawerDescription className="sr-only">{title}</DrawerDescription>
       )}
     </DrawerHeader>
   );
 }
-

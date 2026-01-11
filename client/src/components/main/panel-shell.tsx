@@ -11,7 +11,7 @@ interface PanelShellProps {
 /**
  * A consistent container shell for drawer panels.
  * Provides proper flexbox layout with overflow handling.
- * 
+ *
  * Usage:
  * ```tsx
  * <PanelShell>
@@ -55,7 +55,7 @@ function PanelContent({ children, className }: PanelContentProps) {
   return (
     <div
       className={cn(
-        "flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto p-4",
+        "flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto p-4 pt-0",
         className
       )}
     >
@@ -76,10 +76,7 @@ interface PanelFooterProps {
 function PanelFooter({ children, className }: PanelFooterProps) {
   return (
     <div
-      className={cn(
-        "flex w-full flex-row gap-2 border-t px-4 py-3",
-        className
-      )}
+      className={cn("flex w-full flex-row gap-2 border-t px-4 py-3", className)}
     >
       {children}
     </div>
@@ -87,4 +84,3 @@ function PanelFooter({ children, className }: PanelFooterProps) {
 }
 
 export { PanelShell, PanelContent, PanelFooter };
-
