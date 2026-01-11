@@ -5,6 +5,7 @@ import {
   DrawerHeader,
   DrawerTitle,
 } from "@/components/ui/drawer";
+import { EditIcon, TrashIcon } from "lucide-react";
 import Image from "next/image";
 
 type PartType = "CPU" | "Memory" | "GPU" | "Case";
@@ -197,6 +198,15 @@ export function PartList() {
                               {part.name}
                             </span>
                             <PartDetails part={part} />
+                          </div>
+
+                          <div className="ml-auto flex flex-row gap-1">
+                            <Button variant="ghost" size="icon-xs">
+                              <EditIcon className="size-4" />
+                            </Button>
+                            <Button variant="ghost" size="icon-xs">
+                              <TrashIcon className="size-4" />
+                            </Button>
                           </div>
                         </CardContent>
                       </Card>
