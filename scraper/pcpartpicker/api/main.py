@@ -1,0 +1,153 @@
+import base64
+import os
+from typing import Annotated
+
+from dotenv import load_dotenv
+from fastapi import Depends, FastAPI, UploadFile
+from models import (
+    CompatibilityCheckResponse,
+    Components,
+    ComponentTypes,
+    Memory,
+    Motherboard,
+)
+from openai import AsyncOpenAI
+from pydantic import BaseModel
+from sqlalchemy.ext.asyncio import create_async_engine
+from sqlmodel import col, select
+from sqlmodel.ext.asyncio.session import AsyncSession
+
+load_dotenv()
+
+DATABASE_URL = 'sqlite+aiosqlite:///./pcpartpicker.db'
+AZURE_OPENAI_BASE_URL = os.getenv('AZURE_OPENAI_BASE_URL')
+AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
+AZURE_OPENAI_MODEL = os.getenv('AZURE_OPENAI_MODEL')
+
+
+engine = create_async_engine(DATABASE_URL)
+
+
+async def get_session():
+    async with AsyncSession(engine) as session:
+        yield session
+
+
+SessionDep = Annotated[AsyncSession, Depends(get_session)]
+
+client = AsyncOpenAI(
+    base_url=AZURE_OPENAI_BASE_URL,
+    api_key=AZURE_OPENAI_API_KEY,
+)
+
+app = FastAPI()
+
+
+@app.get('/')
+async def root():
+    return {'message': 'PCPartPicker API is running.'}
+
+
+@app.post(
+    '/compatibility-check',
+    response_model=CompatibilityCheckResponse,
+    response_model_exclude_unset=True,
+)
+async def check_compatibility(components: list[Components], session: SessionDep):
+    rams = set()
+    motherboards = set()
+
+    for component in components:
+        if component.type is ComponentTypes.memory:
+            rams.add(component.name)
+        elif component.type is ComponentTypes.motherboard:
+            motherboards.add(component.name)
+
+    ram_rows: list[Memory] = []
+    motherboard_rows: list[Motherboard] = []
+
+    for ram in rams:
+        result = await session.exec(
+            select(Memory)
+            .where(col(Memory.name).icontains(ram))
+            .order_by(col(Memory.id).asc())
+        )
+        ram_row = result.first()
+        if ram_row:
+            ram_rows.append(ram_row)
+
+    for motherboard in motherboards:
+        result = await session.exec(
+            select(Motherboard)
+            .where(col(Motherboard.name).icontains(motherboard))
+            .order_by(col(Motherboard.id).asc())
+        )
+        motherboard_row = result.first()
+        if motherboard_row:
+            motherboard_rows.append(motherboard_row)
+
+    for memory in ram_rows:
+        memory_type = memory.speed[:4] if memory.speed else None
+        for motherboard in motherboard_rows:
+            if motherboard.memory_type and memory_type:
+                if motherboard.memory_type != memory_type:
+                    return CompatibilityCheckResponse(
+                        compatible=False,
+                        message=f'Incompatible memory type: Motherboard requires {motherboard.memory_type}, but memory is {memory_type}.',
+                    )
+
+    return CompatibilityCheckResponse(compatible=True)
+
+
+COMPONENT_IDENTIFICATION_PROMPT = """\
+Identify the PC parts in this image. Return a list of the identified components.
+Only identify the component if it is a CPU, memory, or motherboard. Ignore all other components.
+The type field of the component should be one of: cpu, memory, motherboard.
+For CPUs, identify from this list: AMD Ryzen 5 7600X, Intel Core i7-14700K, AMD Ryzen 9 5900X.
+If a component is a CPU, and is not in the list, omit it from the results.
+For memory, identify from this list: Corsair Vengeance LPX 16 GB, Crucial Pro 32 GB, G.Skill Trident Z5 RGB 48 GB.
+If a component is memory, and is not in the list, omit it from the results.
+For motherboards, identify from this list: Asus TUF GAMING B650E-PLUS WIFI, MSI MAG B850 TOMAHAWK MAX WIFI, ASRock B850M Pro-A WiFi.
+If a component is a motherboard, and is not in the list, omit it from the results.
+For the name field of the component, return the exact name as in the list above, without any additional details or changes.
+"""
+
+
+class OpenAIComponentsOutput(BaseModel):
+    components: list[Components]
+
+
+@app.post('/components-image-upload', response_model=None)
+async def upload_component_image(components_image: UploadFile):
+    if not (AZURE_OPENAI_BASE_URL and AZURE_OPENAI_API_KEY and AZURE_OPENAI_MODEL):
+        raise ValueError('Azure OpenAI environment variables are not set properly.')
+
+    # Read and encode the uploaded file as base64
+    file_content = await components_image.read()
+    base64_image = base64.b64encode(file_content).decode('utf-8')
+    content_type = components_image.content_type or 'image/jpeg'
+    data_url = f'data:{content_type};base64,{base64_image}'
+
+    response = await client.responses.parse(
+        model=AZURE_OPENAI_MODEL,
+        max_output_tokens=2000,
+        temperature=0.0,
+        input=[
+            {
+                'role': 'user',
+                'content': [
+                    {
+                        'type': 'input_text',
+                        'text': COMPONENT_IDENTIFICATION_PROMPT,
+                    },
+                    {
+                        'type': 'input_image',
+                        'image_url': data_url,
+                    },
+                ],
+            }
+        ],
+        text_format=OpenAIComponentsOutput,
+    )
+
+    return response.output_parsed
