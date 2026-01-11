@@ -41,7 +41,7 @@ export default function Page() {
       >
         <DrawerTrigger
           className={cn(
-            "mt-auto h-16 rounded-lg outline-2 transition-[opacity,transform] delay-100 duration-500",
+            "mt-auto h-16 rounded-lg outline-1 transition-[opacity,transform] delay-100 duration-500",
             open && "pointer-events-none -translate-y-16 opacity-0"
           )}
         >

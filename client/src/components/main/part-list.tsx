@@ -1,74 +1,20 @@
+"use client";
+
+import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   DrawerDescription,
   DrawerHeader,
   DrawerTitle,
 } from "@/components/ui/drawer";
 import { EditIcon, TrashIcon } from "lucide-react";
-import Image from "next/image";
-
-type PartType = "CPU" | "Memory" | "GPU" | "Case";
-
-interface BasePart {
-  name: string;
-  type: PartType;
-  image?: string;
-}
-
-interface CPUPart extends BasePart {
-  type: "CPU";
-  cores?: number;
-  clockSpeed?: string;
-}
-
-interface MemoryPart extends BasePart {
-  type: "Memory";
-  capacity?: string;
-  speed?: string;
-}
-
-interface GPUPart extends BasePart {
-  type: "GPU";
-  vram?: string;
-  clockSpeed?: string;
-}
-
-interface CasePart extends BasePart {
-  type: "Case";
-  formFactor?: string;
-}
-
-type Part = CPUPart | MemoryPart | GPUPart | CasePart;
-
-function PartDetails({ part }: { part: Part }) {
-  switch (part.type) {
-    case "CPU":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.cores} cores • {part.clockSpeed}
-        </span>
-      );
-    case "Memory":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.capacity} • {part.speed}
-        </span>
-      );
-    case "GPU":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.vram} • {part.clockSpeed}
-        </span>
-      );
-    case "Case":
-      return (
-        <span className="text-muted-foreground text-xs">{part.formFactor}</span>
-      );
-    default:
-      return null;
-  }
-}
+import {
+  PartCard,
+  PartGroup,
+  PartSearchDrawer,
+  type Part,
+  type PartType,
+} from "@/components/main/part-list/index";
 
 const PARTS: Record<PartType, Part[]> = {
   CPU: [
@@ -155,79 +101,93 @@ const PARTS: Record<PartType, Part[]> = {
   ],
 };
 
+// All available parts for search (flattened)
+const ALL_PARTS: Part[] = Object.values(PARTS).flat();
+
 export function PartList() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [searchDrawerOpen, setSearchDrawerOpen] = useState(false);
+  const [searchMode, setSearchMode] = useState<"add" | "edit">("add");
+  const [selectedPartType, setSelectedPartType] = useState<
+    PartType | undefined
+  >();
+  const [editingPart, setEditingPart] = useState<Part | undefined>();
+
+  const handleAddPart = () => {
+    setSearchMode("add");
+    setSelectedPartType(undefined);
+    setEditingPart(undefined);
+    setSearchDrawerOpen(true);
+  };
+
+  const handleEditPart = (part: Part) => {
+    setSearchMode("edit");
+    setSelectedPartType(part.type);
+    setEditingPart(part);
+    setSearchDrawerOpen(true);
+  };
+
+  const handleSelectPart = (part: Part) => {
+    // TODO: Implement part selection logic (add/replace in the list)
+    console.log("Selected part:", part);
+  };
+
   return (
-    <>
+    <div
+      ref={containerRef}
+      className="relative flex h-full flex-col overflow-hidden"
+    >
       <DrawerHeader className="pb-0">
         <DrawerTitle className="text-left text-2xl">Your Part List</DrawerTitle>
         <DrawerDescription className="text-left">{null}</DrawerDescription>
       </DrawerHeader>
 
-      <div className="flex max-w-full flex-1 flex-col justify-between gap-6 p-4">
+      <div className="flex max-w-full flex-1 flex-col justify-between gap-6 overflow-hidden p-4">
         <div className="flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto">
-          {Object.entries(PARTS).map(([partType, parts]) => {
-            return (
-              <div key={partType} className="flex max-w-full shrink-0 flex-col">
-                <div className="bg-background sticky top-0 z-10 backdrop-blur-sm">
-                  <h3 className="text-muted-foreground -mx-1 px-2 text-lg font-semibold tracking-wider uppercase">
-                    {partType}
-                  </h3>
-                </div>
-
-                <div className="flex flex-col gap-2 px-2 pt-1 pb-4">
-                  {parts.length > 0 ? (
-                    parts.map((part) => (
-                      <Card
-                        key={part.name}
-                        className="hover:bg-accent/50 cursor-pointer rounded-md py-3 transition-colors"
-                      >
-                        <CardContent className="flex items-center gap-3 px-3 py-0">
-                          {part.image ? (
-                            <Image
-                              src={part.image}
-                              alt={part.name}
-                              width={100}
-                              height={100}
-                            />
-                          ) : (
-                            <div className="bg-muted size-10 rounded-sm" />
-                          )}
-
-                          <div className="mb-auto flex min-w-0 flex-col gap-0.5">
-                            <span className="truncate font-medium">
-                              {part.name}
-                            </span>
-                            <PartDetails part={part} />
-                          </div>
-
-                          <div className="ml-auto flex flex-row gap-1">
-                            <Button variant="ghost" size="icon-xs">
-                              <EditIcon className="size-4" />
-                            </Button>
-                            <Button variant="ghost" size="icon-xs">
-                              <TrashIcon className="size-4" />
-                            </Button>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))
-                  ) : (
-                    <div className="border-muted-foreground/25 text-muted-foreground rounded-lg border border-dashed px-4 py-6 text-center text-sm">
-                      No {partType.toLowerCase()} selected
-                    </div>
-                  )}
-                </div>
-              </div>
-            );
-          })}
+          {Object.entries(PARTS).map(([partType, parts]) => (
+            <PartGroup
+              key={partType}
+              partType={partType as PartType}
+              parts={parts}
+              renderPart={(part) => (
+                <PartCard key={part.name} part={part}>
+                  <Button
+                    variant="ghost"
+                    size="icon-xs"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleEditPart(part);
+                    }}
+                  >
+                    <EditIcon className="size-4" />
+                  </Button>
+                  <Button variant="ghost" size="icon-xs">
+                    <TrashIcon className="size-4" />
+                  </Button>
+                </PartCard>
+              )}
+            />
+          ))}
         </div>
 
-        <div className="shrink-0">
-          <Button size="lg" className="w-full text-lg">
-            Confirm Part List
+        <div className="flex w-full flex-row gap-1">
+          <Button className="text-lg" variant="outline" onClick={handleAddPart}>
+            Add Part
           </Button>
+          <Button className="grow text-lg">Confirm Part List</Button>
         </div>
       </div>
-    </>
+
+      <PartSearchDrawer
+        open={searchDrawerOpen}
+        onOpenChange={setSearchDrawerOpen}
+        container={containerRef.current}
+        mode={searchMode}
+        partType={selectedPartType}
+        editingPart={editingPart}
+        allParts={ALL_PARTS}
+        onSelectPart={handleSelectPart}
+      />
+    </div>
   );
 }
