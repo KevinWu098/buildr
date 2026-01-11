@@ -1,0 +1,4506 @@
+{
+  "category": "power_supply",
+  "product_count": 500,
+  "products": [
+    {
+      "name": "MSI MAG A750GL PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$104.99"
+    },
+    {
+      "name": "MSI MAG A850GL PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$122.00"
+    },
+    {
+      "name": "MSI MAG A650BN",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$82.98"
+    },
+    {
+      "name": "Corsair RM850e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$132.99"
+    },
+    {
+      "name": "Corsair SF1000 (2024)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$227.99"
+    },
+    {
+      "name": "Corsair RM1000x (2024)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$235.99"
+    },
+    {
+      "name": "Montech CENTURY II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$91.90"
+    },
+    {
+      "name": "MSI MAG A550BN",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$59.99"
+    },
+    {
+      "name": "Corsair RM750e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$130.99"
+    },
+    {
+      "name": "Corsair RM850x (2024)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$130.99"
+    },
+    {
+      "name": "Cooler Master MWE GOLD 750 V2 FULL MODULAR",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$101.99"
+    },
+    {
+      "name": "Asus ROG THOR 1600T Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Silver / Black",
+      "price": "$1197.51"
+    },
+    {
+      "name": "Thermaltake Smart",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": null,
+      "price": "$39.49"
+    },
+    {
+      "name": "Corsair SF750 (2024)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$167.99"
+    },
+    {
+      "name": "MSI MAG A850GL PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$170.36"
+    },
+    {
+      "name": "Corsair RM1000e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$144.99"
+    },
+    {
+      "name": "Corsair RM650e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$107.99"
+    },
+    {
+      "name": "MSI MPG A1000GS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$112.99"
+    },
+    {
+      "name": "Corsair SF850 (2024)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$178.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GX2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$65.98"
+    },
+    {
+      "name": "Asus ROG STRIX 1200P Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$290.99"
+    },
+    {
+      "name": "be quiet! Pure Power 13 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$164.88"
+    },
+    {
+      "name": "Corsair RM1000e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$159.99"
+    },
+    {
+      "name": "Corsair CX650M (2021)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$92.98"
+    },
+    {
+      "name": "MSI MPG A850GS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$116.99"
+    },
+    {
+      "name": "Super Flower Leadex Titanium",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "2800 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$821.99"
+    },
+    {
+      "name": "Cooler Master MWE Gold 850 - V2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$132.99"
+    },
+    {
+      "name": "SeaSonic PRIME PX-2200 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "2200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$1359.18"
+    },
+    {
+      "name": "Montech CENTURY II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1050 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.90"
+    },
+    {
+      "name": "Corsair RM850e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$154.99"
+    },
+    {
+      "name": "MSI MAG A650GL",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$220.31"
+    },
+    {
+      "name": "Lian Li EDGE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$188.99"
+    },
+    {
+      "name": "be quiet! Pure Power 13 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$115.90"
+    },
+    {
+      "name": "MSI MAG A750BN PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$90.98"
+    },
+    {
+      "name": "Corsair CX750M (2021)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$60.99"
+    },
+    {
+      "name": "Thermaltake Smart",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": null,
+      "price": "$57.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$144.74"
+    },
+    {
+      "name": "Cooler Master V850 SFX GOLD",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Corsair RM750e (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$126.99"
+    },
+    {
+      "name": "be quiet! Pure Power 13 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$128.89"
+    },
+    {
+      "name": "Lian Li EDGE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$184.99"
+    },
+    {
+      "name": "Corsair HX1200i (2025)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$299.99"
+    },
+    {
+      "name": "Lian Li EDGE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$265.00"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$149.97"
+    },
+    {
+      "name": "be quiet! Dark Power 13",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$253.90"
+    },
+    {
+      "name": "Corsair RM1000x",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$225.00"
+    },
+    {
+      "name": "Corsair CX (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$73.98"
+    },
+    {
+      "name": "Corsair HX1500i (2025)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$403.99"
+    },
+    {
+      "name": "Apevia Galaxy",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$70.99"
+    },
+    {
+      "name": "MSI MAG A650BE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$77.99"
+    },
+    {
+      "name": "Apevia CAPTAIN",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$31.99"
+    },
+    {
+      "name": "Asus TUF Gaming 850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$182.99"
+    },
+    {
+      "name": "Asus ROG Strix",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$217.99"
+    },
+    {
+      "name": "Gigabyte P650G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$183.62"
+    },
+    {
+      "name": "MSI MAG A650GLS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$101.98"
+    },
+    {
+      "name": "be quiet! Pure Power 12 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.86"
+    },
+    {
+      "name": "Thermaltake Toughpower GF1 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$110.49"
+    },
+    {
+      "name": "Apevia Prestige",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$56.99"
+    },
+    {
+      "name": "Thermaltake Smart",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "700 W",
+      "modular": "No",
+      "color": null,
+      "price": "$59.99"
+    },
+    {
+      "name": "SeaSonic CORE GX ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$116.99"
+    },
+    {
+      "name": "MSI MAG A1000GL PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$155.99"
+    },
+    {
+      "name": "Corsair RM850e (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$117.97"
+    },
+    {
+      "name": "Corsair RM750x (2024)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$134.99"
+    },
+    {
+      "name": "be quiet! Dark Power Pro 13",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$449.89"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$120.99"
+    },
+    {
+      "name": "be quiet! Power Zone 2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$152.90"
+    },
+    {
+      "name": "Corsair CX (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$80.00"
+    },
+    {
+      "name": "Corsair RM750x (2018)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$156.99"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$213.99"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$62.99"
+    },
+    {
+      "name": "Corsair RM850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White / Black",
+      "price": "$133.83"
+    },
+    {
+      "name": "Thermaltake Toughpower GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$109.99"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$153.99"
+    },
+    {
+      "name": "Asus ROG STRIX 1000P GAMING",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$262.82"
+    },
+    {
+      "name": "MSI A1000G PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$193.00"
+    },
+    {
+      "name": "Rosewill VSB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$63.99"
+    },
+    {
+      "name": "CoolMax V-400",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "400 W",
+      "modular": "No",
+      "color": null,
+      "price": "$24.99"
+    },
+    {
+      "name": "SeaSonic PRIME TX-1600 ATX 3.1",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$575.00"
+    },
+    {
+      "name": "NZXT C850 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$127.99"
+    },
+    {
+      "name": "be quiet! SFX L Power",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "600 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$152.90"
+    },
+    {
+      "name": "Asus TUF Gaming 1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$220.99"
+    },
+    {
+      "name": "MSI MPG A850G PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$134.99"
+    },
+    {
+      "name": "Apevia Galaxy",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$86.98"
+    },
+    {
+      "name": "be quiet! Power Zone 2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$147.90"
+    },
+    {
+      "name": "Cooler Master MWE Gold 850 V3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$113.59"
+    },
+    {
+      "name": "Gigabyte UD850GM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$102.54"
+    },
+    {
+      "name": "Silverstone SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$150.35"
+    },
+    {
+      "name": "Corsair RM1200x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$217.99"
+    },
+    {
+      "name": "Corsair CX (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$104.89"
+    },
+    {
+      "name": "SeaSonic PRIME TX-1600 Noctua Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Brown / Black",
+      "price": "$664.00"
+    },
+    {
+      "name": "Segotep GN",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$65.99"
+    },
+    {
+      "name": "Asus ROG LOKI",
+      "type": "SFX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black / White",
+      "price": "$345.99"
+    },
+    {
+      "name": "Cooler Master MWE Gold 750 V3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$114.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF A3 - TT Premium Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.99"
+    },
+    {
+      "name": "Corsair HX1000i (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$283.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$179.90"
+    },
+    {
+      "name": "Apevia Prestige",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "White",
+      "price": "$59.99"
+    },
+    {
+      "name": "Thermaltake Smart BM3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$84.39"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$62.99"
+    },
+    {
+      "name": "be quiet! Power Zone 2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$120.90"
+    },
+    {
+      "name": "Vetroo 50315153277247",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$84.99"
+    },
+    {
+      "name": "be quiet! Dark Power 14",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$299.89"
+    },
+    {
+      "name": "Corsair RM850x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$129.99"
+    },
+    {
+      "name": "Montech CENTURY II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$186.90"
+    },
+    {
+      "name": "Corsair RM750x (2021)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$81.89"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$114.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$187.29"
+    },
+    {
+      "name": "Corsair RM1200e",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.99"
+    },
+    {
+      "name": "MSI MEG Ai1600T PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black / Gold",
+      "price": "$725.00"
+    },
+    {
+      "name": "ASRock Steel Legend SL-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$107.99"
+    },
+    {
+      "name": "Asus Prime AP-750G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White / Black",
+      "price": "$101.99"
+    },
+    {
+      "name": "Montech APX",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$39.90"
+    },
+    {
+      "name": "Montech APX",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$46.90"
+    },
+    {
+      "name": "SeaSonic CORE GX ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$153.99"
+    },
+    {
+      "name": "Corsair HX1200 Platinum",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$503.00"
+    },
+    {
+      "name": "SeaSonic VERTEX PX-1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$387.66"
+    },
+    {
+      "name": "MSI MEG Ai1300P PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black / Copper",
+      "price": "$329.99"
+    },
+    {
+      "name": "Corsair RM850x (2018)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$191.00"
+    },
+    {
+      "name": "Lian Li EDGE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$220.72"
+    },
+    {
+      "name": "MSI MAG A1250GL PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1250 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.99"
+    },
+    {
+      "name": "MSI MAG A750GLS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$103.99"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$163.99"
+    },
+    {
+      "name": "NZXT C1000 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$167.99"
+    },
+    {
+      "name": "be quiet! Straight Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$229.37"
+    },
+    {
+      "name": "Asus TUF Gaming 750G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$133.99"
+    },
+    {
+      "name": "Vetroo CP-PSU-VT-850W-SFX (BK)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$120.99"
+    },
+    {
+      "name": "Asus Prime AP-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White / Black",
+      "price": "$133.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 850 GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$289.49"
+    },
+    {
+      "name": "be quiet! Dark Power 13",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$214.90"
+    },
+    {
+      "name": "Silverstone FX500-G",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$176.87"
+    },
+    {
+      "name": "be quiet! Dark Power Pro 13",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$426.89"
+    },
+    {
+      "name": "be quiet! Dark Power 14",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$313.88"
+    },
+    {
+      "name": "Asus ROG LOKI",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White / Silver",
+      "price": "$286.99"
+    },
+    {
+      "name": "Corsair RM1000x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full / Side",
+      "color": "White",
+      "price": "$199.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF1 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$103.96"
+    },
+    {
+      "name": "Asus ROG Thor P3 Hatsune Miku Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Blue / Pink",
+      "price": "$939.00"
+    },
+    {
+      "name": "EVGA 400 N1",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "400 W",
+      "modular": "No",
+      "color": null,
+      "price": "$70.33"
+    },
+    {
+      "name": "SeaSonic CORE GX ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$92.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Beige",
+      "price": "$350.33"
+    },
+    {
+      "name": "Cooler Master V750 SFX GOLD",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$149.99"
+    },
+    {
+      "name": "Asus TUF Gaming 1200G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$204.99"
+    },
+    {
+      "name": "Thermaltake Smart BM3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$93.99"
+    },
+    {
+      "name": "SeaSonic PRIME TX-1300 ATX 3.1",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$517.99"
+    },
+    {
+      "name": "Lian Li SP750",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$276.11"
+    },
+    {
+      "name": "Corsair RM750",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White / Black",
+      "price": "$180.99"
+    },
+    {
+      "name": "Apevia Prestige",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "800 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$87.98"
+    },
+    {
+      "name": "SeaSonic VERTEX GX-1200",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$259.00"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$177.00"
+    },
+    {
+      "name": "NZXT C1200 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$196.99"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$251.77"
+    },
+    {
+      "name": "be quiet! Straight Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$281.99"
+    },
+    {
+      "name": "ASRock Taichi TC-1650T",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1650 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$445.99"
+    },
+    {
+      "name": "Thermaltake Smart BM3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "850 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$102.98"
+    },
+    {
+      "name": "Asus ROG LOKI",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Silver / Black",
+      "price": "$281.99"
+    },
+    {
+      "name": "Lian Li SP850",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$177.91"
+    },
+    {
+      "name": "Corsair RM1000x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$288.99"
+    },
+    {
+      "name": "ASRock Steel Legend SL-1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$111.99"
+    },
+    {
+      "name": "Corsair CX650M (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$85.98"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$93.99"
+    },
+    {
+      "name": "Corsair RM850x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full / Side",
+      "color": "White",
+      "price": "$170.99"
+    },
+    {
+      "name": "Rosewill VMG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$79.98"
+    },
+    {
+      "name": "Silverstone FX600 Platinum",
+      "type": "Flex ATX",
+      "efficiency_rating": null,
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$218.60"
+    },
+    {
+      "name": "Thermaltake Toughpower SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$209.99"
+    },
+    {
+      "name": "EVGA 600 W1",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": null,
+      "price": "$100.95"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 G+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$399.99"
+    },
+    {
+      "name": "MSI MAG A850GLS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$119.99"
+    },
+    {
+      "name": "ADATA XPG CYBERCORE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$144.99"
+    },
+    {
+      "name": "Apevia Premier",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$54.99"
+    },
+    {
+      "name": "Lian Li RB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$49.99"
+    },
+    {
+      "name": "Super Flower Leadex III Gold UP",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$172.99"
+    },
+    {
+      "name": "MSI MAG A750BE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$84.99"
+    },
+    {
+      "name": "Corsair RM850x",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$224.00"
+    },
+    {
+      "name": "be quiet! Dark Power 14",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$216.99"
+    },
+    {
+      "name": "MSI MAG A750GL PCIE5 II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$183.00"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 G3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$365.99"
+    },
+    {
+      "name": "Rosewill VSB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$66.98"
+    },
+    {
+      "name": "Gigabyte AORUS ELITE P850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$305.77"
+    },
+    {
+      "name": "Asus ROG LOKI",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$233.99"
+    },
+    {
+      "name": "SeaSonic VERTEX PX-1200",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$319.99"
+    },
+    {
+      "name": "Cooler Master V1300 Platinum",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$462.90"
+    },
+    {
+      "name": "Montech APX",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$56.62"
+    },
+    {
+      "name": "NZXT C850 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$155.99"
+    },
+    {
+      "name": "Corsair RM750x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full / Side",
+      "color": "White",
+      "price": "$89.99"
+    },
+    {
+      "name": "Asus ROG LOKI",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$263.99"
+    },
+    {
+      "name": "FSP Group Hydro Ti PRO,Gen 5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$314.99"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$296.09"
+    },
+    {
+      "name": "Apevia Galaxy",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$98.98"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$226.59"
+    },
+    {
+      "name": "Corsair RM1200x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full / Side",
+      "color": "White",
+      "price": "$335.99"
+    },
+    {
+      "name": "Super Flower LEADEX VII Platinum PRO",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$232.87"
+    },
+    {
+      "name": "ASRock Challenger CL-750G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$78.99"
+    },
+    {
+      "name": "Super Flower Leadex III Gold UP",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$160.99"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$74.99"
+    },
+    {
+      "name": "Corsair RM750e (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$175.00"
+    },
+    {
+      "name": "Segotep GM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$79.98"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$89.99"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II VE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$139.99"
+    },
+    {
+      "name": "Thermaltake Smart W3",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$59.03"
+    },
+    {
+      "name": "EVGA 500 BR",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": null,
+      "price": "$159.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF A3 - TT Premium Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1050 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Silverstone Extreme 500 Bronze",
+      "type": "SFX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black / White",
+      "price": "$119.49"
+    },
+    {
+      "name": "ASRock Steel Legend SL-1000GW",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$144.99"
+    },
+    {
+      "name": "Asus TUF Gaming 1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$204.99"
+    },
+    {
+      "name": "Asus ROG-STRIX-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$177.56"
+    },
+    {
+      "name": "MSI MPG A1250GS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1250 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$294.38"
+    },
+    {
+      "name": "NZXT C750 (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$130.81"
+    },
+    {
+      "name": "be quiet! SFX Power 3 450",
+      "type": "SFX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "450 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$128.59"
+    },
+    {
+      "name": "Gigabyte P850GM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$163.90"
+    },
+    {
+      "name": "Thermaltake Toughpower GF A3 - TT Premium Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$191.99"
+    },
+    {
+      "name": "Corsair HX1500i (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$462.99"
+    },
+    {
+      "name": "ASRock Steel Legend SL-750G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$107.99"
+    },
+    {
+      "name": "Rosewill CMG850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.99"
+    },
+    {
+      "name": "ASRock Challenger CL-650G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$64.99"
+    },
+    {
+      "name": "Lian Li SP1000P",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$200.99"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II VE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$129.99"
+    },
+    {
+      "name": "Asus ROG Thor P3 Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$554.99"
+    },
+    {
+      "name": "Lian Li SP1000P",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$199.99"
+    },
+    {
+      "name": "Gigabyte UD1000GM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$110.99"
+    },
+    {
+      "name": "Thermaltake Smart W3",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "700 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$65.99"
+    },
+    {
+      "name": "Corsair RM850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$249.00"
+    },
+    {
+      "name": "MSI MPG A750GF",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$117.99"
+    },
+    {
+      "name": "Silverstone SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "300 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$87.09"
+    },
+    {
+      "name": "Lian Li SX1200P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$159.99"
+    },
+    {
+      "name": "Rosewill VMG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$83.98"
+    },
+    {
+      "name": "Cooler Master V850 SFX GOLD",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$156.99"
+    },
+    {
+      "name": "ASRock Phantom Gaming PG-1600G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$219.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF A3 Snow",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1050 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$154.99"
+    },
+    {
+      "name": "Lian Li SX0850P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$134.99"
+    },
+    {
+      "name": "Silverstone SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "800 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$278.99"
+    },
+    {
+      "name": "NZXT C850 Core",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$123.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$133.90"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$169.99"
+    },
+    {
+      "name": "ASRock Challenger CL-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$99.99"
+    },
+    {
+      "name": "Asus ROG Strix Aura Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$232.99"
+    },
+    {
+      "name": "Gigabyte AORUS ELITE P1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$179.99"
+    },
+    {
+      "name": "Corsair RM750x",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$188.80"
+    },
+    {
+      "name": "Silverstone FX350-G",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "350 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$113.97"
+    },
+    {
+      "name": "Vetroo 50315153244479",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$85.98"
+    },
+    {
+      "name": "SeaSonic PRIME TX-1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$7419.13"
+    },
+    {
+      "name": "Silverstone HELA",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "2050 W",
+      "modular": "Full",
+      "color": "Black / White",
+      "price": "$9737.49"
+    },
+    {
+      "name": "be quiet! Pure Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$125.90"
+    },
+    {
+      "name": "EVGA 650 GQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$230.98"
+    },
+    {
+      "name": "Thermaltake Toughpower SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$187.99"
+    },
+    {
+      "name": "Thermaltake Toughpower SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$143.35"
+    },
+    {
+      "name": "EVGA 450 BR",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "450 W",
+      "modular": "No",
+      "color": null,
+      "price": "$148.99"
+    },
+    {
+      "name": "Corsair HX1500i (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$510.00"
+    },
+    {
+      "name": "Corsair CX550M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$149.99"
+    },
+    {
+      "name": "Lian Li SX1200P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$159.99"
+    },
+    {
+      "name": "NZXT C1200 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$191.99"
+    },
+    {
+      "name": "be quiet! Straight Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.90"
+    },
+    {
+      "name": "NZXT C750 Core",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$94.99"
+    },
+    {
+      "name": "Lian Li SX0850P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$136.99"
+    },
+    {
+      "name": "EVGA 600 GD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$209.00"
+    },
+    {
+      "name": "Vetroo GV1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$126.99"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II VE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$95.99"
+    },
+    {
+      "name": "SeaSonic VERTEX GX-1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$273.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF3 TT Premium",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$314.99"
+    },
+    {
+      "name": "Lian Li SP850",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$182.00"
+    },
+    {
+      "name": "Corsair RM1000e (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$320.00"
+    },
+    {
+      "name": "be quiet! Pure Power 11",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "400 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$328.89"
+    },
+    {
+      "name": "Silverstone SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "450 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$107.57"
+    },
+    {
+      "name": "NZXT C1000 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$159.99"
+    },
+    {
+      "name": "EVGA 750 GQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$167.83"
+    },
+    {
+      "name": "ASRock Steel Legend SL-650G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$89.99"
+    },
+    {
+      "name": "Lian Li EDGE GOLD",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$127.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$130.98"
+    },
+    {
+      "name": "GameMax GX Pro Rampage",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1050 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$79.98"
+    },
+    {
+      "name": "SeaSonic S12III",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$83.99"
+    },
+    {
+      "name": "Asus ROG THOR P2 Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Silver / Black",
+      "price": "$382.99"
+    },
+    {
+      "name": "ADATA XPG PYLON",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$94.09"
+    },
+    {
+      "name": "Silverstone DA850R-GMA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$185.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 550 G3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "550 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$255.99"
+    },
+    {
+      "name": "Thermaltake Smart W3",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$51.28"
+    },
+    {
+      "name": "NZXT C1000 Core",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$167.99"
+    },
+    {
+      "name": "Corsair HX1000i",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$532.99"
+    },
+    {
+      "name": "ADATA XPG CYBERCORE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$169.99"
+    },
+    {
+      "name": "Super Flower LEADEX VII Platinum PRO",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$179.99"
+    },
+    {
+      "name": "Corsair HX1200i",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$409.99"
+    },
+    {
+      "name": "Phanteks AMP GH",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$100.99"
+    },
+    {
+      "name": "Corsair CX750M (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$110.99"
+    },
+    {
+      "name": "Silverstone DA750R-GMA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$134.99"
+    },
+    {
+      "name": "Lian Li SP0850P",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$170.99"
+    },
+    {
+      "name": "ENDORFY Supremo FM5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$232.79"
+    },
+    {
+      "name": "ASRock Steel Legend SL-850GW",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$112.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF3 Snow",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$204.99"
+    },
+    {
+      "name": "Azza PSAZ-650W",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$74.99"
+    },
+    {
+      "name": "Corsair HX1000 Platinum",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$422.00"
+    },
+    {
+      "name": "Thermaltake Toughpower GF3 TT Premium",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1350 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$228.00"
+    },
+    {
+      "name": "MSI MPG A1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$223.11"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$189.99"
+    },
+    {
+      "name": "GameMax RGB Pro",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$69.98"
+    },
+    {
+      "name": "ASRock Challenger CL-650B",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$61.99"
+    },
+    {
+      "name": "Asus ROG Strix Aura Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$149.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$118.90"
+    },
+    {
+      "name": "FSP Group Dagger Pro",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Cooler Master V SFX Gold ATX 3.0",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Vetroo GV1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Pink",
+      "price": "$109.99"
+    },
+    {
+      "name": "Asus ROG Strix",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$244.00"
+    },
+    {
+      "name": "be quiet! Straight Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$202.98"
+    },
+    {
+      "name": "NZXT C1500",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$424.99"
+    },
+    {
+      "name": "Asus TUF Gaming B",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$87.98"
+    },
+    {
+      "name": "Asus ROG STRIX 1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$379.14"
+    },
+    {
+      "name": "Lian Li SP0850P",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$164.99"
+    },
+    {
+      "name": "Asus ROG THOR P2 Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$272.99"
+    },
+    {
+      "name": "MSI MAG A1000GLS PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$159.99"
+    },
+    {
+      "name": "Silverstone DA750R-GMA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$218.97"
+    },
+    {
+      "name": "SeaSonic FOCUS SGX (2021)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$218.75"
+    },
+    {
+      "name": "EVGA SuperNOVA 1600 T2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$699.99"
+    },
+    {
+      "name": "ENDORFY Vero L5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$156.66"
+    },
+    {
+      "name": "ASRock Taichi TC-1300T",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$368.99"
+    },
+    {
+      "name": "Athena Power AP-MFATX40P8",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "400 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$119.10"
+    },
+    {
+      "name": "EVGA SuperNOVA 1300 G+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$311.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 P2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$459.99"
+    },
+    {
+      "name": "EVGA 650 BQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$149.99"
+    },
+    {
+      "name": "Asus ROG Strix",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black / Red",
+      "price": "$149.99"
+    },
+    {
+      "name": "MSI MAG A850GL PCIE5 II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$129.95"
+    },
+    {
+      "name": "Enermax REVOLUTION III",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black / Gold",
+      "price": "$107.99"
+    },
+    {
+      "name": "Phanteks AMP GH",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$100.99"
+    },
+    {
+      "name": "SAMA GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$82.99"
+    },
+    {
+      "name": "Cougar VTE",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$44.99"
+    },
+    {
+      "name": "Corsair RM850x (2018)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White / Black",
+      "price": "$306.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 850 GA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$299.99"
+    },
+    {
+      "name": "Lian Li SX1000P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$175.99"
+    },
+    {
+      "name": "Vetroo CP-PSU-VT-850W-SFX (WT)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$137.99"
+    },
+    {
+      "name": "Corsair RM750x SHIFT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$154.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 650 GA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$219.99"
+    },
+    {
+      "name": "Super Flower LEADEX VII Platinum PRO",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$213.99"
+    },
+    {
+      "name": "NZXT C850 (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$261.95"
+    },
+    {
+      "name": "Super Flower Leadex III Gold UP",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$195.99"
+    },
+    {
+      "name": "Corsair RM850 (2019)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$210.00"
+    },
+    {
+      "name": "Thermaltake Toughpower GF A3 Snow",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$120.42"
+    },
+    {
+      "name": "SAMA P1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$124.99"
+    },
+    {
+      "name": "Asus ROG Thor P3 Gaming",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$509.00"
+    },
+    {
+      "name": "GAMDIAS KRATOS M1 B",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$71.98"
+    },
+    {
+      "name": "be quiet! Dark Power 13",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.89"
+    },
+    {
+      "name": "EVGA 1000 GQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$233.99"
+    },
+    {
+      "name": "Gigabyte UD-GM PG5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$109.99"
+    },
+    {
+      "name": "Corsair RM750",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$261.40"
+    },
+    {
+      "name": "Antec GSK ATX3.1",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$258.00"
+    },
+    {
+      "name": "Rosewill CMG1000G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$119.99"
+    },
+    {
+      "name": "GAMDIAS HELIOS P2-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$91.99"
+    },
+    {
+      "name": "SeaSonic PRIME PX-1600 ATX 3.0",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$555.96"
+    },
+    {
+      "name": "Apevia ATX-ES700-RGB",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "700 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$58.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black / Green",
+      "price": "$328.99"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$167.99"
+    },
+    {
+      "name": "Montech TITAN PLA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$199.00"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Green",
+      "price": "$236.99"
+    },
+    {
+      "name": "NZXT C1200",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$288.99"
+    },
+    {
+      "name": "EVGA 850 GQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$276.26"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Corsair CXM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$156.99"
+    },
+    {
+      "name": "SeaSonic PRIME PX-1300",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$1021.91"
+    },
+    {
+      "name": "FSP Group FSP400-60FGGBA",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "400 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$99.99"
+    },
+    {
+      "name": "Phanteks AMP GH",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$89.99"
+    },
+    {
+      "name": "be quiet! System Power 9 CM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "400 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$222.00"
+    },
+    {
+      "name": "Apevia ATX-PR850W PCIE5.0",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$83.98"
+    },
+    {
+      "name": "Vetroo GV1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$109.99"
+    },
+    {
+      "name": "Corsair HX1200i",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$464.00"
+    },
+    {
+      "name": "ASRock Phantom Gaming PG-1300G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$194.99"
+    },
+    {
+      "name": "be quiet! System Power 9 700 CM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "700 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$250.03"
+    },
+    {
+      "name": "ASRock Challenger CL-750B",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$69.99"
+    },
+    {
+      "name": "Corsair HX1500i SHIFT",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1500 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$504.99"
+    },
+    {
+      "name": "SeaSonic Focus GX V4 ATX 3 (2024)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$146.99"
+    },
+    {
+      "name": "Montech TITAN PLA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$283.00"
+    },
+    {
+      "name": "SAMA P1000",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$147.98"
+    },
+    {
+      "name": "EVGA SuperNOVA 650 G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black / Green",
+      "price": "$312.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 1600 P+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$655.00"
+    },
+    {
+      "name": "SAMA P1200",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$134.99"
+    },
+    {
+      "name": "Super Flower Leadex III Gold UP",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$109.99"
+    },
+    {
+      "name": "Gigabyte UD1000GM PG5 (rev. 2.0)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$113.99"
+    },
+    {
+      "name": "Silverstone Zeus 1650R",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1650 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$551.26"
+    },
+    {
+      "name": "EVGA 850 BQ",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "850 W",
+      "modular": "Semi",
+      "color": null,
+      "price": "$216.99"
+    },
+    {
+      "name": "MSI MAG A750GN PCIE5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$97.99"
+    },
+    {
+      "name": "Phanteks AMP GH",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$111.99"
+    },
+    {
+      "name": "Lian Li RB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$69.98"
+    },
+    {
+      "name": "SeaSonic PRIME TX",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$718.16"
+    },
+    {
+      "name": "EVGA 550 B5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$230.99"
+    },
+    {
+      "name": "SeaSonic PRIME Fanless",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "700 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$581.32"
+    },
+    {
+      "name": "be quiet! Straight Power 11 850W",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$510.00"
+    },
+    {
+      "name": "be quiet! Straight Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.10"
+    },
+    {
+      "name": "EVGA 850 B5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$193.39"
+    },
+    {
+      "name": "MSI MPG A850GF",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$237.49"
+    },
+    {
+      "name": "ASRock Phantom Gaming PG-1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$149.99"
+    },
+    {
+      "name": "SeaSonic SSP-300SUG",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "300 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$107.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 GA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$242.99"
+    },
+    {
+      "name": "Lian Li RB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$59.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 850 P2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$399.99"
+    },
+    {
+      "name": "EVGA 750 N1",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "750 W",
+      "modular": "No",
+      "color": null,
+      "price": "$122.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 T2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$659.99"
+    },
+    {
+      "name": "Silverstone TX500-G",
+      "type": "TFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$181.00"
+    },
+    {
+      "name": "Enermax REVOLUTION III",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black / Gold",
+      "price": "$147.57"
+    },
+    {
+      "name": "In Win IP-S200DF1-0",
+      "type": "TFX",
+      "efficiency_rating": null,
+      "wattage": "200 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$66.02"
+    },
+    {
+      "name": "FSP Group FSP300-57FCB",
+      "type": "Flex ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$160.99"
+    },
+    {
+      "name": "Lian Li SX1000P",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$149.99"
+    },
+    {
+      "name": "Silverstone SX-G",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "700 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$171.90"
+    },
+    {
+      "name": "ENDORFY Supremo FM6",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$182.41"
+    },
+    {
+      "name": "Thermaltake Toughpower GF3 TT Premium",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$334.99"
+    },
+    {
+      "name": "be quiet! Pure Power 9 CM",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "600 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$332.61"
+    },
+    {
+      "name": "be quiet! System Power 10",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$262.08"
+    },
+    {
+      "name": "Cooler Master V750 SFX GOLD",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$179.99"
+    },
+    {
+      "name": "be quiet! System Power 10",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$276.00"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$215.99"
+    },
+    {
+      "name": "SAMA P850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$119.99"
+    },
+    {
+      "name": "Thermaltake Toughpower GF2 ARGB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$127.89"
+    },
+    {
+      "name": "ASRock Phantom Gaming PG-850G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$121.99"
+    },
+    {
+      "name": "SeaSonic SSP-300SFG",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "300 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$118.99"
+    },
+    {
+      "name": "Silverstone HELA 1300R",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$314.99"
+    },
+    {
+      "name": "Vetroo CP-PSU-VT-850W-SFX (PK)",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Pink",
+      "price": "$122.99"
+    },
+    {
+      "name": "Thermaltake Toughpower iRGB PLUS 750",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$131.40"
+    },
+    {
+      "name": "be quiet! System Power 10",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "450 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$305.44"
+    },
+    {
+      "name": "Cooler Master MWE White V2 230V",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "700 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$161.83"
+    },
+    {
+      "name": "SAMA P1200",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$167.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 650 G+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$246.00"
+    },
+    {
+      "name": "Cooler Master V Platinum V2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1600 W",
+      "modular": "Full",
+      "color": "Black / Purple",
+      "price": "$494.07"
+    },
+    {
+      "name": "Corsair HX1000i SHIFT",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1000 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$368.91"
+    },
+    {
+      "name": "Rosewill VMG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$98.98"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 G3",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$485.99"
+    },
+    {
+      "name": "Asus ROG THOR P2 Gaming EVA Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$833.05"
+    },
+    {
+      "name": "EVGA 600 B1",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": null,
+      "price": "$193.99"
+    },
+    {
+      "name": "Silverstone SX500-G",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$170.33"
+    },
+    {
+      "name": "EVGA SuperNOVA 550 GA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "550 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$283.99"
+    },
+    {
+      "name": "Silverstone HELA 1200R",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$333.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 1000 G6",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$467.99"
+    },
+    {
+      "name": "Chieftec Vega",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black / Blue",
+      "price": "$195.00"
+    },
+    {
+      "name": "Silverstone SX1000-LPT",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$328.00"
+    },
+    {
+      "name": "EVGA SuperNOVA 850 G+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$283.99"
+    },
+    {
+      "name": "EVGA 500 BA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$160.99"
+    },
+    {
+      "name": "Corsair HX1200i SHIFT",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1200 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$416.99"
+    },
+    {
+      "name": "Rosewill VSB",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "850 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$65.98"
+    },
+    {
+      "name": "SHARKOON SilentStorm",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "500 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$192.89"
+    },
+    {
+      "name": "Cooler Master V Platinum V2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1100 W",
+      "modular": "Full",
+      "color": "Black / Purple",
+      "price": "$283.64"
+    },
+    {
+      "name": "SeaSonic VERTEX PX-850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$435.01"
+    },
+    {
+      "name": "Super Flower Zillion FG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1050 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$123.99"
+    },
+    {
+      "name": "Rosewill CMG1200G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$143.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 750 P2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$389.99"
+    },
+    {
+      "name": "Enermax REVOLUTION III",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black / Gold",
+      "price": "$119.95"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$184.95"
+    },
+    {
+      "name": "be quiet! System Power 10",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$290.00"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$159.99"
+    },
+    {
+      "name": "Silverstone SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "700 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$169.99"
+    },
+    {
+      "name": "EVGA SuperNOVA 550 GM",
+      "type": "SFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "550 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$329.99"
+    },
+    {
+      "name": "ASRock Phantom Gaming PG-750G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$113.99"
+    },
+    {
+      "name": "Thermaltake Smart BX1 550",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$101.25"
+    },
+    {
+      "name": "Silverstone TX700-G",
+      "type": "TFX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "700 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$239.67"
+    },
+    {
+      "name": "Silverstone SST-TX300",
+      "type": "TFX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "300 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$87.99"
+    },
+    {
+      "name": "Rosewill CMG850G5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$102.99"
+    },
+    {
+      "name": "be quiet! Pure Power 12 M",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "550 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$267.00"
+    },
+    {
+      "name": "SeaSonic G12 GC",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": "Black / Blue",
+      "price": "$396.72"
+    },
+    {
+      "name": "EVGA SuperNOVA 1300 GT",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$466.99"
+    },
+    {
+      "name": "ENDORFY Vero L5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "500 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$162.26"
+    },
+    {
+      "name": "FSP Group Hydro PTM X PRO,Gen5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$199.99"
+    },
+    {
+      "name": "Corsair HX1000i (2022)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$378.99"
+    },
+    {
+      "name": "Cooler Master V SFX Platinum",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$677.00"
+    },
+    {
+      "name": "be quiet! System Power 10",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$536.32"
+    },
+    {
+      "name": "Corsair TX650",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "650 W",
+      "modular": "No",
+      "color": null,
+      "price": "$304.00"
+    },
+    {
+      "name": "Super Flower Zillion FG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1250 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$139.99"
+    },
+    {
+      "name": "Silverstone Strider Platinum S",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$260.99"
+    },
+    {
+      "name": "Antec NE1000G M ATX3.0",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$224.99"
+    },
+    {
+      "name": "SeaSonic PRIME TX",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$660.33"
+    },
+    {
+      "name": "Sparkle FSP300-60ATV",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "300 W",
+      "modular": "No",
+      "color": null,
+      "price": "$59.99"
+    },
+    {
+      "name": "Cooler Master V650 Gold V2",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$377.00"
+    },
+    {
+      "name": "EVGA 750 B5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$279.00"
+    },
+    {
+      "name": "Corsair RMx SHIFT (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "1000 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$260.99"
+    },
+    {
+      "name": "Super Flower LEADEX VII XG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$139.99"
+    },
+    {
+      "name": "Silverstone Strider",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "700 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$126.22"
+    },
+    {
+      "name": "MSI MAG A-GL PCIE5 II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$169.99"
+    },
+    {
+      "name": "be quiet! Dark Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$370.97"
+    },
+    {
+      "name": "SeaSonic VERTEX PX-750",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "750 W",
+      "modular": "Full",
+      "color": "Black / Silver",
+      "price": "$389.71"
+    },
+    {
+      "name": "ADATA XPG Core Reactor II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$127.99"
+    },
+    {
+      "name": "Silverstone SX700-PT",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "700 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$154.40"
+    },
+    {
+      "name": "Super Flower Zillion FG",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$127.99"
+    },
+    {
+      "name": "Asus ROG Strix Aura Edition",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "White",
+      "price": "$209.99"
+    },
+    {
+      "name": "Azza PSAZ-750W",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$93.98"
+    },
+    {
+      "name": "Antec EARTHWATTS GOLD PRO 650",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "650 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$188.41"
+    },
+    {
+      "name": "FSP Group Hydro PTM X PRO,Gen5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$175.99"
+    },
+    {
+      "name": "Silverstone Strider Platinum S",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1200 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$358.99"
+    },
+    {
+      "name": "Logisys PS480D2",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "480 W",
+      "modular": "No",
+      "color": null,
+      "price": "$30.99"
+    },
+    {
+      "name": "FSP Group FSP300-60LG",
+      "type": "Mini ITX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "300 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$148.59"
+    },
+    {
+      "name": "SeaSonic PRIME 1300 Gold",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$855.91"
+    },
+    {
+      "name": "EVGA SuperNOVA 1300 P+",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$338.09"
+    },
+    {
+      "name": "EVGA 650 N1",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "650 W",
+      "modular": "No",
+      "color": null,
+      "price": "$109.96"
+    },
+    {
+      "name": "FSP Group Hydro PTM X PRO,Gen5",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$152.99"
+    },
+    {
+      "name": "FSP Group Hydro G Pro",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$176.23"
+    },
+    {
+      "name": "EVGA 600 BA",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "600 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$169.13"
+    },
+    {
+      "name": "Apex AL-8250SFX",
+      "type": "SFX",
+      "efficiency_rating": null,
+      "wattage": "250 W",
+      "modular": "No",
+      "color": "Silver",
+      "price": "$83.71"
+    },
+    {
+      "name": "Cooler Master Elite NEX White W700 Black Mesh 230V",
+      "type": "ATX",
+      "efficiency_rating": "80+",
+      "wattage": "700 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$193.00"
+    },
+    {
+      "name": "SeaSonic FOCUS",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "650 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$395.00"
+    },
+    {
+      "name": "ASRock Challenger CL-550B",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "550 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$83.99"
+    },
+    {
+      "name": "be quiet! Dark Power 12",
+      "type": "ATX",
+      "efficiency_rating": "80+ Titanium",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$304.56"
+    },
+    {
+      "name": "SeaSonic FOCUS GX",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$623.00"
+    },
+    {
+      "name": "GAMDIAS HELIOS P2-1000G",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "1000 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$149.99"
+    },
+    {
+      "name": "In Win P130II",
+      "type": "ATX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "1300 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$264.00"
+    },
+    {
+      "name": "Corsair AX850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": null,
+      "price": "$335.99"
+    },
+    {
+      "name": "NZXT E850",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$149.99"
+    },
+    {
+      "name": "Corsair RMx SHIFT (2025)",
+      "type": "ATX",
+      "efficiency_rating": null,
+      "wattage": "850 W",
+      "modular": "Full / Side",
+      "color": "Black",
+      "price": "$169.99"
+    },
+    {
+      "name": "Phanteks Revolt SFX",
+      "type": "SFX",
+      "efficiency_rating": "80+ Platinum",
+      "wattage": "850 W",
+      "modular": "Full",
+      "color": "Black",
+      "price": "$281.25"
+    },
+    {
+      "name": "NZXT C750 (2023)",
+      "type": "ATX",
+      "efficiency_rating": "80+ Bronze",
+      "wattage": "750 W",
+      "modular": "No",
+      "color": "Black",
+      "price": "$84.99"
+    },
+    {
+      "name": "Silverstone Essential",
+      "type": "ATX",
+      "efficiency_rating": "80+ Gold",
+      "wattage": "550 W",
+      "modular": "Semi",
+      "color": "Black",
+      "price": "$113.98"
+    }
+  ]
+}
