@@ -1,19 +1,26 @@
 "use client";
 
-import { useRef, useState } from "react";
-import {
-  Drawer,
-  DrawerContent,
-  DrawerDescription,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
+import { useMemo, useRef, useState } from "react";
+import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { cn } from "@/lib/utils";
+import { PartList } from "@/components/main/part-list";
+
+const STEPS = ["PART_LIST"] as const;
 
 export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
+  const [currentStep, setCurrentStep] =
+    useState<(typeof STEPS)[number]>("PART_LIST");
+
+  const DRAWER_COMPONENT = useMemo(() => {
+    switch (currentStep) {
+      case "PART_LIST":
+        return <PartList />;
+      default:
+        return "UNKNOWN STEP";
+    }
+  }, [currentStep]);
 
   return (
     <div
@@ -47,10 +54,7 @@ export default function Page() {
             "data-[vaul-drawer-direction=bottom]:max-h-[85vh]"
           )}
         >
-          <DrawerHeader>
-            <DrawerTitle>Your Parts</DrawerTitle>
-            <DrawerDescription>This action cannot be undone.</DrawerDescription>
-          </DrawerHeader>
+          {DRAWER_COMPONENT}
         </DrawerContent>
       </Drawer>
     </div>
