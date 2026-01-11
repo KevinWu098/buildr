@@ -4,14 +4,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   AlertTriangleIcon,
-  CheckCircleIcon,
   CheckIcon,
   EditIcon,
-  LoaderIcon,
   PlusIcon,
   TrashIcon,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
 import { PanelHeader } from "@/components/main/panel-header";
 import {
   PanelShell,
@@ -26,7 +23,8 @@ import {
   type PartType,
 } from "@/components/main/part-list/index";
 
-const API_BASE_URL = "http://localhost:8000";
+// Use relative URLs to hit the Next.js API proxy (works via ngrok from any device)
+const API_BASE_URL = "/api";
 
 const EMPTY_PARTS: Record<PartType, Part[]> = {
   CPU: [],
@@ -78,7 +76,6 @@ export function PartList({
   const [compatibility, setCompatibility] = useState<CompatibilityInfo | null>(
     initialCompatibility ?? null
   );
-  const [isCheckingCompat, setIsCheckingCompat] = useState(false);
   const abortControllerRef = useRef<AbortController | null>(null);
 
   // Check compatibility whenever parts change
@@ -105,7 +102,6 @@ export function PartList({
       }
 
       abortControllerRef.current = new AbortController();
-      setIsCheckingCompat(true);
 
       try {
         const response = await fetch(`${API_BASE_URL}/compatibility-check`, {
@@ -126,8 +122,6 @@ export function PartList({
           return;
         }
         console.error("Failed to check compatibility:", error);
-      } finally {
-        setIsCheckingCompat(false);
       }
     },
     []
@@ -184,45 +178,20 @@ export function PartList({
     setSearchDrawerOpen(false);
   };
 
-  // Determine what to show in the compatibility banner
-  const showCompatBanner = compatibility?.message || isCheckingCompat;
-  const hadIncompatibility = compatibility && !compatibility.compatible;
+  // Only show banner when there's an actual incompatibility
+  const showIncompatibilityWarning =
+    compatibility && !compatibility.compatible && compatibility.message;
 
   return (
     <PanelShell ref={containerRef}>
       <PanelHeader title="Your Part List" onBack={onBack} />
 
       <PanelContent className="">
-        {/* Compatibility Banner */}
-        {showCompatBanner && (
-          <div
-            className={cn(
-              "mb-4 flex shrink-0 items-start gap-2 rounded-md p-3 text-sm",
-              isCheckingCompat && hadIncompatibility
-                ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
-                : compatibility?.compatible
-                  ? "bg-green-500/10 text-green-700 dark:text-green-400"
-                  : "bg-red-500/10 text-red-700 dark:text-red-400"
-            )}
-          >
-            {isCheckingCompat ? (
-              <>
-                <LoaderIcon className="mt-0.5 size-4 shrink-0 animate-spin" />
-                <p className="line-clamp-3">Checking compatibility...</p>
-              </>
-            ) : compatibility?.compatible ? (
-              <>
-                <CheckCircleIcon className="mt-0.5 size-4 shrink-0" />
-                <p className="line-clamp-3">
-                  {compatibility.message ?? "All parts are compatible!"}
-                </p>
-              </>
-            ) : (
-              <>
-                <AlertTriangleIcon className="mt-0.5 size-4 shrink-0" />
-                <p className="line-clamp-3">{compatibility?.message}</p>
-              </>
-            )}
+        {/* Incompatibility Warning */}
+        {showIncompatibilityWarning && (
+          <div className="mb-4 flex shrink-0 items-start gap-2 rounded-md bg-red-500/10 p-3 text-sm text-red-700 dark:text-red-400">
+            <AlertTriangleIcon className="mt-0.5 size-4 shrink-0" />
+            <p className="line-clamp-3">{compatibility.message}</p>
           </div>
         )}
 

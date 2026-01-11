@@ -10,10 +10,12 @@ import { AssemblyList, CameraFeed } from "@/components/main/assembly";
 import { VoiceAgentButton } from "@/components/main/voice-agent";
 import { LoaderIcon } from "lucide-react";
 import type { Part, PartType } from "@/components/main/part-list";
+import Image from "next/image";
 
 const STEPS = ["PART_PHOTO", "PART_LIST", "ASSEMBLY"] as const;
 const DRAWER_ANIMATION_MS = 300;
-const API_BASE_URL = "http://localhost:8000";
+// Use relative URLs to hit the Next.js API proxy (works via ngrok from any device)
+const API_BASE_URL = "/api";
 
 const mapApiTypeToPartType = (apiType: string): PartType | null => {
   const mapping: Record<string, PartType> = {
@@ -267,6 +269,26 @@ export default function Page() {
       {isAssemblyMode && (
         <div className="z-10 mt-auto w-full">
           <VoiceAgentButton />
+        </div>
+      )}
+
+      {currentStep === "PART_PHOTO" && (
+        <div className="z-10 mt-8 mb-auto w-full text-center">
+          <div>
+            <h1 className="text-8xl font-semibold">F</h1>
+            <div className="text-muted-foreground text-2xl">
+              PC building made easy
+            </div>
+          </div>
+
+          <Image
+            src="/pc-crop.gif"
+            alt="PC Gif"
+            width={600}
+            height={600}
+            unoptimized
+            className="w-[800%] max-w-[200%] -translate-x-1/4 pt-8"
+          />
         </div>
       )}
 

@@ -12,7 +12,8 @@ import { PartCard } from "./part-card";
 import { PartGroup } from "./part-group";
 import type { Part, PartType } from "./types";
 
-const API_BASE_URL = "http://localhost:8000";
+// Use relative URLs to hit the Next.js API proxy (works via ngrok from any device)
+const API_BASE_URL = "/api";
 
 const mapApiTypeToPartType = (apiType: string): PartType | null => {
   const mapping: Record<string, PartType> = {
