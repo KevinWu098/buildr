@@ -1,0 +1,5009 @@
+{
+  "category": "cpu_cooler",
+  "base_url": "https://pcpartpicker.com/products/cpu-cooler/",
+  "pages_scraped": 7,
+  "scraped_at": "2026-01-10T16:34:05.976924",
+  "product_count": 500,
+  "products": [
+    {
+      "name": "Thermalright Peerless Assassin 120 SE",
+      "url": "https://pcpartpicker.com/product/hYxRsY/thermalright-peerless-assassin-120-se-6617-cfm-cpu-cooler-pa120-se-d3",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "149",
+      "price": "$37.90"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro 360",
+      "url": "https://pcpartpicker.com/product/v2kqqs/arctic-liquid-freezer-iii-pro-360-77-cfm-liquid-cpu-cooler-acfre00180a",
+      "fan_rpm": "600 - 3000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "28",
+      "price": "$98.99"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Black Edition",
+      "url": "https://pcpartpicker.com/product/HyTPxr/cooler-master-hyper-212-black-edition-42-cfm-cpu-cooler-rr-212s-20pk-r1",
+      "fan_rpm": "650 - 2000 RPM",
+      "noise_level": "6.5 - 26 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "195",
+      "price": "$29.49"
+    },
+    {
+      "name": "Thermalright Aqua Elite V3",
+      "url": "https://pcpartpicker.com/product/ZQBzK8/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-360-black-v3",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "34",
+      "price": "$72.90"
+    },
+    {
+      "name": "Corsair NAUTILUS 360 RS ARGB",
+      "url": "https://pcpartpicker.com/product/DhsV3C/corsair-nautilus-360-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060093-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "16",
+      "price": "$156.99"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB 360",
+      "url": "https://pcpartpicker.com/product/Xh9nTW/arctic-liquid-freezer-iii-pro-a-rgb-360-77-cfm-liquid-cpu-cooler-acfre00184a",
+      "fan_rpm": "600 - 3000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "22",
+      "price": "$109.99"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 SE ARGB",
+      "url": "https://pcpartpicker.com/product/MzMMnQ/thermalright-phantom-spirit-120-se-argb-6617-cfm-cpu-cooler-ps120se-argb",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "79",
+      "price": "$37.90"
+    },
+    {
+      "name": "Thermalright Assassin X 120 Refined SE",
+      "url": "https://pcpartpicker.com/product/q6H7YJ/thermalright-assassin-x-120-refined-se-6617-cfm-cpu-cooler-ax120-se-d3",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "64",
+      "price": "$21.89"
+    },
+    {
+      "name": "Noctua NH-D15 chromax.black",
+      "url": "https://pcpartpicker.com/product/84MTwP/noctua-nh-d15-chromaxblack-8252-cfm-cpu-cooler-nh-d15-chromaxblack",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "244",
+      "price": "$165.94"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB 360",
+      "url": "https://pcpartpicker.com/product/hYXMnQ/arctic-liquid-freezer-iii-pro-a-rgb-360-77-cfm-liquid-cpu-cooler-acfre00188a",
+      "fan_rpm": "600 - 3000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "10",
+      "price": "$105.49"
+    },
+    {
+      "name": "Thermalright Aqua Elite V3",
+      "url": "https://pcpartpicker.com/product/BvmNnQ/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-240-black-v3",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "20",
+      "price": "$57.90"
+    },
+    {
+      "name": "be quiet! Dark Rock Pro 5",
+      "url": "https://pcpartpicker.com/product/LyyH99/be-quiet-dark-rock-pro-5-cpu-cooler-bk036",
+      "fan_rpm": "1300 - 2000 RPM",
+      "noise_level": "8.9 - 23.3 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "22",
+      "price": "$98.89"
+    },
+    {
+      "name": "Corsair NAUTILUS 360 RS ARGB",
+      "url": "https://pcpartpicker.com/product/CgYRsY/corsair-nautilus-360-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060095-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$141.99"
+    },
+    {
+      "name": "NZXT Kraken 240",
+      "url": "https://pcpartpicker.com/product/LDqrxr/nzxt-kraken-240-7802-cfm-liquid-cpu-cooler-rl-kn240-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "24",
+      "price": "$91.99"
+    },
+    {
+      "name": "Fractal Design Celsius+ S36 Prisma PWM ARGB",
+      "url": "https://pcpartpicker.com/product/d3jNnQ/fractal-design-celsius-s36-prisma-pwm-argb-8571-cfm-liquid-cpu-cooler-fd-w-2-s3602",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "32.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$669.00"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro",
+      "url": "https://pcpartpicker.com/product/zn8Pxr/arctic-liquid-freezer-iii-pro-77-cfm-liquid-cpu-cooler-acfre00178a",
+      "fan_rpm": "600 - 3000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "6",
+      "price": "$75.98"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 360 RX LCD",
+      "url": "https://pcpartpicker.com/product/TtXV3C/corsair-icue-link-titan-360-rx-lcd-735-cfm-liquid-cpu-cooler-cw-9061023-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "9",
+      "price": "$194.99"
+    },
+    {
+      "name": "Noctua NH-D15",
+      "url": "https://pcpartpicker.com/product/4vzv6h/noctua-nh-d15-825-cfm-cpu-cooler-nh-d15",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "186",
+      "price": "$129.94"
+    },
+    {
+      "name": "NZXT Kraken Elite 360 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/pjwmP6/nzxt-kraken-elite-360-rgb-2024-7512-cfm-liquid-cpu-cooler-rl-kr36e-w2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2024",
+      "price": "$282.99"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 SE",
+      "url": "https://pcpartpicker.com/product/GpbRsY/thermalright-phantom-spirit-120-se-6617-cfm-cpu-cooler-ps120se",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "91",
+      "price": "$35.90"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Spectrum V3",
+      "url": "https://pcpartpicker.com/product/jgbRsY/cooler-master-hyper-212-spectrum-v3-7193-cfm-cpu-cooler-rr-s4na-17pa-r1",
+      "fan_rpm": "650 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "13",
+      "price": "$18.98"
+    },
+    {
+      "name": "ARCTIC Freezer 36",
+      "url": "https://pcpartpicker.com/product/N6bRsY/arctic-freezer-36-cpu-cooler-acfre00123a",
+      "fan_rpm": "200 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "21",
+      "price": "$44.19"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360L Core ARGB",
+      "url": "https://pcpartpicker.com/product/jBrqqs/cooler-master-masterliquid-360l-core-argb-liquid-cpu-cooler-mlw-d36m-a18pz-r1",
+      "fan_rpm": "350 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "21",
+      "price": "$57.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 SE WHITE ARGB",
+      "url": "https://pcpartpicker.com/product/xMLFf7/thermalright-peerless-assassin-120-se-white-argb-6617-cfm-cpu-cooler-pa120-se-white-argb",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "48",
+      "price": "$39.90"
+    },
+    {
+      "name": "Thermalright Phantom Spirit EVO",
+      "url": "https://pcpartpicker.com/product/BRMMnQ/thermalright-phantom-spirit-evo-69-cfm-cpu-cooler-phantom-spirit-120-evo",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "45",
+      "price": "$72.90"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 SE ARGB",
+      "url": "https://pcpartpicker.com/product/zyNxFT/thermalright-peerless-assassin-120-se-argb-6617-cfm-cpu-cooler-pa-120-se-argb",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "65",
+      "price": "$43.90"
+    },
+    {
+      "name": "ID-COOLING SE-214-XT ARGB",
+      "url": "https://pcpartpicker.com/product/Zr8bt6/id-cooling-se-214-xt-argb-682-cfm-cpu-cooler-se-214-xt-argb",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "13.8 - 30.5 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "54",
+      "price": "$16.19"
+    },
+    {
+      "name": "Lian Li Hydroshift LCD 360S",
+      "url": "https://pcpartpicker.com/product/zWFmP6/lian-li-hydroshift-lcd-360s-7314-cfm-liquid-cpu-cooler-hslcd36sw",
+      "fan_rpm": "200 - 2500 RPM",
+      "noise_level": "29.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$194.99"
+    },
+    {
+      "name": "TRYX PANORAMA SE ARGB",
+      "url": "https://pcpartpicker.com/product/ggtkcf/tryx-panorama-se-argb-6609-cfm-liquid-cpu-cooler-l-p360l-am3m-g0k",
+      "fan_rpm": "500 - 1850 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$315.99"
+    },
+    {
+      "name": "Asus ROG Ryujin III 360 ARGB Extreme",
+      "url": "https://pcpartpicker.com/product/VxLdnQ/asus-rog-ryujin-iii-360-argb-extreme-8973-cfm-liquid-cpu-cooler-90rc0131-m0eay0",
+      "fan_rpm": "1 - 2800 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$484.00"
+    },
+    {
+      "name": "Corsair NAUTILUS 240 RS ARGB",
+      "url": "https://pcpartpicker.com/product/MmV2FT/corsair-nautilus-240-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060092-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$122.99"
+    },
+    {
+      "name": "Noctua NH-L9A-AM5",
+      "url": "https://pcpartpicker.com/product/qwrqqs/noctua-nh-l9a-am5-3384-cfm-cpu-cooler-nh-l9a-am5",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Brown / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$49.95"
+    },
+    {
+      "name": "NZXT Kraken Elite 360 (2024)",
+      "url": "https://pcpartpicker.com/product/Ff3NnQ/nzxt-kraken-elite-360-2024-7347-cfm-liquid-cpu-cooler-rl-kn36e-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2024",
+      "price": "$282.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240L Core ARGB",
+      "url": "https://pcpartpicker.com/product/FRV2FT/cooler-master-masterliquid-240l-core-argb-liquid-cpu-cooler-mlw-d24m-a18pz-r1",
+      "fan_rpm": "350 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "7",
+      "price": "$70.99"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 360 RX LCD",
+      "url": "https://pcpartpicker.com/product/ZGvD4D/corsair-icue-link-titan-360-rx-lcd-735-cfm-liquid-cpu-cooler-cw-9061026-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$242.99"
+    },
+    {
+      "name": "be quiet! Pure Rock 3",
+      "url": "https://pcpartpicker.com/product/tmDnTW/be-quiet-pure-rock-3-596-cfm-cpu-cooler-bk039",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "12.4 - 31.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$37.89"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A13",
+      "url": "https://pcpartpicker.com/product/tWn9TW/msi-mag-coreliquid-a13-626-cfm-liquid-cpu-cooler-mag-coreliquid-a13-360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$114.99"
+    },
+    {
+      "name": "Lian Li Galahad II Trinity SL-INF",
+      "url": "https://pcpartpicker.com/product/hQfxFT/lian-li-galahad-ii-trinity-sl-inf-613-cfm-liquid-cpu-cooler-ga2t36inb",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "29 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "27",
+      "price": "$231.00"
+    },
+    {
+      "name": "ID-COOLING SE-903-XT",
+      "url": "https://pcpartpicker.com/product/hctLrH/id-cooling-se-903-xt-458-cfm-cpu-cooler-se-903-xt-black",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "25.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$15.99"
+    },
+    {
+      "name": "Noctua NH-L9x65 chromax.black",
+      "url": "https://pcpartpicker.com/product/QvvD4D/noctua-nh-l9x65-chromaxblack-3384-cfm-cpu-cooler-nh-l9x65-chromaxblack",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$105.95"
+    },
+    {
+      "name": "Thermalright Frozen Infinity 360 ARGB",
+      "url": "https://pcpartpicker.com/product/F9kH99/thermalright-frozen-infinity-360-argb-689-cfm-liquid-cpu-cooler-frozen-infinity-360-white",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "28.2 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "13",
+      "price": "$52.59"
+    },
+    {
+      "name": "NZXT Kraken 360 RGB",
+      "url": "https://pcpartpicker.com/product/hqmNnQ/nzxt-kraken-360-rgb-7802-cfm-liquid-cpu-cooler-rl-kr360-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "13",
+      "price": "$242.99"
+    },
+    {
+      "name": "TRYX PANORAMA SE ARGB",
+      "url": "https://pcpartpicker.com/product/qF8Pxr/tryx-panorama-se-argb-6609-cfm-liquid-cpu-cooler-l-p360l-am3m-g0w",
+      "fan_rpm": "500 - 1850 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "7",
+      "price": "$279.99"
+    },
+    {
+      "name": "Corsair NAUTILUS 360 RS",
+      "url": "https://pcpartpicker.com/product/GVtLrH/corsair-nautilus-360-rs-7437-cfm-liquid-cpu-cooler-cw-9060089-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$122.99"
+    },
+    {
+      "name": "ID-COOLING FROZN A620 PRO SE",
+      "url": "https://pcpartpicker.com/product/MFvD4D/id-cooling-frozn-a620-pro-se-58-cfm-cpu-cooler-frozn-a620-pro-se",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$34.99"
+    },
+    {
+      "name": "Corsair NAUTILUS 360 RS LCD",
+      "url": "https://pcpartpicker.com/product/wZrp99/corsair-nautilus-360-rs-lcd-728-cfm-liquid-cpu-cooler-cw-9061033-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$159.99"
+    },
+    {
+      "name": "be quiet! Pure Rock Pro 3",
+      "url": "https://pcpartpicker.com/product/3cHp99/be-quiet-pure-rock-pro-3-596-cfm-cpu-cooler-bk042",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "14 - 34.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$61.89"
+    },
+    {
+      "name": "Noctua NH-L9A-AM5 CHROMAX.BLACK",
+      "url": "https://pcpartpicker.com/product/KNn9TW/noctua-nh-l9a-am5-chromaxblack-3384-cfm-cpu-cooler-nh-l9a-am5-chromaxblack",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$72.95"
+    },
+    {
+      "name": "Thermalright Aqua Elite V3",
+      "url": "https://pcpartpicker.com/product/YXFmP6/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-360-white-v3",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "20",
+      "price": "$58.90"
+    },
+    {
+      "name": "Thermalright Frozen Notte ARGB",
+      "url": "https://pcpartpicker.com/product/RD7scf/thermalright-frozen-notte-argb-7237-cfm-liquid-cpu-cooler-frozen-notte-360-black-argb-d1",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "30",
+      "price": "$70.90"
+    },
+    {
+      "name": "Lian Li Hydroshift LCD 360S",
+      "url": "https://pcpartpicker.com/product/jL3NnQ/lian-li-hydroshift-lcd-360s-7314-cfm-liquid-cpu-cooler-hslcd36sb",
+      "fan_rpm": "200 - 2500 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "8",
+      "price": "$193.90"
+    },
+    {
+      "name": "Asus ROG Ryuo IV SLC 360 ARGB",
+      "url": "https://pcpartpicker.com/product/HJTFf7/asus-rog-ryuo-iv-slc-360-argb-7144-cfm-liquid-cpu-cooler-90rc0151-b0eay0",
+      "fan_rpm": "800 - 2650 RPM",
+      "noise_level": "39.6 dB",
+      "color": "###### Color",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$615.81"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro",
+      "url": "https://pcpartpicker.com/product/Xm2j4D/arctic-liquid-freezer-iii-pro-110-cfm-liquid-cpu-cooler-acfre00181a",
+      "fan_rpm": "400 - 2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "2",
+      "price": "$106.49"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 360 RX RGB",
+      "url": "https://pcpartpicker.com/product/fT6NnQ/corsair-icue-link-titan-360-rx-rgb-735-cfm-liquid-cpu-cooler-cw-9061018-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "9",
+      "price": "$173.99"
+    },
+    {
+      "name": "Cooler Master Hyper 212 RGB Black Edition",
+      "url": "https://pcpartpicker.com/product/hHDJ7P/cooler-master-hyper-212-rgb-black-edition-573-cfm-cpu-cooler-rr-212s-20pc-r1",
+      "fan_rpm": "650 - 2000 RPM",
+      "noise_level": "8 - 30 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "241",
+      "price": "$36.99"
+    },
+    {
+      "name": "Thermalright Assassin Spirit 120 EVO",
+      "url": "https://pcpartpicker.com/product/zrP8TW/thermalright-assassin-spirit-120-evo-689-cfm-cpu-cooler-as120-evo",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "28.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "19",
+      "price": "$32.39"
+    },
+    {
+      "name": "Intel E97379-001",
+      "url": "https://pcpartpicker.com/product/xm22FT/intel-e97379-001-cpu-cooler-e97379-001",
+      "fan_rpm": "1200 - 2800 RPM",
+      "noise_level": "22 dB",
+      "color": "Silver / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "38",
+      "price": "$35.15"
+    },
+    {
+      "name": "Thermalright AXP90-X47",
+      "url": "https://pcpartpicker.com/product/7GTp99/thermalright-axp90-x47-4258-cfm-cpu-cooler-axp90-x47-black",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "8",
+      "price": "$23.39"
+    },
+    {
+      "name": "NZXT Kraken Elite RGB (2025)",
+      "url": "https://pcpartpicker.com/product/tmFCmG/nzxt-kraken-elite-rgb-2025-9861-cfm-liquid-cpu-cooler-rl-kr42e-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "34.5 dB",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "2025",
+      "price": "$334.99"
+    },
+    {
+      "name": "be quiet! Silent Loop 3",
+      "url": "https://pcpartpicker.com/product/N3ZWGX/be-quiet-silent-loop-3-767-cfm-liquid-cpu-cooler-bw025",
+      "fan_rpm": "2500 RPM",
+      "noise_level": "19.8 - 38.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$155.65"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-C TL",
+      "url": "https://pcpartpicker.com/product/rWzp99/lian-li-hydroshift-ii-lcd-c-tl-901-cfm-liquid-cpu-cooler-ghs2lcd36tb",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "33 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$249.99"
+    },
+    {
+      "name": "Thermalright Assassin X 120 R Digital ARGB",
+      "url": "https://pcpartpicker.com/product/tWbypg/thermalright-assassin-x-120-r-digital-argb-7084-cfm-cpu-cooler-assassin-x-120-r-digital-argb-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "7",
+      "price": "$27.90"
+    },
+    {
+      "name": "Noctua NH-D9L",
+      "url": "https://pcpartpicker.com/product/8pgPxr/noctua-nh-d9l-4644-cfm-cpu-cooler-nh-d9l",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "16.3 - 22.8 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "35",
+      "price": "$100.95"
+    },
+    {
+      "name": "ID-COOLING SE-214-XT ARGB",
+      "url": "https://pcpartpicker.com/product/YwbTwP/id-cooling-se-214-xt-argb-682-cfm-cpu-cooler-se-214-xt-argb-white",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "13.8 - 30.5 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "25",
+      "price": "$17.19"
+    },
+    {
+      "name": "TRYX PANORAMA ARGB (2025)",
+      "url": "https://pcpartpicker.com/product/dyVfrH/tryx-panorama-argb-2025-6564-cfm-liquid-cpu-cooler-l-p360a-as3m-g1k",
+      "fan_rpm": "500 - 1850 RPM",
+      "noise_level": "28.87 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2025",
+      "price": "$392.99"
+    },
+    {
+      "name": "Noctua NH-D15 G2",
+      "url": "https://pcpartpicker.com/product/8c88TW/noctua-nh-d15-g2-9158-cfm-cpu-cooler-nh-d15-g2",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "24.8 dB",
+      "color": "Brown / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "6",
+      "price": "$179.95"
+    },
+    {
+      "name": "Noctua NH-U12A chromax.black",
+      "url": "https://pcpartpicker.com/product/HCgFf7/noctua-nh-u12a-chromaxblack-6009-cfm-cpu-cooler-nh-u12a-chromaxblack",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "18.8 - 22.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "62",
+      "price": "$139.94"
+    },
+    {
+      "name": "Corsair iCUE LINK H100i RGB",
+      "url": "https://pcpartpicker.com/product/CYWJ7P/corsair-icue-link-h100i-rgb-631-cfm-liquid-cpu-cooler-cw-9061001-ww",
+      "fan_rpm": "480 - 2400 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$127.99"
+    },
+    {
+      "name": "Thermalright Frozen Infinity 360 ARGB",
+      "url": "https://pcpartpicker.com/product/QnxxFT/thermalright-frozen-infinity-360-argb-689-cfm-liquid-cpu-cooler-frozen-infinity-360-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "28.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "11",
+      "price": "$73.90"
+    },
+    {
+      "name": "NZXT Kraken 240 RGB",
+      "url": "https://pcpartpicker.com/product/sJMMnQ/nzxt-kraken-240-rgb-7802-cfm-liquid-cpu-cooler-rl-kr240-w1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "11",
+      "price": "$175.99"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 SE",
+      "url": "https://pcpartpicker.com/product/CwGhP6/thermalright-phantom-spirit-120-se-6617-cfm-cpu-cooler-ps120se-black",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$52.90"
+    },
+    {
+      "name": "ARCTIC Alpine 23",
+      "url": "https://pcpartpicker.com/product/MKBG3C/arctic-alpine-23-cpu-cooler-acalp00035a",
+      "fan_rpm": "100 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$11.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A13",
+      "url": "https://pcpartpicker.com/product/H4FmP6/msi-mag-coreliquid-a13-626-cfm-liquid-cpu-cooler-mag-coreliquid-a13-240",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$87.99"
+    },
+    {
+      "name": "Noctua NH-D15S chromax.black",
+      "url": "https://pcpartpicker.com/product/R6kgXL/noctua-nh-d15s-chromaxblack-8251-cfm-cpu-cooler-nh-d15s-chromaxblack",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "69",
+      "price": "$129.94"
+    },
+    {
+      "name": "NZXT Kraken Z73",
+      "url": "https://pcpartpicker.com/product/htkgXL/nzxt-kraken-z73-7311-cfm-liquid-cpu-cooler-rl-krz73-01",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "21 - 36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "91",
+      "price": "$592.45"
+    },
+    {
+      "name": "Noctua NH-U12S chromax.black",
+      "url": "https://pcpartpicker.com/product/dMVG3C/noctua-nh-u12s-chromaxblack-55-cfm-cpu-cooler-nh-u12s-chromaxblack",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "18.6 - 22.4 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "127",
+      "price": "$118.95"
+    },
+    {
+      "name": "Iceberg Thermal IceFLOE T95",
+      "url": "https://pcpartpicker.com/product/qrWzK8/iceberg-thermal-icefloe-t95-41-cfm-cpu-cooler-icefloe95-00a",
+      "fan_rpm": "1000 - 2200 RPM",
+      "noise_level": "32.3 dB",
+      "color": "Teal / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$17.99"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-C TL",
+      "url": "https://pcpartpicker.com/product/2TpD4D/lian-li-hydroshift-ii-lcd-c-tl-901-cfm-liquid-cpu-cooler-ghs2lcd36tw",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "33 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$264.99"
+    },
+    {
+      "name": "Asus ROG Ryujin III ARGB Extreme",
+      "url": "https://pcpartpicker.com/product/88MXsY/asus-rog-ryujin-iii-argb-extreme-8973-cfm-liquid-cpu-cooler-90rc0132-m0aay0",
+      "fan_rpm": "1 - 2800 RPM",
+      "noise_level": "36 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$514.99"
+    },
+    {
+      "name": "NZXT Kraken Elite 360 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/HfNYcf/nzxt-kraken-elite-360-rgb-2024-7512-cfm-liquid-cpu-cooler-rl-kr36e-b2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2024",
+      "price": "$311.99"
+    },
+    {
+      "name": "Thermalright Frozen Notte ARGB",
+      "url": "https://pcpartpicker.com/product/ccFmP6/thermalright-frozen-notte-argb-7237-cfm-liquid-cpu-cooler-frozen-notte-240-white-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "8",
+      "price": "$48.90"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 White",
+      "url": "https://pcpartpicker.com/product/476p99/thermalright-peerless-assassin-120-white-6617-cfm-cpu-cooler-pa120-white",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "14",
+      "price": "$57.59"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro",
+      "url": "https://pcpartpicker.com/product/V8xTwP/arctic-liquid-freezer-iii-pro-110-cfm-liquid-cpu-cooler-acfre00179a",
+      "fan_rpm": "400 - 2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "3",
+      "price": "$100.49"
+    },
+    {
+      "name": "Thermalright Assassin X SE",
+      "url": "https://pcpartpicker.com/product/8wZXsY/thermalright-assassin-x-se-3277-cfm-cpu-cooler-ax90se-v2",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "23.85 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "6",
+      "price": "$20.89"
+    },
+    {
+      "name": "ID-COOLING FROSTFLOW X",
+      "url": "https://pcpartpicker.com/product/wx2bt6/id-cooling-frostflow-x-745-cfm-liquid-cpu-cooler-frostflow-x-240-snow",
+      "fan_rpm": "700 - 1800 RPM",
+      "noise_level": "18 - 35.2 dB",
+      "color": "###### Color",
+      "radiator_size": "240 mm",
+      "rating": "8",
+      "price": "$53.91"
+    },
+    {
+      "name": "be quiet! Pure Rock Slim 2",
+      "url": "https://pcpartpicker.com/product/JcqPxr/be-quiet-pure-rock-slim-2-cpu-cooler-bk030",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "13.1 - 25.4 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "21",
+      "price": "$39.89"
+    },
+    {
+      "name": "NZXT Kraken Elite 360 RGB",
+      "url": "https://pcpartpicker.com/product/pbKscf/nzxt-kraken-elite-360-rgb-7802-cfm-liquid-cpu-cooler-rl-kr36e-w1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "42",
+      "price": "$350.99"
+    },
+    {
+      "name": "Thermalright AXP90-X36",
+      "url": "https://pcpartpicker.com/product/8b92FT/thermalright-axp90-x36-4258-cfm-cpu-cooler-axp90-x36",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$21.39"
+    },
+    {
+      "name": "be quiet! Dark Rock 5",
+      "url": "https://pcpartpicker.com/product/FKwmP6/be-quiet-dark-rock-5-935-cfm-cpu-cooler-bk035",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "11.9 - 29.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$67.90"
+    },
+    {
+      "name": "Razer Hanbo Chroma",
+      "url": "https://pcpartpicker.com/product/L9pzK8/razer-hanbo-chroma-liquid-cpu-cooler-rc21-01770100-r3m1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$33.99"
+    },
+    {
+      "name": "ID-COOLING FROZN A410 BLACK",
+      "url": "https://pcpartpicker.com/product/R6P8TW/id-cooling-frozn-a410-black-7825-cfm-cpu-cooler-frozn-a410-black",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "29.85 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$34.99"
+    },
+    {
+      "name": "TRYX PANORAMA ARGB (2025)",
+      "url": "https://pcpartpicker.com/product/Pw7MnQ/tryx-panorama-argb-2025-6564-cfm-liquid-cpu-cooler-l-p360a-as3m-g1w",
+      "fan_rpm": "500 - 1850 RPM",
+      "noise_level": "28.87 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2025",
+      "price": "$376.99"
+    },
+    {
+      "name": "Thermalright AXP90-X47",
+      "url": "https://pcpartpicker.com/product/RYFbt6/thermalright-axp90-x47-4258-cfm-cpu-cooler-axp90-x47-full",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Orange / Brown",
+      "radiator_size": "###### Radiator Size",
+      "rating": "18",
+      "price": "$48.90"
+    },
+    {
+      "name": "NZXT Kraken Plus 360",
+      "url": "https://pcpartpicker.com/product/h6qNnQ/nzxt-kraken-plus-360-7347-cfm-liquid-cpu-cooler-rl-kn360-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$159.99"
+    },
+    {
+      "name": "Cooler Master MASTERLIQUID ML240L RGB V2",
+      "url": "https://pcpartpicker.com/product/fLFKHx/cooler-master-masterliquid-ml240l-rgb-v2-6559-cfm-liquid-cpu-cooler-mlw-d24m-a18pc-r2",
+      "fan_rpm": "650 - 1800 RPM",
+      "noise_level": "6 - 27 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "122",
+      "price": "$110.99"
+    },
+    {
+      "name": "Lian Li Galahad II Trinity SL-INF",
+      "url": "https://pcpartpicker.com/product/HH88TW/lian-li-galahad-ii-trinity-sl-inf-613-cfm-liquid-cpu-cooler-ga2t36inw",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "29 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "21",
+      "price": "$327.03"
+    },
+    {
+      "name": "Noctua NH-L12S",
+      "url": "https://pcpartpicker.com/product/hbnG3C/noctua-nh-l12s-5544-cfm-cpu-cooler-nh-l12s",
+      "fan_rpm": "450 - 1850 RPM",
+      "noise_level": "16.8 - 23.9 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "52",
+      "price": "$74.95"
+    },
+    {
+      "name": "EK EK-Nucleus AIO CR360 Lux D-RGB",
+      "url": "https://pcpartpicker.com/product/tQ3gXL/ek-ek-nucleus-aio-cr360-lux-d-rgb-72-cfm-liquid-cpu-cooler-ek-nucleus-aio-cr360-lux-d-rgb",
+      "fan_rpm": "550 - 2300 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "12",
+      "price": "$220.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A13",
+      "url": "https://pcpartpicker.com/product/gPyH99/msi-mag-coreliquid-a13-626-cfm-liquid-cpu-cooler-mag-coreliquid-a13-360-white",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$97.43"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 SE",
+      "url": "https://pcpartpicker.com/product/79bRsY/thermalright-peerless-assassin-120-se-6617-cfm-cpu-cooler-pa120se-black",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "11",
+      "price": "$36.59"
+    },
+    {
+      "name": "be quiet! Silent Loop 3",
+      "url": "https://pcpartpicker.com/product/Lt8Pxr/be-quiet-silent-loop-3-784-cfm-liquid-cpu-cooler-bw026",
+      "fan_rpm": "1900 RPM",
+      "noise_level": "19.4 - 34.3 dB",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "5",
+      "price": "$139.90"
+    },
+    {
+      "name": "Thermalright Assassin Spirit 120 EVO DARK",
+      "url": "https://pcpartpicker.com/product/khJp99/thermalright-assassin-spirit-120-evo-dark-704-cfm-cpu-cooler-as120-evo-dark-d6-de",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "15",
+      "price": "$41.69"
+    },
+    {
+      "name": "Montech HyperFlow ARGB 360",
+      "url": "https://pcpartpicker.com/product/8bJp99/montech-hyperflow-argb-360-762-cfm-liquid-cpu-cooler-hyperflow-argb-360-black",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "29.1 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "11",
+      "price": "$110.99"
+    },
+    {
+      "name": "ARCTIC Freezer 36 A-RGB",
+      "url": "https://pcpartpicker.com/product/L9dG3C/arctic-freezer-36-a-rgb-cpu-cooler-acfre00124a",
+      "fan_rpm": "200 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$64.37"
+    },
+    {
+      "name": "Thermalright Frozen Warframe ARGB",
+      "url": "https://pcpartpicker.com/product/sxP8TW/thermalright-frozen-warframe-argb-7084-cfm-liquid-cpu-cooler-frozen-warframe-360-black-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "22.1 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$86.09"
+    },
+    {
+      "name": "Thermalright Frozen Prism ARGB",
+      "url": "https://pcpartpicker.com/product/7Phv6h/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-360-black-argb",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "11",
+      "price": "$60.90"
+    },
+    {
+      "name": "NZXT Kraken 280",
+      "url": "https://pcpartpicker.com/product/M8rqqs/nzxt-kraken-280-9968-cfm-liquid-cpu-cooler-rl-kn280-b1",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "19.4 - 32.1 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "5",
+      "price": "$120.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 140",
+      "url": "https://pcpartpicker.com/product/w8n9TW/thermalright-peerless-assassin-140-778-cfm-cpu-cooler-peerless-assassin-140-black",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$42.39"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Pro",
+      "url": "https://pcpartpicker.com/product/xh6NnQ/cooler-master-hyper-212-pro-707-cfm-cpu-cooler-rr-212s-25pz-r1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "32.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$46.99"
+    },
+    {
+      "name": "Thermalright Assassin X 120 R Digital ARGB",
+      "url": "https://pcpartpicker.com/product/gPnXsY/thermalright-assassin-x-120-r-digital-argb-7084-cfm-cpu-cooler-assassin-x-120-r-digital-argb-white",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$26.90"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 360 RX RGB",
+      "url": "https://pcpartpicker.com/product/nR26Mp/corsair-icue-link-titan-360-rx-rgb-735-cfm-liquid-cpu-cooler-cw-9061021-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$192.99"
+    },
+    {
+      "name": "Lian Li Galahad II Lite RGB",
+      "url": "https://pcpartpicker.com/product/PKXMnQ/lian-li-galahad-ii-lite-rgb-79-cfm-liquid-cpu-cooler-ga2l36rb",
+      "fan_rpm": "300 - 2500 RPM",
+      "noise_level": "34.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$119.99"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-S 360 TL",
+      "url": "https://pcpartpicker.com/product/c2nXsY/lian-li-hydroshift-ii-lcd-s-360-tl-901-cfm-liquid-cpu-cooler-ghs2lcds36tb",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "33 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$255.99"
+    },
+    {
+      "name": "Noctua NH-U12A",
+      "url": "https://pcpartpicker.com/product/ZLtQzy/noctua-nh-u12a-6009-cfm-cpu-cooler-nh-u12a",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "18.8 - 22.6 dB",
+      "color": "Brown",
+      "radiator_size": "###### Radiator Size",
+      "rating": "57",
+      "price": "$129.90"
+    },
+    {
+      "name": "Thermalright AQUA ELITE ARGB V4",
+      "url": "https://pcpartpicker.com/product/6RVfrH/thermalright-aqua-elite-argb-v4-6617-cfm-liquid-cpu-cooler-aqua-elite-360-argb-v4",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "7",
+      "price": "$54.90"
+    },
+    {
+      "name": "Thermalright AQUA ELITE ARGB V4",
+      "url": "https://pcpartpicker.com/product/jpKnTW/thermalright-aqua-elite-argb-v4-6617-cfm-liquid-cpu-cooler-aqua-elite-360-white-argb-v4",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$52.19"
+    },
+    {
+      "name": "Noctua NH-U9S chromax.black",
+      "url": "https://pcpartpicker.com/product/9pfFf7/noctua-nh-u9s-chromaxblack-464-cfm-cpu-cooler-nh-u9s-chromaxblack",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "16.3 - 22.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "26",
+      "price": "$74.95"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III 240 A-RGB",
+      "url": "https://pcpartpicker.com/product/D6grxr/arctic-liquid-freezer-iii-240-a-rgb-4882-cfm-liquid-cpu-cooler-acfre00150a",
+      "fan_rpm": "200 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "7",
+      "price": "$85.98"
+    },
+    {
+      "name": "Corsair NAUTILUS 240 RS",
+      "url": "https://pcpartpicker.com/product/LfKscf/corsair-nautilus-240-rs-7437-cfm-liquid-cpu-cooler-cw-9060088-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$95.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 Digital ARGB",
+      "url": "https://pcpartpicker.com/product/ZMvscf/thermalright-peerless-assassin-120-digital-argb-8889-cfm-cpu-cooler-peerless-assassin-120-digital-argb-black",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$53.90"
+    },
+    {
+      "name": "Lian Li Galahad II LCD SL-INF",
+      "url": "https://pcpartpicker.com/product/LKGhP6/lian-li-galahad-ii-lcd-sl-inf-799-cfm-liquid-cpu-cooler-ga2alcd36inb",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "29 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "9",
+      "price": "$229.99"
+    },
+    {
+      "name": "Noctua NH-L9i chromax.black",
+      "url": "https://pcpartpicker.com/product/vbLwrH/noctua-nh-l9i-chromaxblack-3384-cfm-cpu-cooler-nh-l9i-chromaxblack",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "22",
+      "price": "$78.95"
+    },
+    {
+      "name": "Thermaltake Gravity i2",
+      "url": "https://pcpartpicker.com/product/2G38TW/thermaltake-cpu-cooler-clp0556d",
+      "fan_rpm": "1800 RPM",
+      "noise_level": "21.3 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "8",
+      "price": "$12.78"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A15",
+      "url": "https://pcpartpicker.com/product/WmDnTW/msi-mag-coreliquid-a15-6489-cfm-liquid-cpu-cooler-mag-coreliquid-a15-360",
+      "fan_rpm": "500 - 2050 RPM",
+      "noise_level": "28.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$124.99"
+    },
+    {
+      "name": "Phanteks Glacier One 360M25 G2",
+      "url": "https://pcpartpicker.com/product/dFdMnQ/phanteks-glacier-one-360m25-g2-7272-cfm-liquid-cpu-cooler-ph-go360m25g2_dbk02",
+      "fan_rpm": "350 - 2000 RPM",
+      "noise_level": "35.13 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$100.99"
+    },
+    {
+      "name": "Thermalright Aqua Elite ARGB V6",
+      "url": "https://pcpartpicker.com/product/k7ZWGX/thermalright-aqua-elite-argb-v6-7084-cfm-liquid-cpu-cooler-aqua-elite-360-argb-black-v6",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$54.90"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-S 360 TL",
+      "url": "https://pcpartpicker.com/product/sqgZxr/lian-li-hydroshift-ii-lcd-s-360-tl-901-cfm-liquid-cpu-cooler-ghs2lcds36tw",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "33 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$254.99"
+    },
+    {
+      "name": "NZXT Kraken Plus 360 RGB",
+      "url": "https://pcpartpicker.com/product/pxbypg/nzxt-kraken-plus-360-rgb-7505-cfm-liquid-cpu-cooler-rl-kr360-w2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$219.99"
+    },
+    {
+      "name": "Corsair NAUTILUS 360 RS LCD",
+      "url": "https://pcpartpicker.com/product/DFxTwP/corsair-nautilus-360-rs-lcd-728-cfm-liquid-cpu-cooler-cw-9061034-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$146.99"
+    },
+    {
+      "name": "NZXT Kraken Elite RGB (2025)",
+      "url": "https://pcpartpicker.com/product/gdrp99/nzxt-kraken-elite-rgb-2025-9861-cfm-liquid-cpu-cooler-rl-kr42e-w2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "34.5 dB",
+      "color": "White",
+      "radiator_size": "420 mm",
+      "rating": "2025",
+      "price": "$336.99"
+    },
+    {
+      "name": "Thermalright Assassin King SE ARGB",
+      "url": "https://pcpartpicker.com/product/7TddnQ/thermalright-assassin-king-se-argb-6617-cfm-cpu-cooler-ak120-se-white-argb-d6-2",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "33",
+      "price": "$25.09"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 420 RX RGB",
+      "url": "https://pcpartpicker.com/product/TtNscf/corsair-icue-link-titan-420-rx-rgb-947-cfm-liquid-cpu-cooler-cw-9061019-ww",
+      "fan_rpm": "300 - 1700 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "1",
+      "price": "$243.99"
+    },
+    {
+      "name": "Thermalright AXP90-X36",
+      "url": "https://pcpartpicker.com/product/mmTp99/thermalright-axp90-x36-4258-cfm-cpu-cooler-axp90-x36-black",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$24.59"
+    },
+    {
+      "name": "Asus ProArt LC 420",
+      "url": "https://pcpartpicker.com/product/nrhv6h/asus-proart-lc-420-107-cfm-liquid-cpu-cooler-proart-lc-420",
+      "fan_rpm": "800 - 2000 RPM",
+      "noise_level": "31.5 dB",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "2",
+      "price": "$349.99"
+    },
+    {
+      "name": "Thermalright Aqua Elite V3",
+      "url": "https://pcpartpicker.com/product/TmWJ7P/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-240-white-v3",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "8",
+      "price": "$47.90"
+    },
+    {
+      "name": "Noctua NH-L9i",
+      "url": "https://pcpartpicker.com/product/xxphP6/noctua-nh-l9i-3384-cfm-cpu-cooler-nh-l9i",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Brown",
+      "radiator_size": "###### Radiator Size",
+      "rating": "91",
+      "price": "$60.95"
+    },
+    {
+      "name": "Thermalright Aqua Elite V3",
+      "url": "https://pcpartpicker.com/product/hTqrxr/thermalright-aqua-elite-v3-6617-cfm-liquid-cpu-cooler-aqua-elite-120-v3",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "120 mm",
+      "rating": "2",
+      "price": "$33.89"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-C CL",
+      "url": "https://pcpartpicker.com/product/bddMnQ/lian-li-hydroshift-ii-lcd-c-cl-72-cfm-liquid-cpu-cooler-ghs2lcd36rb",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "31 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$192.99"
+    },
+    {
+      "name": "Thermalright AXP120-X67",
+      "url": "https://pcpartpicker.com/product/qBnypg/thermalright-axp120-x67-59-cfm-cpu-cooler-axp120-x67-black-argb",
+      "fan_rpm": "1800 RPM",
+      "noise_level": "26.1 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "11",
+      "price": "$41.59"
+    },
+    {
+      "name": "Corsair NAUTILUS 240 RS ARGB",
+      "url": "https://pcpartpicker.com/product/w8hv6h/corsair-nautilus-240-rs-argb-7437-cfm-liquid-cpu-cooler-cw-9060094-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "34 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$118.99"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120",
+      "url": "https://pcpartpicker.com/product/zkWJ7P/thermalright-phantom-spirit-120-6617-cfm-cpu-cooler-ps120",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "35",
+      "price": "$46.90"
+    },
+    {
+      "name": "Noctua NH-U12S redux",
+      "url": "https://pcpartpicker.com/product/vV7G3C/noctua-nh-u12s-redux-7075-cfm-cpu-cooler-nh-u12s-redux",
+      "fan_rpm": "450 - 1700 RPM",
+      "noise_level": "25.1 dB",
+      "color": "Gray / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "20",
+      "price": "$78.95"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB",
+      "url": "https://pcpartpicker.com/product/8cy8TW/arctic-liquid-freezer-iii-pro-a-rgb-110-cfm-liquid-cpu-cooler-acfre00185a",
+      "fan_rpm": "400 - 2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "0",
+      "price": "$130.99"
+    },
+    {
+      "name": "be quiet! Pure Loop 2 FX",
+      "url": "https://pcpartpicker.com/product/b6JgXL/be-quiet-pure-loop-2-fx-liquid-cpu-cooler-bw015",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "8 - 34 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$179.00"
+    },
+    {
+      "name": "Thermalright Peerless Assassin MINI",
+      "url": "https://pcpartpicker.com/product/WW88TW/thermalright-peerless-assassin-mini-6687-cfm-cpu-cooler-peerless-assassin-120-mini-black",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$34.39"
+    },
+    {
+      "name": "Thermalright Assassin X Refined SE RGB",
+      "url": "https://pcpartpicker.com/product/Js2WGX/thermalright-assassin-x-refined-se-argb-6617-cfm-cpu-cooler-ax120-refined-se-argb",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "35",
+      "price": "$17.01"
+    },
+    {
+      "name": "Thermalright AXP90-X47",
+      "url": "https://pcpartpicker.com/product/92cG3C/thermalright-axp90-x47-4258-cfm-cpu-cooler-axp90-x47-white",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$21.90"
+    },
+    {
+      "name": "NZXT Kraken 240 RGB",
+      "url": "https://pcpartpicker.com/product/ccbRsY/nzxt-kraken-240-rgb-7802-cfm-liquid-cpu-cooler-rl-kr240-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "7",
+      "price": "$166.99"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB",
+      "url": "https://pcpartpicker.com/product/BgQwrH/arctic-liquid-freezer-iii-pro-a-rgb-77-cfm-liquid-cpu-cooler-acfre00182a",
+      "fan_rpm": "600 - 3000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$94.49"
+    },
+    {
+      "name": "ID-COOLING SE-214-XT PLUS",
+      "url": "https://pcpartpicker.com/product/bFtkcf/id-cooling-se-214-xt-plus-7616-cfm-cpu-cooler-se-214-xt-plus",
+      "fan_rpm": "700 - 1800 RPM",
+      "noise_level": "35.2 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$24.98"
+    },
+    {
+      "name": "Cooler Master Hyper 212 (2023)",
+      "url": "https://pcpartpicker.com/product/dF3NnQ/cooler-master-hyper-212-2023-707-cfm-cpu-cooler-rr-s4kk-25sn-r1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "32.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2023",
+      "price": "$25.49"
+    },
+    {
+      "name": "Corsair iCUE LINK H100i RGB",
+      "url": "https://pcpartpicker.com/product/nNvD4D/corsair-icue-link-h100i-rgb-631-cfm-liquid-cpu-cooler-cw-9061005-ww",
+      "fan_rpm": "480 - 2400 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "5",
+      "price": "$124.99"
+    },
+    {
+      "name": "Noctua NH-D15 G2 LBC",
+      "url": "https://pcpartpicker.com/product/kZNYcf/noctua-nh-d15-g2-lbc-9158-cfm-cpu-cooler-nh-d15-g2-lbc",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "24.8 dB",
+      "color": "Brown / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "7",
+      "price": "$206.95"
+    },
+    {
+      "name": "ID-COOLING FX360 INF",
+      "url": "https://pcpartpicker.com/product/dLV2FT/id-cooling-fx360-inf-58-cfm-liquid-cpu-cooler-fx360-inf",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$81.98"
+    },
+    {
+      "name": "iBuypower AW4",
+      "url": "https://pcpartpicker.com/product/LJJp99/ibuypower-aw4-65-cfm-liquid-cpu-cooler-fan-ibp-006-b-r",
+      "fan_rpm": "700 - 2000 RPM",
+      "noise_level": "38 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$123.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 SE V3",
+      "url": "https://pcpartpicker.com/product/vZfV3C/thermalright-peerless-assassin-120-se-v3-7084-cfm-cpu-cooler-pa120se-v3",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$36.90"
+    },
+    {
+      "name": "Noctua NH-L9a-AM4",
+      "url": "https://pcpartpicker.com/product/DZfhP6/noctua-nh-l9a-am4-3384-cfm-cpu-cooler-nh-l9a-am4",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Brown",
+      "radiator_size": "###### Radiator Size",
+      "rating": "57",
+      "price": "$65.95"
+    },
+    {
+      "name": "Thermalright AXP90-X53",
+      "url": "https://pcpartpicker.com/product/3g7G3C/thermalright-axp90-x53-4258-cfm-cpu-cooler-axp90-x53",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$19.89"
+    },
+    {
+      "name": "Thermalright AXP90-X53 FULL",
+      "url": "https://pcpartpicker.com/product/DPHqqs/thermalright-axp90-x53-full-4258-cfm-cpu-cooler-axp90-x53-full",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Copper / Orange",
+      "radiator_size": "###### Radiator Size",
+      "rating": "12",
+      "price": "$49.69"
+    },
+    {
+      "name": "Thermalright Wonder Vision 360 UB ARGB",
+      "url": "https://pcpartpicker.com/product/GKMXsY/thermalright-wonder-vision-360-ub-argb-69-cfm-liquid-cpu-cooler-wv360-ub-argb-black-d6",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$234.90"
+    },
+    {
+      "name": "Montech HyperFlow Silent 360",
+      "url": "https://pcpartpicker.com/product/pcbypg/montech-hyperflow-silent-360-723-cfm-liquid-cpu-cooler-hyperflow-silent-360-black",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "24.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$99.98"
+    },
+    {
+      "name": "Asus ROG STRIX LC III ARGB LCD",
+      "url": "https://pcpartpicker.com/product/YNdG3C/asus-rog-strix-lc-iii-argb-lcd-7038-cfm-liquid-cpu-cooler-rog-strix-lc-iii-360-argb-lcd",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$311.99"
+    },
+    {
+      "name": "ID-COOLING FROZN A720 BLACK",
+      "url": "https://pcpartpicker.com/product/HbDQzy/id-cooling-frozn-a720-black-986-cfm-cpu-cooler-frozn-a720-black",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "33.5 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$69.98"
+    },
+    {
+      "name": "NZXT Kraken Elite 240 (2024)",
+      "url": "https://pcpartpicker.com/product/Q3hv6h/nzxt-kraken-elite-240-2024-7347-cfm-liquid-cpu-cooler-rl-kn24e-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2024",
+      "price": "$163.99"
+    },
+    {
+      "name": "Vetroo V5",
+      "url": "https://pcpartpicker.com/product/qRKKHx/vetroo-v5-52-cfm-cpu-cooler-vt-cpu-v5",
+      "fan_rpm": "800 - 1700 RPM",
+      "noise_level": "30.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "47",
+      "price": "$35.99"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE II 360 ICE",
+      "url": "https://pcpartpicker.com/product/m7grxr/gigabyte-aorus-waterforce-ii-360-ice-6495-cfm-liquid-cpu-cooler-aorus-waterforce-ii-360-ice",
+      "fan_rpm": "800 - 2300 RPM",
+      "noise_level": "12.8 - 36.9 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$119.99"
+    },
+    {
+      "name": "Thermalright Assassin X Refined SE",
+      "url": "https://pcpartpicker.com/product/r6qrxr/thermalright-assassin-x-refined-se-6617-cfm-cpu-cooler-ax120se-white",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$21.89"
+    },
+    {
+      "name": "be quiet! Dark Rock Elite",
+      "url": "https://pcpartpicker.com/product/NpNYcf/be-quiet-dark-rock-elite-cpu-cooler-bk037",
+      "fan_rpm": "1500 - 2000 RPM",
+      "noise_level": "11 - 25.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$87.90"
+    },
+    {
+      "name": "Cooler Master MasterLiquid ML360R RGB",
+      "url": "https://pcpartpicker.com/product/WwjJ7P/cooler-master-masterliquid-ml360r-rgb-667-cfm-liquid-cpu-cooler-mlx-d36m-a20pc-r1",
+      "fan_rpm": "650 - 2000 RPM",
+      "noise_level": "6 - 34 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "35",
+      "price": "$74.98"
+    },
+    {
+      "name": "NZXT Kraken 120",
+      "url": "https://pcpartpicker.com/product/dWkWGX/nzxt-kraken-120-7311-cfm-liquid-cpu-cooler-rl-kr120-b1",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "21 - 36 dB",
+      "color": "Black",
+      "radiator_size": "120 mm",
+      "rating": "2",
+      "price": "$89.99"
+    },
+    {
+      "name": "ID-COOLING FROZN A410 SE",
+      "url": "https://pcpartpicker.com/product/b3zXsY/id-cooling-frozn-a410-se-552-cfm-cpu-cooler-frozn-a410-se",
+      "fan_rpm": "300 - 1800 RPM",
+      "noise_level": "24.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$26.99"
+    },
+    {
+      "name": "ARCTIC Freezer 36 A-RGB",
+      "url": "https://pcpartpicker.com/product/GPTZxr/arctic-freezer-36-a-rgb-cpu-cooler-acfre00125a",
+      "fan_rpm": "200 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$49.19"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III 280 A-RGB",
+      "url": "https://pcpartpicker.com/product/ywJp99/arctic-liquid-freezer-iii-280-a-rgb-699-cfm-liquid-cpu-cooler-acfre00151a",
+      "fan_rpm": "200 - 1900 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "280 mm",
+      "rating": "4",
+      "price": "$94.98"
+    },
+    {
+      "name": "ID-COOLING FX240 PRO",
+      "url": "https://pcpartpicker.com/product/xDWJ7P/id-cooling-fx240-pro-825-cfm-liquid-cpu-cooler-fx240-pro",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "35.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$54.99"
+    },
+    {
+      "name": "be quiet! Pure Rock 2",
+      "url": "https://pcpartpicker.com/product/BVXYcf/be-quiet-pure-rock-2-cpu-cooler-bk006",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "19.1 - 26.8 dB",
+      "color": "Silver / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "21",
+      "price": "$54.89"
+    },
+    {
+      "name": "ID-COOLING SE-224-XTS BLACK",
+      "url": "https://pcpartpicker.com/product/jr2WGX/id-cooling-se-224-xts-black-70-cfm-cpu-cooler-se-224-xts-black",
+      "fan_rpm": "600 - 1500 RPM",
+      "noise_level": "28.9 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$14.99"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III 420 A-RGB",
+      "url": "https://pcpartpicker.com/product/d3n9TW/arctic-liquid-freezer-iii-420-a-rgb-699-cfm-liquid-cpu-cooler-acfre00145a",
+      "fan_rpm": "200 - 1900 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "10",
+      "price": "$161.99"
+    },
+    {
+      "name": "Asus ROG STRIX LC II ARGB",
+      "url": "https://pcpartpicker.com/product/KV8bt6/asus-rog-strix-lc-ii-argb-8095-cfm-liquid-cpu-cooler-rog-strix-lc-ii-360-argb",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "37.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$556.52"
+    },
+    {
+      "name": "NZXT Kraken X63",
+      "url": "https://pcpartpicker.com/product/JfVG3C/nzxt-kraken-x63-9817-cfm-liquid-cpu-cooler-rl-krx63-01",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "21 - 38 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "103",
+      "price": "$129.98"
+    },
+    {
+      "name": "Asus Prime LC 360 ARGB",
+      "url": "https://pcpartpicker.com/product/y67scf/asus-prime-lc-360-argb-757-cfm-liquid-cpu-cooler-prime-lc-360-argb",
+      "fan_rpm": "600 - 2200 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$124.99"
+    },
+    {
+      "name": "Vetroo V240",
+      "url": "https://pcpartpicker.com/product/kGxRsY/vetroo-v240-52-cfm-liquid-cpu-cooler-vt-aio-v240-bk",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "30.8 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$55.99"
+    },
+    {
+      "name": "Noctua NH-L9x65",
+      "url": "https://pcpartpicker.com/product/fhqbt6/noctua-nh-l9x65-3384-cfm-cpu-cooler-nh-l9x65",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "24",
+      "price": "$92.95"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 140",
+      "url": "https://pcpartpicker.com/product/DhWJ7P/thermalright-peerless-assassin-140-778-cfm-cpu-cooler-peerless-assassin-140-white",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$50.29"
+    },
+    {
+      "name": "ID-COOLING FX360 PRO",
+      "url": "https://pcpartpicker.com/product/kCYRsY/id-cooling-fx360-pro-825-cfm-liquid-cpu-cooler-fx360-pro",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "35.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$74.98"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Halo",
+      "url": "https://pcpartpicker.com/product/JRBzK8/cooler-master-hyper-212-halo-5188-cfm-cpu-cooler-rr-s4kk-20pa-r1",
+      "fan_rpm": "650 - 2050 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "15",
+      "price": "$39.00"
+    },
+    {
+      "name": "Thermalright Frozen Edge",
+      "url": "https://pcpartpicker.com/product/6Hn9TW/thermalright-frozen-edge-69-cfm-liquid-cpu-cooler-fe360-black",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "28.1 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$63.59"
+    },
+    {
+      "name": "MSI MAG CORELIQUID I360",
+      "url": "https://pcpartpicker.com/product/PyGhP6/msi-mag-coreliquid-i360-707-cfm-liquid-cpu-cooler-mag-coreliquid-i360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$142.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 90 SE",
+      "url": "https://pcpartpicker.com/product/fL88TW/thermalright-peerless-assassin-90-se-3277-cfm-cpu-cooler-pa90-se-black",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "23.85 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$30.39"
+    },
+    {
+      "name": "ARCTIC Freezer 36",
+      "url": "https://pcpartpicker.com/product/n6bRsY/arctic-freezer-36-cpu-cooler-acfre00121a",
+      "fan_rpm": "200 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "7",
+      "price": "$45.71"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 Black",
+      "url": "https://pcpartpicker.com/product/YxVmP6/thermalright-peerless-assassin-120-black-6617-cfm-cpu-cooler-pa120-black",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "28",
+      "price": "$44.69"
+    },
+    {
+      "name": "Noctua NH-U12S",
+      "url": "https://pcpartpicker.com/product/wjmLrH/noctua-nh-u12s-55-cfm-cpu-cooler-nh-u12s",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "18.6 - 22.4 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "95",
+      "price": "$105.95"
+    },
+    {
+      "name": "be quiet! Pure Rock Pro 3 LX",
+      "url": "https://pcpartpicker.com/product/7rvscf/be-quiet-pure-rock-pro-3-lx-618-cfm-cpu-cooler-bk043",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "14 - 34.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$63.90"
+    },
+    {
+      "name": "Thermalright Assassin X Refined SE RGB V2",
+      "url": "https://pcpartpicker.com/product/Wfn9TW/thermalright-assassin-x-refined-se-rgb-v2-6617-cfm-cpu-cooler-ax120r-se-v2-d6",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$22.29"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360L Core ARGB",
+      "url": "https://pcpartpicker.com/product/zhjRsY/cooler-master-masterliquid-360l-core-argb-liquid-cpu-cooler-mlw-d36m-a18pz-rw",
+      "fan_rpm": "350 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "10",
+      "price": "$79.98"
+    },
+    {
+      "name": "MSI MEG CORELIQUID S360",
+      "url": "https://pcpartpicker.com/product/LGH7YJ/msi-meg-coreliquid-s360-562-cfm-liquid-cpu-cooler-meg-coreliquid-s360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "22.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$476.41"
+    },
+    {
+      "name": "Cooler Master Elite",
+      "url": "https://pcpartpicker.com/product/9Fbypg/cooler-master-elite-842-cfm-liquid-cpu-cooler-elw-d36m-a21da-r1",
+      "fan_rpm": "600 - 2100 RPM",
+      "noise_level": "39.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$116.99"
+    },
+    {
+      "name": "Noctua NH-L12Sx77",
+      "url": "https://pcpartpicker.com/product/2J4Zxr/noctua-nh-l12sx77-5544-cfm-cpu-cooler-nh-l12sx77",
+      "fan_rpm": "450 - 1850 RPM",
+      "noise_level": "16.8 - 23.9 dB",
+      "color": "Silver / Beige",
+      "radiator_size": "###### Radiator Size",
+      "rating": "6",
+      "price": "$99.95"
+    },
+    {
+      "name": "NZXT Kraken Elite 240 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/gT6NnQ/nzxt-kraken-elite-240-rgb-2024-7512-cfm-liquid-cpu-cooler-rl-kr24e-w2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "2024",
+      "price": "$170.99"
+    },
+    {
+      "name": "Noctua NH-U9S",
+      "url": "https://pcpartpicker.com/product/FcfmP6/noctua-nh-u9s-4644-cfm-cpu-cooler-nh-u9s",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "16.3 - 22.8 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "80",
+      "price": "$69.95"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-C CL",
+      "url": "https://pcpartpicker.com/product/WPQwrH/lian-li-hydroshift-ii-lcd-c-cl-72-cfm-liquid-cpu-cooler-ghs2lcd36rw",
+      "fan_rpm": "200 - 2600 RPM",
+      "noise_level": "31 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$205.99"
+    },
+    {
+      "name": "Thermalright Frozen Warframe ARGB",
+      "url": "https://pcpartpicker.com/product/y3vD4D/thermalright-frozen-warframe-argb-7084-cfm-liquid-cpu-cooler-frozen-warframe-360-white-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "22.1 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$85.09"
+    },
+    {
+      "name": "be quiet! Light Loop",
+      "url": "https://pcpartpicker.com/product/yDBzK8/be-quiet-light-loop-liquid-cpu-cooler-bw022",
+      "fan_rpm": "1500 - 2900 RPM",
+      "noise_level": "17.2 - 36.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$135.59"
+    },
+    {
+      "name": "Thermalright Mjolnir Vision 360 ARGB",
+      "url": "https://pcpartpicker.com/product/R9kH99/thermalright-mjolnir-vision-360-argb-69-cfm-liquid-cpu-cooler-mjolnir-vision-360-white-argb",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$106.59"
+    },
+    {
+      "name": "NZXT Kraken Elite 280 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/q6kH99/nzxt-kraken-elite-280-rgb-2024-9861-cfm-liquid-cpu-cooler-rl-kr28e-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "34.5 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "2024",
+      "price": "$170.79"
+    },
+    {
+      "name": "be quiet! Pure Rock LP",
+      "url": "https://pcpartpicker.com/product/vgYmP6/be-quiet-pure-rock-lp-cpu-cooler-bk034",
+      "fan_rpm": "2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$49.90"
+    },
+    {
+      "name": "Thermalright RK120 SE",
+      "url": "https://pcpartpicker.com/product/4gDQzy/thermalright-rk120-se-6617-cfm-cpu-cooler-rk120-se",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$27.59"
+    },
+    {
+      "name": "NZXT Kraken Plus 360 RGB",
+      "url": "https://pcpartpicker.com/product/HvqNnQ/nzxt-kraken-plus-360-rgb-7505-cfm-liquid-cpu-cooler-rl-kr360-b2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$257.99"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Halo",
+      "url": "https://pcpartpicker.com/product/vmGhP6/cooler-master-hyper-212-halo-5188-cfm-cpu-cooler-rr-s4ww-20pa-r1",
+      "fan_rpm": "650 - 2050 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$39.99"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 240 RX RGB",
+      "url": "https://pcpartpicker.com/product/YDGhP6/corsair-icue-link-titan-240-rx-rgb-735-cfm-liquid-cpu-cooler-cw-9061016-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$185.99"
+    },
+    {
+      "name": "be quiet! Pure Loop 3",
+      "url": "https://pcpartpicker.com/product/XTDnTW/be-quiet-pure-loop-3-liquid-cpu-cooler-bw029",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "17.6 - 37.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$131.90"
+    },
+    {
+      "name": "Thermalright Frozen Notte ARGB",
+      "url": "https://pcpartpicker.com/product/zP88TW/thermalright-frozen-notte-argb-7237-cfm-liquid-cpu-cooler-frozen-notte-240-black-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "14",
+      "price": "$47.29"
+    },
+    {
+      "name": "Corsair iCUE LINK H115i RGB",
+      "url": "https://pcpartpicker.com/product/cp3NnQ/corsair-icue-link-h115i-rgb-825-cfm-liquid-cpu-cooler-cw-9061002-ww",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "5",
+      "price": "$132.99"
+    },
+    {
+      "name": "Lian Li Galahad II LCD SL-INF",
+      "url": "https://pcpartpicker.com/product/G6mNnQ/lian-li-galahad-ii-lcd-sl-inf-799-cfm-liquid-cpu-cooler-ga2alcd36inw",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "29 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "12",
+      "price": "$320.77"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360 Core II",
+      "url": "https://pcpartpicker.com/product/HkdMnQ/cooler-master-masterliquid-360-core-ii-707-cfm-liquid-cpu-cooler-mlw-d36m-a18pa-r1",
+      "fan_rpm": "600 - 1750 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$142.00"
+    },
+    {
+      "name": "Lian Li Galahad II Lite Performance",
+      "url": "https://pcpartpicker.com/product/vbLp99/lian-li-galahad-ii-lite-performance-7314-cfm-liquid-cpu-cooler-ga2l36pb",
+      "fan_rpm": "200 - 2500 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$105.72"
+    },
+    {
+      "name": "ID-COOLING IS-55 Black",
+      "url": "https://pcpartpicker.com/product/7pjBD3/id-cooling-is-55-black-546-cfm-cpu-cooler-is-55-black",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "31.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "19",
+      "price": "$41.99"
+    },
+    {
+      "name": "NZXT Kraken Z73 RGB",
+      "url": "https://pcpartpicker.com/product/4HQcCJ/nzxt-kraken-z73-rgb-5244-cfm-liquid-cpu-cooler-rl-krz73-rw",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "22 - 33 dB",
+      "color": "White / Black",
+      "radiator_size": "360 mm",
+      "rating": "19",
+      "price": "$477.54"
+    },
+    {
+      "name": "Asus ROG STRIX LC 360 RGB White Edition",
+      "url": "https://pcpartpicker.com/product/7RXYcf/asus-rog-strix-lc-360-rgb-white-edition-8095-cfm-liquid-cpu-cooler-rog-strix-lc-360-rgb-white",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "37.6 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$411.00"
+    },
+    {
+      "name": "Vetroo V360",
+      "url": "https://pcpartpicker.com/product/fxJgXL/vetroo-v360-52-cfm-liquid-cpu-cooler-vt-aio-v360-wt",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "30.8 dB",
+      "color": "White / Gray",
+      "radiator_size": "360 mm",
+      "rating": "7",
+      "price": "$135.98"
+    },
+    {
+      "name": "Thermalright Burst Assassin 120 SE ARGB",
+      "url": "https://pcpartpicker.com/product/sysV3C/thermalright-burst-assassin-120-se-argb-6617-cfm-cpu-cooler-ba120-se-argb",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$20.39"
+    },
+    {
+      "name": "Corsair NAUTILUS 240 RS LCD",
+      "url": "https://pcpartpicker.com/product/GDMXsY/corsair-nautilus-240-rs-lcd-728-cfm-liquid-cpu-cooler-cw-9061031-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$119.99"
+    },
+    {
+      "name": "Thermaltake UX200 SE ARGB",
+      "url": "https://pcpartpicker.com/product/G3pzK8/thermaltake-ux200-se-argb-6272-cfm-cpu-cooler-cl-p105-al12sw-a",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "25 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$36.99"
+    },
+    {
+      "name": "Noctua NH-L9i-17xx chromax.black",
+      "url": "https://pcpartpicker.com/product/nJqPxr/noctua-nh-l9i-17xx-chromaxblack-3384-cfm-cpu-cooler-nh-l9i-17xx-chromaxblack",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$59.95"
+    },
+    {
+      "name": "ARCTIC Freezer 8A",
+      "url": "https://pcpartpicker.com/product/Ygrp99/arctic-freezer-8a-cpu-cooler-acfre00161a",
+      "fan_rpm": "200 - 2300 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$19.98"
+    },
+    {
+      "name": "ENDORFY Fera 5",
+      "url": "https://pcpartpicker.com/product/DykH99/endorfy-fera-5-cpu-cooler-ey3a005",
+      "fan_rpm": "250 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$29.50"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 90 SE",
+      "url": "https://pcpartpicker.com/product/6DP8TW/thermalright-peerless-assassin-90-se-3277-cfm-cpu-cooler-pa90-se-white",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "23.85 dB",
+      "color": "White / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$30.29"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360 Atmos",
+      "url": "https://pcpartpicker.com/product/FgKscf/cooler-master-masterliquid-360-atmos-707-cfm-liquid-cpu-cooler-mlx-d36m-a25pz-r1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$125.74"
+    },
+    {
+      "name": "NZXT Kraken Elite 360 RGB",
+      "url": "https://pcpartpicker.com/product/3bKscf/nzxt-kraken-elite-360-rgb-7802-cfm-liquid-cpu-cooler-rl-kr36e-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "20",
+      "price": "$308.99"
+    },
+    {
+      "name": "Cooler Master I30",
+      "url": "https://pcpartpicker.com/product/JKFKHx/cooler-master-i30-31-cfm-cpu-cooler-rh-i30-26fk-r1",
+      "fan_rpm": "2600 RPM",
+      "noise_level": "28 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$12.99"
+    },
+    {
+      "name": "ENDORFY Spartan 5",
+      "url": "https://pcpartpicker.com/product/42GhP6/endorfy-spartan-5-cpu-cooler-ey3a001",
+      "fan_rpm": "250 - 1500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$16.50"
+    },
+    {
+      "name": "Thermalright Frozen Edge",
+      "url": "https://pcpartpicker.com/product/bMyH99/thermalright-frozen-edge-69-cfm-liquid-cpu-cooler-fe240-black",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "28.1 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "5",
+      "price": "$50.90"
+    },
+    {
+      "name": "Thermalright Wonder Vision 360 UB ARGB",
+      "url": "https://pcpartpicker.com/product/MRRnTW/thermalright-wonder-vision-360-ub-argb-69-cfm-liquid-cpu-cooler-wv360-ub-argb-w-d6",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$240.90"
+    },
+    {
+      "name": "Cooler Master MasterLiquid ML360 Illusion",
+      "url": "https://pcpartpicker.com/product/TyWzK8/cooler-master-masterliquid-ml360-illusion-472-cfm-liquid-cpu-cooler-mlx-d36m-a18p2-r1",
+      "fan_rpm": "650 - 1800 RPM",
+      "noise_level": "6 - 30 dB",
+      "color": "Black / Silver",
+      "radiator_size": "360 mm",
+      "rating": "9",
+      "price": "$92.99"
+    },
+    {
+      "name": "Scythe Fuma 3",
+      "url": "https://pcpartpicker.com/product/g7pQzy/scythe-fuma-3-6762-cfm-cpu-cooler-scfm-3000",
+      "fan_rpm": "200 - 1500 RPM",
+      "noise_level": "4 - 28.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "7",
+      "price": "$58.99"
+    },
+    {
+      "name": "NZXT Kraken Plus 240",
+      "url": "https://pcpartpicker.com/product/PyqNnQ/nzxt-kraken-plus-240-7347-cfm-liquid-cpu-cooler-rl-kn240-b2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$134.99"
+    },
+    {
+      "name": "be quiet! Pure Loop 2 FX",
+      "url": "https://pcpartpicker.com/product/6VkWGX/be-quiet-pure-loop-2-fx-liquid-cpu-cooler-bw013",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "8 - 32.3 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "9",
+      "price": "$113.94"
+    },
+    {
+      "name": "Thermalright AXP120-X67",
+      "url": "https://pcpartpicker.com/product/K2cG3C/thermalright-axp120-x67-59-cfm-cpu-cooler-axp120-x67",
+      "fan_rpm": "1800 RPM",
+      "noise_level": "26.1 dB",
+      "color": "Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$34.90"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE X II 360",
+      "url": "https://pcpartpicker.com/product/RqXV3C/gigabyte-aorus-waterforce-x-ii-360-72-cfm-liquid-cpu-cooler-aorus-waterforce-x-ii-360",
+      "fan_rpm": "800 - 2400 RPM",
+      "noise_level": "12 - 37.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$199.99"
+    },
+    {
+      "name": "Thermalright Grand Vision ARGB",
+      "url": "https://pcpartpicker.com/product/DvnXsY/thermalright-grand-vision-argb-69-cfm-liquid-cpu-cooler-grand-vision-360-argb-black",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "29.4 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$153.69"
+    },
+    {
+      "name": "MSI MAG CORELIQUID 240R V2",
+      "url": "https://pcpartpicker.com/product/dCcG3C/msi-mag-coreliquid-240r-v2-7873-cfm-liquid-cpu-cooler-mag-coreliquid-240r-v2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "14.3 - 34.3 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "9",
+      "price": "$124.99"
+    },
+    {
+      "name": "Lian Li Galahad II Trinity",
+      "url": "https://pcpartpicker.com/product/JLwmP6/lian-li-galahad-ii-trinity-799-cfm-liquid-cpu-cooler-ga2t36w",
+      "fan_rpm": "2450 RPM",
+      "noise_level": "35.4 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$169.99"
+    },
+    {
+      "name": "ARCTIC Alpine 23 CO",
+      "url": "https://pcpartpicker.com/product/wFt9TW/arctic-alpine-23-co-cpu-cooler-acalp00036a",
+      "fan_rpm": "100 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$17.99"
+    },
+    {
+      "name": "Asus ROG Ryujin 240 RGB AIO",
+      "url": "https://pcpartpicker.com/product/MxqhP6/asus-rog-ryujin-240-rgb-aio-1218-cfm-liquid-cpu-cooler-90rc0030-m0uay0",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "29.7 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$489.00"
+    },
+    {
+      "name": "Thermalright Trofeo Vision ARGB 360",
+      "url": "https://pcpartpicker.com/product/jCkqqs/thermalright-trofeo-vision-argb-360-69-cfm-liquid-cpu-cooler-trofeo-vision-360-argb-black",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$144.90"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 Digital EVO",
+      "url": "https://pcpartpicker.com/product/XNjv6h/thermalright-phantom-spirit-120-digital-evo-69-cfm-cpu-cooler-phantom-spirit-120-digital-evo",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$72.90"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240 Atmos",
+      "url": "https://pcpartpicker.com/product/QDfxFT/cooler-master-masterliquid-240-atmos-707-cfm-liquid-cpu-cooler-mlx-d24m-a25pz-r1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "12",
+      "price": "$124.99"
+    },
+    {
+      "name": "ID-COOLING FROSTFLOW X",
+      "url": "https://pcpartpicker.com/product/Lx3gXL/id-cooling-frostflow-x-768-cfm-liquid-cpu-cooler-frostflow-x-280",
+      "fan_rpm": "800 - 1600 RPM",
+      "noise_level": "16.8 - 32.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "280 mm",
+      "rating": "5",
+      "price": "$49.99"
+    },
+    {
+      "name": "be quiet! Pure Loop 3",
+      "url": "https://pcpartpicker.com/product/Jjh2FT/be-quiet-pure-loop-3-liquid-cpu-cooler-bw027",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "15.4 - 35.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$104.88"
+    },
+    {
+      "name": "ARCTIC Freezer 34 eSports DUO",
+      "url": "https://pcpartpicker.com/product/PnPKHx/arctic-freezer-34-esports-duo-cpu-cooler-acfre00061a",
+      "fan_rpm": "200 - 2100 RPM",
+      "noise_level": "24.4 dB",
+      "color": "White / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "64",
+      "price": "$99.00"
+    },
+    {
+      "name": "Thermalright Assassin X Refined SE PLUS",
+      "url": "https://pcpartpicker.com/product/BTpQzy/thermalright-assassin-x-refined-se-plus-6617-cfm-cpu-cooler-ax120r-se-plus-d6",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$24.79"
+    },
+    {
+      "name": "Thermalright AQUA ELITE ARGB V4",
+      "url": "https://pcpartpicker.com/product/Wb2j4D/thermalright-aqua-elite-argb-v4-6617-cfm-liquid-cpu-cooler-aqua-elite-240-white-argb-v4",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$43.99"
+    },
+    {
+      "name": "Noctua NH-L9a-AM4 chromax.black",
+      "url": "https://pcpartpicker.com/product/HZXYcf/noctua-nh-l9a-am4-chromaxblack-338-cfm-cpu-cooler-nh-l9a-am4-chromaxblack",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "26",
+      "price": "$68.95"
+    },
+    {
+      "name": "Noctua NH-D15S",
+      "url": "https://pcpartpicker.com/product/xCL7YJ/noctua-nh-d15s-8252-cfm-cpu-cooler-nh-d15s",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "92",
+      "price": "$119.95"
+    },
+    {
+      "name": "be quiet! Light Loop",
+      "url": "https://pcpartpicker.com/product/dN3NnQ/be-quiet-light-loop-liquid-cpu-cooler-bw023",
+      "fan_rpm": "1500 - 2900 RPM",
+      "noise_level": "17.2 - 36.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$190.43"
+    },
+    {
+      "name": "Asus TUF Gaming LC II ARGB",
+      "url": "https://pcpartpicker.com/product/ypWJ7P/asus-tuf-gaming-lc-ii-argb-67-cfm-liquid-cpu-cooler-tuf-gaming-lc-ii-360-argb",
+      "fan_rpm": "800 - 2000 RPM",
+      "noise_level": "29 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$213.99"
+    },
+    {
+      "name": "Noctua NH-D12L CHROMAX.BLACK",
+      "url": "https://pcpartpicker.com/product/Qd7scf/noctua-nh-d12l-chromaxblack-6009-cfm-cpu-cooler-nh-d12l-chromaxblack",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "18.8 - 22.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$131.95"
+    },
+    {
+      "name": "ID-COOLING IS-67-XT",
+      "url": "https://pcpartpicker.com/product/JjvD4D/id-cooling-is-67-xt-6758-cfm-cpu-cooler-is-67-xt-black",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "35.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$42.99"
+    },
+    {
+      "name": "be quiet! Pure Rock 3 LX",
+      "url": "https://pcpartpicker.com/product/QCdMnQ/be-quiet-pure-rock-3-lx-618-cfm-cpu-cooler-bk040",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "14 - 34.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$36.64"
+    },
+    {
+      "name": "Montech NX400 ARGB",
+      "url": "https://pcpartpicker.com/product/JvYfrH/montech-nx400-argb-8509-cfm-cpu-cooler-nx400argbb",
+      "fan_rpm": "8000 - 2000 RPM",
+      "noise_level": "34.17 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$29.90"
+    },
+    {
+      "name": "Thermalright Royal Pretor 130",
+      "url": "https://pcpartpicker.com/product/66cgXL/thermalright-royal-pretor-130-8188-cfm-cpu-cooler-royal-pretor-130",
+      "fan_rpm": "1750 RPM",
+      "noise_level": "28.3 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$51.39"
+    },
+    {
+      "name": "Cooler Master Elite",
+      "url": "https://pcpartpicker.com/product/RH7MnQ/cooler-master-elite-842-cfm-liquid-cpu-cooler-elw-d24m-a21da-rw",
+      "fan_rpm": "600 - 2100 RPM",
+      "noise_level": "39.5 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$87.78"
+    },
+    {
+      "name": "Thermaltake TH360 V2 ARGB Sync",
+      "url": "https://pcpartpicker.com/product/fxV2FT/thermaltake-th360-v2-argb-sync-5705-cfm-liquid-cpu-cooler-cl-w362-pl12sw-a",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "25.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$120.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A13",
+      "url": "https://pcpartpicker.com/product/p3zXsY/msi-mag-coreliquid-a13-626-cfm-liquid-cpu-cooler-mag-coreliquid-a13-240-white",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$68.08"
+    },
+    {
+      "name": "Thermalright Assassin Spirit 120 EVO WHITE ARGB",
+      "url": "https://pcpartpicker.com/product/r3kH99/thermalright-assassin-spirit-120-evo-white-argb-704-cfm-cpu-cooler-as120-evo-white-argb",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$27.90"
+    },
+    {
+      "name": "Thermalright AXP120-X67",
+      "url": "https://pcpartpicker.com/product/gQWzK8/thermalright-axp120-x67-59-cfm-cpu-cooler-axp120-x67-white-argb",
+      "fan_rpm": "1800 RPM",
+      "noise_level": "26.1 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "10",
+      "price": "$37.39"
+    },
+    {
+      "name": "Noctua NH-U14S",
+      "url": "https://pcpartpicker.com/product/DMjG3C/noctua-nh-u14s-8252-cfm-cpu-cooler-nh-u14s",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "69",
+      "price": "$89.95"
+    },
+    {
+      "name": "MSI MAG CORELIQUID A15",
+      "url": "https://pcpartpicker.com/product/bygZxr/msi-mag-coreliquid-a15-6489-cfm-liquid-cpu-cooler-mag-coreliquid-a15-240",
+      "fan_rpm": "500 - 2050 RPM",
+      "noise_level": "28.7 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$86.00"
+    },
+    {
+      "name": "Corsair iCUE LINK H150i RGB",
+      "url": "https://pcpartpicker.com/product/sGjRsY/corsair-icue-link-h150i-rgb-631-cfm-liquid-cpu-cooler-cw-9061003-ww",
+      "fan_rpm": "480 - 2400 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "7",
+      "price": "$242.99"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-S 360 CL",
+      "url": "https://pcpartpicker.com/product/dsgZxr/lian-li-hydroshift-ii-lcd-s-360-cl-727-cfm-liquid-cpu-cooler-ghs2lcds36cw",
+      "fan_rpm": "200 - 2100 RPM",
+      "noise_level": "30 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$192.99"
+    },
+    {
+      "name": "Noctua NH-L9i-17xx",
+      "url": "https://pcpartpicker.com/product/ffRYcf/noctua-nh-l9i-17xx-3384-cfm-cpu-cooler-nh-l9i-17xx",
+      "fan_rpm": "600 - 2500 RPM",
+      "noise_level": "14.8 - 23.6 dB",
+      "color": "Brown / Beige",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$50.95"
+    },
+    {
+      "name": "Thermalright Frozen Prism ARGB",
+      "url": "https://pcpartpicker.com/product/VnMMnQ/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-360-white-argb",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "15",
+      "price": "$57.39"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240 ATMOS Stealth",
+      "url": "https://pcpartpicker.com/product/sGLp99/cooler-master-masterliquid-240-atmos-stealth-752-cfm-liquid-cpu-cooler-mlx-d24m-a24pk-r1",
+      "fan_rpm": "1 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$129.99"
+    },
+    {
+      "name": "SAMA SM360 LCD",
+      "url": "https://pcpartpicker.com/product/LNKscf/sama-sm350-lcd-711-cfm-liquid-cpu-cooler-sm360-ld-white",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "35.5 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$114.99"
+    },
+    {
+      "name": "Montech HyperFlow Silent 360",
+      "url": "https://pcpartpicker.com/product/tGLp99/montech-hyperflow-silent-360-723-cfm-liquid-cpu-cooler-hyperflow-silent-360-white",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "24.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$102.98"
+    },
+    {
+      "name": "Corsair iCUE H100i RGB PRO XT",
+      "url": "https://pcpartpicker.com/product/B6pmP6/corsair-icue-h100i-rgb-pro-xt-75-cfm-liquid-cpu-cooler-cw-9060043-ww",
+      "fan_rpm": "2400 RPM",
+      "noise_level": "37 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "70",
+      "price": "$136.99"
+    },
+    {
+      "name": "Xilence A250PWM",
+      "url": "https://pcpartpicker.com/product/RWpQzy/xilence-a250pwm-495-cfm-cpu-cooler-xc035",
+      "fan_rpm": "1000 - 2800 RPM",
+      "noise_level": "17.8 - 32 dB",
+      "color": "Red / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$22.83"
+    },
+    {
+      "name": "EK Nucleus AIO CR360 Dark",
+      "url": "https://pcpartpicker.com/product/MrvD4D/ek-nucleus-aio-cr360-dark-72-cfm-liquid-cpu-cooler-3831109900178",
+      "fan_rpm": "550 - 2300 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$119.95"
+    },
+    {
+      "name": "Thermaltake Contact 9 SE",
+      "url": "https://pcpartpicker.com/product/ryddnQ/thermaltake-contact-9-se-3312-cfm-cpu-cooler-cl-p106-al09wt-a",
+      "fan_rpm": "800 - 2000 RPM",
+      "noise_level": "24.5 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$19.98"
+    },
+    {
+      "name": "Syba CL-CNL-EOLE802",
+      "url": "https://pcpartpicker.com/product/d8tCmG/syba-cpu-cooler-clcnleole802",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "25 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$11.94"
+    },
+    {
+      "name": "NZXT Kraken Core 360 RGB",
+      "url": "https://pcpartpicker.com/product/k8CCmG/nzxt-kraken-core-360-rgb-7505-cfm-liquid-cpu-cooler-rl-kr36c-b1",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$134.99"
+    },
+    {
+      "name": "Asus Prime LC 360 ARGB",
+      "url": "https://pcpartpicker.com/product/Y8Pv6h/asus-prime-lc-360-argb-7722-cfm-liquid-cpu-cooler-90rc0102-b0aay0",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "36.5 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$118.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 Digital ARGB",
+      "url": "https://pcpartpicker.com/product/YxcBD3/thermalright-peerless-assassin-120-digital-argb-8889-cfm-cpu-cooler-peerless-assassin-120-digital-argb-white",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$75.90"
+    },
+    {
+      "name": "Thermalright Aqua Elite ARGB V6",
+      "url": "https://pcpartpicker.com/product/rLjv6h/thermalright-aqua-elite-argb-v6-7084-cfm-liquid-cpu-cooler-aqua-elite-360-argb-white-v6",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$68.90"
+    },
+    {
+      "name": "Cooler Master Hyper 411 Nano",
+      "url": "https://pcpartpicker.com/product/kkGhP6/cooler-master-hyper-411-nano-4514-cfm-cpu-cooler-rr-h410-25pk-r1",
+      "fan_rpm": "650 - 2500 RPM",
+      "noise_level": "30.04 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$49.18"
+    },
+    {
+      "name": "NZXT Kraken Z73 RGB",
+      "url": "https://pcpartpicker.com/product/fXZ9TW/nzxt-kraken-z73-rgb-5244-cfm-liquid-cpu-cooler-rl-krz73-r1",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "22 - 33 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "7",
+      "price": "$597.36"
+    },
+    {
+      "name": "Scythe SHURIKEN 3",
+      "url": "https://pcpartpicker.com/product/RrxTwP/scythe-shuriken-3-3645-cfm-cpu-cooler-scsk-3000",
+      "fan_rpm": "300 - 2500 RPM",
+      "noise_level": "1.8 - 31.78 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$39.99"
+    },
+    {
+      "name": "be quiet! Silent Loop 2 360",
+      "url": "https://pcpartpicker.com/product/nx6p99/be-quiet-silent-loop-2-360-7333-cfm-liquid-cpu-cooler-bw012",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "17.7 - 39.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$659.00"
+    },
+    {
+      "name": "Thermalright Burst Assassin 120 SE",
+      "url": "https://pcpartpicker.com/product/43qrxr/thermalright-burst-assassin-120-se-6617-cfm-cpu-cooler-ba120-se",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$21.69"
+    },
+    {
+      "name": "NZXT Kraken Elite 280 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/KJ6NnQ/nzxt-kraken-elite-280-rgb-2024-9861-cfm-liquid-cpu-cooler-rl-kr28e-w2",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "34.5 dB",
+      "color": "White",
+      "radiator_size": "280 mm",
+      "rating": "2024",
+      "price": "$184.99"
+    },
+    {
+      "name": "Thermalright Frozen Warframe ULTRA ARGB",
+      "url": "https://pcpartpicker.com/product/27TFf7/thermalright-frozen-warframe-ultra-argb-7084-cfm-liquid-cpu-cooler-fw360-ultra-argb-white",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "22.1 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$112.90"
+    },
+    {
+      "name": "be quiet! Silent Loop 3",
+      "url": "https://pcpartpicker.com/product/ncTFf7/be-quiet-silent-loop-3-767-cfm-liquid-cpu-cooler-bw024",
+      "fan_rpm": "2500 RPM",
+      "noise_level": "18.7 - 36.9 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$134.90"
+    },
+    {
+      "name": "be quiet! Dark Rock Slim",
+      "url": "https://pcpartpicker.com/product/krxbt6/be-quiet-dark-rock-slim-cpu-cooler-bk024",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "11 - 23.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "29",
+      "price": "$59.90"
+    },
+    {
+      "name": "EK Nucleus AIO CR240 Dark",
+      "url": "https://pcpartpicker.com/product/wKXV3C/ek-nucleus-aio-cr240-dark-72-cfm-liquid-cpu-cooler-3831109900185",
+      "fan_rpm": "550 - 2300 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "9",
+      "price": "$114.99"
+    },
+    {
+      "name": "Asus ROG RYUO III 360 ARGB WHITE EDITION",
+      "url": "https://pcpartpicker.com/product/8rytt6/asus-rog-ryuo-iii-360-argb-white-edition-7007-cfm-liquid-cpu-cooler-rog-ryuo-iii-360-argb-white-edition",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "36.45 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$248.99"
+    },
+    {
+      "name": "Thermalright Royal Knight 120",
+      "url": "https://pcpartpicker.com/product/fhqNnQ/thermalright-royal-knight-120-8045-cfm-cpu-cooler-royal-knight-120",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "29.4 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$42.59"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 Digital SNOW",
+      "url": "https://pcpartpicker.com/product/h8vscf/thermalright-phantom-spirit-120-digital-snow-69-cfm-cpu-cooler-phantom-spirit-120-digital-snow",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$72.90"
+    },
+    {
+      "name": "Thermalright AQUA ELITE ARGB V4",
+      "url": "https://pcpartpicker.com/product/b8QwrH/thermalright-aqua-elite-argb-v4-6617-cfm-liquid-cpu-cooler-aqua-elite-240-argb-v4",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$45.49"
+    },
+    {
+      "name": "Noctua NH-P1",
+      "url": "https://pcpartpicker.com/product/TWBG3C/noctua-nh-p1-fanless-cpu-cooler-nh-p1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "0 dB",
+      "color": "Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$122.95"
+    },
+    {
+      "name": "Noctua NH-D12L",
+      "url": "https://pcpartpicker.com/product/MvGbt6/noctua-nh-d12l-6009-cfm-cpu-cooler-nh-d12l",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "18.8 - 22.6 dB",
+      "color": "Beige / Brown",
+      "radiator_size": "###### Radiator Size",
+      "rating": "11",
+      "price": "$110.95"
+    },
+    {
+      "name": "NZXT Kraken X73",
+      "url": "https://pcpartpicker.com/product/vfVG3C/nzxt-kraken-x73-7311-cfm-liquid-cpu-cooler-rl-krx73-01",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "21 - 36 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "52",
+      "price": "$147.97"
+    },
+    {
+      "name": "NZXT Kraken Z63",
+      "url": "https://pcpartpicker.com/product/Xbyqqs/nzxt-kraken-z63-9817-cfm-liquid-cpu-cooler-rl-krz63-01",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "21 - 38 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "58",
+      "price": "$203.98"
+    },
+    {
+      "name": "Corsair H100x",
+      "url": "https://pcpartpicker.com/product/8mJtt6/corsair-h100x-572-cfm-liquid-cpu-cooler-cw-9060040-ww",
+      "fan_rpm": "1700 RPM",
+      "noise_level": "37 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "16",
+      "price": "$139.00"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 120L Core",
+      "url": "https://pcpartpicker.com/product/wkZXsY/cooler-master-masterliquid-120l-core-7193-cfm-liquid-cpu-cooler-mlw-d12m-a17pk-r1",
+      "fan_rpm": "650 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "120 mm",
+      "rating": "2",
+      "price": "$83.98"
+    },
+    {
+      "name": "Vetroo V240",
+      "url": "https://pcpartpicker.com/product/qpnypg/vetroo-v240-52-cfm-liquid-cpu-cooler-vt-aio-v240-wt",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "30.8 dB",
+      "color": "White / Gray",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$60.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID E360",
+      "url": "https://pcpartpicker.com/product/xbV2FT/msi-mag-coreliquid-e360-7504-cfm-liquid-cpu-cooler-mag-coreliquid-e360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$119.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240L Core ARGB",
+      "url": "https://pcpartpicker.com/product/3LcgXL/cooler-master-masterliquid-240l-core-argb-liquid-cpu-cooler-mlw-d24m-a18pz-rw",
+      "fan_rpm": "350 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$64.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 SE V2",
+      "url": "https://pcpartpicker.com/product/F4nXsY/thermalright-peerless-assassin-120-se-v2-8889-cfm-cpu-cooler-peerless-assassin-120-se-v2",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "29.5 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$37.90"
+    },
+    {
+      "name": "Cooler Master Elite",
+      "url": "https://pcpartpicker.com/product/7Z9nTW/cooler-master-elite-842-cfm-liquid-cpu-cooler-elw-d36m-a21da-rw",
+      "fan_rpm": "600 - 2100 RPM",
+      "noise_level": "39.5 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$93.99"
+    },
+    {
+      "name": "ID-COOLING SE-224-XTS",
+      "url": "https://pcpartpicker.com/product/bh26Mp/id-cooling-se-224-xts-70-cfm-cpu-cooler-se-224-xts",
+      "fan_rpm": "600 - 1500 RPM",
+      "noise_level": "28.9 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$30.99"
+    },
+    {
+      "name": "Thermalright Burst Assassin 120 EVO DARK",
+      "url": "https://pcpartpicker.com/product/YT26Mp/thermalright-burst-assassin-120-evo-dark-6617-cfm-cpu-cooler-burst-assassin-120-evo-dark",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$30.39"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE II 360",
+      "url": "https://pcpartpicker.com/product/VLKscf/gigabyte-aorus-waterforce-ii-360-6495-cfm-liquid-cpu-cooler-aorus-waterforce-ii-360",
+      "fan_rpm": "800 - 2300 RPM",
+      "noise_level": "12.8 - 36.9 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$136.99"
+    },
+    {
+      "name": "ENDORFY Spartan 5 MAX",
+      "url": "https://pcpartpicker.com/product/nKQKHx/endorfy-spartan-5-max-cpu-cooler-ey3a003",
+      "fan_rpm": "250 - 1500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$20.00"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB",
+      "url": "https://pcpartpicker.com/product/mzHp99/arctic-liquid-freezer-iii-pro-a-rgb-110-cfm-liquid-cpu-cooler-acfre00183a",
+      "fan_rpm": "400 - 2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "2",
+      "price": "$114.49"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III Pro A-RGB",
+      "url": "https://pcpartpicker.com/product/Vcm2FT/arctic-liquid-freezer-iii-pro-a-rgb-110-cfm-liquid-cpu-cooler-acfre00189a",
+      "fan_rpm": "400 - 2500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "420 mm",
+      "rating": "0",
+      "price": "$133.99"
+    },
+    {
+      "name": "NZXT T120 RGB",
+      "url": "https://pcpartpicker.com/product/MXTp99/nzxt-t120-rgb-5018-cfm-cpu-cooler-rc-tr120-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.2 - 27.5 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$40.49"
+    },
+    {
+      "name": "Lian Li Hydroshift II LCD-S 360 CL",
+      "url": "https://pcpartpicker.com/product/yJZWGX/lian-li-hydroshift-ii-lcd-s-360-cl-727-cfm-liquid-cpu-cooler-ghs2lcds36cb",
+      "fan_rpm": "200 - 2100 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$208.99"
+    },
+    {
+      "name": "iBuypower AW4",
+      "url": "https://pcpartpicker.com/product/nHP8TW/ibuypower-aw4-65-cfm-liquid-cpu-cooler-fan-ibp-005-b-r",
+      "fan_rpm": "700 - 2000 RPM",
+      "noise_level": "38 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$99.99"
+    },
+    {
+      "name": "Thermalright Mjolnir Vision 360 ARGB",
+      "url": "https://pcpartpicker.com/product/3nxxFT/thermalright-mjolnir-vision-360-argb-69-cfm-liquid-cpu-cooler-mjolnir-vision-360-black-argb",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$115.59"
+    },
+    {
+      "name": "Thermalright Assassin X Refined SE RGB",
+      "url": "https://pcpartpicker.com/product/vHH7YJ/thermalright-assassin-x-refined-se-rgb-6617-cfm-cpu-cooler-ax120-se-argb-white-d2",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "16",
+      "price": "$18.36"
+    },
+    {
+      "name": "ID-COOLING FX360 INF",
+      "url": "https://pcpartpicker.com/product/Tk9nTW/id-cooling-fx360-inf-78-cfm-liquid-cpu-cooler-fx360-inf-pink",
+      "fan_rpm": "2900 RPM",
+      "noise_level": "25 dB",
+      "color": "Pink",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$75.48"
+    },
+    {
+      "name": "NZXT T120 RGB",
+      "url": "https://pcpartpicker.com/product/wDD7YJ/nzxt-t120-rgb-5018-cfm-cpu-cooler-rc-tr120-w1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.2 - 27.5 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "8",
+      "price": "$35.99"
+    },
+    {
+      "name": "Thermalright Frozen Infinity 240 ARGB",
+      "url": "https://pcpartpicker.com/product/qJcgXL/thermalright-frozen-infinity-240-argb-689-cfm-liquid-cpu-cooler-frozen-infinity-240-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "28.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$60.90"
+    },
+    {
+      "name": "Thermalright Frozen Prism ARGB",
+      "url": "https://pcpartpicker.com/product/Zcgrxr/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-240-black-argb",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "5",
+      "price": "$47.90"
+    },
+    {
+      "name": "Asus ProArt LC 360",
+      "url": "https://pcpartpicker.com/product/YMqrxr/asus-proart-lc-360-6899-cfm-liquid-cpu-cooler-proart-lc-360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "0 - 39.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$278.84"
+    },
+    {
+      "name": "ENDORFY Spartan 5 MAX ARGB",
+      "url": "https://pcpartpicker.com/product/NZCZxr/endorfy-spartan-5-max-argb-cpu-cooler-ey3a004",
+      "fan_rpm": "250 - 1500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$25.00"
+    },
+    {
+      "name": "Scythe Mugen 6 Dual Fan",
+      "url": "https://pcpartpicker.com/product/rV9wrH/scythe-mugen-6-dual-fan-6029-cfm-cpu-cooler-scmg-6000dbe",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "3 - 26.88 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$56.99"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 240 RX LCD",
+      "url": "https://pcpartpicker.com/product/zCBzK8/corsair-icue-link-titan-240-rx-lcd-735-cfm-liquid-cpu-cooler-cw-9061022-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$176.99"
+    },
+    {
+      "name": "Thermalright Frozen Prism",
+      "url": "https://pcpartpicker.com/product/99XV3C/thermalright-frozen-prism-704-cfm-liquid-cpu-cooler-frozen-prism-360-black",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$58.09"
+    },
+    {
+      "name": "Thermaltake UX200 SE ARGB",
+      "url": "https://pcpartpicker.com/product/LvsV3C/thermaltake-ux200-se-argb-6272-cfm-cpu-cooler-cl-p116-al12sw-a",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "25 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$31.99"
+    },
+    {
+      "name": "Asus ROG Ryujin III",
+      "url": "https://pcpartpicker.com/product/Gjn9TW/asus-rog-ryujin-iii-716-cfm-liquid-cpu-cooler-90rc00l0-m0uay0",
+      "fan_rpm": "450 - 2000 RPM",
+      "noise_level": "29.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$363.00"
+    },
+    {
+      "name": "Thermalright Core Vision ARGB",
+      "url": "https://pcpartpicker.com/product/6Rkqqs/thermalright-core-vision-argb-7237-cfm-liquid-cpu-cooler-core-vision-360-black-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$117.90"
+    },
+    {
+      "name": "NZXT Kraken Elite 240 RGB (2024)",
+      "url": "https://pcpartpicker.com/product/tx4Zxr/nzxt-kraken-elite-240-rgb-2024-7512-cfm-liquid-cpu-cooler-rl-kr24e-b2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2024",
+      "price": "$176.99"
+    },
+    {
+      "name": "ID-COOLING FROZN A620 BLACK",
+      "url": "https://pcpartpicker.com/product/7HbRsY/id-cooling-frozn-a620-black-7825-cfm-cpu-cooler-frozn-a620-black",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "29.85 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$41.99"
+    },
+    {
+      "name": "Asus TUF Gaming LC III ARGB LCD",
+      "url": "https://pcpartpicker.com/product/Mm7MnQ/asus-tuf-gaming-lc-iii-argb-9078-cfm-liquid-cpu-cooler-tuf-gaming-lc-iii-360-argb-lcd",
+      "fan_rpm": "650 - 2600 RPM",
+      "noise_level": "37.4 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$223.29"
+    },
+    {
+      "name": "ENDORFY Spartan 5 ARGB",
+      "url": "https://pcpartpicker.com/product/fCP8TW/endorfy-spartan-5-argb-cpu-cooler-ey3a002",
+      "fan_rpm": "250 - 1500 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$23.00"
+    },
+    {
+      "name": "Thermalright Frozen Warframe ULTRA ARGB",
+      "url": "https://pcpartpicker.com/product/rV7MnQ/thermalright-frozen-warframe-ultra-argb-7084-cfm-liquid-cpu-cooler-fw360-ultra-argb-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "22.1 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$108.90"
+    },
+    {
+      "name": "Thermalright Trofeo Vision ARGB 360",
+      "url": "https://pcpartpicker.com/product/zR62FT/thermalright-trofeo-vision-argb-360-69-cfm-liquid-cpu-cooler-trofeo-vision-360-argb-white",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$165.90"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer II 280 A-RGB",
+      "url": "https://pcpartpicker.com/product/HZvdnQ/arctic-liquid-freezer-ii-280-a-rgb-689-cfm-liquid-cpu-cooler-acfre00106a",
+      "fan_rpm": "200 - 1900 RPM",
+      "noise_level": "22.5 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "18",
+      "price": "$113.99"
+    },
+    {
+      "name": "ARCTIC Alpine 17",
+      "url": "https://pcpartpicker.com/product/YRWzK8/arctic-alpine-17-cpu-cooler-acalp00040a",
+      "fan_rpm": "100 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$13.99"
+    },
+    {
+      "name": "Corsair iCUE H150i RGB PRO XT",
+      "url": "https://pcpartpicker.com/product/Fnyqqs/corsair-icue-h150i-rgb-pro-xt-75-cfm-liquid-cpu-cooler-cw-9060045-ww",
+      "fan_rpm": "2400 RPM",
+      "noise_level": "37 dB",
+      "color": "Black / White",
+      "radiator_size": "360 mm",
+      "rating": "25",
+      "price": "$163.98"
+    },
+    {
+      "name": "MSI MPG CORELIQUID D360",
+      "url": "https://pcpartpicker.com/product/sPNYcf/msi-mpg-coreliquid-d360-774-cfm-liquid-cpu-cooler-mpg-coreliquid-d360",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$1111.87"
+    },
+    {
+      "name": "Noctua NH-D9L chromax.black",
+      "url": "https://pcpartpicker.com/product/KQMMnQ/noctua-nh-d9l-chromaxblack-4644-cfm-cpu-cooler-nh-d9l-chromaxblack",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "16.3 - 22.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$87.95"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE II 240",
+      "url": "https://pcpartpicker.com/product/76jRsY/gigabyte-aorus-waterforce-ii-240-6495-cfm-liquid-cpu-cooler-aorus-waterforce-ii-240",
+      "fan_rpm": "800 - 2300 RPM",
+      "noise_level": "12.8 - 36.9 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$82.99"
+    },
+    {
+      "name": "Vetroo V360",
+      "url": "https://pcpartpicker.com/product/n9mmP6/vetroo-v360-52-cfm-liquid-cpu-cooler-vt-aio-v360-bk",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "30.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$69.88"
+    },
+    {
+      "name": "Asus ROG STRIX LC II ARGB",
+      "url": "https://pcpartpicker.com/product/q2D7YJ/asus-rog-strix-lc-ii-argb-8095-cfm-liquid-cpu-cooler-rog-strix-lc-ii-240-argb-white-edition",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "37.6 dB",
+      "color": "White / Black",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$109.99"
+    },
+    {
+      "name": "Thermalright Core Vision ARGB",
+      "url": "https://pcpartpicker.com/product/b8MXsY/thermalright-core-vision-argb-7237-cfm-liquid-cpu-cooler-core-vision-360-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$85.39"
+    },
+    {
+      "name": "Asus Prime LC 240 ARGB",
+      "url": "https://pcpartpicker.com/product/sd3NnQ/asus-prime-lc-240-argb-757-cfm-liquid-cpu-cooler-prime-lc-240-argb",
+      "fan_rpm": "600 - 2200 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$100.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240 Core II",
+      "url": "https://pcpartpicker.com/product/XgwD4D/cooler-master-masterliquid-240-core-ii-707-cfm-liquid-cpu-cooler-mlw-d24m-a18pa-r1",
+      "fan_rpm": "600 - 1750 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$109.52"
+    },
+    {
+      "name": "be quiet! Pure Rock 2 Black",
+      "url": "https://pcpartpicker.com/product/TyBhP6/be-quiet-pure-rock-2-black-cpu-cooler-bk007",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "19.1 - 26.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "49",
+      "price": "$149.98"
+    },
+    {
+      "name": "Lian Li GALAHAD AIO 240 RGB UNI FAN SL120 EDITION",
+      "url": "https://pcpartpicker.com/product/wXddnQ/lian-li-galahad-aio-240-rgb-uni-fan-sl120-edition-5854-cfm-liquid-cpu-cooler-ga-240slb",
+      "fan_rpm": "800 - 1900 RPM",
+      "noise_level": "32 dB",
+      "color": "Black / Silver",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$284.58"
+    },
+    {
+      "name": "be quiet! Pure Loop 3 LX",
+      "url": "https://pcpartpicker.com/product/py9nTW/be-quiet-pure-loop-3-lx-liquid-cpu-cooler-bw031",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "17.3 - 36.9 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$109.89"
+    },
+    {
+      "name": "Thermalright Stream Vision",
+      "url": "https://pcpartpicker.com/product/rmJBD3/thermalright-stream-vision-954-cfm-liquid-cpu-cooler-stream-vision-360-black",
+      "fan_rpm": "2400 RPM",
+      "noise_level": "31.4 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$118.90"
+    },
+    {
+      "name": "Thermalright Royal Pretor 130 Ultra",
+      "url": "https://pcpartpicker.com/product/WfCCmG/thermalright-royal-pretor-130-ultra-8188-cfm-cpu-cooler-royal-pretor-130-ultra-black",
+      "fan_rpm": "1750 RPM",
+      "noise_level": "28.3 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$50.31"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 Digital",
+      "url": "https://pcpartpicker.com/product/BK3WGX/thermalright-peerless-assassin-120-digital-8889-cfm-cpu-cooler-peerless-assassin-120-digital-black",
+      "fan_rpm": "1850 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$49.59"
+    },
+    {
+      "name": "NZXT T120",
+      "url": "https://pcpartpicker.com/product/Lpytt6/nzxt-t120-7802-cfm-cpu-cooler-rc-tn120-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$41.99"
+    },
+    {
+      "name": "Montech HyperFlow ARGB 240",
+      "url": "https://pcpartpicker.com/product/VmtLrH/montech-hyperflow-argb-240-762-cfm-liquid-cpu-cooler-hyperflow-argb-240-black",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "29.1 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$108.99"
+    },
+    {
+      "name": "Montech NX400",
+      "url": "https://pcpartpicker.com/product/d4jv6h/montech-nx400-8509-cfm-cpu-cooler-nx400b",
+      "fan_rpm": "8000 - 2000 RPM",
+      "noise_level": "34.17 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$29.90"
+    },
+    {
+      "name": "be quiet! Pure Rock Pro 3",
+      "url": "https://pcpartpicker.com/product/RN62FT/be-quiet-pure-rock-pro-3-596-cfm-cpu-cooler-bk041",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "14 - 34.8 dB",
+      "color": "Silver / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$49.89"
+    },
+    {
+      "name": "Cooler Master Hyper 612 APEX",
+      "url": "https://pcpartpicker.com/product/JJMXsY/cooler-master-hyper-612-apex-752-cfm-cpu-cooler-map-t6pn-225pk-r1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$58.49"
+    },
+    {
+      "name": "NZXT Kraken 360 RGB",
+      "url": "https://pcpartpicker.com/product/HNcgXL/nzxt-kraken-360-rgb-7802-cfm-liquid-cpu-cooler-rl-kr360-w1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "10",
+      "price": "$219.99"
+    },
+    {
+      "name": "be quiet! Pure Loop 3",
+      "url": "https://pcpartpicker.com/product/vgh2FT/be-quiet-pure-loop-3-liquid-cpu-cooler-bw028",
+      "fan_rpm": "1800 RPM",
+      "noise_level": "16.5 - 36.6 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "0",
+      "price": "$94.89"
+    },
+    {
+      "name": "SAMA SM360 LCD",
+      "url": "https://pcpartpicker.com/product/NVMMnQ/sama-sm350-lcd-711-cfm-liquid-cpu-cooler-sm360ld-black",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "35.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$119.99"
+    },
+    {
+      "name": "Cooler Master Elite",
+      "url": "https://pcpartpicker.com/product/3ddMnQ/cooler-master-elite-842-cfm-liquid-cpu-cooler-elw-d24m-a21da-r1",
+      "fan_rpm": "600 - 2100 RPM",
+      "noise_level": "39.5 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$65.00"
+    },
+    {
+      "name": "MSI MPG CORELIQUID P13",
+      "url": "https://pcpartpicker.com/product/VFy8TW/msi-mpg-coreliquid-p13-64898-cfm-liquid-cpu-cooler-mpg-coreliquid-p13-360",
+      "fan_rpm": "500 - 2050 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$166.99"
+    },
+    {
+      "name": "Thermalright Burst Assassin",
+      "url": "https://pcpartpicker.com/product/GWpzK8/thermalright-burst-assassin-6617-cfm-cpu-cooler-ba120",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Gray / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "6",
+      "price": "$23.89"
+    },
+    {
+      "name": "APNX AP1-V",
+      "url": "https://pcpartpicker.com/product/CzGhP6/apnx-ap1-v-763-cfm-cpu-cooler-ap1-5pipe-argb-bk",
+      "fan_rpm": "600 - 1800 RPM",
+      "noise_level": "16.1 - 32.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$19.98"
+    },
+    {
+      "name": "Thermaltake TH240 V2 ARGB Sync",
+      "url": "https://pcpartpicker.com/product/4Zqrxr/thermaltake-th240-v2-argb-sync-5705-cfm-liquid-cpu-cooler-cl-w361-pl12sw-a",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "25.8 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "6",
+      "price": "$76.99"
+    },
+    {
+      "name": "ID-COOLING FX360 INF",
+      "url": "https://pcpartpicker.com/product/PC26Mp/id-cooling-fx360-inf-58-cfm-liquid-cpu-cooler-fx360-inf-white",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "27.2 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$83.98"
+    },
+    {
+      "name": "ENDORFY Fera 5 Dual Fan",
+      "url": "https://pcpartpicker.com/product/Ccqrxr/endorfy-fera-5-dual-fan-cpu-cooler-ey3a006",
+      "fan_rpm": "250 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$34.50"
+    },
+    {
+      "name": "Xilence I200",
+      "url": "https://pcpartpicker.com/product/QHHqqs/xilence-i200-409-cfm-cpu-cooler-xc030",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "25 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$12.80"
+    },
+    {
+      "name": "Gigabyte GAMING 360",
+      "url": "https://pcpartpicker.com/product/mfm2FT/gigabyte-gaming-360-6161-cfm-liquid-cpu-cooler-gp-gigabyte-gme-360",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "13.8 - 35.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$126.99"
+    },
+    {
+      "name": "Phanteks Glacier One D30 X2",
+      "url": "https://pcpartpicker.com/product/K8jv6h/phanteks-glacier-one-d30-x2-7272-cfm-liquid-cpu-cooler-ph-go360d30_dbk02",
+      "fan_rpm": "250 - 2000 RPM",
+      "noise_level": "35.13 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$160.99"
+    },
+    {
+      "name": "Asus ROG Ryujin III ARGB",
+      "url": "https://pcpartpicker.com/product/M3wmP6/asus-rog-ryujin-iii-argb-7007-cfm-liquid-cpu-cooler-90rc00k1-m0uay0",
+      "fan_rpm": "600 - 2200 RPM",
+      "noise_level": "36.45 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$232.99"
+    },
+    {
+      "name": "Thermalright Frozen Warframe 240 SE ARGB",
+      "url": "https://pcpartpicker.com/product/qYLp99/thermalright-frozen-warframe-240-se-argb-7084-cfm-liquid-cpu-cooler-frozen-warframe-240-se-argb-white",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$68.19"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360 ATMOS Stealth",
+      "url": "https://pcpartpicker.com/product/yC62FT/cooler-master-masterliquid-360-atmos-stealth-752-cfm-liquid-cpu-cooler-mlx-d36m-a24pk-r1",
+      "fan_rpm": "1 - 2400 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$141.39"
+    },
+    {
+      "name": "Jonsbo CR-1400 EVO ARGB Black",
+      "url": "https://pcpartpicker.com/product/sGbRsY/jonsbo-cr-1400-evo-argb-black-382-cfm-cpu-cooler-cr-1400-evo-argb-black",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "22.3 - 33.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$30.50"
+    },
+    {
+      "name": "Thermalright Core Vision ARGB",
+      "url": "https://pcpartpicker.com/product/jp8Pxr/thermalright-core-vision-argb-7237-cfm-liquid-cpu-cooler-core-vision-360-white-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "3",
+      "price": "$113.90"
+    },
+    {
+      "name": "MSI MAG CORELIQUID M360",
+      "url": "https://pcpartpicker.com/product/FCDQzy/msi-mag-coreliquid-m360-7823-cfm-liquid-cpu-cooler-mag-coreliquid-m360",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "14.3 - 34.3 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$175.68"
+    },
+    {
+      "name": "Cooler Master Hyper 620S",
+      "url": "https://pcpartpicker.com/product/WzZXsY/cooler-master-hyper-620s-7193-cfm-cpu-cooler-rr-d6na-17pa-r1",
+      "fan_rpm": "350 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$44.45"
+    },
+    {
+      "name": "ID-COOLING FROZN A400 BLACK",
+      "url": "https://pcpartpicker.com/product/hdcgXL/id-cooling-frozn-a400-black-458-cfm-cpu-cooler-frozn-a400-black",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "25.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$27.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 120 White ARGB",
+      "url": "https://pcpartpicker.com/product/fWKKHx/thermalright-peerless-assassin-120-white-argb-6617-cfm-cpu-cooler-pa120-white-argb-a",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$42.59"
+    },
+    {
+      "name": "Geometric Future Eskimo Pro 36",
+      "url": "https://pcpartpicker.com/product/mMP8TW/geometric-future-eskimo-pro-36-8081-cfm-liquid-cpu-cooler-geo-ep-36b",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "34.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$79.90"
+    },
+    {
+      "name": "Cooler Master Hyper 212 3DHP ARGB",
+      "url": "https://pcpartpicker.com/product/cKbypg/cooler-master-hyper-212-3dhp-argb-631-cfm-cpu-cooler-may-t2hp-217pa-r1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "22.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$29.99"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III 360 A-RGB",
+      "url": "https://pcpartpicker.com/product/cdP8TW/arctic-liquid-freezer-iii-360-a-rgb-4882-cfm-liquid-cpu-cooler-acfre00152a",
+      "fan_rpm": "200 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "26",
+      "price": "$191.56"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer II 420",
+      "url": "https://pcpartpicker.com/product/bVMTwP/arctic-liquid-freezer-ii-420-728-cfm-liquid-cpu-cooler-acfre00092a",
+      "fan_rpm": "200 - 1700 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "12",
+      "price": "$279.12"
+    },
+    {
+      "name": "Thermalright Frozen Infinity 240 ARGB",
+      "url": "https://pcpartpicker.com/product/KL3NnQ/thermalright-frozen-infinity-240-argb-689-cfm-liquid-cpu-cooler-frozen-infinity-240-white",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "28.2 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$49.90"
+    },
+    {
+      "name": "ID-COOLING FX240 INF",
+      "url": "https://pcpartpicker.com/product/BBjv6h/id-cooling-fx240-inf-78-cfm-liquid-cpu-cooler-fx240-inf-pink",
+      "fan_rpm": "2900 RPM",
+      "noise_level": "25 dB",
+      "color": "Pink",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$72.99"
+    },
+    {
+      "name": "Thermalright Hyper Vision UB ARGB",
+      "url": "https://pcpartpicker.com/product/NV62FT/thermalright-hyper-vision-ub-argb-69-cfm-liquid-cpu-cooler-hyper-vision-360-ub-argb-black",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "27 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$120.90"
+    },
+    {
+      "name": "Lian Li Galahad II Lite Performance",
+      "url": "https://pcpartpicker.com/product/Xn62FT/lian-li-galahad-ii-lite-performance-7314-cfm-liquid-cpu-cooler-ga2l24pb",
+      "fan_rpm": "200 - 2500 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$81.99"
+    },
+    {
+      "name": "Noctua NH-U14S TR4-SP3",
+      "url": "https://pcpartpicker.com/product/nCNypg/noctua-nh-u14s-tr4-sp3-8252-cfm-cpu-cooler-nh-u14s-tr4-sp3",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "6",
+      "price": "$124.95"
+    },
+    {
+      "name": "Thermalright AXP90-X47",
+      "url": "https://pcpartpicker.com/product/VmTp99/thermalright-axp90-x47-4258-cfm-cpu-cooler-axp90-x47",
+      "fan_rpm": "2700 RPM",
+      "noise_level": "22.4 dB",
+      "color": "Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$21.90"
+    },
+    {
+      "name": "Montech LightFlow ARGB",
+      "url": "https://pcpartpicker.com/product/gZDnTW/montech-lightflow-argb-7873-cfm-liquid-cpu-cooler-lightflow-argb-360-black",
+      "fan_rpm": "600 - 2000 RPM",
+      "noise_level": "34.3 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$71.98"
+    },
+    {
+      "name": "MSI MAG CORELIQUID E240 WHITE",
+      "url": "https://pcpartpicker.com/product/849wrH/msi-mag-coreliquid-e240-white-7504-cfm-liquid-cpu-cooler-mag-coreliquid-e240-white",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "3",
+      "price": "$109.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID I360",
+      "url": "https://pcpartpicker.com/product/JCNYcf/msi-mag-coreliquid-i360-707-cfm-liquid-cpu-cooler-mag-coreliquid-i360-white",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$132.99"
+    },
+    {
+      "name": "HYTE THICC Q60",
+      "url": "https://pcpartpicker.com/product/qrCZxr/hyte-thicc-q60-1058-cfm-liquid-cpu-cooler-fan-hyte-q60-bw",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "10 - 47.3 dB",
+      "color": "White / Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$304.99"
+    },
+    {
+      "name": "Gelid Solutions BlackFrore",
+      "url": "https://pcpartpicker.com/product/gGjRsY/gelid-solutions-blackfrore-379-cfm-cpu-cooler-cc-blackfrore-01-a",
+      "fan_rpm": "900 - 2000 RPM",
+      "noise_level": "20 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$30.99"
+    },
+    {
+      "name": "Ocypus Delta A40 ARGB",
+      "url": "https://pcpartpicker.com/product/zxLdnQ/ocypus-delta-a40-argb-73-cfm-cpu-cooler-delta-a40-bk-argb",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "29 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$23.99"
+    },
+    {
+      "name": "NZXT Kraken M22",
+      "url": "https://pcpartpicker.com/product/fmx2FT/nzxt-kraken-m22-liquid-cpu-cooler-rl-krm22-01",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "21 - 36 dB",
+      "color": "Black",
+      "radiator_size": "120 mm",
+      "rating": "49",
+      "price": "$76.99"
+    },
+    {
+      "name": "Vetroo V5",
+      "url": "https://pcpartpicker.com/product/jZYmP6/vetroo-v5-52-cfm-cpu-cooler-vt-cpu-v5-pk",
+      "fan_rpm": "800 - 1700 RPM",
+      "noise_level": "30.8 dB",
+      "color": "Pink",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$34.99"
+    },
+    {
+      "name": "Asus ROG RYUO III 360 ARGB",
+      "url": "https://pcpartpicker.com/product/mrytt6/asus-rog-ryuo-iii-360-argb-7007-cfm-liquid-cpu-cooler-rog-ryuo-iii-360-argb",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "36.45 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$199.99"
+    },
+    {
+      "name": "NZXT Kraken Core 240 RGB",
+      "url": "https://pcpartpicker.com/product/xtRnTW/nzxt-kraken-core-240-rgb-7505-cfm-liquid-cpu-cooler-rl-kr24c-b1",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$92.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 360 Core II",
+      "url": "https://pcpartpicker.com/product/pq4Pxr/cooler-master-masterliquid-360-core-ii-707-cfm-liquid-cpu-cooler-mlw-d36m-a18pa-rw",
+      "fan_rpm": "600 - 1750 RPM",
+      "noise_level": "30 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$101.07"
+    },
+    {
+      "name": "NZXT Kraken Elite 240 RGB",
+      "url": "https://pcpartpicker.com/product/d6rqqs/nzxt-kraken-elite-240-rgb-7802-cfm-liquid-cpu-cooler-rl-kr24e-w1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "14",
+      "price": "$307.99"
+    },
+    {
+      "name": "Thermalright Assassin King SE",
+      "url": "https://pcpartpicker.com/product/RkC48d/thermalright-assassin-king-se-6617-cfm-cpu-cooler-ak120-se-d6",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Silver / Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$22.29"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 240 RX RGB",
+      "url": "https://pcpartpicker.com/product/4LzXsY/corsair-icue-link-titan-240-rx-rgb-735-cfm-liquid-cpu-cooler-cw-9061020-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$134.99"
+    },
+    {
+      "name": "Razer Hanbo Chroma",
+      "url": "https://pcpartpicker.com/product/GPNxFT/razer-hanbo-chroma-liquid-cpu-cooler-rc21-01770200-r3m1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$109.25"
+    },
+    {
+      "name": "Thermalright Aqua Elite ARGB V6",
+      "url": "https://pcpartpicker.com/product/xNWmP6/thermalright-aqua-elite-argb-v6-7084-cfm-liquid-cpu-cooler-aqua-elite-240-argb-white-v6",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$47.90"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer II 420 A-RGB",
+      "url": "https://pcpartpicker.com/product/83vdnQ/arctic-liquid-freezer-ii-420-a-rgb-689-cfm-liquid-cpu-cooler-acfre00109a",
+      "fan_rpm": "200 - 1900 RPM",
+      "noise_level": "22.5 dB",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "8",
+      "price": "$119.84"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240L Core",
+      "url": "https://pcpartpicker.com/product/DkZXsY/cooler-master-masterliquid-240l-core-7193-cfm-liquid-cpu-cooler-mlw-d24m-a17pk-r1",
+      "fan_rpm": "650 - 1750 RPM",
+      "noise_level": "27.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$136.61"
+    },
+    {
+      "name": "MSI MPG CORELIQUID P13",
+      "url": "https://pcpartpicker.com/product/mCvscf/msi-mpg-coreliquid-p13-64898-cfm-liquid-cpu-cooler-mpg-coreliquid-p13-360-white",
+      "fan_rpm": "500 - 2050 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$181.99"
+    },
+    {
+      "name": "Thermalright Grand Vision ARGB",
+      "url": "https://pcpartpicker.com/product/MHh2FT/thermalright-grand-vision-argb-69-cfm-liquid-cpu-cooler-grand-vision-360-argb-white",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "29.4 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$127.52"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Black X Duo",
+      "url": "https://pcpartpicker.com/product/kCbypg/cooler-master-hyper-212-black-x-duo-707-cfm-cpu-cooler-rr-s4kk-25dn-r1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "32.8 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$81.88"
+    },
+    {
+      "name": "DARKROCK AC400",
+      "url": "https://pcpartpicker.com/product/ppMXsY/darkrock-ac400-cpu-cooler-ac400",
+      "fan_rpm": "700 - 1800 RPM",
+      "noise_level": "22.3 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$16.98"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 280 RX RGB",
+      "url": "https://pcpartpicker.com/product/NbBzK8/corsair-icue-link-titan-280-rx-rgb-947-cfm-liquid-cpu-cooler-cw-9061017-ww",
+      "fan_rpm": "300 - 1700 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "0",
+      "price": "$179.99"
+    },
+    {
+      "name": "NZXT Kraken Plus 240 RGB",
+      "url": "https://pcpartpicker.com/product/vwkqqs/nzxt-kraken-plus-240-rgb-7505-cfm-liquid-cpu-cooler-rl-kr240-w2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$145.99"
+    },
+    {
+      "name": "Fractal Design Lumen S24 RGB V2",
+      "url": "https://pcpartpicker.com/product/dgXV3C/fractal-design-lumen-s24-rgb-v2-56-cfm-liquid-cpu-cooler-fd-w-l1-s2412",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "10 - 33.2 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "6",
+      "price": "$127.00"
+    },
+    {
+      "name": "Thermaltake TH120 V2 ARGB Sync",
+      "url": "https://pcpartpicker.com/product/YRqrxr/thermaltake-th120-v2-argb-sync-5705-cfm-liquid-cpu-cooler-cl-w360-pl12sw-a",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "25.8 dB",
+      "color": "Black",
+      "radiator_size": "120 mm",
+      "rating": "2",
+      "price": "$59.99"
+    },
+    {
+      "name": "Vetroo V5",
+      "url": "https://pcpartpicker.com/product/sMTp99/vetroo-v5-52-cfm-cpu-cooler-vt-cpu-v5-wt",
+      "fan_rpm": "800 - 1700 RPM",
+      "noise_level": "30.8 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "15",
+      "price": "$27.99"
+    },
+    {
+      "name": "Corsair NAUTILUS 240 RS LCD",
+      "url": "https://pcpartpicker.com/product/MgpD4D/corsair-nautilus-240-rs-lcd-728-cfm-liquid-cpu-cooler-cw-9061032-ww",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$139.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin",
+      "url": "https://pcpartpicker.com/product/CwqPxr/thermalright-peerless-assassin-6617-cfm-cpu-cooler-peerless-assassin-120",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "11",
+      "price": "$37.90"
+    },
+    {
+      "name": "Thermalright Phantom Spirit 120 Vision SNOW",
+      "url": "https://pcpartpicker.com/product/hwZWGX/thermalright-phantom-spirit-120-vision-snow-92-cfm-cpu-cooler-phantom-spirit-120-vision-snow",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "36 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$115.59"
+    },
+    {
+      "name": "Montech LightFlow ARGB",
+      "url": "https://pcpartpicker.com/product/qNjv6h/montech-lightflow-argb-7873-cfm-liquid-cpu-cooler-lightflow-argb-360-white",
+      "fan_rpm": "600 - 2000 RPM",
+      "noise_level": "34.3 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$72.90"
+    },
+    {
+      "name": "NZXT Kraken Z63 RGB",
+      "url": "https://pcpartpicker.com/product/YvYmP6/nzxt-kraken-z63-rgb-9119-cfm-liquid-cpu-cooler-rl-krz63-r1",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "22 - 33 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "3",
+      "price": "$349.79"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 140 Digital",
+      "url": "https://pcpartpicker.com/product/RRy8TW/thermalright-peerless-assassin-140-digital-778-cfm-cpu-cooler-peerless-assassin-140-digital-black",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$68.09"
+    },
+    {
+      "name": "Corsair A115",
+      "url": "https://pcpartpicker.com/product/xxQKHx/corsair-a115-845-cfm-cpu-cooler-ct-9010011-ww",
+      "fan_rpm": "400 - 1600 RPM",
+      "noise_level": "5 - 33.9 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$182.86"
+    },
+    {
+      "name": "Fractal Design Lumen S28 RGB V2",
+      "url": "https://pcpartpicker.com/product/gvKscf/fractal-design-lumen-s28-rgb-v2-78-cfm-liquid-cpu-cooler-fd-w-l1-s2812",
+      "fan_rpm": "500 - 1700 RPM",
+      "noise_level": "10 - 35.5 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "1",
+      "price": "$141.00"
+    },
+    {
+      "name": "ARCTIC Freezer 8A CO",
+      "url": "https://pcpartpicker.com/product/4dG2FT/arctic-freezer-8a-co-cpu-cooler-acfre00162a",
+      "fan_rpm": "200 - 2300 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$62.25"
+    },
+    {
+      "name": "NZXT Kraken Plus 240 RGB",
+      "url": "https://pcpartpicker.com/product/JCFCmG/nzxt-kraken-plus-240-rgb-7505-cfm-liquid-cpu-cooler-rl-kr240-b2",
+      "fan_rpm": "500 - 2400 RPM",
+      "noise_level": "31.9 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$172.99"
+    },
+    {
+      "name": "ARCTIC Freezer 36 CO",
+      "url": "https://pcpartpicker.com/product/MV9wrH/arctic-freezer-36-co-cpu-cooler-acfre00122a",
+      "fan_rpm": "200 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$46.35"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE X II 360 ICE",
+      "url": "https://pcpartpicker.com/product/9Rhv6h/gigabyte-aorus-waterforce-x-ii-360-ice-72-cfm-liquid-cpu-cooler-aorus-waterforce-x-ii-360-ice",
+      "fan_rpm": "800 - 2400 RPM",
+      "noise_level": "12 - 37.5 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$250.99"
+    },
+    {
+      "name": "EK EK-Nucleus AIO CR360 Lux D-RGB",
+      "url": "https://pcpartpicker.com/product/LRzXsY/ek-ek-nucleus-aio-cr360-lux-d-rgb-72-cfm-liquid-cpu-cooler-ek-nucleus-aio-cr360-lux-d-rgb-white",
+      "fan_rpm": "550 - 2300 RPM",
+      "noise_level": "36 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$216.99"
+    },
+    {
+      "name": "Corsair iCUE LINK H100i LCD",
+      "url": "https://pcpartpicker.com/product/YZrqqs/corsair-icue-link-h100i-lcd-631-cfm-liquid-cpu-cooler-cw-9061007-ww",
+      "fan_rpm": "480 - 2400 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "4",
+      "price": "$222.99"
+    },
+    {
+      "name": "Asus Prime LC 360 ARGB LCD",
+      "url": "https://pcpartpicker.com/product/Zjvscf/asus-prime-lc-360-argb-lcd-7722-cfm-liquid-cpu-cooler-90rc00z1-b0aay0",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "36.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$188.99"
+    },
+    {
+      "name": "Noctua NH-L12 Ghost S1",
+      "url": "https://pcpartpicker.com/product/bq848d/noctua-nh-l12-ghost-s1-378-cfm-cpu-cooler-nh-l12-ghost-s1",
+      "fan_rpm": "300 - 1600 RPM",
+      "noise_level": "13.1 - 17.6 dB",
+      "color": "Silver / Beige",
+      "radiator_size": "###### Radiator Size",
+      "rating": "8",
+      "price": "$89.95"
+    },
+    {
+      "name": "Montech HyperFlow Silent 240",
+      "url": "https://pcpartpicker.com/product/hH2j4D/montech-hyperflow-silent-240-723-cfm-liquid-cpu-cooler-hyperflow-silent-240-black",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "24.8 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$86.90"
+    },
+    {
+      "name": "Thermalright Royal Pretor 130 BLACK",
+      "url": "https://pcpartpicker.com/product/KhgZxr/thermalright-royal-pretor-130-black-8188-cfm-cpu-cooler-royal-pretor-130-black",
+      "fan_rpm": "1750 RPM",
+      "noise_level": "28.3 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$59.69"
+    },
+    {
+      "name": "Lian Li Galahad II LCD",
+      "url": "https://pcpartpicker.com/product/nFxxFT/lian-li-galahad-ii-lcd-799-cfm-liquid-cpu-cooler-ga2alcd36b",
+      "fan_rpm": "300 - 2450 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$199.99"
+    },
+    {
+      "name": "NZXT Kraken Plus 280",
+      "url": "https://pcpartpicker.com/product/X9tkcf/nzxt-kraken-plus-280-932-cfm-liquid-cpu-cooler-rl-kn280-b2",
+      "fan_rpm": "500 - 1700 RPM",
+      "noise_level": "30 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "0",
+      "price": "$127.99"
+    },
+    {
+      "name": "APNX AP1-V",
+      "url": "https://pcpartpicker.com/product/cTV2FT/apnx-ap1-v-763-cfm-cpu-cooler-ap1-5pipe-argb-wh",
+      "fan_rpm": "600 - 1800 RPM",
+      "noise_level": "16.1 - 32.8 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$19.98"
+    },
+    {
+      "name": "Thermalright Silver Soul 110",
+      "url": "https://pcpartpicker.com/product/Lvytt6/thermalright-silver-soul-110-54-cfm-cpu-cooler-ss110-black",
+      "fan_rpm": "2500 RPM",
+      "noise_level": "23 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "7",
+      "price": "$32.90"
+    },
+    {
+      "name": "Thermalright SI-100",
+      "url": "https://pcpartpicker.com/product/LHGhP6/thermalright-si-100-7237-cfm-cpu-cooler-si-100-black",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "27.7 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "3",
+      "price": "$26.90"
+    },
+    {
+      "name": "be quiet! Pure Loop 2 FX",
+      "url": "https://pcpartpicker.com/product/WdZ9TW/be-quiet-pure-loop-2-fx-liquid-cpu-cooler-bw014",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "10.8 - 32.8 dB",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "2",
+      "price": "$286.79"
+    },
+    {
+      "name": "ARCTIC Liquid Freezer III 280 A-RGB",
+      "url": "https://pcpartpicker.com/product/syrqqs/arctic-liquid-freezer-iii-280-a-rgb-699-cfm-liquid-cpu-cooler-acfre00143a",
+      "fan_rpm": "200 - 1900 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "280 mm",
+      "rating": "3",
+      "price": "$149.21"
+    },
+    {
+      "name": "PC Cooler DS360",
+      "url": "https://pcpartpicker.com/product/4ypD4D/pc-cooler-ds360-8673-cfm-liquid-cpu-cooler-ds360-bk",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "32 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$199.00"
+    },
+    {
+      "name": "Thermaltake TH360 V2 ARGB Sync",
+      "url": "https://pcpartpicker.com/product/v6P8TW/thermaltake-th360-v2-argb-sync-5705-cfm-liquid-cpu-cooler-cl-w365-pl12sw-a",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "25.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$110.99"
+    },
+    {
+      "name": "Thermalright Assassin King SE ARGB",
+      "url": "https://pcpartpicker.com/product/9Gstt6/thermalright-assassin-king-se-argb-6617-cfm-cpu-cooler-ak120-se-argb-d6",
+      "fan_rpm": "1550 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Silver / Gray",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$18.59"
+    },
+    {
+      "name": "be quiet! Pure Loop 2",
+      "url": "https://pcpartpicker.com/product/CZGhP6/be-quiet-pure-loop-2-liquid-cpu-cooler-bw019",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "17.2 - 36.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$103.90"
+    },
+    {
+      "name": "Lian Li Galahad II Trinity",
+      "url": "https://pcpartpicker.com/product/P4BzK8/lian-li-galahad-ii-trinity-799-cfm-liquid-cpu-cooler-ga2t36b",
+      "fan_rpm": "2450 RPM",
+      "noise_level": "35.4 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "2",
+      "price": "$193.55"
+    },
+    {
+      "name": "MSI MAG CORELIQUID E360 WHITE",
+      "url": "https://pcpartpicker.com/product/kgCZxr/msi-mag-coreliquid-e360-white-7504-cfm-liquid-cpu-cooler-mag-coreliquid-e360-white",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$109.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid 240 Core II",
+      "url": "https://pcpartpicker.com/product/hRJBD3/cooler-master-masterliquid-240-core-ii-707-cfm-liquid-cpu-cooler-mlw-d24m-a18pa-rw",
+      "fan_rpm": "600 - 1750 RPM",
+      "noise_level": "30 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$92.90"
+    },
+    {
+      "name": "Jonsbo CR-1000 EVO ARGB Black",
+      "url": "https://pcpartpicker.com/product/vJgrxr/jonsbo-cr-1000-evo-argb-black-5948-cfm-cpu-cooler-cr-1000-evo-argb-black",
+      "fan_rpm": "600 - 1500 RPM",
+      "noise_level": "22 - 32 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$38.50"
+    },
+    {
+      "name": "ID-COOLING FX240 PRO",
+      "url": "https://pcpartpicker.com/product/7QCZxr/id-cooling-fx240-pro-825-cfm-liquid-cpu-cooler-fx240-pro-white",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "35.2 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$65.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid ML240 Illusion",
+      "url": "https://pcpartpicker.com/product/4tGbt6/cooler-master-masterliquid-ml240-illusion-liquid-cpu-cooler-mlx-d24m-a18p2-r1",
+      "fan_rpm": "650 - 1800 RPM",
+      "noise_level": "6 - 30 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$72.00"
+    },
+    {
+      "name": "Geometric Future Eskimo Pro 42",
+      "url": "https://pcpartpicker.com/product/xBQKHx/geometric-future-eskimo-pro-42-9115-cfm-liquid-cpu-cooler-geo-ep-42b",
+      "fan_rpm": "2400 RPM",
+      "noise_level": "34.2 dB",
+      "color": "Black",
+      "radiator_size": "420 mm",
+      "rating": "1",
+      "price": "$131.90"
+    },
+    {
+      "name": "Fractal Design Lumen S36 RGB V2",
+      "url": "https://pcpartpicker.com/product/hp26Mp/fractal-design-lumen-s36-rgb-v2-56-cfm-liquid-cpu-cooler-fd-w-l1-s3612",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "10 - 33.2 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$132.99"
+    },
+    {
+      "name": "Asus ROG STRIX LC II ARGB",
+      "url": "https://pcpartpicker.com/product/Q2D7YJ/asus-rog-strix-lc-ii-argb-8095-cfm-liquid-cpu-cooler-rog-strix-lc-ii-360-argb-white-edition",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "37.6 dB",
+      "color": "White / Black",
+      "radiator_size": "360 mm",
+      "rating": "6",
+      "price": "$237.00"
+    },
+    {
+      "name": "NZXT Kraken Elite 240",
+      "url": "https://pcpartpicker.com/product/GfvD4D/nzxt-kraken-elite-240-7802-cfm-liquid-cpu-cooler-rl-kn24e-b1",
+      "fan_rpm": "500 - 1800 RPM",
+      "noise_level": "17.9 - 30.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "8",
+      "price": "$298.99"
+    },
+    {
+      "name": "Cooler Master I70C",
+      "url": "https://pcpartpicker.com/product/fm6p99/cooler-master-i70c-3708-cfm-cpu-cooler-rr-i7c7-18pa-r1",
+      "fan_rpm": "650 - 1800 RPM",
+      "noise_level": "28 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$19.98"
+    },
+    {
+      "name": "Noctua NH-C14S",
+      "url": "https://pcpartpicker.com/product/kykwrH/noctua-nh-c14s-8252-cfm-cpu-cooler-nh-c14s",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "19.2 - 24.6 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "30",
+      "price": "$116.95"
+    },
+    {
+      "name": "Thermalright Aqua Elite ARGB V6",
+      "url": "https://pcpartpicker.com/product/8mWmP6/thermalright-aqua-elite-argb-v6-7084-cfm-liquid-cpu-cooler-aqua-elite-240-argb-black-v6",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "29.8 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$60.49"
+    },
+    {
+      "name": "Montech NX400",
+      "url": "https://pcpartpicker.com/product/PtsMnQ/montech-nx400-8509-cfm-cpu-cooler-nx400w",
+      "fan_rpm": "8000 - 2000 RPM",
+      "noise_level": "34.17 dB",
+      "color": "White / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$27.90"
+    },
+    {
+      "name": "GAMDIAS AURA GL360 V2",
+      "url": "https://pcpartpicker.com/product/PrYfrH/gamdias-aura-gl360-v2-736-cfm-liquid-cpu-cooler-aura-gl360-v2",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "33.8 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$84.98"
+    },
+    {
+      "name": "Asus ROG RYUO III 240 ARGB",
+      "url": "https://pcpartpicker.com/product/78Fbt6/asus-rog-ryuo-iii-240-argb-7007-cfm-liquid-cpu-cooler-rog-ryuo-iii-240-argb",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "36.45 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$146.99"
+    },
+    {
+      "name": "Cooler Master MasterLiquid Atmos II LCD",
+      "url": "https://pcpartpicker.com/product/4Rh2FT/cooler-master-masterliquid-atmos-ii-lcd-190-cfm-liquid-cpu-cooler-mlx-d36m-a25sz-l1",
+      "fan_rpm": "690 - 2500 RPM",
+      "noise_level": "38.5 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$234.99"
+    },
+    {
+      "name": "Valkyrie Vind 125 SL",
+      "url": "https://pcpartpicker.com/product/Lzvscf/valkyrie-vind-125-sl-80-cfm-cpu-cooler-vk-airsl125b",
+      "fan_rpm": "800 - 2150 RPM",
+      "noise_level": "29 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$125.19"
+    },
+    {
+      "name": "Ocypus Iota L36",
+      "url": "https://pcpartpicker.com/product/4kGhP6/ocypus-iota-l36-77-cfm-liquid-cpu-cooler-iota-l36-wh",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "29 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$65.69"
+    },
+    {
+      "name": "Asus ROG STRIX LC III ARGB LCD",
+      "url": "https://pcpartpicker.com/product/fyYRsY/asus-rog-strix-lc-iii-argb-lcd-7038-cfm-liquid-cpu-cooler-rog-strix-lc-iii-360-argb-lcd-wht",
+      "fan_rpm": "800 - 2200 RPM",
+      "noise_level": "36 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$386.99"
+    },
+    {
+      "name": "be quiet! BK047",
+      "url": "https://pcpartpicker.com/product/KR62FT/be-quiet-bk047-3548-cfm-cpu-cooler-bk047",
+      "fan_rpm": "1700 RPM",
+      "noise_level": "12.4 - 24.8 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$37.90"
+    },
+    {
+      "name": "HYTE THICC Q80 Trio",
+      "url": "https://pcpartpicker.com/product/fzYfrH/hyte-thicc-q80-trio-1058-cfm-liquid-cpu-cooler-fan-hyte-q80t-bb",
+      "fan_rpm": "1 - 3000 RPM",
+      "noise_level": "10 - 47.3 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$349.99"
+    },
+    {
+      "name": "MSI MAG CORELIQUID E240",
+      "url": "https://pcpartpicker.com/product/mFYRsY/msi-mag-coreliquid-e240-7504-cfm-liquid-cpu-cooler-mag-coreliquid-e240",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$111.99"
+    },
+    {
+      "name": "Noctua NH-U9 TR4-SP3",
+      "url": "https://pcpartpicker.com/product/LY38TW/noctua-nh-u9-tr4-sp3-4644-cfm-cpu-cooler-nh-u9-tr4-sp3",
+      "fan_rpm": "400 - 2000 RPM",
+      "noise_level": "16.3 - 22.8 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$111.17"
+    },
+    {
+      "name": "Thermalright Frozen Warframe ARGB",
+      "url": "https://pcpartpicker.com/product/C9vD4D/thermalright-frozen-warframe-argb-7084-cfm-liquid-cpu-cooler-frozen-warframe-240-black-argb",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "22.1 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$65.90"
+    },
+    {
+      "name": "ID-COOLING FROZN A410 DK",
+      "url": "https://pcpartpicker.com/product/g7Jp99/id-cooling-frozn-a410-dk-7825-cfm-cpu-cooler-frozn-a410-dk",
+      "fan_rpm": "500 - 2000 RPM",
+      "noise_level": "29.85 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$41.99"
+    },
+    {
+      "name": "Cooler Master Hyper 212 3DHP",
+      "url": "https://pcpartpicker.com/product/ChxTwP/cooler-master-hyper-212-3dhp-631-cfm-cpu-cooler-may-t2hp-217pk-r1",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "22.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$29.99"
+    },
+    {
+      "name": "Asus ROG RYUJIN II ARGB",
+      "url": "https://pcpartpicker.com/product/yk2WGX/asus-rog-ryujin-ii-argb-7007-cfm-liquid-cpu-cooler-rog-ryujin-ii-240-argb",
+      "fan_rpm": "###### Fan RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$229.99"
+    },
+    {
+      "name": "ENDORFY Navis F360 ARGB",
+      "url": "https://pcpartpicker.com/product/YgfxFT/endorfy-navis-f360-argb-liquid-cpu-cooler-ey3b006",
+      "fan_rpm": "250 - 1800 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$250.99"
+    },
+    {
+      "name": "Scythe Mugen 6",
+      "url": "https://pcpartpicker.com/product/k6bRsY/scythe-mugen-6-6029-cfm-cpu-cooler-scmg-6000",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "3 - 26.88 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$61.99"
+    },
+    {
+      "name": "Corsair iCUE H100i ELITE CAPELLIX XT",
+      "url": "https://pcpartpicker.com/product/bjXV3C/corsair-icue-h100i-elite-capellix-xt-6557-cfm-liquid-cpu-cooler-cw-9060068-ww",
+      "fan_rpm": "550 - 2100 RPM",
+      "noise_level": "5 - 34.1 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "11",
+      "price": "$270.63"
+    },
+    {
+      "name": "ARCTIC Alpine 17 CO",
+      "url": "https://pcpartpicker.com/product/4ZYmP6/arctic-alpine-17-co-cpu-cooler-acalp00041a",
+      "fan_rpm": "250 - 2700 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$27.92"
+    },
+    {
+      "name": "Gigabyte AORUS WATERFORCE X",
+      "url": "https://pcpartpicker.com/product/zkH7YJ/gigabyte-aorus-waterforce-x-6007-cfm-liquid-cpu-cooler-aorus-waterforce-x-360",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "7.9 - 37.6 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "4",
+      "price": "$340.99"
+    },
+    {
+      "name": "ARCTIC Freezer 7 X CO",
+      "url": "https://pcpartpicker.com/product/p2LwrH/arctic-freezer-7-x-co-cpu-cooler-acfre00085a",
+      "fan_rpm": "300 - 2000 RPM",
+      "noise_level": "###### Noise Level",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "5",
+      "price": "$30.99"
+    },
+    {
+      "name": "KOLINK Umbra EX180 Black Edition",
+      "url": "https://pcpartpicker.com/product/byzXsY/kolink-umbra-ex180-black-edition-736-cfm-cpu-cooler-pgw-cc-kol-002",
+      "fan_rpm": "800 - 1800 RPM",
+      "noise_level": "28.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$64.98"
+    },
+    {
+      "name": "upHere UE2K6",
+      "url": "https://pcpartpicker.com/product/QDFCmG/uphere-ue2k6-68-cfm-cpu-cooler-ue2k6",
+      "fan_rpm": "600 - 1650 RPM",
+      "noise_level": "25 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$29.99"
+    },
+    {
+      "name": "HYTE THICC Q80 Trio",
+      "url": "https://pcpartpicker.com/product/ngwD4D/hyte-thicc-q80-trio-1058-cfm-liquid-cpu-cooler-fan-hyte-q80t-ww",
+      "fan_rpm": "1 - 3000 RPM",
+      "noise_level": "10 - 47.3 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$397.99"
+    },
+    {
+      "name": "BitFenix Cube ARGB",
+      "url": "https://pcpartpicker.com/product/m9dG3C/bitfenix-cube-argb-60-cfm-liquid-cpu-cooler-bfw-aio-360-bb27a-rp",
+      "fan_rpm": "2000 RPM",
+      "noise_level": "34 dB",
+      "color": "Black",
+      "radiator_size": "360 mm",
+      "rating": "0",
+      "price": "$130.78"
+    },
+    {
+      "name": "Montech HyperFlow ARGB 360",
+      "url": "https://pcpartpicker.com/product/xRdG3C/montech-hyperflow-argb-360-762-cfm-liquid-cpu-cooler-hyperflow-argb-360-white",
+      "fan_rpm": "2200 RPM",
+      "noise_level": "29.1 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "5",
+      "price": "$114.99"
+    },
+    {
+      "name": "Scythe Kotetsu Mark 3",
+      "url": "https://pcpartpicker.com/product/rw7scf/scythe-kotetsu-mark-3-6762-cfm-cpu-cooler-scktt-3000",
+      "fan_rpm": "300 - 1500 RPM",
+      "noise_level": "4 - 28.6 dB",
+      "color": "Black / Silver",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$21.98"
+    },
+    {
+      "name": "Thermaltake Gravity A2",
+      "url": "https://pcpartpicker.com/product/gPnypg/thermaltake-gravity-a2-4624-cfm-cpu-cooler-cl-p078-al09wt-a",
+      "fan_rpm": "1200 - 3500 RPM",
+      "noise_level": "33.5 dB",
+      "color": "Silver / Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$15.99"
+    },
+    {
+      "name": "Thermalright Assassin Spirit 120 Vision ARGB",
+      "url": "https://pcpartpicker.com/product/zFwmP6/thermalright-assassin-spirit-120-vision-argb-6617-cfm-cpu-cooler-as120-vision-argb-black",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$29.59"
+    },
+    {
+      "name": "Thermalright Frozen Edge",
+      "url": "https://pcpartpicker.com/product/WhYRsY/thermalright-frozen-edge-69-cfm-liquid-cpu-cooler-fe240-white",
+      "fan_rpm": "2150 RPM",
+      "noise_level": "28.1 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$54.90"
+    },
+    {
+      "name": "Cooler Master Hyper 212 Halo SF6 Ryu",
+      "url": "https://pcpartpicker.com/product/Zw26Mp/cooler-master-hyper-212-halo-sf6-ryu-5188-cfm-cpu-cooler-rr-s4ww-20pa-ry",
+      "fan_rpm": "650 - 2050 RPM",
+      "noise_level": "27 dB",
+      "color": "White / Orange",
+      "radiator_size": "###### Radiator Size",
+      "rating": "1",
+      "price": "$32.99"
+    },
+    {
+      "name": "Corsair iCUE LINK TITAN 240 RX LCD",
+      "url": "https://pcpartpicker.com/product/Bxhv6h/corsair-icue-link-titan-240-rx-lcd-735-cfm-liquid-cpu-cooler-cw-9061025-ww",
+      "fan_rpm": "300 - 2100 RPM",
+      "noise_level": "10 - 36 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$170.99"
+    },
+    {
+      "name": "Gigabyte GAMING 360",
+      "url": "https://pcpartpicker.com/product/8FXMnQ/gigabyte-gaming-360-6161-cfm-liquid-cpu-cooler-gp-gigabyte-gme-360i",
+      "fan_rpm": "500 - 2200 RPM",
+      "noise_level": "13.8 - 35.8 dB",
+      "color": "White",
+      "radiator_size": "360 mm",
+      "rating": "1",
+      "price": "$193.19"
+    },
+    {
+      "name": "EK EK-Nucleus AIO CR240 Lux D-RGB",
+      "url": "https://pcpartpicker.com/product/prytt6/ek-ek-nucleus-aio-cr240-lux-d-rgb-72-cfm-liquid-cpu-cooler-ek-nucleus-aio-cr240-lux-d-rgb",
+      "fan_rpm": "550 - 2300 RPM",
+      "noise_level": "36 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "2",
+      "price": "$147.00"
+    },
+    {
+      "name": "Thermaltake CL-P0503",
+      "url": "https://pcpartpicker.com/product/7b9KHx/thermaltake-cpu-cooler-clp0503",
+      "fan_rpm": "2900 RPM",
+      "noise_level": "29.58 dB",
+      "color": "###### Color",
+      "radiator_size": "###### Radiator Size",
+      "rating": "2",
+      "price": "$12.70"
+    },
+    {
+      "name": "Asus ROG STRIX LC II",
+      "url": "https://pcpartpicker.com/product/tYZ9TW/asus-rog-strix-lc-ii-8095-cfm-liquid-cpu-cooler-rog-strix-lc-ii-240",
+      "fan_rpm": "800 - 2500 RPM",
+      "noise_level": "37.6 dB",
+      "color": "Black",
+      "radiator_size": "240 mm",
+      "rating": "0",
+      "price": "$109.99"
+    },
+    {
+      "name": "Lian Li Galahad II Trinity SL-INF",
+      "url": "https://pcpartpicker.com/product/X6qrxr/lian-li-galahad-ii-trinity-sl-inf-613-cfm-liquid-cpu-cooler-ga2t24inw",
+      "fan_rpm": "2100 RPM",
+      "noise_level": "29 dB",
+      "color": "White",
+      "radiator_size": "240 mm",
+      "rating": "1",
+      "price": "$196.31"
+    },
+    {
+      "name": "ID-COOLING SE-225-XT",
+      "url": "https://pcpartpicker.com/product/tsnypg/id-cooling-se-225-xt-7616-cfm-cpu-cooler-se-225-xt-black",
+      "fan_rpm": "700 - 1800 RPM",
+      "noise_level": "15.2 - 35.2 dB",
+      "color": "Black",
+      "radiator_size": "###### Radiator Size",
+      "rating": "4",
+      "price": "$35.24"
+    },
+    {
+      "name": "NZXT Kraken Elite 280 RGB",
+      "url": "https://pcpartpicker.com/product/XH26Mp/nzxt-kraken-elite-280-rgb-9079-cfm-liquid-cpu-cooler-rl-kr28e-w1",
+      "fan_rpm": "500 - 1500 RPM",
+      "noise_level": "34.48 dB",
+      "color": "White",
+      "radiator_size": "280 mm",
+      "rating": "8",
+      "price": "$284.99"
+    },
+    {
+      "name": "Thermalright Peerless Assassin 140 Digital",
+      "url": "https://pcpartpicker.com/product/9BWmP6/thermalright-peerless-assassin-140-digital-778-cfm-cpu-cooler-peerless-assassin-140-digital-white",
+      "fan_rpm": "1500 RPM",
+      "noise_level": "25.6 dB",
+      "color": "White",
+      "radiator_size": "###### Radiator Size",
+      "rating": "0",
+      "price": "$55.90"
+    }
+  ]
+}
