@@ -4,6 +4,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { CameraIcon, RefreshCwIcon, CheckIcon, LoaderIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PanelHeader } from "@/components/main/panel-header";
+import {
+  PanelShell,
+  PanelContent,
+  PanelFooter,
+} from "@/components/main/panel-shell";
 
 interface PartPhotoProps {
   onBack?: () => void;
@@ -16,7 +21,6 @@ export function PartPhoto({
   onPhotoCapture,
   onComplete,
 }: PartPhotoProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -103,47 +107,44 @@ export function PartPhoto({
   }, []);
 
   return (
-    <div
-      ref={containerRef}
-      className="relative flex h-full flex-col overflow-hidden"
-    >
+    <PanelShell>
       <PanelHeader title="Part Photo" onBack={onBack} />
 
-      <div className="flex max-w-full flex-1 flex-col justify-between gap-6 overflow-hidden p-4">
-        <div className="flex max-w-full flex-1 flex-col items-center justify-center overflow-hidden">
-          {isProcessing ? (
-            <div className="flex flex-col items-center gap-4 text-center">
-              <LoaderIcon className="text-primary size-10 animate-spin" />
-              <p className="text-muted-foreground">Analyzing...</p>
-            </div>
-          ) : cameraError ? (
-            <div className="flex flex-col items-center gap-4 text-center">
-              <p className="text-muted-foreground">{cameraError}</p>
-              <Button onClick={startCamera}>
-                <CameraIcon className="size-4" />
-                Try Again
-              </Button>
-            </div>
-          ) : capturedPhoto ? (
-            <img
-              src={capturedPhoto}
-              alt="Captured part"
-              className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
-            />
-          ) : (
-            <video
-              ref={videoRef}
-              autoPlay
-              playsInline
-              muted
-              className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
-            />
-          )}
-          <canvas ref={canvasRef} className="hidden" />
-        </div>
+      <PanelContent className="items-center justify-center">
+        {isProcessing ? (
+          <div className="flex flex-col items-center gap-4 text-center">
+            <LoaderIcon className="text-primary size-10 animate-spin" />
+            <p className="text-muted-foreground">Analyzing...</p>
+          </div>
+        ) : cameraError ? (
+          <div className="flex flex-col items-center gap-4 text-center">
+            <p className="text-muted-foreground">{cameraError}</p>
+            <Button onClick={startCamera}>
+              <CameraIcon className="size-4" />
+              Try Again
+            </Button>
+          </div>
+        ) : capturedPhoto ? (
+          <img
+            src={capturedPhoto}
+            alt="Captured part"
+            className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
+          />
+        ) : (
+          <video
+            ref={videoRef}
+            autoPlay
+            playsInline
+            muted
+            className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
+          />
+        )}
+        <canvas ref={canvasRef} className="hidden" />
+      </PanelContent>
 
-        <div className="flex w-full flex-row justify-center gap-2">
-          {isProcessing ? null : capturedPhoto ? (
+      {!isProcessing && (
+        <PanelFooter className="justify-center">
+          {capturedPhoto ? (
             <>
               <Button
                 variant="outline"
@@ -170,8 +171,8 @@ export function PartPhoto({
               Capture
             </Button>
           )}
-        </div>
-      </div>
-    </div>
+        </PanelFooter>
+      )}
+    </PanelShell>
   );
 }

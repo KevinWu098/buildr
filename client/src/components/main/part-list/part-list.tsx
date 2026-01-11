@@ -5,6 +5,11 @@ import { Button } from "@/components/ui/button";
 import { CheckIcon, EditIcon, PlusIcon, TrashIcon } from "lucide-react";
 import { PanelHeader } from "@/components/main/panel-header";
 import {
+  PanelShell,
+  PanelContent,
+  PanelFooter,
+} from "@/components/main/panel-shell";
+import {
   PartCard,
   PartGroup,
   PartSearchDrawer,
@@ -157,57 +162,52 @@ export function PartList({ onBack }: PartListProps) {
   };
 
   return (
-    <div
-      ref={containerRef}
-      className="relative flex h-full flex-col overflow-hidden"
-    >
+    <PanelShell ref={containerRef}>
       <PanelHeader title="Your Part List" onBack={onBack} />
 
-      <div className="flex max-w-full flex-1 flex-col justify-between gap-6 overflow-hidden p-4">
-        <div className="flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto">
-          {Object.entries(parts).map(([partType, partsList]) => (
-            <PartGroup
-              key={partType}
-              partType={partType as PartType}
-              parts={partsList}
-              renderPart={(part) => (
-                <PartCard key={part.name} part={part}>
-                  <Button
-                    variant="ghost"
-                    size="icon-xs"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleEditPart(part);
-                    }}
-                  >
-                    <EditIcon className="size-4" />
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    size="icon-xs"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleDeletePart(part);
-                    }}
-                  >
-                    <TrashIcon className="size-4" />
-                  </Button>
-                </PartCard>
-              )}
-            />
-          ))}
-        </div>
+      <PanelContent>
+        {Object.entries(parts).map(([partType, partsList]) => (
+          <PartGroup
+            key={partType}
+            partType={partType as PartType}
+            parts={partsList}
+            renderPart={(part) => (
+              <PartCard key={part.name} part={part}>
+                <Button
+                  variant="ghost"
+                  size="icon-xs"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleEditPart(part);
+                  }}
+                >
+                  <EditIcon className="size-4" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="icon-xs"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDeletePart(part);
+                  }}
+                >
+                  <TrashIcon className="size-4" />
+                </Button>
+              </PartCard>
+            )}
+          />
+        ))}
+      </PanelContent>
 
-        <div className="flex w-full flex-row gap-2">
-          <Button className="text-lg" variant="outline" onClick={handleAddPart}>
-            <PlusIcon className="size-4" /> Add Part
-          </Button>
-          <Button className="grow text-lg">
-            <CheckIcon className="size-4" />
-            Confirm Part List
-          </Button>
-        </div>
-      </div>
+      <PanelFooter>
+        <Button className="text-lg" variant="outline" onClick={handleAddPart}>
+          <PlusIcon className="size-4" /> Add Part
+        </Button>
+        <Button className="grow text-lg">
+          <CheckIcon className="size-4" />
+          Confirm Part List
+        </Button>
+      </PanelFooter>
 
       <PartSearchDrawer
         open={searchDrawerOpen}
@@ -219,6 +219,6 @@ export function PartList({ onBack }: PartListProps) {
         allParts={ALL_PARTS}
         onSelectPart={handleSelectPart}
       />
-    </div>
+    </PanelShell>
   );
 }

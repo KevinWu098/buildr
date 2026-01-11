@@ -2,17 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerHeader,
-  DrawerTitle,
-} from "@/components/ui/drawer";
+import { Drawer, DrawerContent } from "@/components/ui/drawer";
 import { Input } from "@/components/ui/input";
-import { SearchIcon, XIcon, ChevronLeftIcon } from "lucide-react";
+import { SearchIcon, XIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { PanelHeader } from "@/components/main/panel-header";
+import { PanelShell, PanelContent } from "@/components/main/panel-shell";
 import { PartCard } from "./part-card";
 import { PartGroup } from "./part-group";
 import type { Part, PartType } from "./types";
@@ -81,35 +76,28 @@ export function PartSearchDrawer({
       : `Edit ${editingPart?.type ?? "Part"}`;
 
   return (
-    <>
-      <Drawer
-        modal={false}
-        direction="bottom"
-        open={open}
-        onOpenChange={onOpenChange}
-        container={container}
+    <Drawer
+      modal={false}
+      direction="bottom"
+      open={open}
+      onOpenChange={onOpenChange}
+      container={container}
+    >
+      <DrawerContent
+        className={cn("absolute z-50 h-full w-full rounded-lg")}
+        onInteractOutside={(e) => e.preventDefault()}
       >
-        <DrawerContent
-          className={cn("absolute z-50 h-full w-full rounded-lg")}
-          onInteractOutside={(e) => e.preventDefault()}
-        >
-          <DrawerHeader className="pb-0">
-            <div className="flex items-center gap-2">
-              <DrawerClose asChild>
-                <Button variant="ghost" size="icon-xs" className="-ml-1">
-                  <ChevronLeftIcon className="size-5" />
-                </Button>
-              </DrawerClose>
-              <DrawerTitle className="text-left text-xl">{title}</DrawerTitle>
-            </div>
-            <DrawerDescription className="sr-only">
-              Search and select a part
-            </DrawerDescription>
-          </DrawerHeader>
+        <PanelShell>
+          <PanelHeader
+            title={title}
+            onBack={() => onOpenChange(false)}
+            asDrawerClose
+            titleSize="default"
+          />
 
-          <div className="flex flex-1 flex-col gap-4 overflow-hidden p-4">
+          <PanelContent className="gap-4">
             {/* Search Input */}
-            <div className="relative">
+            <div className="relative shrink-0">
               <SearchIcon className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2" />
               <Input
                 ref={inputRef}
@@ -169,9 +157,9 @@ export function PartSearchDrawer({
                 ))
               )}
             </div>
-          </div>
-        </DrawerContent>
-      </Drawer>
-    </>
+          </PanelContent>
+        </PanelShell>
+      </DrawerContent>
+    </Drawer>
   );
 }
