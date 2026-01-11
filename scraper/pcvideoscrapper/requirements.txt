@@ -1,0 +1,24 @@
+# TwelveLabs SDK - Latest version for video indexing and semantic search
+twelvelabs==1.1.0
+
+# Environment configuration
+python-dotenv==1.2.1
+
+# Data validation and schemas
+pydantic==2.12.5
+
+# HTTP requests
+requests==2.32.5
+
+# YouTube video metadata extraction
+yt-dlp==2025.12.8
+
+# Database support (optional)
+sqlalchemy==2.0.45
+
+# Vector database for embeddings (optional)
+chromadb==1.4.0
+
+# Data processing
+numpy==2.4.1
+pandas==2.3.3
