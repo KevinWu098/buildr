@@ -2,12 +2,13 @@
   "category": "case",
   "base_url": "https://pcpartpicker.com/products/case/",
   "pages_scraped": 7,
-  "scraped_at": "2026-01-10T16:28:50.326904",
+  "scraped_at": "2026-01-10T20:27:30.142216",
   "product_count": 500,
   "products": [
     {
       "name": "Montech XR",
       "url": "https://pcpartpicker.com/product/fc88TW/montech-xr-atx-mid-tower-case-xr-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dfa4f5783baf38a029b75e60cb883d12.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -20,6 +21,7 @@
     {
       "name": "Phanteks XT PRO",
       "url": "https://pcpartpicker.com/product/zJWJ7P/phanteks-xt-pro-atx-mid-tower-case-ph-xt523p1-bk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4beb27272519c97f098ceab48df1e12c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -32,6 +34,7 @@
     {
       "name": "Corsair 3500X ARGB",
       "url": "https://pcpartpicker.com/product/BwBzK8/corsair-3500x-argb-atx-mid-tower-case-cc-9011278-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f488ef9e12f2c763481fa0a720647dfd.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -44,6 +47,7 @@
     {
       "name": "Corsair 3500X ARGB",
       "url": "https://pcpartpicker.com/product/T8V2FT/corsair-3500x-argb-atx-mid-tower-case-cc-9011279-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a740f5cb83faa73c1d8a62945833056e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -56,6 +60,7 @@
     {
       "name": "NZXT H5 Flow (2024)",
       "url": "https://pcpartpicker.com/product/bvTZxr/nzxt-h5-flow-2024-atx-mid-tower-case-cc-h52fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/640e44d6b2b0264413b089545b628d0a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -68,6 +73,7 @@
     {
       "name": "Lian Li O11 VISION COMPACT",
       "url": "https://pcpartpicker.com/product/9Q88TW/lian-li-o11-vision-compact-atx-mid-tower-case-o11vpx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f68bf787cff2da68c4f1dfe73a9981b4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -80,6 +86,7 @@
     {
       "name": "Cooler Master MasterBox Q300L",
       "url": "https://pcpartpicker.com/product/rnGxFT/cooler-master-masterbox-q300l-microatx-mini-tower-case-mcb-q300l-kann-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ec48e16ee4d6629045cfc4d71c649746.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -92,6 +99,7 @@
     {
       "name": "Fractal Design North",
       "url": "https://pcpartpicker.com/product/ybNxFT/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1977a3a3f6f1238d12ea2a555be4d7ce.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -104,6 +112,7 @@
     {
       "name": "Lian Li O11 VISION COMPACT",
       "url": "https://pcpartpicker.com/product/7qKscf/lian-li-o11-vision-compact-atx-mid-tower-case-o11vpw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2378ddd83c556329e01372a181d44328.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -116,6 +125,7 @@
     {
       "name": "HYTE Y70 Touch Infinite",
       "url": "https://pcpartpicker.com/product/Tvrqqs/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/48cf06b9156aa9e1b662b35af8eb2a3b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -128,6 +138,7 @@
     {
       "name": "Lian Li O11 Dynamic Mini V2",
       "url": "https://pcpartpicker.com/product/Gtrp99/lian-li-o11-dynamic-mini-v2-atx-mini-tower-case-o11dmiv2x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bf613e9d7fc5e9975f3e2609d985d9d9.256p.jpg",
       "type": "ATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -140,6 +151,7 @@
     {
       "name": "Corsair FRAME 4000D RS ARGB",
       "url": "https://pcpartpicker.com/product/Mjy8TW/corsair-frame-4000d-rs-argb-atx-mid-tower-case-cc-9011296-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b92de105986e31796925b0c95a335fa0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -152,6 +164,7 @@
     {
       "name": "Fractal Design North XL",
       "url": "https://pcpartpicker.com/product/Gd26Mp/fractal-design-north-xl-atx-full-tower-case-fd-c-nor1x-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/de8d089eec0681bef6c59b47f908e2ef.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -164,6 +177,7 @@
     {
       "name": "Phanteks Eclipse G370A",
       "url": "https://pcpartpicker.com/product/nBFCmG/phanteks-eclipse-g370a-atx-mid-tower-case-ph-ec370a_dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bbff08990bf49c7db84fbbd100460516.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -176,6 +190,7 @@
     {
       "name": "Lian Li A3-mATX",
       "url": "https://pcpartpicker.com/product/CjFmP6/lian-li-a3-matx-microatx-mini-tower-case-a3-matx-x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e2090d6841bfea8c2ec3aee350b4a3ab.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -188,6 +203,7 @@
     {
       "name": "Lian Li Vector V100R",
       "url": "https://pcpartpicker.com/product/gBzp99/lian-li-v100r-atx-mid-tower-case-v100rx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/33c1bd4bd2b68730e185a80a0b6e7750.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -200,6 +216,7 @@
     {
       "name": "Lian Li O11D EVO RGB",
       "url": "https://pcpartpicker.com/product/qrXV3C/lian-li-o11d-evo-rgb-atx-mid-tower-case-o11dergbx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/97f123a53cbb3ce24652396462da17d1.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -212,6 +229,7 @@
     {
       "name": "Lian Li Lancool 207",
       "url": "https://pcpartpicker.com/product/zysV3C/lian-li-lancool-207-atx-mid-tower-case-lan207rx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/393f3d73165045839334a1621040ee20.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Blue",
       "power_supply": "None",
@@ -224,6 +242,7 @@
     {
       "name": "HYTE Y70 Touch Infinite",
       "url": "https://pcpartpicker.com/product/Yp6NnQ/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-bb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6c34ad3e10021abab186c77e8fde0328.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -236,6 +255,7 @@
     {
       "name": "Phanteks XT PRO ULTRA",
       "url": "https://pcpartpicker.com/product/BXtLrH/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b799e3113602fc415370943709415190.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -248,6 +268,7 @@
     {
       "name": "Lian Li A3-mATX",
       "url": "https://pcpartpicker.com/product/FG7scf/lian-li-a3-matx-microatx-mini-tower-case-a3-matx-wd-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4b279bc4cdfb4a3e52c9bfa879746ab5.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -260,6 +281,7 @@
     {
       "name": "NZXT H3 Flow",
       "url": "https://pcpartpicker.com/product/KyqNnQ/nzxt-h3-flow-microatx-mid-tower-case-cc-h31fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5b23443767ef786094bc4b6add8112a8.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -272,6 +294,7 @@
     {
       "name": "Lian Li O11 Dynamic Mini V2",
       "url": "https://pcpartpicker.com/product/M2BFf7/lian-li-o11-dynamic-mini-v2-atx-mini-tower-case-o11dmiv2w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b5bba2bf9953c73986a2b94c01e3a90e.256p.jpg",
       "type": "ATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -284,6 +307,7 @@
     {
       "name": "NZXT H9 Flow (2025)",
       "url": "https://pcpartpicker.com/product/RNgZxr/nzxt-h9-flow-2025-atx-mid-tower-case-cm-h92fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0cda49e883ff1ea3cab69e0808746f27.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -296,6 +320,7 @@
     {
       "name": "NZXT H6 Flow",
       "url": "https://pcpartpicker.com/product/xgKscf/nzxt-h6-flow-atx-mid-tower-case-cc-h61fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0ff9e0317d9c4b1e99938a2f02ccb165.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -308,6 +333,7 @@
     {
       "name": "Lian Li LANCOOL 217",
       "url": "https://pcpartpicker.com/product/rXnXsY/lian-li-lancool-217-atx-mid-tower-case-lan217x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/610e12d560e4933d797d322e677d0066.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -320,6 +346,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/RgjRsY/hyte-y70-atx-mid-tower-case-cs-hyte-y70-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6af31e169a3db76f5ddb2697518639d6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -332,6 +359,7 @@
     {
       "name": "Montech AIR 903 MAX",
       "url": "https://pcpartpicker.com/product/2MwmP6/montech-air-903-max-atx-mid-tower-case-air-903-max-b",
+      "image_url": "https://m.media-amazon.com/images/I/519WrOWiOhL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -344,6 +372,7 @@
     {
       "name": "Fractal Design Terra",
       "url": "https://pcpartpicker.com/product/GrMMnQ/fractal-design-terra-mini-itx-desktop-case-fd-c-ter1n-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/93603f04dde2fe42335d278e66b80c4d.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -356,6 +385,7 @@
     {
       "name": "Silverstone ALTA F2",
       "url": "https://pcpartpicker.com/product/wsvD4D/silverstone-alta-f2-atx-full-tower-case-sst-alf2b-g",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4ff42fa090d41392739d099e28baf56f.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -368,6 +398,7 @@
     {
       "name": "Lian Li O11 Dynamic EVO XL",
       "url": "https://pcpartpicker.com/product/jwDQzy/lian-li-o11-dynamic-evo-xl-atx-full-tower-case-o11dexl-x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1ec7a3be51497aa3abf33c2afcdbf5d0.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -380,6 +411,7 @@
     {
       "name": "Fractal Design Pop XL Air",
       "url": "https://pcpartpicker.com/product/8qFbt6/fractal-design-pop-xl-air-atx-full-tower-case-fd-c-por1x-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/048e9d2f829061df55885fb8eabd5952.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -392,6 +424,7 @@
     {
       "name": "Cooler Master MasterBox NR200",
       "url": "https://pcpartpicker.com/product/kd2bt6/cooler-master-masterbox-nr200-mini-itx-desktop-case-mcb-nr200-knnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d31150b26d756cc5e2221e63f264e8d6.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -404,6 +437,7 @@
     {
       "name": "Lian Li O11 Dynamic Mini V2 Flow",
       "url": "https://pcpartpicker.com/product/wHJBD3/lian-li-o11-dynamic-mini-v2-flow-atx-mini-tower-case-o11dmiv2fx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5f89ad4bc841aa602653d1435436b0a7.256p.jpg",
       "type": "ATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -416,6 +450,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/VGgrxr/hyte-y70-atx-mid-tower-case-cs-hyte-y70-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e3d7a1d651e10ee06ee3aae4eda51f05.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -428,6 +463,7 @@
     {
       "name": "Montech AIR 903 BASE",
       "url": "https://pcpartpicker.com/product/kKcgXL/montech-air-903-base-atx-mid-tower-case-air-903-base-b",
+      "image_url": "https://m.media-amazon.com/images/I/51HK6wbkmnL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -440,6 +476,7 @@
     {
       "name": "NZXT H6 Flow",
       "url": "https://pcpartpicker.com/product/8QMMnQ/nzxt-h6-flow-atx-mid-tower-case-cc-h61fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f0363dfe4d946330b9b5f65a3b38722f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -447,11 +484,12 @@
       "external_volume": "51.8 L",
       "internal_bays": "1",
       "rating": "47",
-      "price": "$102.97"
+      "price": "$102.99"
     },
     {
       "name": "MUSETEX Y6",
       "url": "https://pcpartpicker.com/product/sdWJ7P/musetex-y6-atx-mid-tower-case-y6-n5-w",
+      "image_url": "https://m.media-amazon.com/images/I/513aAkRAd0L.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -464,6 +502,7 @@
     {
       "name": "Phanteks XT M3",
       "url": "https://pcpartpicker.com/product/zqNscf/phanteks-xt-m3-microatx-mid-tower-case-ph-xt325m_bk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2013c4ce3ec7d5db6186ff0fc52b98b2.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -476,6 +515,7 @@
     {
       "name": "Fractal Design Meshify C",
       "url": "https://pcpartpicker.com/product/Y6Crxr/fractal-design-meshify-c-atx-mid-tower-case-fd-ca-mesh-c-bko-tg",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5e077c6b1272ca2c11e4f7df6326370a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -488,6 +528,7 @@
     {
       "name": "Montech AIR 100 ARGB",
       "url": "https://pcpartpicker.com/product/M7Z9TW/montech-air-100-argb-microatx-mid-tower-case-air-100-argb-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/24adca630b5c708e106099fc958825a1.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -500,6 +541,7 @@
     {
       "name": "Corsair FRAME 4000D",
       "url": "https://pcpartpicker.com/product/nbXMnQ/corsair-frame-4000d-atx-mid-tower-case-cc-9011290-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b86799fcc72abe55bb03359a550ccdf6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -512,6 +554,7 @@
     {
       "name": "NZXT H7 Flow (2024)",
       "url": "https://pcpartpicker.com/product/4yMMnQ/nzxt-h7-flow-2024-atx-mid-tower-case-cm-h72fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1adad593d049169c8f3bb35a682a0fab.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -524,6 +567,7 @@
     {
       "name": "Lian Li O11D EVO RGB",
       "url": "https://pcpartpicker.com/product/Ksgrxr/lian-li-o11d-evo-rgb-atx-mid-tower-case-o11dergbw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/91cbef8ecb9206268c9c7e78461e4262.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -536,6 +580,7 @@
     {
       "name": "NZXT H5 Flow (2024)",
       "url": "https://pcpartpicker.com/product/WZtLrH/nzxt-h5-flow-2024-atx-mid-tower-case-cc-h52fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7cf2496c391fed651c191c4c19dcd8df.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -548,6 +593,7 @@
     {
       "name": "Fractal Design North",
       "url": "https://pcpartpicker.com/product/sHYmP6/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-01",
+      "image_url": "https://m.media-amazon.com/images/I/41O+WwRauuL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -560,6 +606,7 @@
     {
       "name": "Antec C5 ARGB",
       "url": "https://pcpartpicker.com/product/MFNYcf/antec-c5-argb-atx-mid-tower-case-0-761345-10033-5",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/47f5f80539aa5e8cc9f4d5ebe8cd1dd2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -572,6 +619,7 @@
     {
       "name": "Lian Li LANCOOL 216 RGB",
       "url": "https://pcpartpicker.com/product/KKytt6/lian-li-lancool-216-rgb-atx-mid-tower-case-lancool-216rx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/372a584cebeca5f57266bf0f07e6831c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -584,6 +632,7 @@
     {
       "name": "Cooler Master Elite 301",
       "url": "https://pcpartpicker.com/product/WPnXsY/cooler-master-elite-301-microatx-mid-tower-case-e301-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6da0c8f15d8814831485635c9676d23a.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -596,6 +645,7 @@
     {
       "name": "Corsair 9000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/QkCZxr/corsair-9000d-rgb-airflow-atx-full-tower-case-cc-9011273-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/31bfc270950571313482b67027c01cf2.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -608,6 +658,7 @@
     {
       "name": "Lian Li A3-mATX",
       "url": "https://pcpartpicker.com/product/vvsMnQ/lian-li-a3-matx-microatx-mini-tower-case-a3x-wdg",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/95b91096ca28bcf182804214fdad4e53.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -620,6 +671,7 @@
     {
       "name": "Montech XR",
       "url": "https://pcpartpicker.com/product/nhbRsY/montech-xr-atx-mid-tower-case-xr-w",
+      "image_url": "https://m.media-amazon.com/images/I/41p+1HCX2BL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -632,6 +684,7 @@
     {
       "name": "Fractal Design Terra",
       "url": "https://pcpartpicker.com/product/rpKscf/fractal-design-terra-mini-itx-desktop-case-fd-c-ter1n-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/46f3b3672c252def1f9cc56db0a11b61.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Green / Brown",
       "power_supply": "None",
@@ -644,6 +697,7 @@
     {
       "name": "MSI MAG FORGE 321R AIRFLOW",
       "url": "https://pcpartpicker.com/product/KtZXsY/msi-mag-forge-321r-airflow-atx-mid-tower-case-mag-forge-321r-airflow",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/71da8ca66086fde771b7f355b11ccf10.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -656,6 +710,7 @@
     {
       "name": "Montech KING 95 PRO",
       "url": "https://pcpartpicker.com/product/7qQKHx/montech-king-95-pro-atx-mid-tower-case-king-95-pro-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6e645766ef331a1911f2c74016db9efa.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -668,6 +723,7 @@
     {
       "name": "Asus Prime AP201",
       "url": "https://pcpartpicker.com/product/fPZ9TW/asus-prime-ap201-microatx-mini-tower-case-ap201blkmesh",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e40d8d2f2651fa6faca4e0a4552f8545.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -680,6 +736,7 @@
     {
       "name": "Montech X3 Mesh",
       "url": "https://pcpartpicker.com/product/HRH7YJ/montech-x3-mesh-atx-mid-tower-case-x3-mesh-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9e7790ee9397346b4c023cc04296fb5e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -692,6 +749,7 @@
     {
       "name": "Thermaltake Versa H18",
       "url": "https://pcpartpicker.com/product/vbkj4D/thermaltake-versa-h18-microatx-mini-tower-case-ca-1j4-00s1wn-00",
+      "image_url": "https://m.media-amazon.com/images/I/51nzmaDQ5-L.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -704,6 +762,7 @@
     {
       "name": "Antec C8",
       "url": "https://pcpartpicker.com/product/yxdG3C/antec-c8-atx-mid-tower-case-c8",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/881b5d3048a3e6c614c565698022feb6.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -716,6 +775,7 @@
     {
       "name": "Lian Li O11 Dynamic EVO XL",
       "url": "https://pcpartpicker.com/product/zqNYcf/lian-li-o11-dynamic-evo-xl-atx-full-tower-case-o11dexl-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dfc47937e6bd43628ec6ed2034d2e0ab.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -728,6 +788,7 @@
     {
       "name": "Corsair 3500X",
       "url": "https://pcpartpicker.com/product/jthv6h/corsair-3500x-atx-mid-tower-case-cc-9011276-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7ed7216607a1241d218bb8e18efa0264.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -740,6 +801,7 @@
     {
       "name": "NZXT H6 Flow RGB",
       "url": "https://pcpartpicker.com/product/kfRwrH/nzxt-h6-flow-rgb-atx-mid-tower-case-cc-h61fw-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/21f390a2caf255ac942d9f4d4899adee.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -752,6 +814,7 @@
     {
       "name": "Lian Li A3-mATX",
       "url": "https://pcpartpicker.com/product/zPVfrH/lian-li-a3-matx-microatx-mini-tower-case-a3-matx-wd-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/147f3c308af738ae654e7cd9361fb780.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White / Brown",
       "power_supply": "None",
@@ -764,6 +827,7 @@
     {
       "name": "Lian Li A4-H20 X4",
       "url": "https://pcpartpicker.com/product/jT7G3C/lian-li-a4-h20-x4-mini-itx-desktop-case-a4-h20-x4",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5976fcee24c589859552a9f087690430.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -776,6 +840,7 @@
     {
       "name": "Corsair 3000D AIRFLOW",
       "url": "https://pcpartpicker.com/product/NcRwrH/corsair-3000d-airflow-atx-mid-tower-case-cc-9011251-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/586841ed9160739668a55d1321c9494e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -788,6 +853,7 @@
     {
       "name": "NZXT H9 Flow RGB+ (2025)",
       "url": "https://pcpartpicker.com/product/mfFCmG/nzxt-h9-flow-rgb-2025-atx-mid-tower-case-cm-h92fb-p1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/463721369e4217261a778db8b67b118c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -800,6 +866,7 @@
     {
       "name": "Fractal Design North",
       "url": "https://pcpartpicker.com/product/Pmytt6/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b27a7e4bc53387580b31da81c7df34ab.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -812,6 +879,7 @@
     {
       "name": "Asus ROG Strix Helios II",
       "url": "https://pcpartpicker.com/product/7XFCmG/asus-rog-strix-helios-ii-atx-mid-tower-case-rog-strix-helios-ii-white-edition",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f12565247ac931555820e2f9f250a41c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -824,6 +892,7 @@
     {
       "name": "Asus ROG Strix Helios",
       "url": "https://pcpartpicker.com/product/FhRzK8/asus-rog-strix-helios-atx-full-tower-case-gx601",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7fb0b865a88be851eb7fdac685bf373c.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -836,6 +905,7 @@
     {
       "name": "Corsair 7000D AIRFLOW",
       "url": "https://pcpartpicker.com/product/4fhFf7/corsair-7000d-airflow-atx-mid-tower-case-cc-9011218ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/aa86351c8df24a48c98e7a14f50631a3.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -848,6 +918,7 @@
     {
       "name": "HAVN BF 360 Flow",
       "url": "https://pcpartpicker.com/product/BwKnTW/havn-bf-360-flow-atx-mid-tower-case-hvn-ca-bf360-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8ef4d01c7c9c0c94f1b6a841f37d905e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -860,6 +931,7 @@
     {
       "name": "Jonsbo D32 PRO",
       "url": "https://pcpartpicker.com/product/VL2j4D/jonsbo-d32-pro-microatx-desktop-case-d32-pro-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e63f1c68694e1f9fbf7d71f48052a1fe.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -872,6 +944,7 @@
     {
       "name": "Lian Li O11 Dynamic Mini V2 Flow",
       "url": "https://pcpartpicker.com/product/DfDnTW/lian-li-o11-dynamic-mini-v2-flow-atx-mini-tower-case-o11dmiv2fw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4d30fd5e4f14ca88cfab0487711bec6e.256p.jpg",
       "type": "ATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -884,6 +957,7 @@
     {
       "name": "Lian Li A3-mATX",
       "url": "https://pcpartpicker.com/product/c2yH99/lian-li-a3-matx-microatx-mini-tower-case-a3-matx-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e7b318c275d53698549fbe3b03fbb76e.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -896,6 +970,7 @@
     {
       "name": "Montech X5M",
       "url": "https://pcpartpicker.com/product/BpQwrH/montech-x5m-microatx-mini-tower-case-x5m-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/194bb19f86f9bc3969c42346a261f480.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -908,6 +983,7 @@
     {
       "name": "Fractal Design Ridge PCIe 4.0",
       "url": "https://pcpartpicker.com/product/PQdG3C/fractal-design-ridge-pcie-40-mini-itx-tower-case-fd-c-rid1n-11",
+      "image_url": "https://m.media-amazon.com/images/I/31bjjZkjSOL.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -920,6 +996,7 @@
     {
       "name": "Jonsbo Jonsplus Z20",
       "url": "https://pcpartpicker.com/product/MM7scf/jonsbo-jonsplus-z20-microatx-desktop-case-z20-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a4ddc6df555e1d01e63b5442f21946d7.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -932,6 +1009,7 @@
     {
       "name": "Lian Li LANCOOL 217 INF",
       "url": "https://pcpartpicker.com/product/mzRnTW/lian-li-lancool-217-inf-atx-mid-tower-case-lan217infx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8ab290fa1403b07b9ddf10897e60670f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -944,6 +1022,7 @@
     {
       "name": "Fractal Design North XL",
       "url": "https://pcpartpicker.com/product/LbHqqs/fractal-design-north-xl-atx-full-tower-case-fd-c-nor1x-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5bab30acac2072bec11c308f85697dc9.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -956,6 +1035,7 @@
     {
       "name": "Corsair FRAME 4000D RS",
       "url": "https://pcpartpicker.com/product/LMZWGX/corsair-frame-4000d-rs-atx-mid-tower-case-cc-9011312-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0aace4b7694fde3ec5552a640c0f95a5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -968,6 +1048,7 @@
     {
       "name": "Cooler Master MasterBox NR200P V2",
       "url": "https://pcpartpicker.com/product/GwfxFT/cooler-master-masterbox-nr200p-v2-mini-itx-desktop-case-nr200p-v2",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bf0023fb357f037c354139e56a95aa4d.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -980,6 +1061,7 @@
     {
       "name": "NZXT H6 Flow RGB",
       "url": "https://pcpartpicker.com/product/rM26Mp/nzxt-h6-flow-rgb-atx-mid-tower-case-cc-h61fb-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/36fe212ae1df2ee3ea86f193354e27fb.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -992,6 +1074,7 @@
     {
       "name": "Montech AIR 100 ARGB",
       "url": "https://pcpartpicker.com/product/wvmmP6/montech-air-100-argb-microatx-mid-tower-case-air-100-argb-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/aa5e572736881740bec953f14e71ac4a.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1004,6 +1087,7 @@
     {
       "name": "Fractal Design Define R5",
       "url": "https://pcpartpicker.com/product/sjX2FT/fractal-design-case-fdcadefr5bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3803ebb09f64ddc954a86cb7b45a8ebd.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1016,6 +1100,7 @@
     {
       "name": "Antec FLUX PRO",
       "url": "https://pcpartpicker.com/product/RhWJ7P/antec-flux-pro-atx-full-tower-case-0-761345-10148-6",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b76da1b61903db1a3a2ae31295d52f6f.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1028,6 +1113,7 @@
     {
       "name": "Fractal Design Pop Mini Air",
       "url": "https://pcpartpicker.com/product/gx3gXL/fractal-design-pop-mini-air-microatx-mid-tower-case-fd-c-por1m-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6bd2cbaf780aea720a3b8a53d80ce635.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1040,6 +1126,7 @@
     {
       "name": "Phanteks EVOLV X2",
       "url": "https://pcpartpicker.com/product/7wzp99/phanteks-evolv-x2-atx-mid-tower-case-ph-es524xtg_dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ff22ad5c41d204e9aeba33ea73af0c2a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1052,6 +1139,7 @@
     {
       "name": "Lian Li O11 Vision",
       "url": "https://pcpartpicker.com/product/Jk7scf/lian-li-o11-vision-atx-mid-tower-case-pc-o11vx",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/71a5af072d1ec085a7f8efc90cc895ba.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1059,11 +1147,12 @@
       "external_volume": "67.8 L",
       "internal_bays": "2",
       "rating": "18",
-      "price": "$143.99"
+      "price": "$208.20"
     },
     {
       "name": "NZXT H9 Flow RGB+ (2025)",
       "url": "https://pcpartpicker.com/product/8FKnTW/nzxt-h9-flow-rgb-2025-atx-mid-tower-case-cm-h92fw-p1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/791f157d26538e32901a4b24f6744af7.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1076,6 +1165,7 @@
     {
       "name": "Jonsbo NV10",
       "url": "https://pcpartpicker.com/product/9qh2FT/jonsbo-nv10-mini-itx-desktop-case-nv10-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/76cf9932ea9ceb95c93d25febfbb2036.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1088,6 +1178,7 @@
     {
       "name": "Fractal Design Meshify 3",
       "url": "https://pcpartpicker.com/product/Phm2FT/fractal-design-meshify-3-atx-mid-tower-case-fd-c-mes3a-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9b1e032da607ec35fc75b315bbd5652f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1100,6 +1191,7 @@
     {
       "name": "Antec NX200M",
       "url": "https://pcpartpicker.com/product/3f2WGX/antec-nx200m-microatx-mid-tower-case-nx200m",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b9f53fa6d3dedcf9f18c0cbf92d99cdf.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1112,6 +1204,7 @@
     {
       "name": "NZXT H7 Flow (2024)",
       "url": "https://pcpartpicker.com/product/f3xxFT/nzxt-h7-flow-2024-atx-mid-tower-case-cm-h72fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c82750f9b4f35062ec31297bcfc6c03c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1124,6 +1217,7 @@
     {
       "name": "Jonsbo C6-ITX",
       "url": "https://pcpartpicker.com/product/RhqNnQ/jonsbo-c6-itx-mini-itx-desktop-case-c6-itx-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1046a701715276b7c900588c25c30e6f.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -1136,6 +1230,7 @@
     {
       "name": "NZXT H3 Flow",
       "url": "https://pcpartpicker.com/product/qxbypg/nzxt-h3-flow-microatx-mid-tower-case-cc-h31fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ae820ec6301086ad1c7f4151a4fd9e14.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1148,6 +1243,7 @@
     {
       "name": "NZXT H9 Flow (2025)",
       "url": "https://pcpartpicker.com/product/9jNscf/nzxt-h9-flow-2025-atx-mid-tower-case-cm-h92fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c3f08e007e343d626448d0e1b5ef48e4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1160,6 +1256,7 @@
     {
       "name": "Fractal Design Focus G",
       "url": "https://pcpartpicker.com/product/ZHmxFT/fractal-design-focus-g-black-atx-mid-tower-case-fd-ca-focus-bk-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1ee4eb7d40aaf6bb43c86b4865407c2d.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1172,6 +1269,7 @@
     {
       "name": "HYTE Y70 Touch Infinite",
       "url": "https://pcpartpicker.com/product/ZnzXsY/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-wb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/706e7c9c052ed83d530cb408798ac755.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -1184,6 +1282,7 @@
     {
       "name": "Thermaltake View 270 Plus TG ARGB",
       "url": "https://pcpartpicker.com/product/3nTFf7/thermaltake-view-270-plus-tg-argb-atx-mid-tower-case-ca-1y7-00m1wn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9e5614134f25613ad1680297287c0aea.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1196,6 +1295,7 @@
     {
       "name": "Fractal Design Pop Air",
       "url": "https://pcpartpicker.com/product/QnD7YJ/fractal-design-pop-air-atx-mid-tower-case-fd-c-poa1a-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1d7438dfe855e147c0e8b3f235453b2b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1208,6 +1308,7 @@
     {
       "name": "Fractal Design Terra",
       "url": "https://pcpartpicker.com/product/kqHqqs/fractal-design-terra-mini-itx-desktop-case-fd-c-ter1n-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/45f93e757b99ed190cc286efeb777c1b.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Silver / Brown",
       "power_supply": "None",
@@ -1220,6 +1321,7 @@
     {
       "name": "Lian Li Lancool 207",
       "url": "https://pcpartpicker.com/product/BmyH99/lian-li-lancool-207-atx-mid-tower-case-lan207rw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a998adb9356bd111a22aec7d1745b0e9.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1232,6 +1334,7 @@
     {
       "name": "DIYPC ARGB-M1",
       "url": "https://pcpartpicker.com/product/2qXMnQ/diypc-argb-m1-microatx-mini-tower-case-argb-m1-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3f560befd6a3c32b9ea32056f9bb2f9a.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1244,6 +1347,7 @@
     {
       "name": "Cooler Master Cosmos C700P Black Edition",
       "url": "https://pcpartpicker.com/product/mLDkcf/cooler-master-cosmos-c700p-black-edition-atx-full-tower-case-mcc-c700p-kg5n-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2263c1478291772b81e84363835c8a5e.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1256,6 +1360,7 @@
     {
       "name": "Corsair FRAME 4000D RS ARGB",
       "url": "https://pcpartpicker.com/product/wxG2FT/corsair-frame-4000d-rs-argb-atx-mid-tower-case-cc-9011297-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d87286e11a12f3c2abe09ce813b3e6a0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1268,6 +1373,7 @@
     {
       "name": "Fractal Design Pop Air RGB",
       "url": "https://pcpartpicker.com/product/mpcG3C/fractal-design-pop-air-rgb-atx-mid-tower-case-fd-c-por1a-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/afcf290a91379b52360c7db562567b6f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1280,6 +1386,7 @@
     {
       "name": "Lian Li Vector V100R",
       "url": "https://pcpartpicker.com/product/WNxTwP/lian-li-v100r-atx-mid-tower-case-v100rw",
+      "image_url": "https://m.media-amazon.com/images/I/41Iw6-0mo9L.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1292,6 +1399,7 @@
     {
       "name": "NZXT H5 Flow RGB (2024)",
       "url": "https://pcpartpicker.com/product/rHwmP6/nzxt-h5-flow-rgb-2024-atx-mid-tower-case-cc-h52fb-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8925e4a3aa61f5cea6249c6e18c54e9e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1304,6 +1412,7 @@
     {
       "name": "Antec C5 ARGB",
       "url": "https://pcpartpicker.com/product/w3pQzy/antec-c5-argb-atx-mid-tower-case-0-761345-10034-2",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6a9bc88580323656f4d8355143380eda.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1316,6 +1425,7 @@
     {
       "name": "be quiet! Pure Base 501 Airflow",
       "url": "https://pcpartpicker.com/product/gGvD4D/be-quiet-pure-base-501-airflow-atx-mid-tower-case-bg074",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0cfa98e0c05ceb67f807c9307120facd.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1323,11 +1433,12 @@
       "external_volume": "48.1 L",
       "internal_bays": "2",
       "rating": "1",
-      "price": "$119.89"
+      "price": "$119.90"
     },
     {
       "name": "Montech X5",
       "url": "https://pcpartpicker.com/product/KQKnTW/montech-x5-atx-mid-tower-case-x5-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/178de817e7441b1a5c5280219d929636.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1340,6 +1451,7 @@
     {
       "name": "Antec C8 Wood",
       "url": "https://pcpartpicker.com/product/p7tLrH/antec-c8-wood-atx-mid-tower-case-0-761345-10079-3",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/733e7367fe45367fb76e6e94c306aa77.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1352,6 +1464,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/sP4Zxr/hyte-y70-atx-mid-tower-case-cs-hyte-y70-sm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c896d14497ddb676c9663460c3b43d3a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Pink",
       "power_supply": "None",
@@ -1364,6 +1477,7 @@
     {
       "name": "Lian Li LANCOOL 216",
       "url": "https://pcpartpicker.com/product/qP2WGX/lian-li-lancool-216-atx-mid-tower-case-lancool-216x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dc1a8a0fc34540a759fcee0a553949e0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1376,6 +1490,7 @@
     {
       "name": "Fractal Design North XL",
       "url": "https://pcpartpicker.com/product/wCWJ7P/fractal-design-north-xl-atx-full-tower-case-fd-c-nor1x-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/88c164e54b94ab54322ab8c419498254.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -1386,8 +1501,22 @@
       "price": "$184.99"
     },
     {
+      "name": "Lian Li Vector V100",
+      "url": "https://pcpartpicker.com/product/bBG2FT/lian-li-v100-atx-mid-tower-case-v100x",
+      "image_url": "https://m.media-amazon.com/images/I/41TWDuyRjcL.jpg",
+      "type": "ATX Mid Tower",
+      "color": "Black",
+      "power_supply": "None",
+      "side_panel": "Tempered Glass",
+      "external_volume": "53.2 L",
+      "internal_bays": "1",
+      "rating": "0",
+      "price": "$68.99"
+    },
+    {
       "name": "Cooler Master Q300L V2",
       "url": "https://pcpartpicker.com/product/wMyH99/cooler-master-q300l-v2-atx-mid-tower-case-q300lv2-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/882cbc6a90eb5a67014417560e8a44b8.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1400,6 +1529,7 @@
     {
       "name": "Lian Li Lancool 207 Digital",
       "url": "https://pcpartpicker.com/product/s8jv6h/lian-li-lancool-207-digital-atx-mid-tower-case-lancool-207-digital",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1efda4d4b2c45a0a176bca7b6bef5145.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1407,11 +1537,12 @@
       "external_volume": "45.5 L",
       "internal_bays": "2",
       "rating": "4",
-      "price": "$137.99"
+      "price": "$134.56"
     },
     {
       "name": "Okinos Aqua 3 ARGB",
       "url": "https://pcpartpicker.com/product/FfQKHx/okinos-aqua-3-microatx-mini-tower-case-okicc-aqua3-matxb-h3ba",
+      "image_url": "https://m.media-amazon.com/images/I/51MmMLP2BML.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1424,6 +1555,7 @@
     {
       "name": "Fractal Design Ridge PCIe 4.0",
       "url": "https://pcpartpicker.com/product/Jgn9TW/fractal-design-ridge-pcie-40-mini-itx-tower-case-fd-c-rid1n-12",
+      "image_url": "https://m.media-amazon.com/images/I/41LNNhTD36L.jpg",
       "type": "Mini ITX Tower",
       "color": "White",
       "power_supply": "None",
@@ -1436,6 +1568,7 @@
     {
       "name": "Zalman T8",
       "url": "https://pcpartpicker.com/product/LxTFf7/zalman-t8-atx-mid-tower-case-t8",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bc2dcc30127b984037b5d5967727f74a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1448,6 +1581,7 @@
     {
       "name": "Montech XR Wood",
       "url": "https://pcpartpicker.com/product/yYdMnQ/montech-xr-wood-atx-mid-tower-case-xr-wood-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9a598fd3a5d247f76f4ba3f913d914db.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1460,6 +1594,7 @@
     {
       "name": "HYTE Y40",
       "url": "https://pcpartpicker.com/product/2djBD3/hyte-y40-atx-mid-tower-case-cs-hyte-y40-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cb6d152b7ecc66262a7f50424834fae0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1472,6 +1607,7 @@
     {
       "name": "Antec FLUX",
       "url": "https://pcpartpicker.com/product/pMRwrH/antec-flux-atx-mid-tower-case-0-761345-10133-2",
+      "image_url": "https://m.media-amazon.com/images/I/51Ibc9abStL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1484,6 +1620,7 @@
     {
       "name": "SAMA SV01",
       "url": "https://pcpartpicker.com/product/k4RwrH/sama-sv01-atx-mid-tower-case-sv-01-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/829f788b96eda500a157df203ac861c8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1496,6 +1633,7 @@
     {
       "name": "MSI MAG PANO 100R PZ",
       "url": "https://pcpartpicker.com/product/Vgbypg/msi-mag-pano-100r-pz-atx-mid-tower-case-mag-pano-100r-pz",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/33c7930a05f4bd1706e2908d6e6ce1ec.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1508,6 +1646,7 @@
     {
       "name": "Thermaltake V100 Perforated",
       "url": "https://pcpartpicker.com/product/HwJgXL/thermaltake-v100-perforated-atx-mid-tower-case-ca-1k7-00m1nn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/42a5f5f534cfc75efc6b50ab01e198d3.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1520,6 +1659,7 @@
     {
       "name": "Lian Li PC-O11 Dynamic",
       "url": "https://pcpartpicker.com/product/VxRzK8/lian-li-pc-o11dw-atx-full-tower-case-pc-o11dw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/580387945cfb3fe6bac9ef5844c2b55f.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -1532,6 +1672,7 @@
     {
       "name": "Montech X5",
       "url": "https://pcpartpicker.com/product/q88Pxr/montech-x5-atx-mid-tower-case-x5-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/380e4e901c90ee37c37f95daf095481b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1544,6 +1685,7 @@
     {
       "name": "Phanteks NV5 MKII",
       "url": "https://pcpartpicker.com/product/rvBzK8/phanteks-nv5-mkii-atx-mid-tower-case-ph-nv523tg_dbk02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bb057fd182d7e583b21a15de58be50cc.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1556,6 +1698,7 @@
     {
       "name": "Fractal Design Node 804",
       "url": "https://pcpartpicker.com/product/yTdqqs/fractal-design-case-fdcanode804blw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9886185e66d27730b7d04cc2f26c232e.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1566,8 +1709,22 @@
       "price": "$143.99"
     },
     {
+      "name": "Corsair 2500X",
+      "url": "https://pcpartpicker.com/product/RbQKHx/corsair-2500x-microatx-mini-tower-case-cc-9011265-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/189e62900f9bc7e485321e6b8a2f0a6e.256p.jpg",
+      "type": "MicroATX Mini Tower",
+      "color": "Black",
+      "power_supply": "None",
+      "side_panel": "Tempered Glass",
+      "external_volume": "54.8 L",
+      "internal_bays": "2",
+      "rating": "2",
+      "price": "$198.99"
+    },
+    {
       "name": "Thermaltake View 170 ARGB",
       "url": "https://pcpartpicker.com/product/VT88TW/thermaltake-view-170-argb-microatx-mini-tower-case-ca-1z4-00m1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2f4f9691c180a9944c3676da2d0eced6.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1580,6 +1737,7 @@
     {
       "name": "darkFlash DB330M",
       "url": "https://pcpartpicker.com/product/3jHp99/darkflash-db330m-microatx-mini-tower-case-db330m-bk",
+      "image_url": "https://m.media-amazon.com/images/I/41KPkw-p5CL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1592,6 +1750,7 @@
     {
       "name": "Fractal Design Define 7",
       "url": "https://pcpartpicker.com/product/L8xbt6/fractal-design-define-7-atx-mid-tower-case-fd-c-def7a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0b1d8d06f03a6f582a41419253bab136.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1604,6 +1763,7 @@
     {
       "name": "Okinos Cypress 3 Wood",
       "url": "https://pcpartpicker.com/product/kKqNnQ/okinos-cypress-3-wood-microatx-mini-tower-case-cao-cp3wood",
+      "image_url": "https://m.media-amazon.com/images/I/51WR8k8DMJL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1616,6 +1776,7 @@
     {
       "name": "Fractal Design Node 304",
       "url": "https://pcpartpicker.com/product/BWFPxr/fractal-design-case-fdcanode304bl",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d4601be3b89341d6b9f38bdcea9a54c1.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black / White",
       "power_supply": "None",
@@ -1628,6 +1789,7 @@
     {
       "name": "Corsair AIR 5400 RS-R ARGB",
       "url": "https://pcpartpicker.com/product/tyRnTW/corsair-air-5400-rs-r-argb-atx-mid-tower-case-cc-9011318-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b5766f579dfdb602a545068561613379.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1640,6 +1802,7 @@
     {
       "name": "NZXT H7 Flow RGB (2024)",
       "url": "https://pcpartpicker.com/product/ncXV3C/nzxt-h7-flow-rgb-2024-atx-mid-tower-case-cm-h72fb-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b751cc2a71f197645f86433d3321a1dd.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1652,6 +1815,7 @@
     {
       "name": "MSI MAG FORGE 112R",
       "url": "https://pcpartpicker.com/product/cJJgXL/msi-mag-forge-112r-atx-mid-tower-case-mag-forge-112r",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/aefeec218209f404108ca1fb06870d9a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1664,6 +1828,7 @@
     {
       "name": "HAVN HS420",
       "url": "https://pcpartpicker.com/product/67cgXL/havn-hs420-atx-mid-tower-case-hvn-ca-hs420-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5fb0e9dfee15b197100837f58b1cef41.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1676,6 +1841,7 @@
     {
       "name": "Corsair iCUE LINK 3500X RGB",
       "url": "https://pcpartpicker.com/product/Zthv6h/corsair-icue-link-3500x-rgb-atx-mid-tower-case-cc-9011280-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/29123db95a7f75db6f39401e4f201ced.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1688,6 +1854,7 @@
     {
       "name": "NZXT H9 Elite",
       "url": "https://pcpartpicker.com/product/mWYmP6/nzxt-h9-elite-atx-mid-tower-case-cm-h91ew-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b1bef448b0e5397e703971eef3a08e40.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1700,6 +1867,7 @@
     {
       "name": "BGears b-Vortex-RGB",
       "url": "https://pcpartpicker.com/product/4Y4Ycf/bgears-b-vortex-rgb-atx-mid-tower-case-b-vortex-rgb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f2ab16c91b23579079786ac9973f5ca2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1712,6 +1880,7 @@
     {
       "name": "Fractal Design Meshify 3 Ambience Pro RGB",
       "url": "https://pcpartpicker.com/product/hdrp99/fractal-design-meshify-3-ambience-pro-rgb-atx-mid-tower-case-fd-c-mes3a-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/40b68a7bc0e31c9fde38b7fe8c28fa94.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1724,6 +1893,7 @@
     {
       "name": "Corsair FRAME 5000D RS ARGB",
       "url": "https://pcpartpicker.com/product/fYfV3C/corsair-frame-5000d-rs-argb-atx-mid-tower-case-cc-9011309-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/67f2b856f20cff271b8d678759534389.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1736,6 +1906,7 @@
     {
       "name": "Lian Li A4-H20 A4",
       "url": "https://pcpartpicker.com/product/BCcG3C/lian-li-a4-h20-a4-mini-itx-desktop-case-a4-h20-a4",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ab3bb219dcf9c7a1871197bb65ed9e2d.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Silver / Black",
       "power_supply": "None",
@@ -1748,6 +1919,7 @@
     {
       "name": "be quiet! Light Base 600 LX",
       "url": "https://pcpartpicker.com/product/TL6NnQ/be-quiet-light-base-600-lx-atx-mid-tower-case-bgw67",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3a9fdcefbfff454ad49ab6667259575e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1760,6 +1932,7 @@
     {
       "name": "Montech KING 95 PRO",
       "url": "https://pcpartpicker.com/product/VTqrxr/montech-king-95-pro-atx-mid-tower-case-king-95-pro-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/43dffde8ebf1330791a7443748af3853.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1772,6 +1945,7 @@
     {
       "name": "Fractal Design Focus 2",
       "url": "https://pcpartpicker.com/product/gWFbt6/fractal-design-focus-2-atx-mid-tower-case-fd-c-foc2a-07",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a75aec0b8270019ecc2a4b4141b11f52.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1784,6 +1958,7 @@
     {
       "name": "Fractal Design Torrent",
       "url": "https://pcpartpicker.com/product/BjqPxr/fractal-design-torrent-atx-mid-tower-case-fd-c-tor1a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6ed0eafe090016aba2869fcd8aa5debf.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1796,6 +1971,7 @@
     {
       "name": "Montech X3 Mesh",
       "url": "https://pcpartpicker.com/product/prWzK8/montech-x3-mesh-atx-mid-tower-case-x3-mesh-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d7f41ec3f6da61759df504aff2c3151b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1808,6 +1984,7 @@
     {
       "name": "Phanteks XT V3",
       "url": "https://pcpartpicker.com/product/WvYfrH/phanteks-xt-v3-microatx-mini-tower-case-ph-xt325v_dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/063e53a2b4b362258332a275b783f3c0.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1820,6 +1997,7 @@
     {
       "name": "Zalman P10",
       "url": "https://pcpartpicker.com/product/TBXV3C/zalman-p10-microatx-mini-tower-case-p10-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/78da78e8497ff7b1782c2393de326cdb.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -1832,6 +2010,7 @@
     {
       "name": "HYTE Y60 Snow White",
       "url": "https://pcpartpicker.com/product/3JfxFT/hyte-y60-snow-white-atx-mid-tower-case-cs-hyte-y60-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/057519c92f6acc11679400bd763c86f5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1844,6 +2023,7 @@
     {
       "name": "MagniumGear NEO QUBE 2 Infinity Mirror",
       "url": "https://pcpartpicker.com/product/JVM48d/magniumgear-neo-qube-2-infinity-mirror-atx-mid-tower-case-mg-ne620qi_dwt02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/967ac0e723691fb92ab911b8b7bab57a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1856,6 +2036,7 @@
     {
       "name": "MSI MAG PANO 100R PZ",
       "url": "https://pcpartpicker.com/product/mJMXsY/msi-mag-pano-100r-pz-atx-mid-tower-case-mag-pano-100r-pz-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a4ca7e3764561de659623fc103c252a1.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1868,6 +2049,7 @@
     {
       "name": "Lian Li LANCOOL III RGB",
       "url": "https://pcpartpicker.com/product/WggFf7/lian-li-lancool-iii-rgb-atx-mid-tower-case-lancool-3r-x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/55d2c192011b510c1883930977ae6110.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1880,6 +2062,7 @@
     {
       "name": "iBuypower Element 9",
       "url": "https://pcpartpicker.com/product/hjHp99/ibuypower-element-9-atx-mid-tower-case-29313",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b94d548a5cb5c6de76b4fb127a0bbb60.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1892,6 +2075,7 @@
     {
       "name": "be quiet! Light Base 600 DX",
       "url": "https://pcpartpicker.com/product/YxyH99/be-quiet-light-base-600-dx-atx-mid-tower-case-bgw65",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2e8fb6030ba10ff70485270c09c209e4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1904,6 +2088,7 @@
     {
       "name": "MUSETEX K2",
       "url": "https://pcpartpicker.com/product/CKMMnQ/musetex-k2-atx-mid-tower-case-k2",
+      "image_url": "https://pcpartpicker.com/static/forever/img/no-image.png",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1916,6 +2101,7 @@
     {
       "name": "Jonsbo N4",
       "url": "https://pcpartpicker.com/product/mMkH99/jonsbo-n4-microatx-desktop-case-n4-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8ef4b62f391a636cc88e028e6eb95738.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -1928,6 +2114,7 @@
     {
       "name": "HAVN HS420 VGPU",
       "url": "https://pcpartpicker.com/product/zzbRsY/havn-hs420-vgpu-atx-mid-tower-case-hvn-ca-hs420-08",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2550cc27bf90a9ca28d7ff9b94706d1a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1940,6 +2127,7 @@
     {
       "name": "Fractal Design Define 7 XL",
       "url": "https://pcpartpicker.com/product/dyLwrH/fractal-design-define-7-xl-atx-full-tower-case-fd-c-def7x-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b213daae5fc44dd75e3dc1b1ba2767a2.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1952,6 +2140,7 @@
     {
       "name": "Fractal Design North",
       "url": "https://pcpartpicker.com/product/d8WzK8/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1eb2360138c7f6474f6bed26f9498be7.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -1964,6 +2153,7 @@
     {
       "name": "Thermaltake The Tower 600",
       "url": "https://pcpartpicker.com/product/JN3NnQ/thermaltake-the-tower-600-atx-mid-tower-case-ca-1z1-00m1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/86b3f9fc77c3172a52582729e4bbffc2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1976,6 +2166,7 @@
     {
       "name": "Asus Prime AP201",
       "url": "https://pcpartpicker.com/product/Zq3NnQ/asus-prime-ap201-microatx-mini-tower-case-prime-ap201-tg-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b2d02589e75ecfdb273903f5cd607b0e.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -1988,6 +2179,7 @@
     {
       "name": "HYTE Y70 Touch Infinite",
       "url": "https://pcpartpicker.com/product/4X88TW/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-rb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/439e2c5679b89f688b15c35d2b3ff1b8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Red / Black",
       "power_supply": "None",
@@ -2000,6 +2192,7 @@
     {
       "name": "Fractal Design Meshify 3 XL Ambience Pro RGB",
       "url": "https://pcpartpicker.com/product/Kxbypg/fractal-design-meshify-3-xl-ambience-pro-rgb-atx-full-tower-case-fd-c-mes3x-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f02750d636ba52899889d84b04a3982a.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2012,6 +2205,7 @@
     {
       "name": "Jonsbo TK-0",
       "url": "https://pcpartpicker.com/product/ZbmNnQ/jonsbo-tk-0-mini-itx-desktop-case-tk-0-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/07a4d430afa3fd6f8bf67791917722b2.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -2024,6 +2218,7 @@
     {
       "name": "Jonsbo N10",
       "url": "https://pcpartpicker.com/product/Vqh2FT/jonsbo-n10-mini-itx-tower-case-n10-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/eceb2aadfcfd5a2aa9e91f7cc5d9dff9.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2036,6 +2231,7 @@
     {
       "name": "Thermaltake Level 20",
       "url": "https://pcpartpicker.com/product/BkyV3C/thermaltake-level-20-atx-full-tower-case-ca-1j9-00f9wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fe7584667e240572a13c154d663a2200.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black / Silver",
       "power_supply": "None",
@@ -2048,6 +2244,7 @@
     {
       "name": "Zalman T3 PLUS",
       "url": "https://pcpartpicker.com/product/nNLdnQ/zalman-t3-plus-microatx-mid-tower-case-t3-plus",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e55cd4d5e340ed49b1f0ac2f16bde6d0.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2060,6 +2257,7 @@
     {
       "name": "NZXT H5 Flow RGB (2024)",
       "url": "https://pcpartpicker.com/product/236NnQ/nzxt-h5-flow-rgb-2024-atx-mid-tower-case-cc-h52fw-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/796012e02d8d9ed58612ded4a8b3ee92.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2072,6 +2270,7 @@
     {
       "name": "Corsair 3500X CALL OF DUTY BLACK OPS 6 EDITION",
       "url": "https://pcpartpicker.com/product/bdm2FT/corsair-3500x-call-of-duty-black-ops-6-edition-atx-mid-tower-case-cc-9011276-cod",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/412f5abeb2ec37748139760ed7201054.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Orange",
       "power_supply": "None",
@@ -2084,6 +2283,7 @@
     {
       "name": "Corsair 3500X RS-R ARGB",
       "url": "https://pcpartpicker.com/product/xGwD4D/corsair-3500x-rs-r-argb-atx-mid-tower-case-cc-9011322-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/30802f7748080837c9135baf9b27f69c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2096,6 +2296,7 @@
     {
       "name": "Okinos Air Cross",
       "url": "https://pcpartpicker.com/product/39vscf/okinos-air-cross-atx-mid-tower-case-okicc-aircross-atxb",
+      "image_url": "https://pcpartpicker.com/static/forever/img/no-image.png",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -2108,6 +2309,7 @@
     {
       "name": "Phanteks XT PRO ULTRA",
       "url": "https://pcpartpicker.com/product/TGzXsY/phanteks-xt-pro-ultra-atx-mid-tower-case-ph-xt523p1-dwt01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4ff0b4197cac3fcec5222722ec83622e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2120,6 +2322,7 @@
     {
       "name": "Lian Li Vector V100",
       "url": "https://pcpartpicker.com/product/qRwD4D/lian-li-v100-atx-mid-tower-case-v100w",
+      "image_url": "https://m.media-amazon.com/images/I/41vqWBBdd2L.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2132,6 +2335,7 @@
     {
       "name": "Asus A31",
       "url": "https://pcpartpicker.com/product/QNpD4D/asus-a31-atx-mid-tower-case-a31-tg-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/81b2d6901dbd32e899c91ac89ffa5a65.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2144,6 +2348,7 @@
     {
       "name": "Corsair AIR 5400 LX-R RGB iCUE LINK",
       "url": "https://pcpartpicker.com/product/HZPv6h/corsair-air-5400-lx-r-rgb-icue-link-atx-mid-tower-case-cc-9011320-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1b68a1def6ccade80fa69194d852016f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2156,6 +2361,7 @@
     {
       "name": "DIYPC DIY-mATX06-Wood",
       "url": "https://pcpartpicker.com/product/rk8Pxr/diypc-diy-matx06-wood-microatx-mini-tower-case-diy-matx06-wood",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/827851c4573e2e0ba4c6aabc96338eab.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -2168,6 +2374,7 @@
     {
       "name": "be quiet! Light Base 900 FX",
       "url": "https://pcpartpicker.com/product/Wpqrxr/be-quiet-light-base-900-fx-atx-full-tower-case-bgw71",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/39d37e27e5a67572c5f6476421277121.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2180,6 +2387,7 @@
     {
       "name": "Corsair iCUE 4000X RGB",
       "url": "https://pcpartpicker.com/product/jNCFf7/corsair-icue-4000x-rgb-atx-mid-tower-case-cc-9011205-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3a87f7d1da63e23f30f3e4bf032ae7c5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2192,6 +2400,7 @@
     {
       "name": "Lian Li LANCOOL 217 INF",
       "url": "https://pcpartpicker.com/product/8c7MnQ/lian-li-lancool-217-inf-atx-mid-tower-case-lan217infw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/802167d34d02e5b46418b8e932637a5a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2204,6 +2413,7 @@
     {
       "name": "Cooler Master MasterBox TD500 Mesh V2",
       "url": "https://pcpartpicker.com/product/y2mNnQ/cooler-master-masterbox-td500-mesh-v2-atx-mid-tower-case-td500v2-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a504fae7c99570b6f3e6c9601d2e1a80.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "###### Color",
       "power_supply": "None",
@@ -2216,6 +2426,7 @@
     {
       "name": "DARKROCK EC2",
       "url": "https://pcpartpicker.com/product/8fHp99/darkrock-ec2-atx-mid-tower-case-cp-case-dr-ec2-bk",
+      "image_url": "https://m.media-amazon.com/images/I/41WKGqx87BL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2228,6 +2439,7 @@
     {
       "name": "DIYPC ARGB-G5",
       "url": "https://pcpartpicker.com/product/ZBzp99/diypc-argb-g5-atx-mid-tower-case-argb-g5-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4e08a4714a11b001c0fd6af4d733d4ed.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2240,6 +2452,7 @@
     {
       "name": "Fractal Design Meshify 2",
       "url": "https://pcpartpicker.com/product/6KWBD3/fractal-design-meshify-2-atx-mid-tower-case-fd-c-mes2a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/06efb58d593b0a752b4b4968048212ce.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2252,6 +2465,7 @@
     {
       "name": "DIYPC ARGB-N5",
       "url": "https://pcpartpicker.com/product/xtsMnQ/diypc-argb-n5-bk-atx-mid-tower-case-argb-n5-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fa9be4ce8d548d36113ed680ed03dc7a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2264,6 +2478,7 @@
     {
       "name": "Jonsbo N5",
       "url": "https://pcpartpicker.com/product/vGWJ7P/jonsbo-n5-atx-full-tower-case-n5-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/25e09d736124640642cc110017036424.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -2276,6 +2491,7 @@
     {
       "name": "Thermaltake The Tower 300",
       "url": "https://pcpartpicker.com/product/8TxxFT/thermaltake-the-tower-300-microatx-mini-tower-case-ca-1y4-00s1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/19b7bb3f150197acc9dd2ca8652c6837.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2288,6 +2504,7 @@
     {
       "name": "Phanteks XT View",
       "url": "https://pcpartpicker.com/product/3JQKHx/phanteks-xt-view-atx-mid-tower-case-ph-xt523v1-dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8565cae93ed1297a0b905f02db4b9b99.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2300,6 +2517,7 @@
     {
       "name": "Asus TUF Gaming GT502",
       "url": "https://pcpartpicker.com/product/gQC48d/asus-tuf-gaming-gt502-atx-mid-tower-case-gt502blktg",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5deeaf924f2581fd0676d61583a3246a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2312,6 +2530,7 @@
     {
       "name": "Montech AIR 903 MAX",
       "url": "https://pcpartpicker.com/product/bQGhP6/montech-air-903-max-atx-mid-tower-case-air-903-max-w",
+      "image_url": "https://m.media-amazon.com/images/I/51n9PwnRsWL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2324,6 +2543,7 @@
     {
       "name": "Fractal Design Epoch",
       "url": "https://pcpartpicker.com/product/Ff2j4D/fractal-design-epoch-atx-mid-tower-case-fd-c-epo1a-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/61431abc32c0c42bd280f9b3c7df8eff.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2336,6 +2556,7 @@
     {
       "name": "Cooler Master N200",
       "url": "https://pcpartpicker.com/product/T3rG3C/cooler-master-case-nse200kkn1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/be028a4809ea1a0f53b4238bce0f1a98.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2348,6 +2569,7 @@
     {
       "name": "GAMDIAS TALOS E3 MESH",
       "url": "https://pcpartpicker.com/product/N29wrH/gamdias-talos-e3-mesh-atx-mid-tower-case-talos-e3-mesh",
+      "image_url": "https://m.media-amazon.com/images/I/41RtCe8fCVL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2360,6 +2582,7 @@
     {
       "name": "Lian Li LANCOOL 217",
       "url": "https://pcpartpicker.com/product/2ndMnQ/lian-li-lancool-217-atx-mid-tower-case-lan217w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/366bb567a24869809a5f0425a16e9dda.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Brown",
       "power_supply": "None",
@@ -2372,6 +2595,7 @@
     {
       "name": "ZZEW A1 Plus",
       "url": "https://pcpartpicker.com/product/3NfnTW/zzew-a1-plus-mini-itx-tower-case-a1p",
+      "image_url": "https://m.media-amazon.com/images/I/41BQNKKxpwL.jpg",
       "type": "Mini ITX Tower",
       "color": "Silver",
       "power_supply": "None",
@@ -2384,6 +2608,7 @@
     {
       "name": "Fractal Design Pop XL Silent",
       "url": "https://pcpartpicker.com/product/BtGbt6/fractal-design-pop-xl-silent-atx-full-tower-case-fd-c-pos1x-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5ee026759c2b56319620544efb2ac379.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2396,6 +2621,7 @@
     {
       "name": "Thermaltake View 380 ARGB",
       "url": "https://pcpartpicker.com/product/8hfxFT/thermaltake-view-380-argb-atx-mid-tower-case-ca-1z2-00m1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fe9aedeffb10a1ad8ecd4ded7ab2c468.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2408,6 +2634,7 @@
     {
       "name": "Asus TUF Gaming GT302 ARGB",
       "url": "https://pcpartpicker.com/product/P77scf/asus-tuf-gaming-gt302-argb-atx-mid-tower-case-90dc00i0-b19000",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b0972cf958bfa894570afa43b6487b9c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2420,6 +2647,7 @@
     {
       "name": "Cooler Master N400",
       "url": "https://pcpartpicker.com/product/wNrG3C/cooler-master-case-nse400kkn2",
+      "image_url": "https://m.media-amazon.com/images/I/41PRRVkB5nL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2432,6 +2660,7 @@
     {
       "name": "Corsair 6500D Airflow",
       "url": "https://pcpartpicker.com/product/vctLrH/corsair-6500d-airflow-atx-mid-tower-case-cc-9011259-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3c5d8ec0852ea1e9f58c096ecad1490e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2444,6 +2673,7 @@
     {
       "name": "Fractal Design Pop Air",
       "url": "https://pcpartpicker.com/product/KLQcCJ/fractal-design-pop-air-atx-mid-tower-case-fd-c-poa1a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3c204ed1b1c08f33621eac87362ced71.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2451,11 +2681,12 @@
       "external_volume": "46.2 L",
       "internal_bays": "2",
       "rating": "5",
-      "price": "$65.99"
+      "price": "$103.99"
     },
     {
       "name": "HYTE Y60",
       "url": "https://pcpartpicker.com/product/H6VmP6/hyte-y60-atx-mid-tower-case-cs-hyte-y60-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/aba78f3e5e8c4fbe22c28f66c5d9c60b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2468,6 +2699,7 @@
     {
       "name": "Corsair iCUE 7000X RGB",
       "url": "https://pcpartpicker.com/product/CRzhP6/corsair-icue-7000x-rgb-atx-mid-tower-case-cc-9011226-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9d9c87b6c5733128026e68890dad154f.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2480,6 +2712,7 @@
     {
       "name": "PC Cooler I100 PRO MESH",
       "url": "https://pcpartpicker.com/product/fNpD4D/pc-cooler-i100-pro-mesh-mini-itx-desktop-case-c3-a110gyp0-gl",
+      "image_url": "https://m.media-amazon.com/images/I/4198JOk9iHL.jpg",
       "type": "Mini ITX Desktop",
       "color": "Gray",
       "power_supply": "None",
@@ -2492,6 +2725,7 @@
     {
       "name": "darkFlash DB330M",
       "url": "https://pcpartpicker.com/product/RMVfrH/darkflash-db330m-microatx-mini-tower-case-db330m-wh",
+      "image_url": "https://m.media-amazon.com/images/I/41i7jh8B-CL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -2504,6 +2738,7 @@
     {
       "name": "Jonsbo NV10",
       "url": "https://pcpartpicker.com/product/7DJBD3/jonsbo-nv10-mini-itx-desktop-case-nv10-silver",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/eb2afd0ec7b90142ee5dcbcde12dd8f0.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Silver / Brown",
       "power_supply": "None",
@@ -2516,6 +2751,7 @@
     {
       "name": "Corsair 3500X",
       "url": "https://pcpartpicker.com/product/z2dG3C/corsair-3500x-atx-mid-tower-case-cc-9011277-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/723d37b740409323ead76fbbf485d36c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2528,6 +2764,7 @@
     {
       "name": "Phanteks Enthoo Pro Tempered Glass",
       "url": "https://pcpartpicker.com/product/BfPKHx/phanteks-enthoo-pro-tempered-glass-atx-full-tower-case-ph-es614ptg_bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3d056fa8f7e299b382f9e463afbc895b.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2540,6 +2777,7 @@
     {
       "name": "Corsair 2500X",
       "url": "https://pcpartpicker.com/product/9Q26Mp/corsair-2500x-microatx-mini-tower-case-cc-9011266-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d1ff95214b2c41cfa6f412128813248d.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -2552,6 +2790,7 @@
     {
       "name": "Asus ProArt PA602",
       "url": "https://pcpartpicker.com/product/N9pQzy/asus-proart-pa602-atx-mid-tower-case-proart-pa602",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1937f6fcb0b4f6bc658299c0667f4562.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2564,6 +2803,7 @@
     {
       "name": "Vetroo AL900",
       "url": "https://pcpartpicker.com/product/CRcgXL/vetroo-al900-atx-mid-tower-case-vt-case-al900-pk",
+      "image_url": "https://m.media-amazon.com/images/I/417rnwwrnVL.jpg",
       "type": "ATX Mid Tower",
       "color": "Pink",
       "power_supply": "None",
@@ -2576,6 +2816,7 @@
     {
       "name": "Fractal Design Pop Mini Silent",
       "url": "https://pcpartpicker.com/product/bzD7YJ/fractal-design-pop-mini-silent-microatx-mid-tower-case-fd-c-pos1m-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c25d0595b9aad8fba2d3e8c582419c36.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2588,6 +2829,7 @@
     {
       "name": "Corsair 9000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/FvzXsY/corsair-9000d-rgb-airflow-atx-full-tower-case-cc-9011274-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1a6d1644bd0ed7316982574cbb92abde.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -2600,6 +2842,7 @@
     {
       "name": "Thermaltake View 170 ARGB",
       "url": "https://pcpartpicker.com/product/mHwmP6/thermaltake-view-170-argb-microatx-mini-tower-case-ca-1z4-00m6wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3e6ffcba7d0081049a64f9a30644e5b7.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -2612,6 +2855,7 @@
     {
       "name": "Montech AIR 100 LITE",
       "url": "https://pcpartpicker.com/product/Dsstt6/montech-air-100-lite-microatx-mid-tower-case-air-100-lite-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/08c94fb7ec969bdd1b94122d46ee71d4.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2624,6 +2868,7 @@
     {
       "name": "Antec C8 Curve Wood",
       "url": "https://pcpartpicker.com/product/xX9wrH/antec-c8-curve-wood-atx-mid-tower-case-0-761345-10158-5",
+      "image_url": "https://m.media-amazon.com/images/I/51Ei0hzdY3L.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -2636,6 +2881,7 @@
     {
       "name": "MSI MAG PANO M100R PZ",
       "url": "https://pcpartpicker.com/product/gXGhP6/msi-mag-pano-m100r-pz-microatx-mid-tower-case-mag-pano-m100r-pz-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4a680d36c4db64ef4bfe4d8d9493d3be.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2648,6 +2894,7 @@
     {
       "name": "Corsair iCUE 5000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/xrHqqs/corsair-icue-5000d-rgb-airflow-atx-mid-tower-case-cc-9011242-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5081c21e39d4649a6d853b21d775e3af.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2660,6 +2907,7 @@
     {
       "name": "Corsair 3000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/Lsn9TW/corsair-3000d-rgb-airflow-atx-mid-tower-case-cc-9011255-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d7ae0e488baf194dc708e2f09b0e1c1d.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2672,6 +2920,7 @@
     {
       "name": "Thermaltake Versa H18",
       "url": "https://pcpartpicker.com/product/dgndnQ/thermaltake-versa-h18-microatx-mini-tower-case-ca-1j4-00s1wn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/671425ce236b8aeac8123559433f37c4.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2684,6 +2933,7 @@
     {
       "name": "Corsair FRAME 5000D RS",
       "url": "https://pcpartpicker.com/product/Yy8Pxr/corsair-frame-5000d-rs-atx-mid-tower-case-cc-9011307-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2bd86e808bf7aff8ee87a6011a5cc615.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2696,6 +2946,7 @@
     {
       "name": "NZXT H5 Flow (2022)",
       "url": "https://pcpartpicker.com/product/RY4Ycf/nzxt-h5-flow-atx-mid-tower-case-cc-h51fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/84cb77175187296029f50f8bf6ca6960.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2708,6 +2959,7 @@
     {
       "name": "NZXT H510 Elite",
       "url": "https://pcpartpicker.com/product/kpx2FT/nzxt-h510-elite-atx-mid-tower-case-ca-h510e-w1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ef210e01af6191ab58a81a1fa721e9a0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -2720,6 +2972,7 @@
     {
       "name": "Cooler Master NR200P V3",
       "url": "https://pcpartpicker.com/product/DhYfrH/cooler-master-nr200p-v3-mini-itx-desktop-case-nr200pv3-kwnn-s00",
+      "image_url": "https://m.media-amazon.com/images/I/41RxK1cRCzL.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -2732,6 +2985,7 @@
     {
       "name": "Zalman T6 Mini",
       "url": "https://pcpartpicker.com/product/c3MXsY/zalman-t6-mini-microatx-mini-tower-case-t6-mini",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e49abcd5702ab24afd90df323183fed1.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2744,6 +2998,7 @@
     {
       "name": "Corsair iCUE LINK 3500X RGB",
       "url": "https://pcpartpicker.com/product/YnfxFT/corsair-icue-link-3500x-rgb-atx-mid-tower-case-cc-9011281-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/44bc16e969b63d07ba90ec2af951053d.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2756,6 +3011,7 @@
     {
       "name": "Thermaltake TR100",
       "url": "https://pcpartpicker.com/product/nk62FT/thermaltake-tr100-mini-itx-desktop-case-ca-11a-00s1nn-00",
+      "image_url": "https://m.media-amazon.com/images/I/41CmLRZMWOL.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -2768,6 +3024,7 @@
     {
       "name": "Jonsbo C6",
       "url": "https://pcpartpicker.com/product/WMCZxr/jonsbo-c6-microatx-mini-tower-case-c6-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/63a50929af96b14777eed5521ba9d1de.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2780,6 +3037,7 @@
     {
       "name": "Phanteks Eclipse G400A",
       "url": "https://pcpartpicker.com/product/p4DnTW/phanteks-eclipse-g400a-atx-mid-tower-case-ph-ec400ga_dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cce29382d4d567d05fd6ebbb4dca74e5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2792,6 +3050,7 @@
     {
       "name": "Phanteks EVOLV X2",
       "url": "https://pcpartpicker.com/product/V4dMnQ/phanteks-evolv-x2-atx-mid-tower-case-ph-es524xtg_dmw01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3c375006d4534260444261a4e3b1bcf8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2804,6 +3063,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/yZMMnQ/hyte-y70-atx-mid-tower-case-cs-hyte-y70-tm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/82b6ca929559ff2b2be53eea780d17e2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Purple",
       "power_supply": "None",
@@ -2816,6 +3076,7 @@
     {
       "name": "Phanteks XT V3",
       "url": "https://pcpartpicker.com/product/6brp99/phanteks-xt-v3-microatx-mini-tower-case-ph-xt325v_dwt01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cffcf669e1ba4da0e401a3fcf4cf0202.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -2828,6 +3089,7 @@
     {
       "name": "DIYPC DIY-CUBE01",
       "url": "https://pcpartpicker.com/product/J9V2FT/diypc-diy-cube01-microatx-mini-tower-case-diy-cube01-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a5bac44eb9b83c910375215ceebb70ec.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2840,6 +3102,7 @@
     {
       "name": "SAMA SV01",
       "url": "https://pcpartpicker.com/product/rzbRsY/sama-sv01-atx-mid-tower-case-sv-01-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4c6c3b69f7803cb74b8b5189aad4b3eb.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2852,6 +3115,7 @@
     {
       "name": "MSI MAG PANO M100R PZ",
       "url": "https://pcpartpicker.com/product/ttBzK8/msi-mag-pano-m100r-pz-microatx-mid-tower-case-mag-pano-m100r-pz",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/847468930ce0360df85191da84f61abc.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2864,6 +3128,7 @@
     {
       "name": "Cooler Master QUBE 500 Flatpack",
       "url": "https://pcpartpicker.com/product/g6yH99/cooler-master-qube-500-flatpack-atx-mid-tower-case-q500-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/82d04401b428a2cb9b2275c9661bed56.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2876,6 +3141,7 @@
     {
       "name": "Fractal Design Meshify 3 XL",
       "url": "https://pcpartpicker.com/product/tH8Pxr/fractal-design-meshify-3-xl-atx-full-tower-case-fd-c-mes3x-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2214f52dc0361fcaa3405f26f05959eb.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2888,6 +3154,7 @@
     {
       "name": "HYTE Y60",
       "url": "https://pcpartpicker.com/product/pyBG3C/hyte-y60-atx-mid-tower-case-cs-hyte-y60-bw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/662f5e77558aa8614da981050beff94b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -2900,6 +3167,7 @@
     {
       "name": "Zalman CUBIX",
       "url": "https://pcpartpicker.com/product/sHqNnQ/zalman-cubix-microatx-mini-tower-case-cubix-bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/124e7043ef3fd68ab51158731a4dfefe.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2912,6 +3180,7 @@
     {
       "name": "MSI MPG GUNGNIR 110R",
       "url": "https://pcpartpicker.com/product/gLZzK8/msi-mpg-gungnir-110r-atx-mid-tower-case-mpg-gungnir-110r",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dc42d28c5790fb4bde9a1b71bb294edb.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2924,6 +3193,7 @@
     {
       "name": "Fractal Design Meshify 2",
       "url": "https://pcpartpicker.com/product/ByjNnQ/fractal-design-meshify-2-atx-mid-tower-case-fd-c-mes2a-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/25e82e47cc7ef713af2f8e676d10c413.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Gray",
       "power_supply": "None",
@@ -2936,6 +3206,7 @@
     {
       "name": "Cooler Master MasterBox NR200P V2",
       "url": "https://pcpartpicker.com/product/MDdG3C/cooler-master-masterbox-nr200p-v2-mini-itx-desktop-case-nr200p-v2-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b50071bdfbedcd886fb3b435ba9bb498.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -2948,6 +3219,7 @@
     {
       "name": "MSI MPG GUNGNIR 300R AIRFLOW",
       "url": "https://pcpartpicker.com/product/vJBzK8/msi-mpg-gungnir-300r-airflow-atx-mid-tower-case-gun300rair",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3ebf0cd07038781294967b100f747488.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2960,6 +3232,7 @@
     {
       "name": "Rosewill FBM-X3",
       "url": "https://pcpartpicker.com/product/pGJBD3/rosewill-fbm-x3-microatx-mid-tower-case-w650-w-power-supply-fbm-x3-650-g",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d4e6b7fc6fe3bc6e7e9a6e2a392c75f0.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "650 W",
@@ -2972,6 +3245,7 @@
     {
       "name": "Montech SKY TWO GX",
       "url": "https://pcpartpicker.com/product/CrbRsY/montech-sky-two-gx-atx-mid-tower-case-skytwogxb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/656fd843c4b0f4253d6c687a21b60738.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -2984,6 +3258,7 @@
     {
       "name": "HAVN HS420 VGPU",
       "url": "https://pcpartpicker.com/product/BNXV3C/havn-hs420-vgpu-atx-mid-tower-case-hvn-ca-hs420-07",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dd631a0cd3e1a8ffd338d768288d9319.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -2996,6 +3271,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/WyZWGX/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-tm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0e1b2e2beb976a2bd460cb0b08ffe5cf.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Purple",
       "power_supply": "None",
@@ -3008,6 +3284,7 @@
     {
       "name": "Lian Li LANCOOL 205M MESH",
       "url": "https://pcpartpicker.com/product/yxytt6/lian-li-lancool-205m-mesh-microatx-mini-tower-case-g99oe744mx10am",
+      "image_url": "https://m.media-amazon.com/images/I/41u7EeFLLVL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3020,6 +3297,7 @@
     {
       "name": "Thermaltake Versa H17",
       "url": "https://pcpartpicker.com/product/JtWfrH/thermaltake-versa-h17-microatx-mini-tower-case-ca-1j1-00s1nn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/629f2789011af7e733b1ae66154b1e54.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3032,6 +3310,7 @@
     {
       "name": "GAMDIAS ATHENA M3",
       "url": "https://pcpartpicker.com/product/DxXV3C/gamdias-athena-m3-atx-mid-tower-case-athena-m3-wh",
+      "image_url": "https://m.media-amazon.com/images/I/41Jje24zUvL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3044,6 +3323,7 @@
     {
       "name": "Lian Li LANCOOL 216 RGB",
       "url": "https://pcpartpicker.com/product/QcddnQ/lian-li-lancool-216-rgb-atx-mid-tower-case-lancool-216rw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f4d776081b676d3dbf78ac6db48be9d6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3056,6 +3336,7 @@
     {
       "name": "Jonsbo C6 MAX",
       "url": "https://pcpartpicker.com/product/47XMnQ/jonsbo-c6-max-microatx-desktop-case-c6-max-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/215c842ca05793ec0ea78cc3775c4083.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -3068,6 +3349,7 @@
     {
       "name": "Fractal Design Focus 2",
       "url": "https://pcpartpicker.com/product/WvXJ7P/fractal-design-focus-2-atx-mid-tower-case-fd-c-foc2a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/63adb80dcc0930198ac952d510583f95.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3080,6 +3362,7 @@
     {
       "name": "NZXT H9 Flow RGB (2025)",
       "url": "https://pcpartpicker.com/product/7rYfrH/nzxt-h9-flow-rgb-2025-atx-mid-tower-case-cm-h92fb-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e11facc14b069078a28e503c794a78ad.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3092,6 +3375,7 @@
     {
       "name": "Asus ProArt PA602 Wood Edition",
       "url": "https://pcpartpicker.com/product/Ly4Pxr/asus-proart-pa602-wood-edition-atx-mid-tower-case-90dc00j0-b08010",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/611d62a2df028fc07df96f54d8219911.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -3104,6 +3388,7 @@
     {
       "name": "GAMDIAS ATHENA M4M",
       "url": "https://pcpartpicker.com/product/Gqy8TW/gamdias-athena-m4m-microatx-desktop-case-athena-m4m",
+      "image_url": "https://m.media-amazon.com/images/I/41SSgAE0haL.jpg",
       "type": "MicroATX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -3116,6 +3401,7 @@
     {
       "name": "Cooler Master Elite 301 Lite",
       "url": "https://pcpartpicker.com/product/VGLp99/cooler-master-elite-301-lite-microatx-mini-tower-case-e301l-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fd4333a7b576a9a3c04dd9ffe3b157ed.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3128,6 +3414,7 @@
     {
       "name": "Montech X5M",
       "url": "https://pcpartpicker.com/product/TTZWGX/montech-x5m-microatx-mini-tower-case-x5m-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e3fc0d70d6775f78c3d6fc2e410593f2.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -3140,6 +3427,7 @@
     {
       "name": "Corsair AIR 5400 LX-R RGB iCUE LINK",
       "url": "https://pcpartpicker.com/product/pLKnTW/corsair-air-5400-lx-r-rgb-icue-link-atx-mid-tower-case-cc-9011321-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5b9d62e3fd983195dbc8c410ff4fc377.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3152,6 +3440,7 @@
     {
       "name": "Fractal Design Era 2",
       "url": "https://pcpartpicker.com/product/jjfxFT/fractal-design-era-2-mini-itx-tower-case-fd-c-era2n-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/14df8c6d790c408557680360e63a7c02.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -3164,6 +3453,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/9tFmP6/hyte-y70-atx-mid-tower-case-cs-hyte-y70-bw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/16530bbbeebfc7e617a6cd8e2c51accf.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -3176,6 +3466,7 @@
     {
       "name": "Jonsbo N3",
       "url": "https://pcpartpicker.com/product/Rf26Mp/jonsbo-n3-mini-itx-desktop-case-n3",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/832f0944c63e64985f3a1b25de4ae875.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -3188,6 +3479,7 @@
     {
       "name": "be quiet! Pure Base 600",
       "url": "https://pcpartpicker.com/product/PNTrxr/be-quiet-pure-base-600-atx-mid-tower-case-bg021",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c9fd16dedee9c658bfa6612d9ce9f043.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3200,6 +3492,7 @@
     {
       "name": "DARKROCK Classico Storage Master",
       "url": "https://pcpartpicker.com/product/CkNYcf/darkrock-classico-storage-master-atx-mid-tower-case-cp-case-dr-classico",
+      "image_url": "https://m.media-amazon.com/images/I/516ptm2BMJL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3212,6 +3505,7 @@
     {
       "name": "Cooler Master HAF 700 EVO",
       "url": "https://pcpartpicker.com/product/FCPQzy/cooler-master-haf-700-evo-atx-full-tower-case-h700e-ignn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/834697c4dc53172c0e852a9d59448917.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Gray / Black",
       "power_supply": "None",
@@ -3224,6 +3518,7 @@
     {
       "name": "Thermaltake AX700",
       "url": "https://pcpartpicker.com/product/m92j4D/thermaltake-ax700-atx-full-tower-case-ca-11b-00f1nn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/45583749d56d10065dfdde85e51e8132.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3236,6 +3531,7 @@
     {
       "name": "Asus A31 PLUS",
       "url": "https://pcpartpicker.com/product/XtqNnQ/asus-a31-plus-atx-mid-tower-case-90dc00r0-b19000",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2c1246bc17d9510f9967aef0b9837761.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3248,6 +3544,7 @@
     {
       "name": "Thermaltake View 380 ARGB",
       "url": "https://pcpartpicker.com/product/2qtLrH/thermaltake-view-380-argb-atx-mid-tower-case-ca-1z2-00m6wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8316bf757f6a28487ed9573ef6d2d505.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3260,6 +3557,7 @@
     {
       "name": "Fractal Design Torrent",
       "url": "https://pcpartpicker.com/product/4svdnQ/fractal-design-torrent-atx-mid-tower-case-fd-c-tor1a-05",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/52d91129eae095121c33f90f3018394e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3272,6 +3570,7 @@
     {
       "name": "Montech KING 65 PRO",
       "url": "https://pcpartpicker.com/product/dKCZxr/montech-king-65-pro-atx-mid-tower-case-king-65-pro-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/78c37ed0e845cec35e9c6cdd5850ccae.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3284,6 +3583,7 @@
     {
       "name": "Fractal Design Meshify 2 XL",
       "url": "https://pcpartpicker.com/product/f2hmP6/fractal-design-meshify-2-xl-atx-full-tower-case-fd-c-mes2x-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6613bb82582221c0522ee46d2752f400.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3296,6 +3596,7 @@
     {
       "name": "Zalman S4",
       "url": "https://pcpartpicker.com/product/x7xbt6/zalman-s4-atx-mid-tower-case-s4",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cf104fe6bb85759cf8b921f956574959.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3308,6 +3609,7 @@
     {
       "name": "NZXT H7 Flow (2022)",
       "url": "https://pcpartpicker.com/product/c7jBD3/nzxt-h7-flow-atx-mid-tower-case-cm-h71fb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bec2a61865de879aa69df53f51b10e56.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3320,6 +3622,7 @@
     {
       "name": "Asus Prime AP201",
       "url": "https://pcpartpicker.com/product/nL3gXL/asus-prime-ap201-microatx-mini-tower-case-ap201whtmesh",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/338a79373c466a21f2c6411ff52e0381.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -3332,6 +3635,7 @@
     {
       "name": "Silverstone ALTA D1",
       "url": "https://pcpartpicker.com/product/rFwmP6/silverstone-alta-d1-atx-full-tower-case-sst-ald1b",
+      "image_url": "https://m.media-amazon.com/images/I/41iiV2BV+YL.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3344,6 +3648,7 @@
     {
       "name": "Jonsbo T9",
       "url": "https://pcpartpicker.com/product/m2fV3C/jonsbo-t9-mini-itx-desktop-case-t9-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c3a49f604e267e685e856f65f03ee57a.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -3356,6 +3661,7 @@
     {
       "name": "Fractal Design Pop XL Air",
       "url": "https://pcpartpicker.com/product/xdRYcf/fractal-design-pop-xl-air-atx-full-tower-case-fd-c-por1x-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/be8f8fb4a277ff7fef24355b9b66aa7d.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -3368,6 +3674,7 @@
     {
       "name": "NZXT H9 Flow RGB (2025)",
       "url": "https://pcpartpicker.com/product/Vdrp99/nzxt-h9-flow-rgb-2025-atx-mid-tower-case-cm-h92fw-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6083e8a9b7c0e1463ebf4f9b0800b670.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3380,6 +3687,7 @@
     {
       "name": "be quiet! Pure Base 501 Airflow",
       "url": "https://pcpartpicker.com/product/pCBzK8/be-quiet-pure-base-501-airflow-atx-mid-tower-case-bgw74",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/df4571bd727798c54a07e92bfef5dee0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3392,6 +3700,7 @@
     {
       "name": "be quiet! Light Base 500",
       "url": "https://pcpartpicker.com/product/F79nTW/be-quiet-light-base-500-atx-mid-tower-case-bgw83",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2b356fdf3f2edde74da1924d6212a33d.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3404,6 +3713,7 @@
     {
       "name": "NZXT H9 Elite",
       "url": "https://pcpartpicker.com/product/8XmmP6/nzxt-h9-elite-atx-mid-tower-case-cm-h91eb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3343638ac7c51fa6e94ae27e5413fa37.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3416,6 +3726,7 @@
     {
       "name": "Vetroo AL800",
       "url": "https://pcpartpicker.com/product/thzXsY/vetroo-al800-atx-mid-tower-case-vt-case-al800-pk",
+      "image_url": "https://m.media-amazon.com/images/I/41R2TMajLYL.jpg",
       "type": "ATX Mid Tower",
       "color": "Pink",
       "power_supply": "None",
@@ -3428,6 +3739,7 @@
     {
       "name": "HYTE Y40",
       "url": "https://pcpartpicker.com/product/WpxRsY/hyte-y40-atx-mid-tower-case-cs-hyte-y40-bw",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/18e87f5d604e66bf832d63b0b8f074c4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -3440,6 +3752,7 @@
     {
       "name": "Okinos Mirage 4",
       "url": "https://pcpartpicker.com/product/qhTFf7/okinos-mirage-4-microatx-mini-tower-case-okicc-mg4-matxb",
+      "image_url": "https://pcpartpicker.com/static/forever/img/no-image.png",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3452,6 +3765,7 @@
     {
       "name": "be quiet! Light Base 900 DX",
       "url": "https://pcpartpicker.com/product/z3Kscf/be-quiet-light-base-900-dx-atx-full-tower-case-bgw69",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a845ecaf57019463e0234be63ffcb860.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3464,6 +3778,7 @@
     {
       "name": "Montech AIR 903 BASE",
       "url": "https://pcpartpicker.com/product/rBTZxr/montech-air-903-base-atx-mid-tower-case-air-903-base-w",
+      "image_url": "https://m.media-amazon.com/images/I/51Q-DxSXVxL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3476,6 +3791,7 @@
     {
       "name": "Fractal Design Pop Air",
       "url": "https://pcpartpicker.com/product/3nD7YJ/fractal-design-pop-air-atx-mid-tower-case-fd-c-por1a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/959f9cbd45cb157a5c46ffa503d67ec7.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3488,6 +3804,7 @@
     {
       "name": "Gigabyte C201 PANORAMIC",
       "url": "https://pcpartpicker.com/product/zBWmP6/gigabyte-c201-panoramic-microatx-mid-tower-case-gb-c201p",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2b427280b03e9b92cea1762a60cb6fdb.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3500,6 +3817,7 @@
     {
       "name": "GAMDIAS TALOS E3",
       "url": "https://pcpartpicker.com/product/hrWzK8/gamdias-talos-e3-atx-mid-tower-case-talos-e3",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1e28abeeca74feb96f38722485820a6b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3512,6 +3830,7 @@
     {
       "name": "Thermaltake Versa H21",
       "url": "https://pcpartpicker.com/product/c67wrH/thermaltake-versa-h21-atx-mid-tower-case-ca-1b2-00m1nn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/be9c96f6855895c8bc541d5bad35b6dd.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3524,6 +3843,7 @@
     {
       "name": "Fractal Design Pop Mini Air",
       "url": "https://pcpartpicker.com/product/qJrRsY/fractal-design-pop-mini-air-microatx-mid-tower-case-fd-c-por1m-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2769d6540b4d4a8eafe586606b7d8f31.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3536,6 +3856,7 @@
     {
       "name": "Phanteks NV7",
       "url": "https://pcpartpicker.com/product/cFGhP6/phanteks-nv7-atx-full-tower-case-ph-nv723tg_dbk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cb891f1a850c7c2f6f594f85c9d40e39.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3548,6 +3869,7 @@
     {
       "name": "Fractal Design Epoch",
       "url": "https://pcpartpicker.com/product/Q3WmP6/fractal-design-epoch-atx-mid-tower-case-fd-c-epo1a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/20e571678009fa232f0389554e9364ea.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3560,6 +3882,7 @@
     {
       "name": "Fractal Design Meshify 3 XL",
       "url": "https://pcpartpicker.com/product/pWBFf7/fractal-design-meshify-3-xl-atx-full-tower-case-fd-c-mes3x-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9043b9a1884d42fd6e4802730441cd93.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3572,6 +3895,7 @@
     {
       "name": "Fractal Design Core 1100",
       "url": "https://pcpartpicker.com/product/TkkD4D/fractal-design-core-1100-microatx-mini-tower-case-fd-ca-core-1100-bl",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3d54051e45ebef8a6c54fbf92005b0ee.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3584,6 +3908,7 @@
     {
       "name": "Lian Li TU150",
       "url": "https://pcpartpicker.com/product/8k6qqs/lian-li-tu150-mini-itx-desktop-case-tu150wa",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/529680ec55d69a30901f345f91ad227d.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Silver",
       "power_supply": "None",
@@ -3596,6 +3921,7 @@
     {
       "name": "Phanteks Enthoo Pro 2 Server Edition",
       "url": "https://pcpartpicker.com/product/Qprqqs/phanteks-enthoo-pro-2-server-edition-atx-full-tower-case-ph-es620ptg_bk02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/90a92d9ee9876f438875683ebaaf1381.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3608,6 +3934,7 @@
     {
       "name": "Mars Gaming MC-S2",
       "url": "https://pcpartpicker.com/product/23cgXL/mars-gaming-mc-s2-atx-mid-tower-case-mcs2w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/da3d6e23ce14b734712565bbbcde5703.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -3620,6 +3947,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/7pkH99/hyte-y70-atx-mid-tower-case-cs-hyte-y70-br",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/390a2ac5780964f46adf62cec8f90be2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Red",
       "power_supply": "None",
@@ -3632,6 +3960,7 @@
     {
       "name": "Antec C3 ARGB",
       "url": "https://pcpartpicker.com/product/ckBzK8/antec-c3-argb-atx-mid-tower-case-0-761345-10029-8",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/8cebb5a9e40823e02d08e30ba2fa7955.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3644,6 +3973,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/kzG2FT/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-bb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/092c8e4a89c6339e6ce41c1e66b451f6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3656,6 +3986,7 @@
     {
       "name": "NZXT H7 Flow RGB (2024)",
       "url": "https://pcpartpicker.com/product/N3xxFT/nzxt-h7-flow-rgb-2024-atx-mid-tower-case-cm-h72fw-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c4c8b6dc19a005ed0da00b161cec7c1c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3668,6 +3999,7 @@
     {
       "name": "HYTE X50 Air",
       "url": "https://pcpartpicker.com/product/jbG2FT/hyte-x50-air-atx-mid-tower-case-cs-hyte-x50a-bb",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3ae368d1e13dce88b82082f3bb925a84.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3680,6 +4012,7 @@
     {
       "name": "Jonsbo C6 Handle",
       "url": "https://pcpartpicker.com/product/j8QKHx/jonsbo-c6-handle-microatx-mini-tower-case-c6-handle-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f40118219d47126059fd3b50ccbdcbd9.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3692,6 +4025,7 @@
     {
       "name": "Cooler Master Elite 301",
       "url": "https://pcpartpicker.com/product/6mgZxr/cooler-master-elite-301-microatx-mid-tower-case-e301-wgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3842cef237f3c5737b858a3165e9cc4a.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3704,6 +4038,7 @@
     {
       "name": "Cooler Master Elite 502",
       "url": "https://pcpartpicker.com/product/P92j4D/cooler-master-elite-502-atx-mid-tower-case-e502-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b5be2cbcdd280c8be2db66dd513f4d40.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3716,6 +4051,7 @@
     {
       "name": "Thermaltake View 270 Plus TG ARGB",
       "url": "https://pcpartpicker.com/product/R9TFf7/thermaltake-view-270-plus-tg-argb-atx-mid-tower-case-ca-1y7-00m6wn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/225f396a21a52158b79108df6559578c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3728,6 +4064,7 @@
     {
       "name": "Corsair 3500X RS-R ARGB",
       "url": "https://pcpartpicker.com/product/kdfV3C/corsair-3500x-rs-r-argb-atx-mid-tower-case-cc-9011323-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/974d887529968f5083dfbeae05132372.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3740,6 +4077,7 @@
     {
       "name": "GAMDIAS ATLAS M1",
       "url": "https://pcpartpicker.com/product/Y9mNnQ/gamdias-atlas-m1-atx-mid-tower-case-gd-atlas-m1",
+      "image_url": "https://m.media-amazon.com/images/I/41ieRo0EX3L.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3752,6 +4090,7 @@
     {
       "name": "Cooler Master MasterBox TD500 Mesh V2",
       "url": "https://pcpartpicker.com/product/dTn9TW/cooler-master-masterbox-td500-mesh-v2-atx-mid-tower-case-td500v2-wgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3fa3fba4c04fcd1ecc9ac9db6e298c10.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3764,6 +4103,7 @@
     {
       "name": "Montech HS02 Pro",
       "url": "https://pcpartpicker.com/product/qWfV3C/montech-hs02-pro-atx-mid-tower-case-hs02-pro-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/721e7ad7c0d924de6ff5885e500a7637.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3776,6 +4116,7 @@
     {
       "name": "Corsair iCUE 220T RGB Airflow",
       "url": "https://pcpartpicker.com/product/wMpmP6/corsair-icue-220t-rgb-atx-mid-tower-case-cc-9011173-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b131b69136be8e03966cfb55ffcb1009.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3788,6 +4129,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/bcVfrH/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-sm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/41490df70a3b53c86af03cb05514ccba.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Pink",
       "power_supply": "None",
@@ -3800,6 +4142,7 @@
     {
       "name": "Thermaltake TR100",
       "url": "https://pcpartpicker.com/product/LWbypg/thermaltake-tr100-mini-itx-desktop-case-ca-11a-00senn-00",
+      "image_url": "https://m.media-amazon.com/images/I/514ONc7393L.jpg",
       "type": "Mini ITX Desktop",
       "color": "Green / Black",
       "power_supply": "None",
@@ -3812,6 +4155,7 @@
     {
       "name": "be quiet! Silent Base 802",
       "url": "https://pcpartpicker.com/product/TVJmP6/be-quiet-silent-base-802-atx-mid-tower-case-bgw39",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1061cb3d4da531d4110b0e8a0754ac9f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3819,11 +4163,12 @@
       "external_volume": "83.8 L",
       "internal_bays": "3",
       "rating": "7",
-      "price": "$220.89"
+      "price": "$220.90"
     },
     {
       "name": "Corsair FRAME 4000D",
       "url": "https://pcpartpicker.com/product/Nr62FT/corsair-frame-4000d-atx-mid-tower-case-cc-9011291-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0860d7bf07065887d736161f077ad247.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3836,6 +4181,7 @@
     {
       "name": "Thermaltake Versa H16 ARGB",
       "url": "https://pcpartpicker.com/product/WQ62FT/thermaltake-versa-h16-argb-microatx-mini-tower-case-ca-1y8-00s1wn-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0b6192fa93565ba7370ededf930e12b2.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3848,6 +4194,7 @@
     {
       "name": "Jonsbo Jonsplus Z20",
       "url": "https://pcpartpicker.com/product/CZ7scf/jonsbo-jonsplus-z20-microatx-desktop-case-z20-orangeblack",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/03e4484376cbc2f0a8c0f0b0c5dc7d20.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Orange / Black",
       "power_supply": "None",
@@ -3860,6 +4207,7 @@
     {
       "name": "Fractal Design North XL",
       "url": "https://pcpartpicker.com/product/MydG3C/fractal-design-north-xl-atx-full-tower-case-fd-c-nor1x-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fdca2e87963ac4e8663d5c83a716eada.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -3872,6 +4220,7 @@
     {
       "name": "HAVN BF 360 Flow",
       "url": "https://pcpartpicker.com/product/T8CCmG/havn-bf-360-flow-atx-mid-tower-case-hvn-ca-bf360-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/093ac2557997e6f4d4a987724c7f332c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -3884,6 +4233,7 @@
     {
       "name": "Asus TUF Gaming GT501",
       "url": "https://pcpartpicker.com/product/FRm323/asus-tuf-gaming-gt501-atx-mid-tower-case-gt501",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ca3e134af890a43c5dc611107cc87850.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Gray",
       "power_supply": "None",
@@ -3896,6 +4246,7 @@
     {
       "name": "Corsair 5000D AIRFLOW",
       "url": "https://pcpartpicker.com/product/JWn8TW/corsair-5000d-airflow-atx-mid-tower-case-cc-9011211-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f98e411d9763902637b8a6527c44dd19.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Gray",
       "power_supply": "None",
@@ -3908,6 +4259,7 @@
     {
       "name": "Jonsbo D32 PRO MESH",
       "url": "https://pcpartpicker.com/product/jTpD4D/jonsbo-d32-pro-mesh-microatx-desktop-case-d32-pro-mesh-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2da5a44ceded78ea17572cd579c45b41.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "###### Color",
       "power_supply": "None",
@@ -3920,6 +4272,7 @@
     {
       "name": "BitFenix Nova Mesh M ARGB",
       "url": "https://pcpartpicker.com/product/w9rqqs/bitfenix-nova-mesh-m-argb-microatx-mini-tower-case-nsm-150-wwgsw-3a",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/66ff0f19a99fc63b771df43c93b65c4d.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -3932,6 +4285,7 @@
     {
       "name": "Fractal Design Mood",
       "url": "https://pcpartpicker.com/product/bb3NnQ/fractal-design-mood-mini-itx-tower-case-fd-c-mod1n-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/441bab3d704183c4453b689c10710a21.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3944,6 +4298,7 @@
     {
       "name": "MUSETEX NN8",
       "url": "https://pcpartpicker.com/product/n6C48d/musetex-nn8-atx-mid-tower-case-nn8",
+      "image_url": "https://m.media-amazon.com/images/I/51IBuYn2q8L.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3956,6 +4311,7 @@
     {
       "name": "Cooler Master Elite 302",
       "url": "https://pcpartpicker.com/product/CgFCmG/cooler-master-elite-302-microatx-mini-tower-case-e302-kgnn-s00",
+      "image_url": "https://m.media-amazon.com/images/I/419Wim7TbYL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3968,6 +4324,7 @@
     {
       "name": "ENDORFY Ventum 200 ARGB",
       "url": "https://pcpartpicker.com/product/6bCZxr/endorfy-ventum-200-argb-atx-mid-tower-case-ey2a014",
+      "image_url": "https://m.media-amazon.com/images/I/414P3hINBnL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3980,6 +4337,7 @@
     {
       "name": "iBuypower Slate 9 Mesh",
       "url": "https://pcpartpicker.com/product/X28Pxr/ibuypower-slate-9-mesh-atx-mid-tower-case-29312",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/36ab0d91b8fed0a4d368dd39f6e8df55.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -3992,6 +4350,7 @@
     {
       "name": "Silverstone RM52",
       "url": "https://pcpartpicker.com/product/2gPv6h/silverstone-rm52-atx-full-tower-case-sst-rm52",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7c3c70397dbe98efaeaa461feecdd5a4.256p.jpg",
       "type": "Rackmount 5U",
       "color": "Black",
       "power_supply": "None",
@@ -4004,6 +4363,7 @@
     {
       "name": "HYTE Y40",
       "url": "https://pcpartpicker.com/product/w2jRsY/hyte-y40-atx-mid-tower-case-cs-hyte-y40-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4c3b69572a72cf391e18049cbad99140.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4016,6 +4376,7 @@
     {
       "name": "HYTE REVOLT 3",
       "url": "https://pcpartpicker.com/product/Zvstt6/hyte-revolt-3-mini-itx-tower-case-cs-hyte-revolt3-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fc2a8d8cde52e2b72838865ac8d8b7cc.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4028,6 +4389,7 @@
     {
       "name": "Corsair 6500D Airflow",
       "url": "https://pcpartpicker.com/product/XNHqqs/corsair-6500d-airflow-atx-mid-tower-case-cc-9011260-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6581171404883d44f32155aa6ee50c0c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4040,6 +4402,7 @@
     {
       "name": "Fractal Design Mood",
       "url": "https://pcpartpicker.com/product/WFjRsY/fractal-design-mood-mini-itx-tower-case-fd-c-mod1n-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/117742659b480c75d0e6ce559efe8bf4.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Gray",
       "power_supply": "None",
@@ -4047,11 +4410,12 @@
       "external_volume": "20.4 L",
       "internal_bays": "1",
       "rating": "0",
-      "price": "$212.97"
+      "price": "$216.98"
     },
     {
       "name": "Jonsbo D31 MESH",
       "url": "https://pcpartpicker.com/product/8qRwrH/jonsbo-d31-mesh-microatx-mini-tower-case-d31-mesh-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/560da778f87c2b20e164180102f9f65b.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4064,6 +4428,7 @@
     {
       "name": "NZXT H5 Flow (2022)",
       "url": "https://pcpartpicker.com/product/92pzK8/nzxt-h5-flow-atx-mid-tower-case-cc-h51fw-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6c58fbf47cba2aca9c9a56ff028fe5d9.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4076,6 +4441,7 @@
     {
       "name": "iBuypower Trace 7 Mesh Pro ARGB",
       "url": "https://pcpartpicker.com/product/YTGhP6/ibuypower-trace-7-mesh-pro-argb-atx-mid-tower-case-848604046990",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/430bd19d51efb44aff27cfc82598d683.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4088,6 +4454,7 @@
     {
       "name": "DIYPC DIY-CUBE01",
       "url": "https://pcpartpicker.com/product/vx7scf/diypc-diy-cube01-microatx-mini-tower-case-diy-cube01-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d43427d8d3d1080d0df4aa3380e68bc8.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -4100,6 +4467,7 @@
     {
       "name": "Corsair FRAME 4500X LX-R RGB iCUE LINK",
       "url": "https://pcpartpicker.com/product/QtsMnQ/corsair-frame-4500x-lx-r-rgb-icue-link-atx-mid-tower-case-cc-9011316-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/318bdf13ecf18f2e9d967c0ce0d61730.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4112,6 +4480,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/2B7MnQ/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-mm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6f5e8838e092fffa6089f226baf89633.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Green",
       "power_supply": "None",
@@ -4124,6 +4493,7 @@
     {
       "name": "Jonsbo Jonsplus Z20",
       "url": "https://pcpartpicker.com/product/wmZXsY/jonsbo-jonsplus-z20-microatx-desktop-case-z20-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6b2a1864fbe729a5ae6f175567e02a14.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -4136,6 +4506,7 @@
     {
       "name": "Lian Li LANCOOL 205 Mesh C",
       "url": "https://pcpartpicker.com/product/CrzhP6/lian-li-lancool-205-mesh-c-atx-mid-tower-case-g99oe764cx00am",
+      "image_url": "https://m.media-amazon.com/images/I/41EFURt04PL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4148,6 +4519,7 @@
     {
       "name": "Fractal Design Meshify 3",
       "url": "https://pcpartpicker.com/product/dtKnTW/fractal-design-meshify-3-atx-mid-tower-case-fd-c-mes3a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/af166336d2a298d7b6abdb9d24b7767b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4160,6 +4532,7 @@
     {
       "name": "Fractal Design Pop Silent",
       "url": "https://pcpartpicker.com/product/6ggFf7/fractal-design-pop-silent-atx-mid-tower-case-fd-c-pos1a-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2920ff9ad52f040a7aba88ce261242cf.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4172,6 +4545,7 @@
     {
       "name": "be quiet! Light Base 900 FX",
       "url": "https://pcpartpicker.com/product/6wTZxr/be-quiet-light-base-900-fx-atx-full-tower-case-bgw72",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3a06a467f1d9414b5fec6e3364e50b9e.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -4184,6 +4558,7 @@
     {
       "name": "Asus A31",
       "url": "https://pcpartpicker.com/product/FMFCmG/asus-a31-atx-mid-tower-case-a31-tg-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fbb70958d5254499e1d309f87232cb73.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4196,6 +4571,7 @@
     {
       "name": "Fractal Design Meshify 2 Compact TG Light Tint",
       "url": "https://pcpartpicker.com/product/mgwypg/fractal-design-meshify-2-compact-tg-light-tint-atx-mid-tower-case-fd-c-mes2c-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/70ac697e3e6678daf16d38842957b0c0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4208,6 +4584,7 @@
     {
       "name": "BitFenix Nova Mesh SE",
       "url": "https://pcpartpicker.com/product/kRQfrH/bitfenix-nova-mesh-se-atx-mid-tower-case-bfc-nse-300-wwgkw-4a",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/40188063d25ed3337b179c7424aba71f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4220,6 +4597,7 @@
     {
       "name": "Fractal Design Define 7 Compact",
       "url": "https://pcpartpicker.com/product/xmH8TW/fractal-design-define-7-compact-atx-mid-tower-case-fd-c-def7c-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/94be643ea4729251648e246257a1b7e1.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4232,6 +4610,7 @@
     {
       "name": "Asus TUF Gaming GT301",
       "url": "https://pcpartpicker.com/product/8HFKHx/asus-tuf-gaming-gt301-atx-mid-tower-case-tuf-gaming-gt301",
+      "image_url": "https://m.media-amazon.com/images/I/41JdgNFfbrL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4244,6 +4623,7 @@
     {
       "name": "Lian Li TU150",
       "url": "https://pcpartpicker.com/product/KFXYcf/lian-li-tu150-mini-itx-desktop-case-tu150x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b08e1229ff500abc292c2ee2340ee186.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -4256,6 +4636,7 @@
     {
       "name": "Fractal Design North XL RC",
       "url": "https://pcpartpicker.com/product/Jw7MnQ/fractal-design-north-xl-rc-atx-full-tower-case-fd-c-nor1x-05",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/450c00df8d3744dd928453fbe84cfa33.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4263,11 +4644,12 @@
       "external_volume": "61.4 L",
       "internal_bays": "2",
       "rating": "0",
-      "price": "$222.99"
+      "price": "$232.99"
     },
     {
       "name": "Cooler Master Cosmos C700M",
       "url": "https://pcpartpicker.com/product/ddPKHx/cooler-master-cosmos-c700m-atx-mid-tower-case-mcc-c700m-mg5n-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1181299463d46600b7915b6135c4e6a7.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Silver / Black",
       "power_supply": "None",
@@ -4280,6 +4662,7 @@
     {
       "name": "Thermaltake The Tower 250",
       "url": "https://pcpartpicker.com/product/ZgTZxr/thermaltake-the-tower-250-mini-itx-tower-case-ca-1z9-00s1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/70952f65821b71bbfb604bd6d9dc88f7.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4292,6 +4675,7 @@
     {
       "name": "Jonsbo V12",
       "url": "https://pcpartpicker.com/product/TDMXsY/jonsbo-v12-microatx-desktop-case-v12-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/33665364eb1f55009353184fe017367c.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -4304,6 +4688,7 @@
     {
       "name": "Thermaltake View 380 XL TG ARGB",
       "url": "https://pcpartpicker.com/product/rNzp99/thermaltake-view-380-xl-tg-argb-atx-mid-tower-case-ca-11e-00m1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5f6909e7df5c275352c5efeef06d1940.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4316,6 +4701,7 @@
     {
       "name": "Fractal Design Torrent RGB",
       "url": "https://pcpartpicker.com/product/Y9RYcf/fractal-design-torrent-rgb-atx-mid-tower-case-fd-c-tor1a-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e6446516ac165189f9f086ae54522e77.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4328,6 +4714,7 @@
     {
       "name": "Fractal Design Core 1000 USB 3.0",
       "url": "https://pcpartpicker.com/product/KPw323/fractal-design-case-fdcacore1000usb3bl",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a71b87c93a953bcd78a4d1f1fca14760.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4340,6 +4727,7 @@
     {
       "name": "Corsair FRAME 4500X RS-R ARGB",
       "url": "https://pcpartpicker.com/product/3q9nTW/corsair-frame-4500x-rs-r-argb-atx-mid-tower-case-cc-9011314-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/301a67cd93e133f43ded023e24455ba9.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4352,6 +4740,7 @@
     {
       "name": "be quiet! Silent Base 802",
       "url": "https://pcpartpicker.com/product/Y8n8TW/be-quiet-silent-base-802-atx-mid-tower-case-bg039",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/66d27e62caacc19c10634eac3f89880e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4359,11 +4748,12 @@
       "external_volume": "83.8 L",
       "internal_bays": "3",
       "rating": "2",
-      "price": "$195.51"
+      "price": "$195.90"
     },
     {
       "name": "Phanteks Enthoo Pro Closed Panel",
       "url": "https://pcpartpicker.com/product/TXCwrH/phanteks-enthoo-pro-closed-panel-atx-full-tower-case-ph-es614pc_bk",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5e0c2bd40fb1f51d18b4024ab132af71.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4376,6 +4766,7 @@
     {
       "name": "Jonsbo T6",
       "url": "https://pcpartpicker.com/product/nYV2FT/jonsbo-t6-mini-itx-tower-case-t6-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/506059b7801c79f84a29a4fe22bed792.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -4388,6 +4779,7 @@
     {
       "name": "Asus ProArt PA401 Wood Edition",
       "url": "https://pcpartpicker.com/product/tgJBD3/asus-proart-pa401-wood-edition-atx-mid-tower-case-90dc00m0-b38000",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/36d3bc2037d3f7d7beacb17fa80f4b29.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4400,6 +4792,7 @@
     {
       "name": "BGears b-Pellucid",
       "url": "https://pcpartpicker.com/product/m7bRsY/bgears-b-pellucid-microatx-mini-tower-case-bg01756",
+      "image_url": "https://m.media-amazon.com/images/I/41-Ryd7oZuL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4412,6 +4805,7 @@
     {
       "name": "be quiet! Light Base 500 LX",
       "url": "https://pcpartpicker.com/product/3rnXsY/be-quiet-light-base-500-lx-atx-mid-tower-case-bgw85",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fd92b832e2339437a916a9590fcf482e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4424,6 +4818,7 @@
     {
       "name": "DIYPC DIY-ATX08-Wood",
       "url": "https://pcpartpicker.com/product/22YfrH/diypc-diy-atx08-wood-atx-mid-tower-case-diy-atx08-wood",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6d374f2ef6c2c9b573bff66ce753e24c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -4436,6 +4831,7 @@
     {
       "name": "Zalman S3",
       "url": "https://pcpartpicker.com/product/TJrmP6/zalman-s3-atx-mid-tower-case-s3",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/39166e47f3aff14ffeb9e3239d413a10.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4448,6 +4844,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/xWjv6h/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/990e4b9396ecfc3bcf53b46ffa755c45.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4460,6 +4857,7 @@
     {
       "name": "SAMA 3509",
       "url": "https://pcpartpicker.com/product/sPCZxr/sama-3509-atx-mid-tower-case-3509bk",
+      "image_url": "https://m.media-amazon.com/images/I/41il5+4pnHL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4472,6 +4870,7 @@
     {
       "name": "Corsair 2500D Airflow",
       "url": "https://pcpartpicker.com/product/FrBzK8/corsair-2500d-airflow-microatx-mini-tower-case-cc-9011263-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/21257dd043176e91b098a5807667e517.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4479,11 +4878,12 @@
       "external_volume": "54.8 L",
       "internal_bays": "2",
       "rating": "0",
-      "price": "$77.27"
+      "price": "$158.86"
     },
     {
       "name": "GAMDIAS TALOS E3 WH",
       "url": "https://pcpartpicker.com/product/HjLFf7/gamdias-talos-e3-wh-atx-mid-tower-case-talos-e3-wh",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ae8f4e474cf97cfab51b11f17e55b8c2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -4496,6 +4896,7 @@
     {
       "name": "Asus A21",
       "url": "https://pcpartpicker.com/product/kKKscf/asus-a21-microatx-mini-tower-case-90dc00h0-b09000",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7abeea992916448d94671e0c5aa86a48.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4508,6 +4909,7 @@
     {
       "name": "Corsair 3000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/GLwmP6/corsair-3000d-rgb-airflow-atx-mid-tower-case-cc-9011256-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/abe8898cea2afb50634d878f7b66a8ab.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4520,6 +4922,7 @@
     {
       "name": "Zalman T6",
       "url": "https://pcpartpicker.com/product/P7xRsY/zalman-t6-atx-mid-tower-case-t6",
+      "image_url": "https://m.media-amazon.com/images/I/31EcZPh+83L.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4532,6 +4935,7 @@
     {
       "name": "Fractal Design Epoch RGB",
       "url": "https://pcpartpicker.com/product/Rsvscf/fractal-design-epoch-rgb-atx-mid-tower-case-fd-c-epo1a-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9e108372bf99214be7ebe3b339064563.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4544,6 +4948,7 @@
     {
       "name": "Antec FLUX SE",
       "url": "https://pcpartpicker.com/product/j2kqqs/antec-flux-se-atx-mid-tower-case-0-761345-10177-6",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c24463d9fc38da5cbfb32a9e8715d483.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -4556,6 +4961,7 @@
     {
       "name": "Jonsbo Jonsplus Z20",
       "url": "https://pcpartpicker.com/product/cgjRsY/jonsbo-jonsplus-z20-microatx-desktop-case-z20-pinkwhite",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/be48634690c0b9656a9011cfe15112e9.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "Pink / White",
       "power_supply": "None",
@@ -4568,6 +4974,7 @@
     {
       "name": "Fractal Design Define 7 XL Dark",
       "url": "https://pcpartpicker.com/product/JJNgXL/fractal-design-define-7-xl-dark-atx-full-tower-case-fd-c-def7x-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/aa4e27314abf40c0fdb9408aaac7a1a4.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4580,6 +4987,7 @@
     {
       "name": "Asus Prime AP201",
       "url": "https://pcpartpicker.com/product/Y27scf/asus-prime-ap201-microatx-mini-tower-case-prime-ap201-tg-wh",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5d8e1db832f17597b7310c64ab63dc62.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -4592,6 +5000,7 @@
     {
       "name": "Antec Performance 1 FT",
       "url": "https://pcpartpicker.com/product/b9GhP6/antec-performance-1-ft-atx-full-tower-case-performance-1-ft",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fad430fc5294dc7c6f3243dc899bc688.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4604,6 +5013,7 @@
     {
       "name": "Thermaltake S100 Snow Edition",
       "url": "https://pcpartpicker.com/product/2BYQzy/thermaltake-s100-snow-edition-microatx-mini-tower-case-ca-1q9-00s6wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/61648b636fa64af0a730d0195031465f.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -4616,6 +5026,7 @@
     {
       "name": "Montech SKY TWO",
       "url": "https://pcpartpicker.com/product/jpddnQ/montech-sky-two-atx-mid-tower-case-sky-two-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dcba5154b41f5dcef594caf7d6649759.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4628,6 +5039,7 @@
     {
       "name": "Lian Li LANCOOL 205M MESH",
       "url": "https://pcpartpicker.com/product/dFBG3C/lian-li-lancool-205m-mesh-microatx-mini-tower-case-g99oe744ms10am",
+      "image_url": "https://m.media-amazon.com/images/I/41ouxhMmh+L.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -4640,6 +5052,7 @@
     {
       "name": "Montech HS01",
       "url": "https://pcpartpicker.com/product/X3Hp99/montech-hs01-atx-mid-tower-case-hs01b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/84fe45a7999c08e021fd5f38a5e4bbe7.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4652,6 +5065,7 @@
     {
       "name": "Thermaltake The Tower 300",
       "url": "https://pcpartpicker.com/product/btyH99/thermaltake-the-tower-300-microatx-mini-tower-case-ca-1y4-00s6wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6dfe24fe97dc0e814e4b82c52d872a66.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -4664,6 +5078,7 @@
     {
       "name": "Phanteks NV5 MKII",
       "url": "https://pcpartpicker.com/product/qPwmP6/phanteks-nv5-mkii-atx-mid-tower-case-ph-nv523tg_dmw02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f3194c90540b264aed9286a85471ef48.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4676,6 +5091,7 @@
     {
       "name": "HYTE Gundam Wing Y70 Touch Infinite",
       "url": "https://pcpartpicker.com/product/FNsMnQ/hyte-gundam-wing-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70tti-gwing",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ac271fc0d648737f83bab931485700a3.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Gold",
       "power_supply": "None",
@@ -4688,6 +5104,7 @@
     {
       "name": "NZXT H5 Elite",
       "url": "https://pcpartpicker.com/product/FbWzK8/nzxt-h5-elite-atx-mid-tower-case-cc-h51eb-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1b51391b69260eb2c1d9d53aa2eeb555.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4700,6 +5117,7 @@
     {
       "name": "be quiet! Pure Base 501 DX",
       "url": "https://pcpartpicker.com/product/hW4Pxr/be-quiet-pure-base-501-dx-atx-mid-tower-case-bgw76",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ccac2a28a4c0d4a25532b49d8cb80a0f.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4712,6 +5130,7 @@
     {
       "name": "Jonsbo C6 MAX",
       "url": "https://pcpartpicker.com/product/fW3WGX/jonsbo-c6-max-microatx-desktop-case-c6-max-white",
+      "image_url": "https://m.media-amazon.com/images/I/41eFQtS1VGL.jpg",
       "type": "MicroATX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -4724,6 +5143,7 @@
     {
       "name": "be quiet! Dark Base Pro 901",
       "url": "https://pcpartpicker.com/product/JbkH99/be-quiet-dark-base-pro-901-atx-full-tower-case-bgw50",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6399f1786ccc885505d4c46da2226d04.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4736,6 +5156,7 @@
     {
       "name": "Silverstone SG13",
       "url": "https://pcpartpicker.com/product/dM8H99/silverstone-case-sstsg13b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/13f6c2e8e313652aa764869f6acd93f5.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4748,6 +5169,7 @@
     {
       "name": "Thermaltake S100",
       "url": "https://pcpartpicker.com/product/rtqBD3/thermaltake-s100-microatx-mini-tower-case-ca-1q9-00s1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/df69be2cf748fac40148cd6bcb32df16.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4760,6 +5182,7 @@
     {
       "name": "Montech Heritage PRO",
       "url": "https://pcpartpicker.com/product/Vskqqs/montech-heritage-pro-microatx-mid-tower-case-heritage-pro-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c7bf7ea2705a75f47618679965a1fdd8.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4772,6 +5195,7 @@
     {
       "name": "Thermaltake The Tower 600",
       "url": "https://pcpartpicker.com/product/hYn9TW/thermaltake-the-tower-600-atx-mid-tower-case-ca-1z1-00m6wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a6ccbe5c9422333147e4f4ef08d04649.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4784,6 +5208,7 @@
     {
       "name": "Jonsbo D32 PRO",
       "url": "https://pcpartpicker.com/product/m7TFf7/jonsbo-d32-pro-microatx-desktop-case-d32-pro-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4616b985548b68d14cacdb63b489c7de.256p.jpg",
       "type": "MicroATX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -4796,6 +5221,7 @@
     {
       "name": "Montech KING 65 PRO",
       "url": "https://pcpartpicker.com/product/PRjRsY/montech-king-65-pro-atx-mid-tower-case-king-65-pro-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3f47e002dcb98fc91e1b0b37ed60fc13.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4808,6 +5234,7 @@
     {
       "name": "ENDORFY Ventum 200 Air",
       "url": "https://pcpartpicker.com/product/Wvqrxr/endorfy-ventum-200-air-atx-mid-tower-case-ey2a002",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0cbd4807a784e523791a80da23f370fb.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4820,6 +5247,7 @@
     {
       "name": "Corsair 2500D Airflow",
       "url": "https://pcpartpicker.com/product/3kKscf/corsair-2500d-airflow-microatx-mini-tower-case-cc-9011264-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2cf40920bf074f7d4bdfa7b2cc58c14a.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -4832,6 +5260,7 @@
     {
       "name": "Silverstone FARA H1M",
       "url": "https://pcpartpicker.com/product/pgPQzy/silverstone-fara-h1m-microatx-mini-tower-case-sst-fah1mb-g",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f85bbaec4e74c8f1784515e63c67da99.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4844,6 +5273,7 @@
     {
       "name": "Phanteks NV9",
       "url": "https://pcpartpicker.com/product/Q24Zxr/phanteks-nv9-atx-mid-tower-case-ph-nv923tg_dmw01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/dff51c63dfe912bad45b4ab51a23d920.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -4856,6 +5286,7 @@
     {
       "name": "SHARKOON Rebel C20 ITX",
       "url": "https://pcpartpicker.com/product/CZbRsY/sharkoon-rebel-c20-itx-mini-itx-desktop-case-4044951040513",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0ba86d15fafd3c8bcc36570dd99ad2c3.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "Black",
       "power_supply": "None",
@@ -4868,6 +5299,7 @@
     {
       "name": "Corsair FRAME 4000D RS",
       "url": "https://pcpartpicker.com/product/GyXMnQ/corsair-frame-4000d-rs-atx-mid-tower-case-cc-9011313-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4c5a2351dfcf485a99d152d155b86cc8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4880,6 +5312,7 @@
     {
       "name": "Phanteks ECLIPSE G500A DRGB",
       "url": "https://pcpartpicker.com/product/jTXJ7P/phanteks-eclipse-g500a-drgb-atx-mid-tower-case-ph-ec500ga_dmw01a",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/4f73fe373c42e824c9dfc83f605e12f8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4892,6 +5325,7 @@
     {
       "name": "Fractal Design Era 2",
       "url": "https://pcpartpicker.com/product/Bg88TW/fractal-design-era-2-mini-itx-tower-case-fd-c-era2n-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/cb23147e9ea107dadec716822d6187c5.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Silver / Brown",
       "power_supply": "None",
@@ -4904,6 +5338,7 @@
     {
       "name": "Corsair iCUE LINK 6500X RGB",
       "url": "https://pcpartpicker.com/product/N3pQzy/corsair-icue-link-6500x-rgb-atx-mid-tower-case-cc-9011270-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/164489b99e0aa91a4a732b0932943780.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4916,6 +5351,7 @@
     {
       "name": "Fractal Design Meshify 2 Compact",
       "url": "https://pcpartpicker.com/product/7TBG3C/fractal-design-meshify-2-compact-atx-mid-tower-case-fd-c-mes2c-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d56f9c8e0c0a09a8bb5cd06616378a52.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4928,6 +5364,7 @@
     {
       "name": "Fractal Design Focus 2 RGB",
       "url": "https://pcpartpicker.com/product/jD92FT/fractal-design-focus-2-rgb-atx-mid-tower-case-fd-c-foc2a-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/de2930e8d5d8f93448392015cb97842b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4940,6 +5377,7 @@
     {
       "name": "Corsair 3000D AIRFLOW",
       "url": "https://pcpartpicker.com/product/JMTZxr/corsair-3000d-airflow-atx-mid-tower-case-cc-9011252-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c52df29e835b9b35eb4c374b32c268e2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -4952,6 +5390,7 @@
     {
       "name": "be quiet! Pure Base 500 FX",
       "url": "https://pcpartpicker.com/product/rCH7YJ/be-quiet-pure-base-500-fx-atx-mid-tower-case-bgw43",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d20ec8cfb472dee59c9c2fa41395c7d3.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4964,6 +5403,7 @@
     {
       "name": "Montech HS01 PRO",
       "url": "https://pcpartpicker.com/product/HJtkcf/montech-hs01-pro-atx-mid-tower-case-hs01-pro-b",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e434023cf61a96884f993c1a79397def.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4976,6 +5416,7 @@
     {
       "name": "Fractal Design Meshify 3 RGB",
       "url": "https://pcpartpicker.com/product/vvqNnQ/fractal-design-meshify-3-rgb-atx-mid-tower-case-fd-c-mes3a-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3166578d4afa4ac7bff86299f572c16c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -4988,6 +5429,7 @@
     {
       "name": "HAVN HS420",
       "url": "https://pcpartpicker.com/product/j3V2FT/havn-hs420-atx-mid-tower-case-hvn-ca-hs420-05",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/beb31abda4162b0625e2a87a25a5f1b9.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5000,6 +5442,7 @@
     {
       "name": "Corsair 3500X LX-R RGB iCUE LINK",
       "url": "https://pcpartpicker.com/product/mq9nTW/corsair-3500x-lx-r-rgb-icue-link-atx-mid-tower-case-cc-9011324-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6088e8b1c4ab604a633a5ae4d387c5fe.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5012,6 +5455,7 @@
     {
       "name": "Antec C8",
       "url": "https://pcpartpicker.com/product/dF9wrH/antec-c8-atx-mid-tower-case-c8-wh",
+      "image_url": "https://m.media-amazon.com/images/I/41Bmuhn0XRL.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5024,6 +5468,7 @@
     {
       "name": "Corsair 6500X",
       "url": "https://pcpartpicker.com/product/tbQKHx/corsair-6500x-atx-mid-tower-case-cc-9011258-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/702d159174a4b6f8486abb76be833ff8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5036,6 +5481,7 @@
     {
       "name": "Sliger CX4713",
       "url": "https://pcpartpicker.com/product/tFy8TW/sliger-cx4713-rackmount-4u-case-cx4713",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/9e298e25a4771233a4db0749b6ce87ab.256p.jpg",
       "type": "Rackmount 4U",
       "color": "Black",
       "power_supply": "None",
@@ -5048,6 +5494,7 @@
     {
       "name": "GameMax M60",
       "url": "https://pcpartpicker.com/product/Msytt6/gamemax-m60-microatx-mid-tower-case-m60-black",
+      "image_url": "https://m.media-amazon.com/images/I/11Eag-Tla7L.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5060,6 +5507,7 @@
     {
       "name": "be quiet! Light Base 600 LX",
       "url": "https://pcpartpicker.com/product/ZMqrxr/be-quiet-light-base-600-lx-atx-mid-tower-case-bgw68",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f13579b18255e875b1148fbc6520c0e3.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5072,6 +5520,7 @@
     {
       "name": "Fractal Design Meshify C",
       "url": "https://pcpartpicker.com/product/fPzkcf/fractal-design-meshify-c-atx-mid-tower-case-fd-ca-mesh-c-bko",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e233284c287b2718446f4e4c5dcbcefe.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5084,6 +5533,7 @@
     {
       "name": "Zalman CHRONIX",
       "url": "https://pcpartpicker.com/product/4dMXsY/zalman-chronix-atx-mid-tower-case-chronix-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c877358e1cce8b8c017fb4374ee49a94.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5096,6 +5546,7 @@
     {
       "name": "Jonsbo TK-0",
       "url": "https://pcpartpicker.com/product/YDP8TW/jonsbo-tk-0-mini-itx-desktop-case-tk-0-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/78e2c2a11a0a75d000c47f0db61ec2a4.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -5108,6 +5559,7 @@
     {
       "name": "Thermaltake Versa H15",
       "url": "https://pcpartpicker.com/product/Yn7CmG/thermaltake-case-ca1d400s1nn00",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/510dlOUd%2BgL.jpg",
       "type": "MicroATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5120,6 +5572,7 @@
     {
       "name": "Jonsbo C6-ITX",
       "url": "https://pcpartpicker.com/product/9PsMnQ/jonsbo-c6-itx-mini-itx-desktop-case-c6-itx-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a9dae97b026f8b622dc5384e78cd149a.256p.jpg",
       "type": "Mini ITX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -5132,6 +5585,7 @@
     {
       "name": "NZXT H5 Flow RGB (2023)",
       "url": "https://pcpartpicker.com/product/fcqrxr/nzxt-h5-flow-rgb-atx-mid-tower-case-cc-h51fw-r1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6ccc496a3d9459eb42f316140f027b64.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5144,6 +5598,7 @@
     {
       "name": "Zalman P30",
       "url": "https://pcpartpicker.com/product/qY7scf/zalman-p30-microatx-mini-tower-case-p30-white",
+      "image_url": "https://m.media-amazon.com/images/I/41BiT2wiUsL.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -5156,6 +5611,7 @@
     {
       "name": "Lian Li LANCOOL 205 Mesh C",
       "url": "https://pcpartpicker.com/product/cMqPxr/lian-li-lancool-205-mesh-c-atx-mid-tower-case-g99oe764cw00am",
+      "image_url": "https://m.media-amazon.com/images/I/31DG90n5FjL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5168,6 +5624,7 @@
     {
       "name": "Fractal Design Focus 2 RGB",
       "url": "https://pcpartpicker.com/product/zL3gXL/fractal-design-focus-2-rgb-atx-mid-tower-case-fd-c-foc2a-04",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6c2e43f9de5df67952617f784b3f60e5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -5180,6 +5637,7 @@
     {
       "name": "Fractal Design Meshify 3 Ambience Pro RGB",
       "url": "https://pcpartpicker.com/product/HbCCmG/fractal-design-meshify-3-ambience-pro-rgb-atx-mid-tower-case-fd-c-mes3a-05",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/568e026b673c8272487a18008c2561c6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5192,6 +5650,7 @@
     {
       "name": "Silverstone GD09 Type-C",
       "url": "https://pcpartpicker.com/product/4mDQzy/silverstone-gd09-type-c-htpc-case-sst-gd09b-c",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/06b4ebd2e29ee3b6df5e78e3f68c3d3b.256p.jpg",
       "type": "HTPC",
       "color": "Black",
       "power_supply": "None",
@@ -5199,11 +5658,12 @@
       "external_volume": "26.5 L",
       "internal_bays": "2",
       "rating": "1",
-      "price": "$140.83"
+      "price": "$139.32"
     },
     {
       "name": "Jonsbo D41 MESH",
       "url": "https://pcpartpicker.com/product/tdHqqs/jonsbo-d41-mesh-atx-mid-tower-case-d41-mesh-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/85a77c76bf6f2d4bbc067ed3ece8ce2a.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5216,6 +5676,7 @@
     {
       "name": "Asus GX601",
       "url": "https://pcpartpicker.com/product/wwfFf7/asus-gx601-atx-full-tower-case-gx601wtalwith-handle",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ad20500c42e87fe9a297ff74438f7afc.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -5228,6 +5689,7 @@
     {
       "name": "Corsair iCUE 7000X RGB",
       "url": "https://pcpartpicker.com/product/FDJgXL/corsair-icue-7000x-rgb-atx-mid-tower-case-cc-9011227ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d1f6a82ee49459d1b60173625c0262f9.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5240,6 +5702,7 @@
     {
       "name": "HYTE Y70",
       "url": "https://pcpartpicker.com/product/dthv6h/hyte-y70-atx-mid-tower-case-cs-hyte-y70-bm",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fa7e33c825c3a3c364ade910ff60880e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Blue",
       "power_supply": "None",
@@ -5252,6 +5715,7 @@
     {
       "name": "Asus TUF Gaming GT502 Horizon",
       "url": "https://pcpartpicker.com/product/48KnTW/asus-tuf-gaming-gt502-horizon-atx-mid-tower-case-90dc0090-b08020",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/6a54ba263ec45580cad692a719fdb075.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5264,6 +5728,7 @@
     {
       "name": "Thermaltake View 270 Plus TG ARGB",
       "url": "https://pcpartpicker.com/product/7FfV3C/thermaltake-view-270-plus-tg-argb-atx-mid-tower-case-ca-1y7-00mewn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f7aaa578df20f7b6b94cf5635fb8ca0c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Green",
       "power_supply": "None",
@@ -5276,6 +5741,7 @@
     {
       "name": "Montech XR Wood",
       "url": "https://pcpartpicker.com/product/dZcBD3/montech-xr-wood-atx-mid-tower-case-xr-wood-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3d3fccd64526f383612da7a6d7a4d3f0.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White / Brown",
       "power_supply": "None",
@@ -5288,6 +5754,7 @@
     {
       "name": "Corsair AIR 5400 RS-R ARGB",
       "url": "https://pcpartpicker.com/product/gyRnTW/corsair-air-5400-rs-r-argb-atx-mid-tower-case-cc-9011319-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ce61fc486d4a00e1ee481c34d450cca5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5300,6 +5767,7 @@
     {
       "name": "Corsair iCUE 4000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/8dCZxr/corsair-icue-4000d-rgb-airflow-atx-mid-tower-case-cc-9011241-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/49b51856669316ac4526bed0ad451c58.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5312,6 +5780,7 @@
     {
       "name": "Rosewill Helium Flow",
       "url": "https://pcpartpicker.com/product/gGxTwP/rosewill-helium-flow-atx-mid-tower-case-helium-flow",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/903f415835b0bba44f90a6a3179fd78b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5324,6 +5793,7 @@
     {
       "name": "be quiet! Pure Base 501 LX",
       "url": "https://pcpartpicker.com/product/vTnXsY/be-quiet-pure-base-501-lx-atx-mid-tower-case-bgw78",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d0b62476e7bbdbfbdbab0608f9970e97.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5336,6 +5806,7 @@
     {
       "name": "Phanteks NV7",
       "url": "https://pcpartpicker.com/product/sWbRsY/phanteks-nv7-atx-full-tower-case-ph-nv723tg_dmw01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a7a51db6936de8b14fc20a3fda6ba954.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5348,6 +5819,7 @@
     {
       "name": "Corsair FRAME 5000D RS ARGB",
       "url": "https://pcpartpicker.com/product/n3WmP6/corsair-frame-5000d-rs-argb-atx-mid-tower-case-cc-9011310-ww",
+      "image_url": "https://m.media-amazon.com/images/I/51UlPoIfGnL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5360,6 +5832,7 @@
     {
       "name": "iBuypower Element 9 PRO",
       "url": "https://pcpartpicker.com/product/p34Pxr/ibuypower-element-9-pro-atx-mid-tower-case-29316",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7fa2cc6c9eb15667abfec1f0e05f7c07.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5372,6 +5845,7 @@
     {
       "name": "Rosewill Helium NAS",
       "url": "https://pcpartpicker.com/product/QJxTwP/rosewill-helium-nas-atx-mid-tower-case-helium-nas",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/57ddb77dc935df1dbcef75765acfbf75.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5384,6 +5858,7 @@
     {
       "name": "Lian Li SUP01",
       "url": "https://pcpartpicker.com/product/Y7xxFT/lian-li-sup01-atx-mid-tower-case-sup01x",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/819a03293fa267e5e645542cbab84539.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5396,6 +5871,7 @@
     {
       "name": "GAMDIAS TALOS E3 MESH",
       "url": "https://pcpartpicker.com/product/LfHqqs/gamdias-talos-e3-mesh-atx-mid-tower-case-talos-e3-mesh-wh",
+      "image_url": "https://m.media-amazon.com/images/I/513GIbOk8nL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5408,6 +5884,7 @@
     {
       "name": "GAMDIAS ATHENA M4M WOOD",
       "url": "https://pcpartpicker.com/product/Mvkqqs/gamdias-athena-m4m-wood-microatx-desktop-case-athena-m4m-wood",
+      "image_url": "https://pcpartpicker.com/static/forever/img/no-image.png",
       "type": "MicroATX Desktop",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -5420,6 +5897,7 @@
     {
       "name": "Corsair 7000D AIRFLOW",
       "url": "https://pcpartpicker.com/product/6WfnTW/corsair-7000d-airflow-atx-mid-tower-case-cc-9011219-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/57c82fe6af19a1549cb33cde4b06640e.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White / Black",
       "power_supply": "None",
@@ -5432,6 +5910,7 @@
     {
       "name": "be quiet! Shadow Base 800 FX",
       "url": "https://pcpartpicker.com/product/cPvD4D/be-quiet-shadow-base-800-fx-atx-mid-tower-case-bgw63",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3ea6c6adfa1830018755b3930cf0a80d.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5444,6 +5923,7 @@
     {
       "name": "Corsair iCUE 220T RGB Airflow",
       "url": "https://pcpartpicker.com/product/wj4BD3/corsair-icue-220t-rgb-atx-mid-tower-case-cc-9011174-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/e7ede7a1213f28e72b4f19f1afafc261.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5456,6 +5936,7 @@
     {
       "name": "MSI MPG VELOX 300R AIRFLOW PZ",
       "url": "https://pcpartpicker.com/product/kYtkcf/msi-mpg-velox-300r-airflow-pz-atx-mid-tower-case-mpg-velox-300r-airflow-pz",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/345ec5c596db7a96aeb18224acb5df5c.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5468,6 +5949,7 @@
     {
       "name": "Lian Li LANCOOL III RGB",
       "url": "https://pcpartpicker.com/product/6GC48d/lian-li-lancool-iii-rgb-atx-mid-tower-case-lancool-3r-w",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/443cfca1c6d58b359c461ad4d1996c64.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5480,6 +5962,7 @@
     {
       "name": "Fractal Design Define 7 Light",
       "url": "https://pcpartpicker.com/product/GpVG3C/fractal-design-define-7-light-atx-mid-tower-case-fd-c-def7a-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2c3088dfbeb06ad2eca94a87aa78bfe6.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5492,6 +5975,7 @@
     {
       "name": "Fractal Design Torrent Compact RGB",
       "url": "https://pcpartpicker.com/product/VVXJ7P/fractal-design-torrent-compact-rgb-atx-mid-tower-case-fd-c-tor1c-02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/858f5392beba15d3b137d162840dbf20.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5504,6 +5988,7 @@
     {
       "name": "Corsair iCUE 4000D RGB AIRFLOW",
       "url": "https://pcpartpicker.com/product/mGXV3C/corsair-icue-4000d-rgb-airflow-atx-mid-tower-case-cc-9011240-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/7429a209ece7eda0e02c11ba86aefbf4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5516,6 +6001,7 @@
     {
       "name": "NZXT H5 Elite",
       "url": "https://pcpartpicker.com/product/3g8bt6/nzxt-h5-elite-atx-mid-tower-case-cc-h51ew-01",
+      "image_url": "https://m.media-amazon.com/images/I/41WAj8IVlTL.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5528,6 +6014,7 @@
     {
       "name": "Fractal Design Define 7 Mini",
       "url": "https://pcpartpicker.com/product/GDYmP6/fractal-design-define-7-mini-microatx-mini-tower-case-fd-c-def7m-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/3696ffa5c550ac0a2c4fc20bdc999fde.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5540,6 +6027,7 @@
     {
       "name": "iBuypower Slate 8 Mesh Pro ARGB",
       "url": "https://pcpartpicker.com/product/fHP8TW/ibuypower-slate-8-mesh-pro-argb-atx-mid-tower-case-848604047782",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/c51464528dbcf7a1ced02dd961a76c17.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5552,6 +6040,7 @@
     {
       "name": "Antec FLUX PRO",
       "url": "https://pcpartpicker.com/product/9PjRsY/antec-flux-pro-atx-full-tower-case-0-761345-10155-4",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/f9b14cddaa84f80ce1329a1a43b75392.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White / Brown",
       "power_supply": "None",
@@ -5564,6 +6053,7 @@
     {
       "name": "Fractal Design Meshify 3 XL Ambience Pro RGB",
       "url": "https://pcpartpicker.com/product/QMTFf7/fractal-design-meshify-3-xl-ambience-pro-rgb-atx-full-tower-case-fd-c-mes3x-05",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/53205bf416b9ba086236ee53ba8607a0.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5576,6 +6066,7 @@
     {
       "name": "HYTE Y40",
       "url": "https://pcpartpicker.com/product/bJC48d/hyte-y40-atx-mid-tower-case-cs-hyte-y40-br",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b0414b8e879d22d0964c835aacc37cd2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Red / Black",
       "power_supply": "None",
@@ -5588,6 +6079,7 @@
     {
       "name": "ENDORFY Arx 700 ARGB",
       "url": "https://pcpartpicker.com/product/cwkH99/endorfy-arx-700-argb-atx-mid-tower-case-ey2a013",
+      "image_url": "https://m.media-amazon.com/images/I/41eadlkXr0L.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5600,6 +6092,7 @@
     {
       "name": "Thermaltake View 270 Plus TG ARGB",
       "url": "https://pcpartpicker.com/product/9YcBD3/thermaltake-view-270-plus-tg-argb-atx-mid-tower-case-ca-1y7-00mfwn-01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d5d2549ea39fca8b21d418fb3aa0d606.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Blue",
       "power_supply": "None",
@@ -5612,6 +6105,7 @@
     {
       "name": "HYTE X50",
       "url": "https://pcpartpicker.com/product/rtHp99/hyte-x50-atx-mid-tower-case-cs-hyte-x50g-rr",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/2507ce2dfece6bd6e5f4252e3d307f43.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Red",
       "power_supply": "None",
@@ -5624,6 +6118,7 @@
     {
       "name": "Antec C8 ARGB",
       "url": "https://pcpartpicker.com/product/kFWJ7P/antec-c8-argb-atx-full-tower-case-0-761345-10022-9",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/78f420654388ef67b9b77747fcc5dac8.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5636,6 +6131,7 @@
     {
       "name": "HYTE Y60",
       "url": "https://pcpartpicker.com/product/RLxRsY/hyte-y60-atx-mid-tower-case-cs-hyte-y60-br",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/33326cef0c67cb1ed296cf4c49b0216e.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Red / Black",
       "power_supply": "None",
@@ -5648,6 +6144,7 @@
     {
       "name": "SAMA V40",
       "url": "https://pcpartpicker.com/product/JBqNnQ/sama-v40-atx-mid-tower-case-v40-bkada6x1-gl",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0f4f74d278b38cbad5e81312d762e812.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5660,6 +6157,7 @@
     {
       "name": "Raidmax INFINITA i802 AIR",
       "url": "https://pcpartpicker.com/product/Xr7MnQ/raidmax-infinita-i802-air-atx-mid-tower-case-i802-black",
+      "image_url": "https://m.media-amazon.com/images/I/31tmuZtdnyL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5672,6 +6170,7 @@
     {
       "name": "Azza Neptune",
       "url": "https://pcpartpicker.com/product/98sMnQ/azza-neptune-atx-mid-tower-case-csaz-491",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/18a6def6d21fbbfc0e6eea1948ccf82b.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Brown",
       "power_supply": "None",
@@ -5684,6 +6183,7 @@
     {
       "name": "Corsair iCUE 5000T LX RGB",
       "url": "https://pcpartpicker.com/product/9mqNnQ/corsair-icue-5000t-lx-rgb-atx-mid-tower-case-cc-9011298-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ec56da9c5a767598fc3e3f4f84ce9ce5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5696,6 +6196,7 @@
     {
       "name": "Geometric Future Model 5",
       "url": "https://pcpartpicker.com/product/J4XV3C/geometric-future-model-5-atx-mid-tower-case-geo-m5f-bg",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/0643bf1c2f8834b1fd5aabe492ccea68.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black / Gray",
       "power_supply": "None",
@@ -5708,6 +6209,7 @@
     {
       "name": "Lian Li LANCOOL 205 Mesh C",
       "url": "https://pcpartpicker.com/product/s87G3C/lian-li-lancool-205-mesh-c-atx-mid-tower-case-g99oe764cp00am",
+      "image_url": "https://m.media-amazon.com/images/I/419e+KJh3QL.jpg",
       "type": "ATX Mid Tower",
       "color": "Pink",
       "power_supply": "None",
@@ -5720,6 +6222,7 @@
     {
       "name": "Thermaltake AX700",
       "url": "https://pcpartpicker.com/product/2PQwrH/thermaltake-ax700-atx-full-tower-case-ca-11b-00f1wn-00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/55d2b827a230cbc53d38178a94bad2e2.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5732,6 +6235,7 @@
     {
       "name": "In Win CE685.FH300TB3",
       "url": "https://pcpartpicker.com/product/ytV48d/inwin-case-ce685fh300tb3",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5701fb00f2669847ffbe2277a00a208d.256p.jpg",
       "type": "MicroATX Slim",
       "color": "Black",
       "power_supply": "300 W",
@@ -5744,6 +6248,7 @@
     {
       "name": "Razer Tomahawk Mini-ITX",
       "url": "https://pcpartpicker.com/product/vPPgXL/razer-tomahawk-mini-itx-mini-itx-tower-case-rc21-01400100-r3m1",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/494363e377e30d2a72ad813a0fd2e023.256p.jpg",
       "type": "Mini ITX Tower",
       "color": "Black / Green",
       "power_supply": "None",
@@ -5756,6 +6261,7 @@
     {
       "name": "be quiet! Dark Base Pro 901",
       "url": "https://pcpartpicker.com/product/pq88TW/be-quiet-dark-base-pro-901-atx-full-tower-case-bgw51",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/93ce34d7534b7ee4fabfdc1e8c294f5a.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5763,11 +6269,12 @@
       "external_volume": "94.5 L",
       "internal_bays": "2",
       "rating": "0",
-      "price": "$235.89"
+      "price": "$235.90"
     },
     {
       "name": "Fractal Design Meshify 2",
       "url": "https://pcpartpicker.com/product/zHdrxr/fractal-design-meshify-2-atx-mid-tower-case-fd-c-mes2a-03",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a08b8feaebe41e77cea3549a9b96d5b8.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5780,6 +6287,7 @@
     {
       "name": "GAMDIAS TALOS E2 ELITE",
       "url": "https://pcpartpicker.com/product/XB4Ycf/gamdias-talos-e2-elite-atx-mid-tower-case-talos-e2-elite",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/991214390a64c4dd16f566448080edb2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5792,6 +6300,7 @@
     {
       "name": "Thermaltake TR100",
       "url": "https://pcpartpicker.com/product/GvWmP6/thermaltake-tr100-mini-itx-desktop-case-ca-11a-00s6nn-00",
+      "image_url": "https://m.media-amazon.com/images/I/41QJQ7WaeDL.jpg",
       "type": "Mini ITX Desktop",
       "color": "White",
       "power_supply": "None",
@@ -5804,6 +6313,7 @@
     {
       "name": "Jonsbo TK-3",
       "url": "https://pcpartpicker.com/product/yFNYcf/jonsbo-tk-3-atx-mid-tower-case-tk-3-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a47a34c28199c19cc0d5a3baeb1d8b88.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5816,6 +6326,7 @@
     {
       "name": "be quiet! Light Base 600 DX",
       "url": "https://pcpartpicker.com/product/47kH99/be-quiet-light-base-600-dx-atx-mid-tower-case-bgw66",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/24ce412572696aad24147d1681171c52.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5828,6 +6339,7 @@
     {
       "name": "SAMA NEVIEW 4503",
       "url": "https://pcpartpicker.com/product/chpQzy/sama-neview-4503-atx-mid-tower-case-neview-4503-black",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/bfaa03b6486cec7673a1021f42f660e2.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5840,6 +6352,7 @@
     {
       "name": "be quiet! Pure Base 500DX",
       "url": "https://pcpartpicker.com/product/3W6qqs/be-quiet-pure-base-500dx-atx-mid-tower-case-bgw38",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/d0088af61ff05d2f1e8ec07eeb4f7aee.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5852,6 +6365,7 @@
     {
       "name": "Corsair FRAME 4500X LX-R RGB iCUE LINK",
       "url": "https://pcpartpicker.com/product/FcFCmG/corsair-frame-4500x-lx-r-rgb-icue-link-atx-mid-tower-case-cc-9011317-ww",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/1584145fd845533a517e11aabdb20a22.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5864,6 +6378,7 @@
     {
       "name": "Azza Sanctum",
       "url": "https://pcpartpicker.com/product/nVZXsY/azza-sanctum-atx-desktop-case-csaz-810",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/116f5c21412139d40bdea34bf70f6256.256p.jpg",
       "type": "ATX Desktop",
       "color": "Silver / Black",
       "power_supply": "None",
@@ -5876,6 +6391,7 @@
     {
       "name": "Phanteks XT PRO",
       "url": "https://pcpartpicker.com/product/WWfV3C/phanteks-xt-pro-atx-mid-tower-case-ph-xt523psc_bk01",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/b394e7caf37f3f1c21c1a3a6179df1c5.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "###### Color",
       "power_supply": "None",
@@ -5888,6 +6404,7 @@
     {
       "name": "Cooler Master MasterBox 600",
       "url": "https://pcpartpicker.com/product/gHyH99/cooler-master-masterbox-600-atx-mid-tower-case-mb600-kgnn-s00",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/23cfe7e7da91b76450f98e6b4af308d4.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5900,6 +6417,7 @@
     {
       "name": "Cooler Master MasterFrame 600",
       "url": "https://pcpartpicker.com/product/GVm2FT/cooler-master-masterframe-600-atx-mid-tower-case-mf600-kgnn-s00",
+      "image_url": "https://m.media-amazon.com/images/I/51iPe+IxhiL.jpg",
       "type": "ATX Mid Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5912,6 +6430,7 @@
     {
       "name": "Sliger CX2130a",
       "url": "https://pcpartpicker.com/product/RxCCmG/sliger-cx2130a-rackmount-2u-case-cx2130a",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/fc10057478b05f64dcb7886d9fcd9e80.256p.jpg",
       "type": "Rackmount 2U",
       "color": "Black",
       "power_supply": "None",
@@ -5924,6 +6443,7 @@
     {
       "name": "Fractal Design North XL RC",
       "url": "https://pcpartpicker.com/product/vRzp99/fractal-design-north-xl-rc-atx-full-tower-case-fd-c-nor1x-06",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/43b2dedee9ee6448fd5be12d68595511.256p.jpg",
       "type": "ATX Full Tower",
       "color": "White",
       "power_supply": "None",
@@ -5936,6 +6456,7 @@
     {
       "name": "Phanteks Enthoo Pro 2 Server Edition",
       "url": "https://pcpartpicker.com/product/FQGhP6/phanteks-enthoo-pro-2-server-edition-atx-full-tower-case-ph-es620pc_bk02",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/5763e309861c4839b7e2449d50a7a592.256p.jpg",
       "type": "ATX Full Tower",
       "color": "Black",
       "power_supply": "None",
@@ -5948,6 +6469,7 @@
     {
       "name": "Jonsbo C6",
       "url": "https://pcpartpicker.com/product/b4pQzy/jonsbo-c6-microatx-mini-tower-case-c6-white",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/a87002517e72b9a27607fdd9f3e39efc.256p.jpg",
       "type": "MicroATX Mini Tower",
       "color": "White",
       "power_supply": "None",
@@ -5960,6 +6482,7 @@
     {
       "name": "Asus TUF Gaming GT302 ARGB",
       "url": "https://pcpartpicker.com/product/dJQKHx/asus-tuf-gaming-gt302-argb-atx-mid-tower-case-90dc00i3-b19000",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/ac86d8cb044c324b49b9804eed817947.256p.jpg",
       "type": "ATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5972,6 +6495,7 @@
     {
       "name": "Gigabyte C102 GLASS",
       "url": "https://pcpartpicker.com/product/xyMMnQ/gigabyte-c102-glass-microatx-mid-tower-case-gb-c102gi-global",
+      "image_url": "https://cdna.pcpartpicker.com/static/forever/images/product/95c4b0b5234719554b080bb45fb97131.256p.jpg",
       "type": "MicroATX Mid Tower",
       "color": "White",
       "power_supply": "None",
@@ -5980,30 +6504,6 @@
       "internal_bays": "2",
       "rating": "1",
       "price": "$97.98"
-    },
-    {
-      "name": "Sliger CX3152a",
-      "url": "https://pcpartpicker.com/product/Z7gZxr/sliger-cx3152a-rackmount-3u-case-cx3152a",
-      "type": "Rackmount 3U",
-      "color": "Black",
-      "power_supply": "None",
-      "side_panel": "None",
-      "external_volume": "21.8 L",
-      "internal_bays": "0",
-      "rating": "0",
-      "price": "$270.00"
-    },
-    {
-      "name": "SAMA V40",
-      "url": "https://pcpartpicker.com/product/vspD4D/sama-v40-atx-mid-tower-case-v40-whada6x1-gl",
-      "type": "ATX Mid Tower",
-      "color": "White",
-      "power_supply": "None",
-      "side_panel": "Tempered Glass",
-      "external_volume": "47.9 L",
-      "internal_bays": "3",
-      "rating": "0",
-      "price": "$87.23"
     }
   ]
 }

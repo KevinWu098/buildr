@@ -9,10 +9,15 @@ from firecrawl import FirecrawlApp
 load_dotenv()
 
 def extract_product_name_and_url(name_cell):
-    """Extract product name and URL from the name cell (common pattern across all categories)"""
-    # Extract URL - it's in the last markdown link
+    """Extract product name, URL, and image URL from the name cell (common pattern across all categories)"""
+    # Extract product URL - it's in the last markdown link
     url_match = re.search(r']\((https://pcpartpicker\.com/product/[^\)]+)\)\s*$', name_cell)
     url = url_match.group(1) if url_match else ''
+
+    # Extract image URL - appears in the markdown image syntax
+    # Pattern: ![Product Name](https://cdna.pcpartpicker.com/.../image.jpg) or similar
+    image_match = re.search(r'!\[[^\]]*\]\((https://[^)]+\.(?:jpg|jpeg|png|webp))', name_cell)
+    image_url = image_match.group(1) if image_match else ''
 
     # Extract product name - pattern: \<br>\<br>Product Name\<br>\<br>(rating)
     name_match = re.search(r'\\<br>\\<br>([^\\]+)\\<br>\\<br>\(\d+\)', name_cell)
@@ -27,7 +32,7 @@ def extract_product_name_and_url(name_cell):
     rating_match = re.search(r'\((\d+)\)', name_cell)
     rating = rating_match.group(1) if rating_match else ''
 
-    return name, url, rating
+    return name, url, image_url, rating
 
 def clean_cell_value(cell):
     """Clean cell value by removing headers and line breaks"""
@@ -61,7 +66,7 @@ def parse_cpu_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             # Extract price
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[10])
@@ -70,6 +75,7 @@ def parse_cpu_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'core_count': clean_cell_value(parts[3]),
                 'performance_core_clock': clean_cell_value(parts[4]),
                 'performance_core_boost_clock': clean_cell_value(parts[5]),
@@ -114,7 +120,7 @@ def parse_motherboard_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[9])
             price = price_match.group(0) if price_match else ''
@@ -122,6 +128,7 @@ def parse_motherboard_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'socket_cpu': clean_cell_value(parts[3]),
                 'form_factor': clean_cell_value(parts[4]),
                 'memory_max': clean_cell_value(parts[5]),
@@ -165,7 +172,7 @@ def parse_storage_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[10])
             price = price_match.group(0) if price_match else ''
@@ -173,6 +180,7 @@ def parse_storage_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'capacity': clean_cell_value(parts[3]),
                 'price_per_gb': clean_cell_value(parts[4]),
                 'type': clean_cell_value(parts[5]),
@@ -217,7 +225,7 @@ def parse_video_card_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[10])
             price = price_match.group(0) if price_match else ''
@@ -225,6 +233,7 @@ def parse_video_card_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'chipset': clean_cell_value(parts[3]),
                 'memory': clean_cell_value(parts[4]),
                 'core_clock': clean_cell_value(parts[5]),
@@ -269,7 +278,7 @@ def parse_case_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[10])
             price = price_match.group(0) if price_match else ''
@@ -277,6 +286,7 @@ def parse_case_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'type': clean_cell_value(parts[3]),
                 'color': clean_cell_value(parts[4]),
                 'power_supply': clean_cell_value(parts[5]),
@@ -321,7 +331,7 @@ def parse_power_supply_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[9])
             price = price_match.group(0) if price_match else ''
@@ -329,6 +339,7 @@ def parse_power_supply_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'type': clean_cell_value(parts[3]),
                 'efficiency_rating': clean_cell_value(parts[4]),
                 'wattage': clean_cell_value(parts[5]),
@@ -372,7 +383,7 @@ def parse_cpu_cooler_table(markdown, debug=False):
             continue
 
         try:
-            name, url, rating = extract_product_name_and_url(parts[2])
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
 
             price_match = re.search(r'\$[\d,]+\.?\d*', parts[8])
             price = price_match.group(0) if price_match else ''
@@ -380,6 +391,7 @@ def parse_cpu_cooler_table(markdown, debug=False):
             product = {
                 'name': name,
                 'url': url,
+                'image_url': image_url,
                 'fan_rpm': clean_cell_value(parts[3]),
                 'noise_level': clean_cell_value(parts[4]),
                 'color': clean_cell_value(parts[5]),
@@ -394,6 +406,59 @@ def parse_cpu_cooler_table(markdown, debug=False):
         except Exception as e:
             if debug:
                 print(f"Error parsing CPU Cooler row: {e}")
+            continue
+
+    return products
+
+def parse_memory_table(markdown, debug=False):
+    """Parse Memory/RAM products from markdown table"""
+    products = []
+    lines = markdown.split('\n')
+    table_started = False
+
+    for i, line in enumerate(lines):
+        if '| Name | Speed |' in line or '|  | Name | Speed |' in line:
+            table_started = True
+            continue
+
+        if not table_started or not line.strip().startswith('|'):
+            if table_started and len(products) > 0:
+                break
+            continue
+
+        if '| ---' in line:
+            continue
+
+        parts = [p.strip() for p in line.split('|')]
+        if len(parts) < 11:
+            continue
+
+        try:
+            name, url, image_url, rating = extract_product_name_and_url(parts[2])
+
+            price_match = re.search(r'\$[\d,]+\.?\d*', parts[10])
+            price = price_match.group(0) if price_match else ''
+
+            product = {
+                'name': name,
+                'url': url,
+                'image_url': image_url,
+                'speed': clean_cell_value(parts[3]),
+                'modules': clean_cell_value(parts[4]),
+                'price_per_gb': clean_cell_value(parts[5]),
+                'color': clean_cell_value(parts[6]),
+                'first_word_latency': clean_cell_value(parts[7]),
+                'cas_latency': clean_cell_value(parts[8]),
+                'rating': rating,
+                'price': price
+            }
+
+            if product['name'] and product['price']:
+                products.append(product)
+
+        except Exception as e:
+            if debug:
+                print(f"Error parsing Memory row: {e}")
             continue
 
     return products
@@ -448,8 +513,10 @@ def scrape_category(app, category_name, category_path, parser_func, max_products
     # Limit to max_products
     all_products = all_products[:max_products]
 
-    # Save to file
+    # Create scraped_data directory if it doesn't exist
     os.makedirs('scraped_data', exist_ok=True)
+
+    # Save to file
     output_file = f'scraped_data/{category_name.lower().replace(" ", "_")}_products.json'
     output_data = {
         'category': category_name.lower().replace(" ", "_"),
@@ -475,6 +542,8 @@ def scrape_category(app, category_name, category_path, parser_func, max_products
             print(f"\n{i+1}. {all_products[i]['name']}")
             print(f"   Price: {all_products[i]['price']}")
             print(f"   Rating: {all_products[i]['rating']}")
+            if all_products[i].get('image_url'):
+                print(f"   Image: {all_products[i]['image_url']}")
 
     return output_data
 
@@ -491,6 +560,7 @@ def scrape_all_categories():
     categories = {
         "CPU": ("/products/cpu/", parse_cpu_table),
         "Motherboard": ("/products/motherboard/", parse_motherboard_table),
+        "Memory": ("/products/memory/", parse_memory_table),
         "Storage": ("/products/internal-hard-drive/", parse_storage_table),
         "Video Card": ("/products/video-card/", parse_video_card_table),
         "Case": ("/products/case/", parse_case_table),
