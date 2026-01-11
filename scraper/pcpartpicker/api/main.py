@@ -5,6 +5,7 @@ from typing import Annotated
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, UploadFile
 from models import (
+    CATEGORY_MODEL_MAP,
     CompatibilityCheckResponse,
     Components,
     ComponentTypes,
@@ -173,4 +174,30 @@ async def upload_component_image(components_image: UploadFile, session: SessionD
     )
 
 
-# @app.get('/')
+@app.get('/manual-search')
+async def manual_search(query: str, session: SessionDep):
+    """Endpoint to manually search for components by name across all tables."""
+    results: list[dict] = []
+
+    for category, model in CATEGORY_MODEL_MAP.items():
+        remaining = 10 - len(results)
+        if remaining <= 0:
+            break
+
+        result = await session.exec(
+            select(model)
+            .where(col(model.name).icontains(query))  # type: ignore
+            .order_by(col(model.id).asc())  # type: ignore
+            .limit(remaining)
+        )
+        rows = result.all()
+        for row in rows:
+            results.append({'category': category, **row.model_dump()})
+            if len(results) >= 10:
+                break
+        if len(results) >= 10:
+            break
+
+    if results:
+        return results
+    return {'message': 'No matching component found.'}
