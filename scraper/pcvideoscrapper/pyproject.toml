@@ -1,0 +1,17 @@
+[project]
+name = "pcvideoscrapper"
+version = "1.0.0"
+description = "PC assembly video scraper and API"
+requires-python = ">=3.10"
+dependencies = [
+    "twelvelabs>=1.1.0",
+    "python-dotenv>=1.2.1",
+    "pydantic>=2.12.5",
+    "requests>=2.32.5",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "yt-dlp>=2025.12.8",
+]
+
+[tool.uv]
+package = false
