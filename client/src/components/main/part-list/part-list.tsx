@@ -2,12 +2,8 @@
 
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  DrawerDescription,
-  DrawerHeader,
-  DrawerTitle,
-} from "@/components/ui/drawer";
-import { ArrowLeftIcon, EditIcon, TrashIcon } from "lucide-react";
+import { EditIcon, TrashIcon } from "lucide-react";
+import { PanelHeader } from "@/components/main/panel-header";
 import {
   PartCard,
   PartGroup,
@@ -141,17 +137,7 @@ export function PartList({ onBack }: PartListProps) {
       ref={containerRef}
       className="relative flex h-full flex-col overflow-hidden"
     >
-      <DrawerHeader className="pb-0">
-        <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon-xs" onClick={onBack}>
-            <ArrowLeftIcon className="size-5" />
-          </Button>
-          <DrawerTitle className="text-left text-2xl">
-            Your Part List
-          </DrawerTitle>
-        </div>
-        <DrawerDescription className="text-left">{null}</DrawerDescription>
-      </DrawerHeader>
+      <PanelHeader title="Your Part List" onBack={onBack} />
 
       <div className="flex max-w-full flex-1 flex-col justify-between gap-6 overflow-hidden p-4">
         <div className="flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto">

@@ -3,19 +3,32 @@
 import { useMemo, useRef, useState } from "react";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { cn } from "@/lib/utils";
-import { PartList } from "@/components/main/part-list";
+import { PartList } from "@/components/main/part-list/part-list";
 import { Button } from "@/components/ui/button";
+import { PartPhoto } from "@/components/main/part-photo/part-photo";
 
-const STEPS = ["PART_LIST"] as const;
+const STEPS = ["PART_PHOTO", "PART_LIST"] as const;
 
 export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
-  const [currentStep, setCurrentStep] =
-    useState<(typeof STEPS)[number]>("PART_LIST");
+  const [currentStep, setCurrentStep] = useState<(typeof STEPS)[number]>(
+    STEPS[0]
+  );
+
+  const DRAWER_ACTION = useMemo(() => {
+    switch (currentStep) {
+      case "PART_PHOTO":
+        return "Upload Parts";
+      case "PART_LIST":
+        return "View Parts";
+    }
+  }, [currentStep]);
 
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
+      case "PART_PHOTO":
+        return <PartPhoto onBack={() => setOpen(false)} />;
       case "PART_LIST":
         return <PartList onBack={() => setOpen(false)} />;
       default:
@@ -43,7 +56,7 @@ export default function Page() {
           asChild
         >
           <Button size="lg" className="">
-            View Parts
+            {DRAWER_ACTION}
           </Button>
         </DrawerTrigger>
 
