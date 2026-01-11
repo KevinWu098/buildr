@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { EditIcon, TrashIcon } from "lucide-react";
+import { CheckIcon, EditIcon, PlusIcon, TrashIcon } from "lucide-react";
 import { PanelHeader } from "@/components/main/panel-header";
 import {
   PartCard,
@@ -12,7 +12,7 @@ import {
   type PartType,
 } from "@/components/main/part-list/index";
 
-const PARTS: Record<PartType, Part[]> = {
+const INITIAL_PARTS: Record<PartType, Part[]> = {
   CPU: [
     {
       name: "Intel Core i5-12400F",
@@ -98,7 +98,7 @@ const PARTS: Record<PartType, Part[]> = {
 };
 
 // All available parts for search (flattened)
-const ALL_PARTS: Part[] = Object.values(PARTS).flat();
+const ALL_PARTS: Part[] = Object.values(INITIAL_PARTS).flat();
 
 interface PartListProps {
   onBack?: () => void;
@@ -106,6 +106,7 @@ interface PartListProps {
 
 export function PartList({ onBack }: PartListProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [parts, setParts] = useState<Record<PartType, Part[]>>(INITIAL_PARTS);
   const [searchDrawerOpen, setSearchDrawerOpen] = useState(false);
   const [searchMode, setSearchMode] = useState<"add" | "edit">("add");
   const [selectedPartType, setSelectedPartType] = useState<
@@ -127,9 +128,32 @@ export function PartList({ onBack }: PartListProps) {
     setSearchDrawerOpen(true);
   };
 
+  const handleDeletePart = (partToDelete: Part) => {
+    setParts((prev) => ({
+      ...prev,
+      [partToDelete.type]: prev[partToDelete.type].filter(
+        (p) => p.name !== partToDelete.name
+      ),
+    }));
+  };
+
   const handleSelectPart = (part: Part) => {
-    // TODO: Implement part selection logic (add/replace in the list)
-    console.log("Selected part:", part);
+    if (searchMode === "edit" && editingPart) {
+      // Replace the editing part with the new selection
+      setParts((prev) => ({
+        ...prev,
+        [editingPart.type]: prev[editingPart.type].map((p) =>
+          p.name === editingPart.name ? part : p
+        ),
+      }));
+    } else {
+      // Add mode: add the part to the appropriate category
+      setParts((prev) => ({
+        ...prev,
+        [part.type]: [...prev[part.type], part],
+      }));
+    }
+    setSearchDrawerOpen(false);
   };
 
   return (
@@ -141,11 +165,11 @@ export function PartList({ onBack }: PartListProps) {
 
       <div className="flex max-w-full flex-1 flex-col justify-between gap-6 overflow-hidden p-4">
         <div className="flex max-w-full flex-1 flex-col overflow-x-hidden overflow-y-auto">
-          {Object.entries(PARTS).map(([partType, parts]) => (
+          {Object.entries(parts).map(([partType, partsList]) => (
             <PartGroup
               key={partType}
               partType={partType as PartType}
-              parts={parts}
+              parts={partsList}
               renderPart={(part) => (
                 <PartCard key={part.name} part={part}>
                   <Button
@@ -158,7 +182,14 @@ export function PartList({ onBack }: PartListProps) {
                   >
                     <EditIcon className="size-4" />
                   </Button>
-                  <Button variant="ghost" size="icon-xs">
+                  <Button
+                    variant="ghost"
+                    size="icon-xs"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDeletePart(part);
+                    }}
+                  >
                     <TrashIcon className="size-4" />
                   </Button>
                 </PartCard>
@@ -167,11 +198,14 @@ export function PartList({ onBack }: PartListProps) {
           ))}
         </div>
 
-        <div className="flex w-full flex-row gap-1">
+        <div className="flex w-full flex-row gap-2">
           <Button className="text-lg" variant="outline" onClick={handleAddPart}>
-            Add Part
+            <PlusIcon className="size-4" /> Add Part
           </Button>
-          <Button className="grow text-lg">Confirm Part List</Button>
+          <Button className="grow text-lg">
+            <CheckIcon className="size-4" />
+            Confirm Part List
+          </Button>
         </div>
       </div>
 

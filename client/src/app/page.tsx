@@ -13,7 +13,7 @@ export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [currentStep, setCurrentStep] = useState<(typeof STEPS)[number]>(
-    STEPS[0]
+    STEPS[1]
   );
 
   const DRAWER_ACTION = useMemo(() => {
@@ -28,7 +28,12 @@ export default function Page() {
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
       case "PART_PHOTO":
-        return <PartPhoto onBack={() => setOpen(false)} />;
+        return (
+          <PartPhoto
+            onBack={() => setOpen(false)}
+            onComplete={() => setCurrentStep("PART_LIST")}
+          />
+        );
       case "PART_LIST":
         return <PartList onBack={() => setOpen(false)} />;
       default:

@@ -8,9 +8,14 @@ import { PanelHeader } from "@/components/main/panel-header";
 interface PartPhotoProps {
   onBack?: () => void;
   onPhotoCapture?: (photoDataUrl: string) => void;
+  onComplete?: () => void;
 }
 
-export function PartPhoto({ onBack, onPhotoCapture }: PartPhotoProps) {
+export function PartPhoto({
+  onBack,
+  onPhotoCapture,
+  onComplete,
+}: PartPhotoProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -73,13 +78,20 @@ export function PartPhoto({ onBack, onPhotoCapture }: PartPhotoProps) {
 
     setIsProcessing(true);
 
-    // TODO: Send API request here
-    // const response = await fetch('/api/analyze-part', { ... });
-
     if (onPhotoCapture) {
       onPhotoCapture(capturedPhoto);
     }
-  }, [capturedPhoto, onPhotoCapture]);
+
+    // TODO: Send API request here
+    // const response = await fetch('/api/analyze-part', { ... });
+
+    // Simulate API delay, then transition
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+
+    if (onComplete) {
+      onComplete();
+    }
+  }, [capturedPhoto, onPhotoCapture, onComplete]);
 
   // Start camera on mount
   useEffect(() => {

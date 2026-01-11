@@ -20,12 +20,13 @@ export function PartGroup({ partType, parts, renderPart }: PartGroupProps) {
         {parts.length > 0 ? (
           parts.map((part) => renderPart(part))
         ) : (
-          <div className="border-muted-foreground/25 text-muted-foreground rounded-lg border border-dashed px-4 py-6 text-center text-sm">
-            No {partType.toLowerCase()} selected
+          <div className="border-muted-foreground/25 text-muted-foreground box-border rounded-md border border-dashed px-3 py-3 text-center text-sm">
+            <div className="flex h-9.5 items-center justify-center text-center leading-1">
+              <p>No {partType.toLowerCase()} selected</p>
+            </div>
           </div>
         )}
       </div>
     </div>
   );
 }
-
