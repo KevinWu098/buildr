@@ -107,9 +107,10 @@ const ALL_PARTS: Part[] = Object.values(INITIAL_PARTS).flat();
 
 interface PartListProps {
   onBack?: () => void;
+  onComplete?: (parts: Record<PartType, Part[]>) => void;
 }
 
-export function PartList({ onBack }: PartListProps) {
+export function PartList({ onBack, onComplete }: PartListProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [parts, setParts] = useState<Record<PartType, Part[]>>(INITIAL_PARTS);
   const [searchDrawerOpen, setSearchDrawerOpen] = useState(false);
@@ -203,7 +204,7 @@ export function PartList({ onBack }: PartListProps) {
         <Button className="text-lg" variant="outline" onClick={handleAddPart}>
           <PlusIcon className="size-4" /> Add Part
         </Button>
-        <Button className="grow text-lg">
+        <Button className="grow text-lg" onClick={() => onComplete?.(parts)}>
           <CheckIcon className="size-4" />
           Confirm Part List
         </Button>

@@ -9,6 +9,7 @@ import {
   PanelContent,
   PanelFooter,
 } from "@/components/main/panel-shell";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface PartPhotoProps {
   onBack?: () => void;
@@ -131,13 +132,17 @@ export function PartPhoto({
             className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
           />
         ) : (
-          <video
-            ref={videoRef}
-            autoPlay
-            playsInline
-            muted
-            className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
-          />
+          <div className="relative aspect-9/16 h-fit max-h-full max-w-full overflow-hidden rounded-lg">
+            {/* Loading skeleton */}
+            {!stream && <Skeleton className="absolute inset-0" />}
+            <video
+              ref={videoRef}
+              autoPlay
+              playsInline
+              muted
+              className="h-full w-full -scale-x-100 object-cover object-center"
+            />
+          </div>
         )}
         <canvas ref={canvasRef} className="hidden" />
       </PanelContent>

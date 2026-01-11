@@ -6,8 +6,10 @@ import { cn } from "@/lib/utils";
 import { PartList } from "@/components/main/part-list/part-list";
 import { Button } from "@/components/ui/button";
 import { PartPhoto } from "@/components/main/part-photo/part-photo";
+import { AssemblyList, CameraFeed } from "@/components/main/assembly";
+import type { Part, PartType } from "@/components/main/part-list";
 
-const STEPS = ["PART_PHOTO", "PART_LIST"] as const;
+const STEPS = ["PART_PHOTO", "PART_LIST", "ASSEMBLY"] as const;
 
 export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -15,6 +17,10 @@ export default function Page() {
   const [currentStep, setCurrentStep] = useState<(typeof STEPS)[number]>(
     STEPS[0]
   );
+  const [confirmedParts, setConfirmedParts] = useState<Record<
+    PartType,
+    Part[]
+  > | null>(null);
 
   const DRAWER_ACTION = useMemo(() => {
     switch (currentStep) {
@@ -22,8 +28,16 @@ export default function Page() {
         return "Upload Parts";
       case "PART_LIST":
         return "View Parts";
+      case "ASSEMBLY":
+        return "View Parts";
     }
   }, [currentStep]);
+
+  const handleConfirmParts = (parts: Record<PartType, Part[]>) => {
+    setConfirmedParts(parts);
+    setCurrentStep("ASSEMBLY");
+    setOpen(false);
+  };
 
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
@@ -35,17 +49,32 @@ export default function Page() {
           />
         );
       case "PART_LIST":
-        return <PartList onBack={() => setOpen(false)} />;
+        return (
+          <PartList
+            onBack={() => setOpen(false)}
+            onComplete={handleConfirmParts}
+          />
+        );
+      case "ASSEMBLY":
+        return confirmedParts ? <AssemblyList parts={confirmedParts} /> : null;
       default:
         return "UNKNOWN STEP";
     }
-  }, [currentStep]);
+  }, [currentStep, confirmedParts]);
+
+  const isAssemblyMode = currentStep === "ASSEMBLY";
 
   return (
     <div
       ref={containerRef}
-      className="bg-background relative flex grow flex-col rounded-lg p-4 outline-2"
+      className={cn(
+        "relative flex grow flex-col rounded-lg p-4 outline-2",
+        isAssemblyMode ? "overflow-hidden" : "bg-background"
+      )}
     >
+      {/* Camera feed - only active in assembly mode */}
+      <CameraFeed active={isAssemblyMode} />
+
       <Drawer
         modal={false}
         direction="bottom"
@@ -55,7 +84,7 @@ export default function Page() {
       >
         <DrawerTrigger
           className={cn(
-            "mt-auto rounded-lg outline-1 transition-[opacity,transform] delay-100 duration-500",
+            "border-border z-10 mt-auto rounded-lg border-2 transition-[opacity,transform] delay-100 duration-500",
             open && "pointer-events-none -translate-y-16 opacity-0"
           )}
           asChild
