@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -25,11 +26,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${inter.variable} `}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-neutral-300 p-4 antialiased`}
       >
-        {children}
+        <div
+          className={cn(
+            "relative mx-auto flex flex-col",
+            "h-[calc(100dvh-2rem)] max-h-[844px] max-w-sm" // iPhone 12 Pro
+          )}
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
