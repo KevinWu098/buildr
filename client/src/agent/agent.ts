@@ -7,7 +7,7 @@ import {
   voice,
   WorkerOptions,
 } from "@livekit/agents";
-import * as livekit from "@livekit/agents-plugin-livekit";
+import * as deepgram from "@livekit/agents-plugin-deepgram";
 import * as silero from "@livekit/agents-plugin-silero";
 import { BackgroundVoiceCancellation } from "@livekit/noise-cancellation-node";
 import dotenv from "dotenv";
@@ -27,10 +27,13 @@ export default defineAgent({
 
     const session = new voice.AgentSession({
       vad,
-      stt: "assemblyai/universal-streaming:en",
+      stt: new deepgram.STT({
+        model: "nova-3",
+        endpointing: 25,
+      }),
       llm: "openai/gpt-4.1-mini",
       tts: "cartesia/sonic-3:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",
-      turnDetection: new livekit.turnDetector.MultilingualModel(),
+      turnDetection: "stt",
     });
 
     await session.start({
