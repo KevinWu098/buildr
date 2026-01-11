@@ -7,7 +7,7 @@ import {
   DrawerHeader,
   DrawerTitle,
 } from "@/components/ui/drawer";
-import { EditIcon, TrashIcon } from "lucide-react";
+import { ArrowLeftIcon, EditIcon, TrashIcon } from "lucide-react";
 import {
   PartCard,
   PartGroup,
@@ -104,7 +104,11 @@ const PARTS: Record<PartType, Part[]> = {
 // All available parts for search (flattened)
 const ALL_PARTS: Part[] = Object.values(PARTS).flat();
 
-export function PartList() {
+interface PartListProps {
+  onBack?: () => void;
+}
+
+export function PartList({ onBack }: PartListProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [searchDrawerOpen, setSearchDrawerOpen] = useState(false);
   const [searchMode, setSearchMode] = useState<"add" | "edit">("add");
@@ -138,7 +142,14 @@ export function PartList() {
       className="relative flex h-full flex-col overflow-hidden"
     >
       <DrawerHeader className="pb-0">
-        <DrawerTitle className="text-left text-2xl">Your Part List</DrawerTitle>
+        <div className="flex items-center gap-2">
+          <Button variant="ghost" size="icon-xs" onClick={onBack}>
+            <ArrowLeftIcon className="size-5" />
+          </Button>
+          <DrawerTitle className="text-left text-2xl">
+            Your Part List
+          </DrawerTitle>
+        </div>
         <DrawerDescription className="text-left">{null}</DrawerDescription>
       </DrawerHeader>
 

@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { cn } from "@/lib/utils";
 import { PartList } from "@/components/main/part-list";
+import { Button } from "@/components/ui/button";
 
 const STEPS = ["PART_LIST"] as const;
 
@@ -16,7 +17,7 @@ export default function Page() {
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
       case "PART_LIST":
-        return <PartList />;
+        return <PartList onBack={() => setOpen(false)} />;
       default:
         return "UNKNOWN STEP";
     }
@@ -25,12 +26,7 @@ export default function Page() {
   return (
     <div
       ref={containerRef}
-      className="bg-background relative flex grow flex-col rounded-lg outline-2"
-      onClick={(e) => {
-        if (open && e.target === e.currentTarget) {
-          setOpen(false);
-        }
-      }}
+      className="bg-background relative flex grow flex-col rounded-lg p-4 outline-2"
     >
       <Drawer
         modal={false}
@@ -41,11 +37,14 @@ export default function Page() {
       >
         <DrawerTrigger
           className={cn(
-            "mt-auto h-16 rounded-lg outline-1 transition-[opacity,transform] delay-100 duration-500",
+            "mt-auto rounded-lg outline-1 transition-[opacity,transform] delay-100 duration-500",
             open && "pointer-events-none -translate-y-16 opacity-0"
           )}
+          asChild
         >
-          View Parts
+          <Button size="lg" className="">
+            View Parts
+          </Button>
         </DrawerTrigger>
 
         <DrawerContent
