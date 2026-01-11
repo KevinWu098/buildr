@@ -8,11 +8,12 @@ from models import (
     CompatibilityCheckResponse,
     Components,
     ComponentTypes,
+    ImageComponentsResponse,
     Memory,
     Motherboard,
+    OpenAIComponentsOutput,
 )
 from openai import AsyncOpenAI
-from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import create_async_engine
 from sqlmodel import col, select
 from sqlmodel.ext.asyncio.session import AsyncSession
@@ -48,12 +49,10 @@ async def root():
     return {'message': 'PCPartPicker API is running.'}
 
 
-@app.post(
-    '/compatibility-check',
-    response_model=CompatibilityCheckResponse,
-    response_model_exclude_unset=True,
-)
-async def check_compatibility(components: list[Components], session: SessionDep):
+async def _check_compatibility(
+    components: list[Components], session: AsyncSession
+) -> CompatibilityCheckResponse:
+    """Internal compatibility check logic that can be reused by multiple endpoints."""
     rams = set()
     motherboards = set()
 
@@ -99,6 +98,15 @@ async def check_compatibility(components: list[Components], session: SessionDep)
     return CompatibilityCheckResponse(compatible=True)
 
 
+@app.post(
+    '/compatibility-check',
+    response_model=CompatibilityCheckResponse,
+    response_model_exclude_unset=True,
+)
+async def check_compatibility(components: list[Components], session: SessionDep):
+    return await _check_compatibility(components, session)
+
+
 COMPONENT_IDENTIFICATION_PROMPT = """\
 Identify the PC parts in this image. Return a list of the identified components.
 Only identify the component if it is a CPU, memory, or motherboard. Ignore all other components.
@@ -115,12 +123,12 @@ If a component is not a possible match for one of these types or names, do not i
 """
 
 
-class OpenAIComponentsOutput(BaseModel):
-    components: list[Components]
-
-
-@app.post('/components-image-upload', response_model=None)
-async def upload_component_image(components_image: UploadFile):
+@app.post(
+    '/components-image-upload',
+    response_model=ImageComponentsResponse,
+    response_model_exclude_unset=True,
+)
+async def upload_component_image(components_image: UploadFile, session: SessionDep):
     if not (AZURE_OPENAI_BASE_URL and AZURE_OPENAI_API_KEY and AZURE_OPENAI_MODEL):
         raise ValueError('Azure OpenAI environment variables are not set properly.')
 
@@ -147,9 +155,22 @@ async def upload_component_image(components_image: UploadFile):
                         'image_url': data_url,
                     },
                 ],
-            }
+            }  # type: ignore
         ],
         text_format=OpenAIComponentsOutput,
     )
 
-    return response.output_parsed
+    parsed_components = response.output_parsed
+    components_list = parsed_components.components if parsed_components else []
+
+    # Run compatibility check on identified components
+    compatibility_result = await _check_compatibility(components_list, session)
+
+    return ImageComponentsResponse(
+        components=components_list,
+        compatible=compatibility_result.compatible,
+        message=compatibility_result.message,
+    )
+
+
+# @app.get('/')

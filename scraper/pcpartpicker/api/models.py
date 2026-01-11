@@ -32,6 +32,14 @@ class Components(BaseModel):
     name: str
 
 
+class OpenAIComponentsOutput(BaseModel):
+    components: list[Components]
+
+
+class ImageComponentsResponse(OpenAIComponentsOutput, CompatibilityCheckResponse):
+    pass
+
+
 # ============ PC Part Scraped Data Models ============
 
 
