@@ -1,0 +1,831 @@
+{
+  "metadata": {
+    "video_id": "v3J9VtWMEE8",
+    "title": "How to Install RAM",
+    "channel_name": "Digital Trends",
+    "url": "https://www.youtube.com/watch?v=v3J9VtWMEE8",
+    "video_type": "full_build",
+    "skill_level": "beginner",
+    "platform": null,
+    "duration_seconds": 91.0,
+    "upload_date": "20150521",
+    "description": "Need a bit more memory? Installing more RAM is an easy upgrade that can noticeably improve the performance of your computer.\n\nBefore you get started, make sure you have the right type of RAM for a proper configuration in your computer. RAM is like batteries -you’ll want to use an even number of the same size and speed. If you want 16 gigabytes of memory, you’ll want to use a pair of 8 gigabyte sticks, or four four gigabyte sticks.\n\nAlso make sure your computer can support the speed and type of the RAM you’ve purchased. Most modern computer support DDR3 up to 1600MHz, but you’ll need to check your current setup and motherboard specifications to know for sure.\n\nSUBSCRIBE FOR THE LATEST VIDEOS\nhttp://www.youtube.com/subscription_center?add_user=DigitalTrends\n\nVISIT DIGITAL TRENDS \nhttp://www.digitaltrends.com/\n\nCHECK OUT OUR LATEST PODCAST\nhttp://www.digitaltrends.com/podcasts/\n\n\nhttps://www.facebook.com/digitaltrendsftw\nhttps://twitter.com/digitaltrends\nhttps://plus.google.com/+digitaltrends/posts"
+  },
+  "assembly_steps": [
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 26.266666404
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 20.499999795
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 20.499999795
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 15.016666516
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 26.266666404
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 20.499999795
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 20.499999795
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 9.499999905
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.533333238,
+        "end": 15.016666516
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 15.016666516,
+        "end": 20.499999795
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 26.266666404
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 34.133332992
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 34.133332992
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 26.266666404
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 20.533333128,
+        "end": 26.266666404
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.299999737,
+        "end": 34.133332992
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.299999737,
+        "end": 34.133332992
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.299999737,
+        "end": 34.133332992
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "CPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "CPU being inserted into the motherboard socket",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 27.0,
+        "end": 50.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 34.166666325,
+        "end": 41.099999589
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 41.133332922,
+        "end": 47.799999522
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 53.266666134
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 53.266666134
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 53.266666134
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 67.188888217
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 47.833332855,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 53.266666134,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 53.266666134,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 53.266666134,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 53.266666134,
+        "end": 58.699999413
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 67.188888217
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 67.188888217
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 67.188888217
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 58.733332746,
+        "end": 75.644443688
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 67.188888217,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 67.188888217,
+        "end": 75.644443688
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 67.188888217,
+        "end": 75.644443688
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 67.188888217,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 75.644443688,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 75.644443688,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "unknown",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 75.644443688,
+        "end": 84.099999159
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.RAM",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 84.133332492,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 84.133332492,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 84.133332492,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 84.133332492,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "unknown",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 84.133332492,
+        "end": 91.0
+      },
+      "video_id": "v3J9VtWMEE8",
+      "source_confidence": "explicitly_shown"
+    }
+  ],
+  "twelve_labs_video_id": "69635335f7d06d04d986dfed",
+  "processing_timestamp": "2026-01-10T23:38:05.284388",
+  "total_steps_extracted": 58
+}

@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "video_id": "UTKxMAnFHnw",
+    "title": "How to install an Intel CPU without breaking pins under 60 seconds! (LGA 1200)",
+    "channel_name": "JSyntax",
+    "url": "https://www.youtube.com/watch?v=UTKxMAnFHnw",
+    "video_type": "full_build",
+    "skill_level": "beginner",
+    "platform": "LGA1200",
+    "duration_seconds": 61.0,
+    "upload_date": "20210722",
+    "description": "Installing a Intel 10th or 11th gen CPU is easy but make sure to not mess up as it can break your motherboard pins.\n\nHere's the CPU I am using https://amzn.to/3kMKsko\n\nTypo correct: Like and subscribe* lol\n\nI may earn a small commission for purchases made through the links in this video's description at no extra cost to you.\n\n#lga1200 #intel #cpu #shorts"
+  },
+  "assembly_steps": [
+    {
+      "component": "CPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 9.099999909
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 14.183333191
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 19.233333141
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 9.099999909
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 9.099999909
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 0.0,
+        "end": 9.099999909
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "CPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.133333242,
+        "end": 19.233333141
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.133333242,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.133333242,
+        "end": 19.233333141
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.133333242,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 9.133333242,
+        "end": 14.183333191
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 14.183333191,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 14.183333191,
+        "end": 31.766666349
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 14.183333191,
+        "end": 19.233333141
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "CPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 19.266666474,
+        "end": 52.866666138
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 19.266666474,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 19.266666474,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 19.266666474,
+        "end": 26.233333071
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 43.966666227
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 52.866666138
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 31.766666349
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 43.966666227
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 31.766666349
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 26.266666404,
+        "end": 31.766666349
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "PSU",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.PSU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 37.399999626
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 37.399999626
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 37.399999626
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 37.399999626
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 31.799999682,
+        "end": 37.399999626
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 37.433332959,
+        "end": 43.966666227
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "align",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 37.433332959,
+        "end": 52.866666138
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Motherboard",
+      "action": "lock",
+      "platform": "LGA1200",
+      "description": "Assembly step for component",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 37.433332959,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 43.99999956,
+        "end": 52.866666138
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Storage",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.STORAGE",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 43.99999956,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cables",
+      "action": "connect",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CABLES",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 43.99999956,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "CPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.CPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 52.899999471,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "GPU",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.GPU",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 52.899999471,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "Cooler",
+      "action": "mount",
+      "platform": "LGA1200",
+      "description": "Assembly step for ComponentType.COOLER",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 52.899999471,
+        "end": 61.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    },
+    {
+      "component": "RAM",
+      "action": "insert",
+      "platform": "LGA1200",
+      "description": "RAM memory module being installed into slot",
+      "visual_cues": [],
+      "common_errors": [],
+      "timestamp": {
+        "start": 72.0,
+        "end": 77.0
+      },
+      "video_id": "UTKxMAnFHnw",
+      "source_confidence": "explicitly_shown"
+    }
+  ],
+  "twelve_labs_video_id": "69635c563ccd786bbc2bbf08",
+  "processing_timestamp": "2026-01-11T00:17:09.175753",
+  "total_steps_extracted": 40
+}

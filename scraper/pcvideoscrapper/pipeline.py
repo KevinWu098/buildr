@@ -74,7 +74,6 @@ class PCBuildVideoPipeline:
         print(f"Type: {metadata.video_type}")
         print(f"Skill Level: {metadata.skill_level}")
         print(f"Platform: {metadata.platform}")
-        print(f"Form Factor: {metadata.form_factor}")
         
         # Validate content
         if not skip_validation:

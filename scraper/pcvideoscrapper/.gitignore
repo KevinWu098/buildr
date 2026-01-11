@@ -42,9 +42,8 @@ wheels/
 
 # Data
 data/
-videos/
-outputs/
 chroma_db/
+videos/
 
 # Mac
 .DS_Store

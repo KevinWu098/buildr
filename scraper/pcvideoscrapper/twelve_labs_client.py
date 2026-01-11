@@ -245,15 +245,21 @@ class TwelveLabsClient:
             "page_limit": page_limit
         }
         
-        # Note: filter not used since we typically have one video per index
-        # and the filter format varies by SDK version
+        # Filter by specific video if provided (must be stringified JSON with id as array)
+        if video_id:
+            import json
+            search_params["filter"] = json.dumps({"id": [video_id]})
         
         # Execute search using new SDK
         search_results = self.client.search.query(**search_params)
         
         # Parse results - iterate directly over search_results (it's a pager)
+        # Enforce page_limit to avoid excessive results
         results = []
         for clip in search_results:
+            if len(results) >= page_limit:
+                break
+                
             result = {
                 "video_id": clip.video_id,
                 "score": clip.score,

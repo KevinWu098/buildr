@@ -37,15 +37,6 @@ class Platform(str, Enum):
     UNKNOWN = "unknown"
 
 
-class FormFactor(str, Enum):
-    """Motherboard form factors"""
-    ATX = "ATX"
-    MATX = "mATX"
-    ITX = "ITX"
-    EATX = "EATX"
-    UNKNOWN = "unknown"
-
-
 class VideoType(str, Enum):
     """Type of PC building video"""
     FULL_BUILD = "full_build"
@@ -79,7 +70,6 @@ class VideoMetadata(BaseModel):
     video_type: VideoType = Field(..., description="Type of build video")
     skill_level: SkillLevel = Field(..., description="Target skill level")
     platform: Optional[Platform] = Field(None, description="CPU/Motherboard platform")
-    form_factor: Optional[FormFactor] = Field(None, description="Motherboard form factor")
     duration_seconds: Optional[float] = Field(None, description="Video duration in seconds")
     upload_date: Optional[str] = Field(None, description="Video upload date")
     description: Optional[str] = Field(None, description="Video description")
@@ -99,8 +89,6 @@ class AssemblyStep(BaseModel):
     component: ComponentType = Field(..., description="PC component being worked on")
     action: ActionType = Field(..., description="Action being performed")
     platform: Platform = Field(Platform.UNKNOWN, description="CPU/Motherboard platform")
-    form_factor: FormFactor = Field(FormFactor.UNKNOWN, description="Motherboard form factor")
-    step_order: Optional[int] = Field(None, description="Order in the assembly sequence")
     description: str = Field(..., description="Natural language explanation of the step")
     visual_cues: List[str] = Field(
         default_factory=list,

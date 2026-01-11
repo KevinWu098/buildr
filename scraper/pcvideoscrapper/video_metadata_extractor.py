@@ -4,7 +4,7 @@ Video metadata extraction from YouTube
 import re
 import requests
 from typing import Optional, Dict, Any
-from schemas import VideoMetadata, VideoType, SkillLevel, Platform, FormFactor
+from schemas import VideoMetadata, VideoType, SkillLevel, Platform
 import yt_dlp
 
 
@@ -103,25 +103,6 @@ class VideoMetadataExtractor:
         
         return None
     
-    @staticmethod
-    def infer_form_factor(title: str, description: str) -> Optional[FormFactor]:
-        """Infer form factor from title and description"""
-        combined = f"{title.lower()} {description.lower() if description else ''}"
-        
-        if "itx" in combined or "mini itx" in combined or "sff" in combined:
-            return FormFactor.ITX
-        
-        if "matx" in combined or "micro atx" in combined or "m-atx" in combined:
-            return FormFactor.MATX
-        
-        if "eatx" in combined or "extended atx" in combined:
-            return FormFactor.EATX
-        
-        if "atx" in combined:
-            return FormFactor.ATX
-        
-        return None
-    
     def extract_metadata(self, video_url: str) -> VideoMetadata:
         """
         Extract complete metadata for a video
@@ -146,7 +127,6 @@ class VideoMetadataExtractor:
         video_type = self.infer_video_type(title, description)
         skill_level = self.infer_skill_level(title, description)
         platform = self.infer_platform(title, description)
-        form_factor = self.infer_form_factor(title, description)
         
         return VideoMetadata(
             video_id=video_id,
@@ -156,7 +136,6 @@ class VideoMetadataExtractor:
             video_type=video_type,
             skill_level=skill_level,
             platform=platform,
-            form_factor=form_factor,
             duration_seconds=duration_seconds,
             upload_date=upload_date,
             description=description

@@ -3,7 +3,7 @@ Extract assembly steps from TwelveLabs search results
 """
 from typing import List, Dict, Any, Optional
 from schemas import (
-    AssemblyStep, ComponentType, ActionType, Platform, FormFactor,
+    AssemblyStep, ComponentType, ActionType, Platform,
     SourceConfidence, Timestamp, VideoMetadata, SemanticQuery
 )
 from twelve_labs_client import TwelveLabsClient
@@ -126,10 +126,6 @@ class StepExtractor:
         # Sort by timestamp
         all_steps.sort(key=lambda x: x.timestamp.start)
         
-        # Assign step order
-        for idx, step in enumerate(all_steps):
-            step.step_order = idx + 1
-        
         return all_steps
     
     def _result_to_assembly_step(
@@ -196,17 +192,14 @@ class StepExtractor:
         # Extract common errors from description
         common_errors = self._extract_errors(description)
         
-        # Use metadata platform and form factor as defaults
+        # Use metadata platform as default
         platform = metadata.platform or Platform.UNKNOWN
-        form_factor = metadata.form_factor or FormFactor.UNKNOWN
         
         try:
             step = AssemblyStep(
                 component=component,
                 action=action,
                 platform=platform,
-                form_factor=form_factor,
-                step_order=None,  # Will be assigned later
                 description=description,
                 visual_cues=visual_cues[:5],  # Limit to 5 visual cues
                 common_errors=common_errors,
