@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Room, RoomEvent, Track } from "livekit-client";
+import { Room, RoomEvent, Track, TranscriptionSegment } from "livekit-client";
 import { Button } from "@/components/ui/button";
 import { LoaderIcon, Mic, MicOff, Phone, PhoneOff } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -13,13 +13,28 @@ export function VoiceAgentButton() {
     useState<ConnectionState>("disconnected");
   const [isMuted, setIsMuted] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [agentCaption, setAgentCaption] = useState("");
   const roomRef = useRef<Room | null>(null);
+  const captionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const captionContainerRef = useRef<HTMLDivElement>(null);
+  const segmentsMapRef = useRef<Map<string, string>>(new Map());
+
+  // Auto-scroll caption to bottom when text updates
+  useEffect(() => {
+    if (captionContainerRef.current) {
+      captionContainerRef.current.scrollTop =
+        captionContainerRef.current.scrollHeight;
+    }
+  }, [agentCaption]);
 
   // Cleanup on unmount
   useEffect(() => {
     return () => {
       if (roomRef.current) {
         roomRef.current.disconnect();
+      }
+      if (captionTimeoutRef.current) {
+        clearTimeout(captionTimeoutRef.current);
       }
     };
   }, []);
@@ -76,10 +91,41 @@ export function VoiceAgentButton() {
         setIsSpeaking(agentSpeaking);
       });
 
+      // Handle transcription from agent (including interim results for low latency)
+      room.on(
+        RoomEvent.TranscriptionReceived,
+        (segments: TranscriptionSegment[], participant) => {
+          // Only show agent's transcription (not local user)
+          if (participant?.identity === room.localParticipant.identity) return;
+
+          // Update segments map with new/updated segments
+          for (const segment of segments) {
+            segmentsMapRef.current.set(segment.id, segment.text);
+          }
+
+          // Build caption from all segments
+          const text = Array.from(segmentsMapRef.current.values()).join(" ");
+          if (text.trim()) {
+            setAgentCaption(text);
+          }
+
+          // Clear caption and segments after silence
+          if (captionTimeoutRef.current) {
+            clearTimeout(captionTimeoutRef.current);
+          }
+          captionTimeoutRef.current = setTimeout(() => {
+            setAgentCaption("");
+            segmentsMapRef.current.clear();
+          }, 5000);
+        }
+      );
+
       room.on(RoomEvent.Disconnected, () => {
         setConnectionState("disconnected");
         setIsMuted(false);
         setIsSpeaking(false);
+        setAgentCaption("");
+        segmentsMapRef.current.clear();
         roomRef.current = null;
       });
 
@@ -98,9 +144,14 @@ export function VoiceAgentButton() {
     if (roomRef.current) {
       roomRef.current.disconnect();
     }
+    if (captionTimeoutRef.current) {
+      clearTimeout(captionTimeoutRef.current);
+    }
     setConnectionState("disconnected");
     setIsMuted(false);
     setIsSpeaking(false);
+    setAgentCaption("");
+    segmentsMapRef.current.clear();
     roomRef.current = null;
   }, []);
 
@@ -137,27 +188,42 @@ export function VoiceAgentButton() {
 
   // Connected state
   return (
-    <div className="flex items-center gap-2">
-      <Button
-        onClick={toggleMute}
-        size="icon"
-        variant={isMuted ? "destructive" : "secondary"}
-        className={cn(
-          "size-12 rounded-full transition-all",
-          !isMuted && isSpeaking && "ring-2 ring-emerald-500 ring-offset-2",
-          "ring"
-        )}
-      >
-        {isMuted ? <MicOff className="size-5" /> : <Mic className="size-5" />}
-      </Button>
-      <Button
-        onClick={disconnect}
-        size="icon"
-        variant="destructive"
-        className="size-12 rounded-full ring"
-      >
-        <PhoneOff className="size-5" />
-      </Button>
+    <div className="flex flex-col items-center gap-3">
+      {/* Agent caption */}
+      {agentCaption && (
+        <div
+          ref={captionContainerRef}
+          className="max-h-18 w-full overflow-y-auto rounded-lg bg-black/60 px-4 py-2 backdrop-blur-sm"
+        >
+          <p className="text-center text-sm leading-6 text-white">
+            {agentCaption}
+          </p>
+        </div>
+      )}
+
+      {/* Control buttons */}
+      <div className="flex items-center gap-2">
+        <Button
+          onClick={toggleMute}
+          size="icon"
+          variant={isMuted ? "destructive" : "secondary"}
+          className={cn(
+            "size-12 rounded-full transition-all",
+            !isMuted && isSpeaking && "ring-2 ring-emerald-500 ring-offset-2",
+            "ring"
+          )}
+        >
+          {isMuted ? <MicOff className="size-5" /> : <Mic className="size-5" />}
+        </Button>
+        <Button
+          onClick={disconnect}
+          size="icon"
+          variant="destructive"
+          className="size-12 rounded-full ring"
+        >
+          <PhoneOff className="size-5" />
+        </Button>
+      </div>
     </div>
   );
 }
