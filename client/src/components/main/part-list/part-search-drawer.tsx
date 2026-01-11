@@ -1,16 +1,89 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Drawer, DrawerContent } from "@/components/ui/drawer";
 import { Input } from "@/components/ui/input";
-import { SearchIcon, XIcon } from "lucide-react";
+import { LoaderIcon, SearchIcon, XIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PanelHeader } from "@/components/main/panel-header";
 import { PanelShell, PanelContent } from "@/components/main/panel-shell";
 import { PartCard } from "./part-card";
 import { PartGroup } from "./part-group";
 import type { Part, PartType } from "./types";
+
+const API_BASE_URL = "http://localhost:8000";
+
+const mapApiTypeToPartType = (apiType: string): PartType | null => {
+  const mapping: Record<string, PartType> = {
+    cpu: "CPU",
+    memory: "Memory",
+    motherboard: "Motherboard",
+  };
+  return mapping[apiType] ?? null;
+};
+
+const mapPartTypeToApiType = (partType: PartType): string | null => {
+  const mapping: Record<PartType, string> = {
+    CPU: "cpu",
+    Memory: "memory",
+    Motherboard: "motherboard",
+    Case: "case",
+  };
+  return mapping[partType] ?? null;
+};
+
+interface ApiComponent {
+  id?: number;
+  type: string;
+  name: string;
+  price?: string;
+  image_url?: string;
+  core_count?: string;
+  clock_speed?: string;
+  speed?: string;
+  modules?: string;
+  socket?: string;
+  form_factor?: string;
+}
+
+function mapApiComponentToPart(component: ApiComponent): Part | null {
+  const partType = mapApiTypeToPartType(component.type);
+  if (!partType) return null;
+
+  const basePart = {
+    id: component.id,
+    name: component.name,
+    type: partType,
+    price: component.price,
+    image: component.image_url,
+  };
+
+  if (partType === "CPU") {
+    return {
+      ...basePart,
+      type: "CPU",
+      cores: component.core_count ? parseInt(component.core_count) : undefined,
+      clockSpeed: component.clock_speed,
+    };
+  } else if (partType === "Memory") {
+    return {
+      ...basePart,
+      type: "Memory",
+      speed: component.speed,
+      capacity: component.modules,
+    };
+  } else if (partType === "Motherboard") {
+    return {
+      ...basePart,
+      type: "Motherboard",
+      socket: component.socket,
+      formFactor: component.form_factor,
+    };
+  }
+
+  return null;
+}
 
 interface PartSearchDrawerProps {
   open: boolean;
@@ -19,7 +92,6 @@ interface PartSearchDrawerProps {
   mode: "add" | "edit";
   partType?: PartType;
   editingPart?: Part;
-  allParts: Part[];
   onSelectPart: (part: Part) => void;
 }
 
@@ -30,16 +102,78 @@ export function PartSearchDrawer({
   mode,
   partType,
   editingPart,
-  allParts,
   onSelectPart,
 }: PartSearchDrawerProps) {
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<Part[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
+
+  // Search API call
+  const searchParts = useCallback(
+    async (query: string) => {
+      // Cancel previous request
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+
+      abortControllerRef.current = new AbortController();
+
+      setIsLoading(true);
+      try {
+        const params = new URLSearchParams();
+        if (query) params.set("q", query);
+        if (partType) {
+          const apiType = mapPartTypeToApiType(partType);
+          if (apiType) params.set("type", apiType);
+        }
+
+        const response = await fetch(
+          `${API_BASE_URL}/components/search?${params.toString()}`,
+          { signal: abortControllerRef.current.signal }
+        );
+
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status}`);
+        }
+
+        const data = (await response.json()) as ApiComponent[];
+        const parts = data
+          .map(mapApiComponentToPart)
+          .filter((p): p is Part => p !== null);
+
+        setSearchResults(parts);
+      } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          // Request was cancelled, ignore
+          return;
+        }
+        console.error("Failed to search parts:", error);
+        setSearchResults([]);
+      } finally {
+        setIsLoading(false);
+      }
+    },
+    [partType]
+  );
+
+  // Debounced search effect
+  useEffect(() => {
+    if (!open) return;
+
+    const timeoutId = setTimeout(() => {
+      searchParts(searchQuery);
+    }, 300);
+
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery, open, searchParts]);
 
   // Reset search when drawer opens
   useEffect(() => {
     if (open) {
       setSearchQuery("");
+      setSearchResults([]);
       // Small delay to ensure drawer is rendered before focusing
       setTimeout(() => {
         inputRef.current?.focus();
@@ -47,17 +181,8 @@ export function PartSearchDrawer({
     }
   }, [open]);
 
-  // Filter parts based on search query and optional part type filter
-  const filteredParts = allParts.filter((part) => {
-    const matchesSearch = part.name
-      .toLowerCase()
-      .includes(searchQuery.toLowerCase());
-    const matchesType = partType ? part.type === partType : true;
-    return matchesSearch && matchesType;
-  });
-
-  // Group filtered parts by type for display
-  const groupedParts = filteredParts.reduce(
+  // Group results by type for display
+  const groupedParts = searchResults.reduce(
     (acc, part) => {
       if (!acc[part.type]) {
         acc[part.type] = [];
@@ -124,7 +249,12 @@ export function PartSearchDrawer({
 
             {/* Search Results */}
             <div className="flex flex-1 flex-col overflow-x-hidden overflow-y-auto">
-              {filteredParts.length === 0 ? (
+              {isLoading ? (
+                <div className="text-muted-foreground flex flex-1 flex-col items-center justify-center gap-2 py-8 text-center">
+                  <LoaderIcon className="size-8 animate-spin opacity-50" />
+                  <p className="text-sm">Searching...</p>
+                </div>
+              ) : searchResults.length === 0 ? (
                 <div className="text-muted-foreground flex flex-1 flex-col items-center justify-center gap-2 py-8 text-center">
                   <SearchIcon className="size-8 opacity-50" />
                   <p className="text-sm">
@@ -141,7 +271,7 @@ export function PartSearchDrawer({
                     parts={parts}
                     renderPart={(part) => (
                       <PartCard
-                        key={part.name}
+                        key={`${part.type}-${part.id ?? part.name}`}
                         part={part}
                         className={cn(
                           editingPart?.name === part.name &&

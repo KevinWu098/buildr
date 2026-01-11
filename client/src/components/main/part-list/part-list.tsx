@@ -1,8 +1,17 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { CheckIcon, EditIcon, PlusIcon, TrashIcon } from "lucide-react";
+import {
+  AlertTriangleIcon,
+  CheckCircleIcon,
+  CheckIcon,
+  EditIcon,
+  LoaderIcon,
+  PlusIcon,
+  TrashIcon,
+} from "lucide-react";
+import { cn } from "@/lib/utils";
 import { PanelHeader } from "@/components/main/panel-header";
 import {
   PanelShell,
@@ -17,108 +26,121 @@ import {
   type PartType,
 } from "@/components/main/part-list/index";
 
-const INITIAL_PARTS: Record<PartType, Part[]> = {
-  CPU: [
-    {
-      name: "Intel Core i5-12400F",
-      type: "CPU",
-      cores: 12,
-      clockSpeed: "3.3 GHz",
-    },
-    {
-      name: "AMD Ryzen 5 5600X",
-      type: "CPU",
-      cores: 6,
-      clockSpeed: "3.7 GHz",
-    },
-    {
-      name: "Intel Core i7-12700K",
-      type: "CPU",
-      cores: 12,
-      clockSpeed: "3.6 GHz",
-    },
-    {
-      name: "AMD Ryzen 7 5800X",
-      type: "CPU",
-      cores: 8,
-      clockSpeed: "3.8 GHz",
-    },
-    {
-      name: "Intel Core i9-12900K",
-      type: "CPU",
-      cores: 16,
-      clockSpeed: "3.2 GHz",
-    },
-    {
-      name: "AMD Ryzen 9 5900X",
-      type: "CPU",
-      cores: 12,
-      clockSpeed: "3.7 GHz",
-    },
-    {
-      name: "Intel Core i3-12100F",
-      type: "CPU",
-      cores: 4,
-      clockSpeed: "3.3 GHz",
-    },
-  ],
-  Memory: [
-    {
-      name: "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz",
-      type: "Memory",
-      capacity: "16GB",
-      speed: "3200MHz",
-    },
-    {
-      name: "G.Skill Ripjaws V 32GB (2x16GB) DDR4 3600MHz",
-      type: "Memory",
-      capacity: "32GB",
-      speed: "3600MHz",
-    },
-    {
-      name: "Kingston Fury Beast 8GB (2x4GB) DDR4 2666MHz",
-      type: "Memory",
-      capacity: "8GB",
-      speed: "2666MHz",
-    },
-  ],
-  GPU: [],
-  Case: [
-    {
-      name: "Fractal Design Define S",
-      type: "Case",
-      formFactor: "ATX",
-    },
-    {
-      name: "NZXT H510",
-      type: "Case",
-      formFactor: "Mid Tower",
-    },
-    {
-      name: "Corsair 4000D Airflow",
-      type: "Case",
-      formFactor: "Mid Tower",
-    },
-  ],
+const API_BASE_URL = "http://localhost:8000";
+
+const EMPTY_PARTS: Record<PartType, Part[]> = {
+  CPU: [],
+  Memory: [],
+  Motherboard: [],
+  Case: [],
 };
 
-// All available parts for search (flattened)
-const ALL_PARTS: Part[] = Object.values(INITIAL_PARTS).flat();
+const mapPartTypeToApiType = (partType: PartType): string => {
+  const mapping: Record<PartType, string> = {
+    CPU: "cpu",
+    Memory: "memory",
+    Motherboard: "motherboard",
+    Case: "case",
+  };
+  return mapping[partType];
+};
+
+interface CompatibilityInfo {
+  compatible: boolean;
+  message?: string;
+}
 
 interface PartListProps {
   onBack?: () => void;
   onComplete?: (parts: Record<PartType, Part[]>) => void;
+  initialParts?: Record<PartType, Part[]>;
+  initialCompatibility?: CompatibilityInfo;
 }
 
-export function PartList({ onBack, onComplete }: PartListProps) {
+export function PartList({
+  onBack,
+  onComplete,
+  initialParts,
+  initialCompatibility,
+}: PartListProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [parts, setParts] = useState<Record<PartType, Part[]>>(INITIAL_PARTS);
+  const [parts, setParts] = useState<Record<PartType, Part[]>>(
+    initialParts ?? EMPTY_PARTS
+  );
   const [searchDrawerOpen, setSearchDrawerOpen] = useState(false);
   const [searchMode, setSearchMode] = useState<"add" | "edit">("add");
   const [selectedPartType, setSelectedPartType] = useState<
     PartType | undefined
   >();
   const [editingPart, setEditingPart] = useState<Part | undefined>();
+
+  // Compatibility state
+  const [compatibility, setCompatibility] = useState<CompatibilityInfo | null>(
+    initialCompatibility ?? null
+  );
+  const [isCheckingCompat, setIsCheckingCompat] = useState(false);
+  const abortControllerRef = useRef<AbortController | null>(null);
+
+  // Check compatibility whenever parts change
+  const checkCompatibility = useCallback(
+    async (currentParts: Record<PartType, Part[]>) => {
+      // Cancel previous request
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+
+      // Build components list for API
+      const components: Array<{ type: string; name: string }> = [];
+      for (const [partType, partsList] of Object.entries(currentParts)) {
+        const apiType = mapPartTypeToApiType(partType as PartType);
+        for (const part of partsList) {
+          components.push({ type: apiType, name: part.name });
+        }
+      }
+
+      // If no parts, clear compatibility
+      if (components.length === 0) {
+        setCompatibility(null);
+        return;
+      }
+
+      abortControllerRef.current = new AbortController();
+      setIsCheckingCompat(true);
+
+      try {
+        const response = await fetch(`${API_BASE_URL}/compatibility-check`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(components),
+          signal: abortControllerRef.current.signal,
+        });
+
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status}`);
+        }
+
+        const data = (await response.json()) as CompatibilityInfo;
+        setCompatibility(data);
+      } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          return;
+        }
+        console.error("Failed to check compatibility:", error);
+      } finally {
+        setIsCheckingCompat(false);
+      }
+    },
+    []
+  );
+
+  // Check compatibility when parts change (debounced)
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      checkCompatibility(parts);
+    }, 300);
+
+    return () => clearTimeout(timeoutId);
+  }, [parts, checkCompatibility]);
 
   const handleAddPart = () => {
     setSearchMode("add");
@@ -162,18 +184,58 @@ export function PartList({ onBack, onComplete }: PartListProps) {
     setSearchDrawerOpen(false);
   };
 
+  // Determine what to show in the compatibility banner
+  const showCompatBanner = compatibility?.message || isCheckingCompat;
+  const hadIncompatibility = compatibility && !compatibility.compatible;
+
   return (
     <PanelShell ref={containerRef}>
       <PanelHeader title="Your Part List" onBack={onBack} />
 
-      <PanelContent>
+      <PanelContent className="">
+        {/* Compatibility Banner */}
+        {showCompatBanner && (
+          <div
+            className={cn(
+              "mb-4 flex shrink-0 items-start gap-2 rounded-md p-3 text-sm",
+              isCheckingCompat && hadIncompatibility
+                ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
+                : compatibility?.compatible
+                  ? "bg-green-500/10 text-green-700 dark:text-green-400"
+                  : "bg-red-500/10 text-red-700 dark:text-red-400"
+            )}
+          >
+            {isCheckingCompat ? (
+              <>
+                <LoaderIcon className="mt-0.5 size-4 shrink-0 animate-spin" />
+                <p className="line-clamp-3">Checking compatibility...</p>
+              </>
+            ) : compatibility?.compatible ? (
+              <>
+                <CheckCircleIcon className="mt-0.5 size-4 shrink-0" />
+                <p className="line-clamp-3">
+                  {compatibility.message ?? "All parts are compatible!"}
+                </p>
+              </>
+            ) : (
+              <>
+                <AlertTriangleIcon className="mt-0.5 size-4 shrink-0" />
+                <p className="line-clamp-3">{compatibility?.message}</p>
+              </>
+            )}
+          </div>
+        )}
+
         {Object.entries(parts).map(([partType, partsList]) => (
           <PartGroup
             key={partType}
             partType={partType as PartType}
             parts={partsList}
             renderPart={(part) => (
-              <PartCard key={part.name} part={part}>
+              <PartCard
+                key={`${part.type}-${part.id ?? part.name}`}
+                part={part}
+              >
                 <Button
                   variant="ghost"
                   size="icon-xs"
@@ -217,7 +279,6 @@ export function PartList({ onBack, onComplete }: PartListProps) {
         mode={searchMode}
         partType={selectedPartType}
         editingPart={editingPart}
-        allParts={ALL_PARTS}
         onSelectPart={handleSelectPart}
       />
     </PanelShell>

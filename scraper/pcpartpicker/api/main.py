@@ -4,11 +4,14 @@ from typing import Annotated
 
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from models import (
     CATEGORY_MODEL_MAP,
     CompatibilityCheckResponse,
     Components,
     ComponentTypes,
+    CPU,
+    EnrichedComponent,
     ImageComponentsResponse,
     Memory,
     Motherboard,
@@ -43,6 +46,14 @@ client = AsyncOpenAI(
 )
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get('/')
@@ -108,6 +119,135 @@ async def check_compatibility(components: list[Components], session: SessionDep)
     return await _check_compatibility(components, session)
 
 
+@app.get('/components/search')
+async def search_components(
+    session: SessionDep,
+    q: str = '',
+    type: str | None = None,
+) -> list[EnrichedComponent]:
+    """Search for components by name across CPU, Memory, and Motherboard tables."""
+    results: list[EnrichedComponent] = []
+    limit = 20
+
+    # Search CPUs
+    if type is None or type == 'cpu':
+        query = select(CPU).order_by(col(CPU.id).asc()).limit(limit)
+        if q:
+            query = query.where(col(CPU.name).icontains(q))
+        result = await session.exec(query)
+        for row in result.all():
+            results.append(
+                EnrichedComponent(
+                    id=row.id,
+                    type=ComponentTypes.cpu,
+                    name=row.name or '',
+                    price=row.price,
+                    image_url=row.image_url,
+                    core_count=row.core_count,
+                    clock_speed=row.performance_core_clock,
+                )
+            )
+
+    # Search Memory
+    if type is None or type == 'memory':
+        query = select(Memory).order_by(col(Memory.id).asc()).limit(limit)
+        if q:
+            query = query.where(col(Memory.name).icontains(q))
+        result = await session.exec(query)
+        for row in result.all():
+            results.append(
+                EnrichedComponent(
+                    id=row.id,
+                    type=ComponentTypes.memory,
+                    name=row.name or '',
+                    price=row.price,
+                    image_url=row.image_url,
+                    speed=row.speed,
+                    modules=row.modules,
+                )
+            )
+
+    # Search Motherboards
+    if type is None or type == 'motherboard':
+        query = select(Motherboard).order_by(col(Motherboard.id).asc()).limit(limit)
+        if q:
+            query = query.where(col(Motherboard.name).icontains(q))
+        result = await session.exec(query)
+        for row in result.all():
+            results.append(
+                EnrichedComponent(
+                    id=row.id,
+                    type=ComponentTypes.motherboard,
+                    name=row.name or '',
+                    price=row.price,
+                    image_url=row.image_url,
+                    socket=row.socket_cpu,
+                    form_factor=row.form_factor,
+                )
+            )
+
+    return results
+
+
+async def _enrich_components(
+    components: list[Components], session: AsyncSession
+) -> list[EnrichedComponent]:
+    """Look up component details from database and return enriched data."""
+    enriched: list[EnrichedComponent] = []
+
+    for component in components:
+        enriched_data: dict = {
+            'type': component.type,
+            'name': component.name,
+        }
+
+        if component.type == ComponentTypes.cpu:
+            result = await session.exec(
+                select(CPU)
+                .where(col(CPU.name).icontains(component.name))
+                .order_by(col(CPU.id).asc())
+            )
+            row = result.first()
+            if row:
+                enriched_data['id'] = row.id
+                enriched_data['price'] = row.price
+                enriched_data['image_url'] = row.image_url
+                enriched_data['core_count'] = row.core_count
+                enriched_data['clock_speed'] = row.performance_core_clock
+
+        elif component.type == ComponentTypes.memory:
+            result = await session.exec(
+                select(Memory)
+                .where(col(Memory.name).icontains(component.name))
+                .order_by(col(Memory.id).asc())
+            )
+            row = result.first()
+            if row:
+                enriched_data['id'] = row.id
+                enriched_data['price'] = row.price
+                enriched_data['image_url'] = row.image_url
+                enriched_data['speed'] = row.speed
+                enriched_data['modules'] = row.modules
+
+        elif component.type == ComponentTypes.motherboard:
+            result = await session.exec(
+                select(Motherboard)
+                .where(col(Motherboard.name).icontains(component.name))
+                .order_by(col(Motherboard.id).asc())
+            )
+            row = result.first()
+            if row:
+                enriched_data['id'] = row.id
+                enriched_data['price'] = row.price
+                enriched_data['image_url'] = row.image_url
+                enriched_data['socket'] = row.socket_cpu
+                enriched_data['form_factor'] = row.form_factor
+
+        enriched.append(EnrichedComponent(**enriched_data))
+
+    return enriched
+
+
 COMPONENT_IDENTIFICATION_PROMPT = """\
 Identify the PC parts in this image. Return a list of the identified components.
 Only identify the component if it is a CPU, memory, or motherboard. Ignore all other components.
@@ -164,11 +304,14 @@ async def upload_component_image(components_image: UploadFile, session: SessionD
     parsed_components = response.output_parsed
     components_list = parsed_components.components if parsed_components else []
 
+    # Enrich components with database details
+    enriched_components = await _enrich_components(components_list, session)
+
     # Run compatibility check on identified components
     compatibility_result = await _check_compatibility(components_list, session)
 
     return ImageComponentsResponse(
-        components=components_list,
+        components=enriched_components,
         compatible=compatibility_result.compatible,
         message=compatibility_result.message,
     )

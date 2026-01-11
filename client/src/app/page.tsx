@@ -13,6 +13,21 @@ import type { Part, PartType } from "@/components/main/part-list";
 
 const STEPS = ["PART_PHOTO", "PART_LIST", "ASSEMBLY"] as const;
 const DRAWER_ANIMATION_MS = 300;
+const API_BASE_URL = "http://localhost:8000";
+
+const mapApiTypeToPartType = (apiType: string): PartType | null => {
+  const mapping: Record<string, PartType> = {
+    cpu: "CPU",
+    memory: "Memory",
+    motherboard: "Motherboard",
+  };
+  return mapping[apiType] ?? null;
+};
+
+async function dataUrlToBlob(dataUrl: string): Promise<Blob> {
+  const response = await fetch(dataUrl);
+  return response.blob();
+}
 
 export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -26,6 +41,14 @@ export default function Page() {
   > | null>(null);
   const [capturedPhoto, setCapturedPhoto] = useState<string | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [detectedParts, setDetectedParts] = useState<Record<
+    PartType,
+    Part[]
+  > | null>(null);
+  const [initialCompatibility, setInitialCompatibility] = useState<{
+    compatible: boolean;
+    message?: string;
+  } | null>(null);
 
   const DRAWER_ACTION = useMemo(() => {
     switch (currentStep) {
@@ -58,9 +81,102 @@ export default function Page() {
     setOpen(false);
     setIsAnalyzing(true);
 
-    // TODO: Replace with actual API call
-    // const response = await fetch('/api/analyze-parts', { ... });
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    try {
+      // Convert data URL to Blob and create FormData
+      const blob = await dataUrlToBlob(photoDataUrl);
+      const formData = new FormData();
+      formData.append("components_image", blob, "photo.jpg");
+
+      // Call the backend API
+      const response = await fetch(`${API_BASE_URL}/components-image-upload`, {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const data = (await response.json()) as {
+        components: Array<{
+          id?: number;
+          type: string;
+          name: string;
+          price?: string;
+          image_url?: string;
+          core_count?: string;
+          clock_speed?: string;
+          speed?: string;
+          modules?: string;
+          socket?: string;
+          form_factor?: string;
+        }>;
+        compatible: boolean;
+        message?: string;
+      };
+
+      // Map API response to frontend Part types
+      const partsMap: Record<PartType, Part[]> = {
+        CPU: [],
+        Memory: [],
+        Case: [],
+        Motherboard: [],
+      };
+
+      for (const component of data.components) {
+        const partType = mapApiTypeToPartType(component.type);
+        if (partType) {
+          const basePart = {
+            id: component.id,
+            name: component.name,
+            type: partType,
+            price: component.price,
+            image: component.image_url,
+          };
+
+          if (partType === "CPU") {
+            partsMap.CPU.push({
+              ...basePart,
+              type: "CPU",
+              cores: component.core_count
+                ? parseInt(component.core_count)
+                : undefined,
+              clockSpeed: component.clock_speed,
+            });
+          } else if (partType === "Memory") {
+            partsMap.Memory.push({
+              ...basePart,
+              type: "Memory",
+              speed: component.speed,
+              capacity: component.modules,
+            });
+          } else if (partType === "Motherboard") {
+            partsMap.Motherboard.push({
+              ...basePart,
+              type: "Motherboard",
+              socket: component.socket,
+              formFactor: component.form_factor,
+            });
+          }
+        }
+      }
+
+      setDetectedParts(partsMap);
+      setInitialCompatibility({
+        compatible: data.compatible,
+        message: data.message,
+      });
+    } catch (error) {
+      console.error("Failed to analyze image:", error);
+      // Set empty parts on error so user can still add manually
+      setDetectedParts({
+        CPU: [],
+        Memory: [],
+        Case: [],
+        Motherboard: [],
+      });
+      setInitialCompatibility(null);
+    }
 
     setIsAnalyzing(false);
     setTimeout(() => {
@@ -77,6 +193,17 @@ export default function Page() {
     [transitionToStep]
   );
 
+  // Go back from part list to part photo, resetting state
+  const handleBackToPartPhoto = useCallback(() => {
+    setOpen(false);
+    setTimeout(() => {
+      setCapturedPhoto(null);
+      setDetectedParts(null);
+      setCurrentStep("PART_PHOTO");
+      setTimeout(() => setOpen(true), 50);
+    }, DRAWER_ANIMATION_MS);
+  }, []);
+
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
       case "PART_PHOTO":
@@ -89,8 +216,10 @@ export default function Page() {
       case "PART_LIST":
         return (
           <PartList
-            onBack={() => setOpen(false)}
+            onBack={handleBackToPartPhoto}
             onComplete={handleConfirmParts}
+            initialParts={detectedParts ?? undefined}
+            initialCompatibility={initialCompatibility ?? undefined}
           />
         );
       case "ASSEMBLY":
@@ -98,7 +227,15 @@ export default function Page() {
       default:
         return "UNKNOWN STEP";
     }
-  }, [currentStep, confirmedParts, handlePhotoConfirm, handleConfirmParts]);
+  }, [
+    currentStep,
+    confirmedParts,
+    detectedParts,
+    initialCompatibility,
+    handlePhotoConfirm,
+    handleConfirmParts,
+    handleBackToPartPhoto,
+  ]);
 
   const isAssemblyMode = currentStep === "ASSEMBLY";
 
@@ -122,7 +259,7 @@ export default function Page() {
       {/* Analyzing overlay */}
       {isAnalyzing && (
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-4 bg-black/40 backdrop-blur-sm">
-          <LoaderIcon className="text-primary size-12 animate-spin" />
+          <LoaderIcon className="size-12 animate-spin text-white" />
           <p className="text-lg font-medium text-white">Analyzing parts...</p>
         </div>
       )}

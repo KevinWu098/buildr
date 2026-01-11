@@ -36,8 +36,28 @@ class OpenAIComponentsOutput(BaseModel):
     components: list[Components]
 
 
-class ImageComponentsResponse(OpenAIComponentsOutput, CompatibilityCheckResponse):
-    pass
+class EnrichedComponent(BaseModel):
+    """Component with additional details from database lookup."""
+    id: int | None = None
+    type: ComponentTypes
+    name: str
+    price: str | None = None
+    image_url: str | None = None
+    # CPU fields
+    core_count: str | None = None
+    clock_speed: str | None = None
+    # Memory fields
+    speed: str | None = None
+    modules: str | None = None
+    # Motherboard fields
+    socket: str | None = None
+    form_factor: str | None = None
+
+
+class ImageComponentsResponse(BaseModel):
+    components: list[EnrichedComponent]
+    compatible: bool
+    message: str | None = None
 
 
 # ============ PC Part Scraped Data Models ============

@@ -1,31 +1,40 @@
 import type { Part } from "./types";
 
-export function PartDetails({ part }: { part: Part }) {
-  switch (part.type) {
-    case "CPU":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.cores} cores • {part.clockSpeed}
-        </span>
-      );
-    case "Memory":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.capacity} • {part.speed}
-        </span>
-      );
-    case "GPU":
-      return (
-        <span className="text-muted-foreground text-xs">
-          {part.vram} • {part.clockSpeed}
-        </span>
-      );
-    case "Case":
-      return (
-        <span className="text-muted-foreground text-xs">{part.formFactor}</span>
-      );
-    default:
-      return null;
-  }
+function formatDetails(details: (string | undefined)[]): string | null {
+  const filtered = details.filter(Boolean);
+  return filtered.length > 0 ? filtered.join(" • ") : null;
 }
 
+export function PartDetails({ part }: { part: Part }) {
+  let details: string | null = null;
+
+  switch (part.type) {
+    case "CPU":
+      details = formatDetails([
+        part.cores ? `${part.cores} cores` : undefined,
+        part.clockSpeed,
+      ]);
+      break;
+    case "Memory":
+      details = formatDetails([part.speed, part.capacity]);
+      break;
+    case "GPU":
+      details = formatDetails([part.vram, part.clockSpeed]);
+      break;
+    case "Case":
+      details = formatDetails([part.formFactor]);
+      break;
+    case "Motherboard":
+      details = formatDetails([part.socket, part.formFactor]);
+      break;
+  }
+
+  // Fallback to price if no other details
+  if (!details && part.price) {
+    details = part.price;
+  }
+
+  if (!details) return null;
+
+  return <span className="text-muted-foreground text-xs">{details}</span>;
+}

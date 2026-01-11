@@ -12,7 +12,12 @@ interface PartCardProps {
   children?: ReactNode;
 }
 
-export function PartCard({ part, onClick, className, children }: PartCardProps) {
+export function PartCard({
+  part,
+  onClick,
+  className,
+  children,
+}: PartCardProps) {
   return (
     <Card
       className={cn(
@@ -46,4 +51,3 @@ export function PartCard({ part, onClick, className, children }: PartCardProps) 
     </Card>
   );
 }
-
