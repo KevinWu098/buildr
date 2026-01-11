@@ -1,9 +1,12 @@
 import base64
 import os
-from typing import Annotated
+from enum import Enum
+from typing import Annotated, Literal
 
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, UploadFile
+from google import genai
+from google.genai import types
 from models import (
     CompatibilityCheckResponse,
     Components,
@@ -11,7 +14,6 @@ from models import (
     Memory,
     Motherboard,
 )
-from openai import AsyncOpenAI
 from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import create_async_engine
 from sqlmodel import col, select
@@ -20,9 +22,8 @@ from sqlmodel.ext.asyncio.session import AsyncSession
 load_dotenv()
 
 DATABASE_URL = 'sqlite+aiosqlite:///./pcpartpicker.db'
-AZURE_OPENAI_BASE_URL = os.getenv('AZURE_OPENAI_BASE_URL')
-AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
-AZURE_OPENAI_MODEL = os.getenv('AZURE_OPENAI_MODEL')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+GEMINI_MODEL = os.getenv('GEMINI_MODEL')
 
 
 engine = create_async_engine(DATABASE_URL)
@@ -35,10 +36,7 @@ async def get_session():
 
 SessionDep = Annotated[AsyncSession, Depends(get_session)]
 
-client = AsyncOpenAI(
-    base_url=AZURE_OPENAI_BASE_URL,
-    api_key=AZURE_OPENAI_API_KEY,
-)
+client = genai.Client(api_key=GEMINI_API_KEY).aio
 
 app = FastAPI()
 
@@ -102,52 +100,71 @@ async def check_compatibility(components: list[Components], session: SessionDep)
 COMPONENT_IDENTIFICATION_PROMPT = """\
 Identify the PC parts in this image. Return a list of the identified components.
 Only identify the component if it is a CPU, memory, or motherboard. Ignore all other components.
-The type field of the component should be one of: cpu, memory, motherboard.
-For CPUs, identify from this list: AMD Ryzen 5 7600X, Intel Core i7-14700K, AMD Ryzen 9 5900X.
-If a component is a CPU, and is not in the list, omit it from the results.
-For memory, identify from this list: Corsair Vengeance LPX 16 GB, Crucial Pro 32 GB, G.Skill Trident Z5 RGB 48 GB.
-If a component is memory, and is not in the list, omit it from the results.
-For motherboards, identify from this list: Asus TUF GAMING B650E-PLUS WIFI, MSI MAG B850 TOMAHAWK MAX WIFI, ASRock B850M Pro-A WiFi.
-If a component is a motherboard, and is not in the list, omit it from the results.
-For the name field of the component, return the exact name as in the list above, without any additional details or changes.
+Focus on the text on the labels of the components. If a part does not have clear indicators that it is one of the optios, do not include it in the list.
+If a component is not a possible match for one of these types or names, do not include it in the list.
 """
 
 
-class OpenAIComponentsOutput(BaseModel):
-    components: list[Components]
+class CPUNamesEnum(str, Enum):
+    amd_ryzen_5_7600x = 'AMD Ryzen 5 7600X'
+    intel_core_i7_14700k = 'Intel Core i7-14700K'
+    amd_ryzen_9_5900x = 'AMD Ryzen 9 5900X'
+
+
+class MemoryNamesEnum(str, Enum):
+    corsair_vengeance_lpx_16_gb = 'Corsair Vengeance LPX 16 GB'
+    crucial_pro_32_gb = 'Crucial Pro 32 GB'
+    gskill_trident_z5_rgb_48_gb = 'G.Skill Trident Z5 RGB 48 GB'
+
+
+class MotherboardNamesEnum(str, Enum):
+    asus_tuf_gaming_b650e_plus_wifi = 'Asus TUF GAMING B650E-PLUS WIFI'
+    msi_mag_b850_tomahawk_max_wifi = 'MSI MAG B850 TOMAHAWK MAX WIFI'
+    asrock_b850m_pro_a_wifi = 'ASRock B850M Pro-A WiFi'
+
+
+class CPUComponent(BaseModel):
+    type: Literal['cpu']
+    name: CPUNamesEnum
+
+
+class MemoryComponent(BaseModel):
+    type: Literal['memory']
+    name: MemoryNamesEnum
+
+
+class MotherboardComponent(BaseModel):
+    type: Literal['motherboard']
+    name: MotherboardNamesEnum
+
+
+class GeminiComponentsOutput(BaseModel):
+    components: list[CPUComponent | MemoryComponent | MotherboardComponent]
 
 
 @app.post('/components-image-upload', response_model=None)
 async def upload_component_image(components_image: UploadFile):
-    if not (AZURE_OPENAI_BASE_URL and AZURE_OPENAI_API_KEY and AZURE_OPENAI_MODEL):
-        raise ValueError('Azure OpenAI environment variables are not set properly.')
+    if not (GEMINI_API_KEY and GEMINI_MODEL):
+        raise ValueError('Gemini environment variables are not set properly.')
 
-    # Read and encode the uploaded file as base64
-    file_content = await components_image.read()
-    base64_image = base64.b64encode(file_content).decode('utf-8')
+    # Read the uploaded file
+    image_bytes = await components_image.read()
     content_type = components_image.content_type or 'image/jpeg'
-    data_url = f'data:{content_type};base64,{base64_image}'
 
-    response = await client.responses.parse(
-        model=AZURE_OPENAI_MODEL,
-        max_output_tokens=2000,
-        temperature=0.0,
-        input=[
-            {
-                'role': 'user',
-                'content': [
-                    {
-                        'type': 'input_text',
-                        'text': COMPONENT_IDENTIFICATION_PROMPT,
-                    },
-                    {
-                        'type': 'input_image',
-                        'image_url': data_url,
-                    },
-                ],
-            }
+    response = await client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=[
+            COMPONENT_IDENTIFICATION_PROMPT,
+            types.Part.from_bytes(
+                data=image_bytes,
+                mime_type=content_type,
+            ),
         ],
-        text_format=OpenAIComponentsOutput,
+        config={
+            'response_mime_type': 'application/json',
+            'response_schema': GeminiComponentsOutput,
+            'temperature': 0.1,
+        },
     )
 
-    return response.output_parsed
+    return GeminiComponentsOutput.model_validate_json(response.text)
