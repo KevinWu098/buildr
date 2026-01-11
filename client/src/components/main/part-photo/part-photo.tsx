@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { CameraIcon, RefreshCwIcon, CheckIcon, LoaderIcon } from "lucide-react";
+import { CameraIcon, RefreshCwIcon, CheckIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PanelHeader } from "@/components/main/panel-header";
 import {
@@ -13,28 +13,31 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 interface PartPhotoProps {
   onBack?: () => void;
-  onPhotoCapture?: (photoDataUrl: string) => void;
-  onComplete?: () => void;
+  onConfirm?: (photoDataUrl: string) => void;
 }
 
-export function PartPhoto({
-  onBack,
-  onPhotoCapture,
-  onComplete,
-}: PartPhotoProps) {
+export function PartPhoto({ onBack, onConfirm }: PartPhotoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const [stream, setStream] = useState<MediaStream | null>(null);
   const [capturedPhoto, setCapturedPhoto] = useState<string | null>(null);
   const [cameraError, setCameraError] = useState<string | null>(null);
-  const [isProcessing, setIsProcessing] = useState(false);
+  const [cameraStarted, setCameraStarted] = useState(false);
 
   const startCamera = useCallback(async () => {
+    setCameraStarted(true);
+    setCameraError(null);
+
+    // Check if camera API is available (requires HTTPS)
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setCameraError("Camera not available. Make sure you're using HTTPS.");
+      return;
+    }
+
     try {
-      setCameraError(null);
       const mediaStream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "environment" },
+        video: { facingMode: { ideal: "environment" } },
         audio: false,
       });
       setStream(mediaStream);
@@ -78,44 +81,34 @@ export function PartPhoto({
     startCamera();
   }, [startCamera]);
 
-  const confirmPhoto = useCallback(async () => {
+  const confirmPhoto = useCallback(() => {
     if (!capturedPhoto) return;
+    onConfirm?.(capturedPhoto);
+  }, [capturedPhoto, onConfirm]);
 
-    setIsProcessing(true);
-
-    if (onPhotoCapture) {
-      onPhotoCapture(capturedPhoto);
-    }
-
-    // TODO: Send API request here
-    // const response = await fetch('/api/analyze-part', { ... });
-
-    // Simulate API delay, then transition
-    await new Promise((resolve) => setTimeout(resolve, 5000));
-
-    if (onComplete) {
-      onComplete();
-    }
-  }, [capturedPhoto, onPhotoCapture, onComplete]);
-
-  // Start camera on mount
+  // Cleanup on unmount
   useEffect(() => {
-    startCamera();
     return () => {
-      stopCamera();
+      if (stream) {
+        stream.getTracks().forEach((track) => track.stop());
+      }
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [stream]);
 
   return (
     <PanelShell>
       <PanelHeader title="Part Photo" onBack={onBack} />
 
       <PanelContent className="items-center justify-center">
-        {isProcessing ? (
+        {!cameraStarted ? (
           <div className="flex flex-col items-center gap-4 text-center">
-            <LoaderIcon className="text-primary size-10 animate-spin" />
-            <p className="text-muted-foreground">Analyzing...</p>
+            <p className="text-muted-foreground">
+              Take a photo of your PC parts to get started
+            </p>
+            <Button onClick={startCamera} size="lg" className="text-lg">
+              <CameraIcon className="size-4" />
+              Start Camera
+            </Button>
           </div>
         ) : cameraError ? (
           <div className="flex flex-col items-center gap-4 text-center">
@@ -129,7 +122,7 @@ export function PartPhoto({
           <img
             src={capturedPhoto}
             alt="Captured part"
-            className="aspect-9/16 h-fit max-h-full max-w-full -scale-x-100 rounded-lg object-cover object-center"
+            className="aspect-9/16 h-fit max-h-full max-w-full rounded-lg object-cover object-center"
           />
         ) : (
           <div className="relative aspect-9/16 h-fit max-h-full max-w-full overflow-hidden rounded-lg">
@@ -140,14 +133,14 @@ export function PartPhoto({
               autoPlay
               playsInline
               muted
-              className="h-full w-full -scale-x-100 object-cover object-center"
+              className="h-full w-full object-cover object-center"
             />
           </div>
         )}
         <canvas ref={canvasRef} className="hidden" />
       </PanelContent>
 
-      {!isProcessing && (
+      {cameraStarted && (
         <PanelFooter className="justify-center">
           {capturedPhoto ? (
             <>

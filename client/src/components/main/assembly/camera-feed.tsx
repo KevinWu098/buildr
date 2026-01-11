@@ -29,10 +29,19 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
     let mounted = true;
 
     async function startCamera() {
+      // Check if camera API is available (requires HTTPS)
+      if (!navigator.mediaDevices?.getUserMedia) {
+        if (mounted) {
+          setHasPermission(false);
+          setIsLoading(false);
+        }
+        return;
+      }
+
       try {
         const stream = await navigator.mediaDevices.getUserMedia({
           video: {
-            facingMode: "environment", // Prefer back camera on mobile
+            facingMode: { ideal: "environment" },
             width: { ideal: 1280 },
             height: { ideal: 720 },
           },
@@ -84,7 +93,7 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
         playsInline
         muted
         className={cn(
-          "h-full w-full -scale-x-100 object-cover",
+          "h-full w-full object-cover",
           (!hasPermission || isLoading) && "hidden"
         )}
       />
