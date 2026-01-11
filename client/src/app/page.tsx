@@ -7,6 +7,7 @@ import { PartList } from "@/components/main/part-list/part-list";
 import { Button } from "@/components/ui/button";
 import { PartPhoto } from "@/components/main/part-photo/part-photo";
 import { AssemblyList, CameraFeed } from "@/components/main/assembly";
+import { VoiceAgentButton } from "@/components/main/voice-agent";
 import { LoaderIcon } from "lucide-react";
 import type { Part, PartType } from "@/components/main/part-list";
 
@@ -105,7 +106,7 @@ export default function Page() {
     <div
       ref={containerRef}
       className={cn(
-        "relative flex grow flex-col overflow-hidden rounded-lg p-4 outline-2",
+        "relative flex grow flex-col justify-end gap-2 overflow-hidden rounded-lg p-4 outline-2",
         !capturedPhoto && !isAssemblyMode && "bg-background"
       )}
     >
@@ -126,6 +127,12 @@ export default function Page() {
         </div>
       )}
 
+      {isAssemblyMode && (
+        <div className="z-10 mt-auto w-full">
+          <VoiceAgentButton />
+        </div>
+      )}
+
       <Drawer
         modal={false}
         direction="bottom"
@@ -135,14 +142,16 @@ export default function Page() {
       >
         <DrawerTrigger
           className={cn(
-            "border-border z-10 mt-auto rounded-lg border-2 transition-[opacity,transform] delay-100 duration-500",
+            "z-10 rounded-lg transition-[opacity,transform] delay-100 duration-500",
             open && "pointer-events-none -translate-y-16 opacity-0"
           )}
           asChild
         >
-          <Button size="lg" className="text-lg">
-            {DRAWER_ACTION}
-          </Button>
+          <div className="flex flex-col items-center gap-2">
+            <Button size="lg" className="border-border w-full border-2 text-lg">
+              {DRAWER_ACTION}
+            </Button>
+          </div>
         </DrawerTrigger>
 
         <DrawerContent

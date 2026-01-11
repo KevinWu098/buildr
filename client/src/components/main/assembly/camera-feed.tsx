@@ -85,7 +85,7 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
   }
 
   return (
-    <div className={cn("absolute inset-0 overflow-hidden bg-black", className)}>
+    <div className={cn("absolute inset-0 overflow-hidden", className)}>
       {/* Video feed */}
       <video
         ref={videoRef}
@@ -112,9 +112,6 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
           </p>
         </div>
       )}
-
-      {/* Subtle overlay gradient for better drawer visibility */}
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-black/20" />
     </div>
   );
 }
