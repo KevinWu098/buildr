@@ -1,15 +1,17 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { cn } from "@/lib/utils";
 import { PartList } from "@/components/main/part-list/part-list";
 import { Button } from "@/components/ui/button";
 import { PartPhoto } from "@/components/main/part-photo/part-photo";
 import { AssemblyList, CameraFeed } from "@/components/main/assembly";
+import { LoaderIcon } from "lucide-react";
 import type { Part, PartType } from "@/components/main/part-list";
 
 const STEPS = ["PART_PHOTO", "PART_LIST", "ASSEMBLY"] as const;
+const DRAWER_ANIMATION_MS = 300;
 
 export default function Page() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -21,6 +23,8 @@ export default function Page() {
     PartType,
     Part[]
   > | null>(null);
+  const [capturedPhoto, setCapturedPhoto] = useState<string | null>(null);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const DRAWER_ACTION = useMemo(() => {
     switch (currentStep) {
@@ -33,11 +37,44 @@ export default function Page() {
     }
   }, [currentStep]);
 
-  const handleConfirmParts = (parts: Record<PartType, Part[]>) => {
-    setConfirmedParts(parts);
-    setCurrentStep("ASSEMBLY");
+  // Transition between steps with drawer animation
+  const transitionToStep = useCallback(
+    (nextStep: (typeof STEPS)[number], reopenDrawer = true) => {
+      setOpen(false);
+      setTimeout(() => {
+        setCurrentStep(nextStep);
+        if (reopenDrawer) {
+          setTimeout(() => setOpen(true), 50);
+        }
+      }, DRAWER_ANIMATION_MS);
+    },
+    []
+  );
+
+  // Handle photo confirmation - close drawer, analyze, then open part list
+  const handlePhotoConfirm = useCallback(async (photoDataUrl: string) => {
+    setCapturedPhoto(photoDataUrl);
     setOpen(false);
-  };
+    setIsAnalyzing(true);
+
+    // TODO: Replace with actual API call
+    // const response = await fetch('/api/analyze-parts', { ... });
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+
+    setIsAnalyzing(false);
+    setTimeout(() => {
+      setCurrentStep("PART_LIST");
+      setTimeout(() => setOpen(true), 50);
+    }, DRAWER_ANIMATION_MS);
+  }, []);
+
+  const handleConfirmParts = useCallback(
+    (parts: Record<PartType, Part[]>) => {
+      setConfirmedParts(parts);
+      transitionToStep("ASSEMBLY", false);
+    },
+    [transitionToStep]
+  );
 
   const DRAWER_COMPONENT = useMemo(() => {
     switch (currentStep) {
@@ -45,7 +82,7 @@ export default function Page() {
         return (
           <PartPhoto
             onBack={() => setOpen(false)}
-            onComplete={() => setCurrentStep("PART_LIST")}
+            onConfirm={handlePhotoConfirm}
           />
         );
       case "PART_LIST":
@@ -60,7 +97,7 @@ export default function Page() {
       default:
         return "UNKNOWN STEP";
     }
-  }, [currentStep, confirmedParts]);
+  }, [currentStep, confirmedParts, handlePhotoConfirm, handleConfirmParts]);
 
   const isAssemblyMode = currentStep === "ASSEMBLY";
 
@@ -68,12 +105,26 @@ export default function Page() {
     <div
       ref={containerRef}
       className={cn(
-        "relative flex grow flex-col rounded-lg p-4 outline-2",
-        isAssemblyMode ? "overflow-hidden" : "bg-background"
+        "relative flex grow flex-col overflow-hidden rounded-lg p-4 outline-2",
+        !capturedPhoto && !isAssemblyMode && "bg-background"
       )}
     >
-      {/* Camera feed - only active in assembly mode */}
+      {/* Background: captured photo or camera feed */}
+      {capturedPhoto && !isAssemblyMode && (
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${capturedPhoto})` }}
+        />
+      )}
       <CameraFeed active={isAssemblyMode} />
+
+      {/* Analyzing overlay */}
+      {isAnalyzing && (
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-4 bg-black/40 backdrop-blur-sm">
+          <LoaderIcon className="text-primary size-12 animate-spin" />
+          <p className="text-lg font-medium text-white">Analyzing parts...</p>
+        </div>
+      )}
 
       <Drawer
         modal={false}
