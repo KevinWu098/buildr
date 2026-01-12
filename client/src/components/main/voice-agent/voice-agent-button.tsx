@@ -129,12 +129,38 @@ export function VoiceAgentButton() {
         roomRef.current = null;
       });
 
+      // Log local participant track events for debugging
+      room.on(RoomEvent.LocalTrackPublished, (publication) => {
+        console.log("[LiveKit] Local track published:", publication.trackSid, publication.kind);
+      });
+
+      room.on(RoomEvent.LocalTrackUnpublished, (publication) => {
+        console.log("[LiveKit] Local track unpublished:", publication.trackSid);
+      });
+
       await room.connect(url, token);
-      await room.localParticipant.setMicrophoneEnabled(true);
+      console.log("[LiveKit] Connected to room:", room.name);
+
+      // Enable microphone with explicit error handling
+      try {
+        await room.localParticipant.setMicrophoneEnabled(true);
+        console.log("[LiveKit] Microphone enabled successfully");
+        
+        // Verify the mic track was published
+        const micTrack = room.localParticipant.getTrackPublication(Track.Source.Microphone);
+        if (micTrack) {
+          console.log("[LiveKit] Mic track published:", micTrack.trackSid, "muted:", micTrack.isMuted);
+        } else {
+          console.warn("[LiveKit] No microphone track found after enabling");
+        }
+      } catch (micError) {
+        console.error("[LiveKit] Failed to enable microphone:", micError);
+        // Continue anyway - user can still hear the agent
+      }
 
       setConnectionState("connected");
     } catch (error) {
-      console.error("Failed to connect:", error);
+      console.error("[LiveKit] Failed to connect:", error);
       setConnectionState("disconnected");
       roomRef.current = null;
     }

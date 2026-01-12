@@ -272,10 +272,10 @@ export default function Page() {
         </div>
       )}
 
-      {currentStep === "PART_PHOTO" && (
+      {currentStep === "PART_PHOTO" && !isAnalyzing && (
         <div className="z-10 mt-8 mb-auto w-full text-center">
           <div>
-            <h1 className="text-8xl font-semibold">F</h1>
+            <h1 className="text-8xl font-semibold">Buildr</h1>
             <div className="text-muted-foreground text-2xl">
               PC building made easy
             </div>

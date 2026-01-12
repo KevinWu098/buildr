@@ -43,7 +43,7 @@ export default function RootLayout({
         <div
           className={cn(
             "relative mx-auto flex flex-col",
-            "h-[calc(100dvh-2rem)] max-h-[844px] max-w-sm" // iPhone 12 Pro
+            "h-[calc(100dvh-2rem)] max-h-[844px]" // iPhone 12 Pro
           )}
         >
           {children}

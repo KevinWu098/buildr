@@ -18,6 +18,16 @@ dotenv.config({ path: ".env" });
 const RAG_API_URL = process.env.RAG_API_URL || "http://localhost:8001";
 const COMPONENTS_API_URL =
   process.env.COMPONENTS_API_URL || "http://localhost:8000";
+const ASSEMBLY_API_URL =
+  process.env.ASSEMBLY_API_URL || "http://localhost:8002";
+
+// Track assembly state across the session
+// In a typical PC build, RAM should be installed before CPU on the motherboard
+type AssemblyComponent = "CPU" | "RAM";
+const assembledComponents = new Set<AssemblyComponent>();
+
+// Define the assembly order - RAM first, then CPU
+const ASSEMBLY_ORDER: AssemblyComponent[] = ["RAM", "CPU"];
 
 export default defineAgent({
   prewarm: async (proc: JobProcess) => {
@@ -32,6 +42,15 @@ export default defineAgent({
 When users ask about specific CPUs, prices, or integrated graphics, use the queryCpuKnowledge tool to get accurate information.
 When users want to search for components, use the searchComponents tool.
 When users want to check if their parts are compatible, use the checkCompatibility tool.
+
+ASSEMBLY GUIDANCE:
+When users are in the assembly stage and ask what step they should take next, or what to do next:
+1. Use the getNextAssemblyStep tool to determine what component should be installed next
+2. This tool remembers what has already been assembled and returns the next logical step
+3. When providing the next step, say "The next step should be..." followed by a clear instruction
+4. Do NOT mention that you are dispatching an action or calling a service - just provide natural guidance
+
+When the user confirms they have completed installing a component, use the markComponentAssembled tool to record it.
 
 Be concise and helpful in your responses.`,
       tools: {
@@ -149,14 +168,102 @@ Be concise and helpful in your responses.`,
             }
           },
         },
+        getNextAssemblyStep: {
+          description:
+            "Get the next assembly step based on what components have already been installed. Use this when the user asks what they should do next during PC assembly. Returns the next component to install (RAM or CPU).",
+          parameters: z.object({
+            availableComponents: z
+              .array(z.enum(["CPU", "RAM"]))
+              .optional()
+              .describe(
+                "List of components the user has available to install. If not provided, assumes both CPU and RAM are available."
+              ),
+          }),
+          execute: async ({
+            availableComponents,
+          }: {
+            availableComponents?: ("CPU" | "RAM")[];
+          }) => {
+            // Default to both components if not specified
+            const available = availableComponents || ["CPU", "RAM"];
+
+            // Find the next component to install based on the assembly order
+            const nextComponent = ASSEMBLY_ORDER.find(
+              (component) =>
+                !assembledComponents.has(component) &&
+                available.includes(component)
+            );
+
+            if (!nextComponent) {
+              // All components have been assembled
+              return {
+                nextStep: null,
+                message: "All components have been assembled!",
+                assembledSoFar: Array.from(assembledComponents),
+              };
+            }
+
+            // Make request to external server with the component value
+            try {
+              await fetch(`${ASSEMBLY_API_URL}/assembly/next-step`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ component: nextComponent }),
+              });
+            } catch {
+              // Silently continue even if external request fails
+              // The guidance should still be provided to the user
+            }
+
+            const stepInstructions: Record<AssemblyComponent, string> = {
+              RAM: "installing the RAM modules onto the motherboard. Align the notch on the RAM stick with the slot and press down firmly until the clips snap into place.",
+              CPU: "installing the CPU onto the motherboard. Lift the retention arm, align the triangle marker on the CPU with the socket, and gently place it in. Then lower the retention arm to secure it.",
+            };
+
+            return {
+              nextStep: nextComponent,
+              instruction: stepInstructions[nextComponent],
+              assembledSoFar: Array.from(assembledComponents),
+            };
+          },
+        },
+        markComponentAssembled: {
+          description:
+            "Mark a component as assembled/installed. Use this when the user confirms they have finished installing a component (RAM or CPU).",
+          parameters: z.object({
+            component: z
+              .enum(["CPU", "RAM"])
+              .describe("The component that has been assembled"),
+          }),
+          execute: async ({ component }: { component: "CPU" | "RAM" }) => {
+            assembledComponents.add(component);
+
+            // Notify external server that component was assembled
+            try {
+              await fetch(`${ASSEMBLY_API_URL}/assembly/mark-complete`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ component }),
+              });
+            } catch {
+              // Silently continue even if external request fails
+            }
+
+            return {
+              success: true,
+              component,
+              assembledComponents: Array.from(assembledComponents),
+              message: `${component} has been marked as installed.`,
+            };
+          },
+        },
       },
     });
 
     const session = new voice.AgentSession({
       vad,
-      stt: new deepgram.STTv2({
-        model: "flux-general-en",
-        eagerEotThreshold: 0.4,
+      stt: new deepgram.STT({
+        model: "nova-3",
       }),
       llm: "openai/gpt-4.1-mini",
       tts: "cartesia/sonic-3:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",

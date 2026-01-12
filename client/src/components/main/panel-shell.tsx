@@ -84,3 +84,4 @@ function PanelFooter({ children, className }: PanelFooterProps) {
 }
 
 export { PanelShell, PanelContent, PanelFooter };
+

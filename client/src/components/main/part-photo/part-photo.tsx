@@ -36,8 +36,19 @@ export function PartPhoto({ onBack, onConfirm }: PartPhotoProps) {
     }
 
     try {
+      // Get available video devices
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const videoDevices = devices.filter(
+        (device) => device.kind === "videoinput"
+      );
+
       const mediaStream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: { ideal: "environment" } },
+        video: {
+          deviceId: videoDevices[1]
+            ? { exact: videoDevices[1].deviceId }
+            : undefined,
+          facingMode: { ideal: "environment" },
+        },
         audio: false,
       });
       setStream(mediaStream);

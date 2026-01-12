@@ -1,0 +1,7 @@
+cpu
+cpu_socket
+cooler
+ram
+ram_slots
+
+
