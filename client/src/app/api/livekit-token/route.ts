@@ -1,4 +1,4 @@
-import { AccessToken } from "livekit-server-sdk";
+import { AccessToken, AgentDispatchClient } from "livekit-server-sdk";
 import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
@@ -33,6 +33,12 @@ export async function GET(request: Request) {
 
     const jwt = await token.toJwt();
 
+    // Dispatch the agent to the room so it joins when the client connects
+    const agentDispatch = new AgentDispatchClient(wsUrl, apiKey, apiSecret);
+    await agentDispatch.createDispatch(roomName, "pc-builder").catch((err) => {
+      console.warn("[AgentDispatch] Failed to dispatch agent:", err?.message);
+    });
+
     return NextResponse.json({
       token: jwt,
       url: wsUrl,
@@ -46,4 +52,3 @@ export async function GET(request: Request) {
     );
   }
 }
-

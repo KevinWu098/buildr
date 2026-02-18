@@ -4,9 +4,12 @@ import {
   defineAgent,
   type JobContext,
   type JobProcess,
+  llm,
+  ServerOptions,
   voice,
-  WorkerOptions,
 } from "@livekit/agents";
+
+const { tool } = llm;
 import * as deepgram from "@livekit/agents-plugin-deepgram";
 import * as silero from "@livekit/agents-plugin-silero";
 import { BackgroundVoiceCancellation } from "@livekit/noise-cancellation-node";
@@ -54,7 +57,7 @@ When the user confirms they have completed installing a component, use the markC
 
 Be concise and helpful in your responses.`,
       tools: {
-        queryCpuKnowledge: {
+        queryCpuKnowledge: tool({
           description:
             "Query the CPU knowledge base to get information about CPU prices, integrated graphics, and specifications. Use this when users ask about specific CPUs or want CPU recommendations.",
           parameters: z.object({
@@ -83,8 +86,8 @@ Be concise and helpful in your responses.`,
               return { error: "CPU knowledge base is unavailable" };
             }
           },
-        },
-        searchComponents: {
+        }),
+        searchComponents: tool({
           description:
             "Search for PC components by name. Returns matching CPUs, memory, and motherboards from the database.",
           parameters: z.object({
@@ -124,8 +127,8 @@ Be concise and helpful in your responses.`,
               return { error: "Component search is unavailable" };
             }
           },
-        },
-        checkCompatibility: {
+        }),
+        checkCompatibility: tool({
           description:
             "Check if PC components are compatible with each other. Verifies memory type compatibility with motherboards.",
           parameters: z.object({
@@ -167,8 +170,8 @@ Be concise and helpful in your responses.`,
               return { error: "Compatibility check is unavailable" };
             }
           },
-        },
-        getNextAssemblyStep: {
+        }),
+        getNextAssemblyStep: tool({
           description:
             "Get the next assembly step based on what components have already been installed. Use this when the user asks what they should do next during PC assembly. Returns the next component to install (RAM or CPU).",
           parameters: z.object({
@@ -226,8 +229,8 @@ Be concise and helpful in your responses.`,
               assembledSoFar: Array.from(assembledComponents),
             };
           },
-        },
-        markComponentAssembled: {
+        }),
+        markComponentAssembled: tool({
           description:
             "Mark a component as assembled/installed. Use this when the user confirms they have finished installing a component (RAM or CPU).",
           parameters: z.object({
@@ -256,7 +259,7 @@ Be concise and helpful in your responses.`,
               message: `${component} has been marked as installed.`,
             };
           },
-        },
+        }),
       },
     });
 
@@ -270,6 +273,8 @@ Be concise and helpful in your responses.`,
       turnDetection: "stt",
     });
 
+    await ctx.connect();
+
     await session.start({
       agent: assistant,
       room: ctx.room,
@@ -278,8 +283,6 @@ Be concise and helpful in your responses.`,
       },
     });
 
-    await ctx.connect();
-
     session.generateReply({
       instructions:
         "Greet the user and let them know you can help with PC building questions, searching for components, and checking compatibility.",
@@ -287,4 +290,4 @@ Be concise and helpful in your responses.`,
   },
 });
 
-cli.runApp(new WorkerOptions({ agent: fileURLToPath(import.meta.url) }));
+cli.runApp(new ServerOptions({ agent: fileURLToPath(import.meta.url), agentName: "pc-builder" }));

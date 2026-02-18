@@ -8,7 +8,7 @@ import {
   runInference,
   INPUT_SIZE,
 } from "@/lib/yolo";
-import { drawDetections, drawFPS } from "@/lib/yolo-renderer";
+import { drawDetections } from "@/lib/yolo-renderer";
 
 interface UseYoloInferenceOptions {
   videoRef: React.RefObject<HTMLVideoElement | null>;
@@ -39,6 +39,7 @@ export function useYoloInference({
   const preprocessCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const fpsFrameCount = useRef(0);
   const fpsLastTime = useRef(0);
+  const fpsValueRef = useRef(0);
   const runningRef = useRef(false);
 
   // Load model when enabled
@@ -121,19 +122,18 @@ export function useYoloInference({
           protoMasks.dispose();
         }
 
-        // FPS calculation
+        // FPS calculation — update React state once per second to avoid re-rendering every frame
         fpsFrameCount.current++;
         const now = performance.now();
         const elapsed = now - fpsLastTime.current;
         if (elapsed >= 1000) {
           const currentFps = (fpsFrameCount.current * 1000) / elapsed;
+          fpsValueRef.current = currentFps;
           setFps(currentFps);
-          drawFPS(ctx, currentFps);
+          setDetections(dets);
           fpsFrameCount.current = 0;
           fpsLastTime.current = now;
         }
-
-        setDetections(dets);
       } catch (err) {
         console.error("[YOLO] Inference error:", err);
       }
