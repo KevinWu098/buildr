@@ -39,7 +39,6 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
     connectionState === "loading_model" || connectionState === "connected";
 
   const {
-    isModelLoaded,
     isRunning,
     fps,
     detections,
@@ -65,20 +64,50 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
     }
   }, [modelError]);
 
-  // Resize canvas to match video dimensions
-  useEffect(() => {
+  // Compute the CSS position/size of the canvas to match the letterboxed video area.
+  // The hook owns canvas pixel dimensions (synced from video in runFrame).
+  // This callback only sets CSS dimensions so the canvas aligns with the video display.
+  const updateCanvasBounds = useCallback(() => {
     const video = videoRef.current;
     const canvas = canvasRef.current;
     if (!video || !canvas) return;
+    const container = canvas.parentElement;
+    if (!container) return;
+    const vW = video.videoWidth;
+    const vH = video.videoHeight;
+    const cW = container.clientWidth;
+    const cH = container.clientHeight;
+    if (!vW || !vH || !cW || !cH) return;
 
-    const resizeCanvas = () => {
-      canvas.width = video.videoWidth;
-      canvas.height = video.videoHeight;
-    };
+    // Replicate object-contain: scale uniformly to fit, centered (letterboxed)
+    const scale = Math.min(cW / vW, cH / vH);
+    const dW = Math.round(vW * scale);
+    const dH = Math.round(vH * scale);
+    const left = Math.round((cW - dW) / 2);
+    const top = Math.round((cH - dH) / 2);
 
-    video.addEventListener("loadedmetadata", resizeCanvas);
-    return () => video.removeEventListener("loadedmetadata", resizeCanvas);
+    canvas.style.left = `${left}px`;
+    canvas.style.top = `${top}px`;
+    canvas.style.width = `${dW}px`;
+    canvas.style.height = `${dH}px`;
   }, []);
+
+  // Re-position the canvas when the container is resized
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const container = canvas?.parentElement;
+    if (!container) return;
+    const ro = new ResizeObserver(updateCanvasBounds);
+    ro.observe(container);
+    return () => ro.disconnect();
+  }, [updateCanvasBounds]);
+
+  // Re-position the canvas when inference starts (video is definitely playing at this point)
+  useEffect(() => {
+    if (isRunning) {
+      updateCanvasBounds();
+    }
+  }, [isRunning, updateCanvasBounds]);
 
   // Cleanup function
   const cleanup = useCallback(() => {
@@ -180,23 +209,26 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
   const isIdle = connectionState === "idle";
 
   return (
-    <div className={cn("absolute inset-0 overflow-hidden", className)}>
+    <div className={cn("absolute inset-0 overflow-hidden bg-black", className)}>
       {/* Camera video feed */}
       <video
         ref={videoRef}
         autoPlay
         playsInline
         muted
+        onLoadedMetadata={updateCanvasBounds}
         className={cn(
-          "h-full w-full object-cover",
+          "h-full w-full object-contain",
           !hasPermission && "hidden",
         )}
       />
 
-      {/* Canvas overlay for detection bounding boxes and masks */}
+      {/* Canvas overlay for detection bounding boxes and masks.
+          CSS position/size set by updateCanvasBounds to match the letterboxed video area.
+          Pixel dimensions are synced from video native resolution in the inference loop. */}
       <canvas
         ref={canvasRef}
-        className="pointer-events-none absolute inset-0 h-full w-full"
+        className="pointer-events-none absolute"
       />
 
       {/* Loading skeleton */}

@@ -96,6 +96,19 @@ export function useYoloInference({
         return;
       }
 
+      // Sync canvas pixel buffer to video native resolution.
+      // The canvas CSS dimensions are managed separately by the component,
+      // but the pixel buffer must match the video so scaleX/scaleY are correct.
+      if (
+        video.videoWidth > 0 &&
+        video.videoHeight > 0 &&
+        (canvas.width !== video.videoWidth ||
+          canvas.height !== video.videoHeight)
+      ) {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+      }
+
       try {
         // Preprocess
         const inputTensor = preprocessFrame(
@@ -110,7 +123,7 @@ export function useYoloInference({
         // Dispose input tensor immediately
         inputTensor.dispose();
 
-        // Scale from model space (640x640) to canvas display space
+        // Scale from model space (640x640) to canvas pixel space (video native res)
         const scaleX = canvas.width / INPUT_SIZE;
         const scaleY = canvas.height / INPUT_SIZE;
 
