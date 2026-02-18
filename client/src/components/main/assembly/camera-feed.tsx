@@ -5,21 +5,18 @@ import { cn } from "@/lib/utils";
 import {
   CameraOffIcon,
   VideoIcon,
-  VideoOffIcon,
   Loader2Icon,
   CheckCircleIcon,
   AlertCircleIcon,
 } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
-
-// External YOLO WebRTC server
-const WEBRTC_SERVER_URL = "http://34.217.69.181:6934";
+import { useYoloInference } from "@/hooks/use-yolo-inference";
 
 type ConnectionState =
   | "idle"
   | "requesting_camera"
-  | "connecting"
+  | "loading_model"
   | "connected"
   | "error";
 
@@ -29,41 +26,76 @@ interface CameraFeedProps {
 }
 
 export function CameraFeed({ className, active = true }: CameraFeedProps) {
-  const localVideoRef = useRef<HTMLVideoElement>(null);
-  const remoteVideoRef = useRef<HTMLVideoElement>(null);
-  const pcRef = useRef<RTCPeerConnection | null>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   const localStreamRef = useRef<MediaStream | null>(null);
 
   const [connectionState, setConnectionState] =
     useState<ConnectionState>("idle");
   const [hasPermission, setHasPermission] = useState<boolean | null>(null);
-  const [showLocalPreview, setShowLocalPreview] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  const inferenceEnabled =
+    connectionState === "loading_model" || connectionState === "connected";
+
+  const {
+    isModelLoaded,
+    isRunning,
+    fps,
+    detections,
+    error: modelError,
+  } = useYoloInference({
+    videoRef,
+    canvasRef,
+    enabled: inferenceEnabled,
+  });
+
+  // Transition to "connected" when inference starts running
+  useEffect(() => {
+    if (isRunning && connectionState === "loading_model") {
+      setConnectionState("connected");
+    }
+  }, [isRunning, connectionState]);
+
+  // Handle model errors
+  useEffect(() => {
+    if (modelError) {
+      setConnectionState("error");
+      setErrorMessage(modelError);
+    }
+  }, [modelError]);
+
+  // Resize canvas to match video dimensions
+  useEffect(() => {
+    const video = videoRef.current;
+    const canvas = canvasRef.current;
+    if (!video || !canvas) return;
+
+    const resizeCanvas = () => {
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+    };
+
+    video.addEventListener("loadedmetadata", resizeCanvas);
+    return () => video.removeEventListener("loadedmetadata", resizeCanvas);
+  }, []);
 
   // Cleanup function
   const cleanup = useCallback(() => {
-    if (pcRef.current) {
-      pcRef.current.close();
-      pcRef.current = null;
-    }
     if (localStreamRef.current) {
       localStreamRef.current.getTracks().forEach((track) => track.stop());
       localStreamRef.current = null;
     }
-    if (localVideoRef.current) {
-      localVideoRef.current.srcObject = null;
-    }
-    if (remoteVideoRef.current) {
-      remoteVideoRef.current.srcObject = null;
+    if (videoRef.current) {
+      videoRef.current.srcObject = null;
     }
   }, []);
 
-  // Start WebRTC connection
-  const startWebRTC = useCallback(async () => {
+  // Start camera and begin model loading
+  const startCamera = useCallback(async () => {
     setConnectionState("requesting_camera");
     setErrorMessage(null);
 
-    // Check if camera API is available
     if (!navigator.mediaDevices?.getUserMedia) {
       setHasPermission(false);
       setConnectionState("error");
@@ -72,10 +104,10 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
     }
 
     try {
-      // Get user media with environment camera preference (phone back camera)
+      // Prefer back camera on mobile
       const devices = await navigator.mediaDevices.enumerateDevices();
       const videoDevices = devices.filter(
-        (device) => device.kind === "videoinput"
+        (device) => device.kind === "videoinput",
       );
       const stream = await navigator.mediaDevices.getUserMedia({
         video: {
@@ -92,92 +124,14 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
       localStreamRef.current = stream;
       setHasPermission(true);
 
-      if (localVideoRef.current) {
-        localVideoRef.current.srcObject = stream;
+      if (videoRef.current) {
+        videoRef.current.srcObject = stream;
       }
 
-      setConnectionState("connecting");
-
-      // Create peer connection with multiple STUN servers for better connectivity
-      const pc = new RTCPeerConnection({
-        iceServers: [
-          { urls: "stun:stun.l.google.com:19302" },
-          { urls: "stun:stun1.l.google.com:19302" },
-          { urls: "stun:stun2.l.google.com:19302" },
-        ],
-      });
-      pcRef.current = pc;
-
-      // Add local tracks with higher quality encoding
-      stream.getTracks().forEach((track) => {
-        const sender = pc.addTrack(track, stream);
-
-        // Set encoding parameters for higher quality
-        if (track.kind === "video") {
-          const params = sender.getParameters();
-          if (!params.encodings) {
-            params.encodings = [{}];
-          }
-          params.encodings[0].maxBitrate = 2_500_000; // 2.5 Mbps
-          params.encodings[0].maxFramerate = 30;
-          sender.setParameters(params).catch(console.warn);
-        }
-      });
-
-      // Handle remote tracks (processed video from YOLO server)
-      pc.ontrack = (event) => {
-        if (remoteVideoRef.current) {
-          remoteVideoRef.current.srcObject = event.streams[0];
-        }
-        setConnectionState("connected");
-      };
-
-      pc.onconnectionstatechange = () => {
-        if (
-          pc.connectionState === "disconnected" ||
-          pc.connectionState === "failed"
-        ) {
-          setConnectionState("error");
-          setErrorMessage("Connection lost");
-        }
-      };
-
-      // Create offer
-      const offer = await pc.createOffer();
-      await pc.setLocalDescription(offer);
-
-      // Wait for ICE gathering to complete
-      await new Promise<void>((resolve) => {
-        if (pc.iceGatheringState === "complete") {
-          resolve();
-        } else {
-          pc.addEventListener("icegatheringstatechange", () => {
-            if (pc.iceGatheringState === "complete") {
-              resolve();
-            }
-          });
-        }
-      });
-
-      // Send offer directly to external YOLO WebRTC server
-      const response = await fetch(`${WEBRTC_SERVER_URL}/offer`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          sdp: pc.localDescription?.sdp,
-          type: pc.localDescription?.type,
-        }),
-      });
-
-      if (!response.ok) {
-        const error = await response.json();
-        throw new Error(error.error || "Failed to connect");
-      }
-
-      const answer = await response.json();
-      await pc.setRemoteDescription(new RTCSessionDescription(answer));
+      // Transition to loading_model — the inference hook will start loading
+      setConnectionState("loading_model");
     } catch (err) {
-      console.error("WebRTC error:", err);
+      console.error("Camera error:", err);
       setConnectionState("error");
       if (err instanceof Error) {
         if (err.name === "NotAllowedError") {
@@ -187,20 +141,20 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
           setErrorMessage(err.message);
         }
       } else {
-        setErrorMessage("Failed to start video stream");
+        setErrorMessage("Failed to start camera");
       }
     }
   }, []);
 
-  // Stop WebRTC connection
-  const stopWebRTC = useCallback(() => {
+  // Stop camera
+  const stopCamera = useCallback(() => {
     cleanup();
     setConnectionState("idle");
     setHasPermission(null);
     setErrorMessage(null);
   }, [cleanup]);
 
-  // Effect to handle active state changes
+  // Handle active state changes
   useEffect(() => {
     if (!active) {
       cleanup();
@@ -219,44 +173,31 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
   }
 
   const isLoading =
-    connectionState === "requesting_camera" || connectionState === "connecting";
+    connectionState === "requesting_camera" ||
+    connectionState === "loading_model";
   const isConnected = connectionState === "connected";
   const isError = connectionState === "error";
   const isIdle = connectionState === "idle";
 
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)}>
-      {/* Main video feed - shows remote (processed) when connected, local when connecting */}
+      {/* Camera video feed */}
       <video
-        ref={remoteVideoRef}
+        ref={videoRef}
         autoPlay
         playsInline
-        className={cn("h-full w-full object-cover", !isConnected && "hidden")}
+        muted
+        className={cn(
+          "h-full w-full object-cover",
+          !hasPermission && "hidden",
+        )}
       />
 
-      {/* Local video preview (small overlay when connected) */}
-      {isConnected && showLocalPreview && (
-        <div className="absolute top-4 right-4 z-20 overflow-hidden rounded-lg border-2 border-white/30 shadow-xl">
-          <video
-            ref={localVideoRef}
-            autoPlay
-            playsInline
-            muted
-            className="h-24 w-32 object-cover"
-          />
-        </div>
-      )}
-
-      {/* Local video while connecting (full screen) */}
-      {!isConnected && hasPermission && (
-        <video
-          ref={localVideoRef}
-          autoPlay
-          playsInline
-          muted
-          className="h-full w-full object-cover"
-        />
-      )}
+      {/* Canvas overlay for detection bounding boxes and masks */}
+      <canvas
+        ref={canvasRef}
+        className="pointer-events-none absolute inset-0 h-full w-full"
+      />
 
       {/* Loading skeleton */}
       {isLoading && !hasPermission && <Skeleton className="absolute inset-0" />}
@@ -270,11 +211,11 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
               Start Vision Assistance
             </p>
             <p className="text-muted-foreground mb-6 max-w-xs text-sm">
-              Stream your camera to get AI-powered component detection overlay
+              Point your camera at PC components for AI-powered detection
             </p>
           </div>
           <Button
-            onClick={startWebRTC}
+            onClick={startCamera}
             size="lg"
             className="gap-2 bg-emerald-600 text-white hover:bg-emerald-700"
           >
@@ -284,14 +225,14 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
         </div>
       )}
 
-      {/* Connecting overlay */}
+      {/* Loading overlay */}
       {isLoading && (
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-black/40 backdrop-blur-sm">
           <Loader2Icon className="size-12 animate-spin text-white" />
           <p className="text-white">
             {connectionState === "requesting_camera"
               ? "Requesting camera..."
-              : "Connecting to vision server..."}
+              : "Loading YOLO model..."}
           </p>
         </div>
       )}
@@ -301,6 +242,9 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
         <div className="absolute top-4 left-4 z-20 flex items-center gap-2 rounded-full bg-emerald-600/90 px-3 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
           <CheckCircleIcon className="size-4" />
           <span>YOLO Vision Active</span>
+          <span className="ml-2 font-mono text-xs opacity-80">
+            {fps.toFixed(0)} FPS | {detections.length} det
+          </span>
         </div>
       )}
 
@@ -309,15 +253,17 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-black/60">
           <AlertCircleIcon className="size-16 text-red-400" />
           <div className="text-center">
-            <p className="mb-1 text-lg font-medium text-white">
-              Connection Error
-            </p>
+            <p className="mb-1 text-lg font-medium text-white">Error</p>
             <p className="text-muted-foreground mb-4 max-w-xs text-sm">
-              {errorMessage || "Failed to connect to vision server"}
+              {errorMessage || "Failed to start vision assistance"}
             </p>
           </div>
           <div className="flex gap-3">
-            <Button onClick={startWebRTC} variant="secondary" className="gap-2">
+            <Button
+              onClick={startCamera}
+              variant="secondary"
+              className="gap-2"
+            >
               Try Again
             </Button>
           </div>
@@ -340,19 +286,7 @@ export function CameraFeed({ className, active = true }: CameraFeedProps) {
       {isConnected && (
         <div className="absolute right-4 bottom-4 z-20 flex gap-2">
           <Button
-            onClick={() => setShowLocalPreview(!showLocalPreview)}
-            size="icon"
-            variant="secondary"
-            className="size-10 rounded-full bg-black/50 backdrop-blur-sm hover:bg-black/70"
-          >
-            {showLocalPreview ? (
-              <VideoOffIcon className="size-5" />
-            ) : (
-              <VideoIcon className="size-5" />
-            )}
-          </Button>
-          <Button
-            onClick={stopWebRTC}
+            onClick={stopCamera}
             size="icon"
             variant="destructive"
             className="size-10 rounded-full"
