@@ -17,25 +17,33 @@ export async function GET(request: Request) {
     );
   }
 
-  const token = new AccessToken(apiKey, apiSecret, {
-    identity: participantName,
-    name: participantName,
-  });
+  try {
+    const token = new AccessToken(apiKey, apiSecret, {
+      identity: participantName,
+      name: participantName,
+    });
 
-  token.addGrant({
-    roomJoin: true,
-    room: roomName,
-    canPublish: true,
-    canSubscribe: true,
-    canPublishData: true,
-  });
+    token.addGrant({
+      roomJoin: true,
+      room: roomName,
+      canPublish: true,
+      canSubscribe: true,
+      canPublishData: true,
+    });
 
-  const jwt = await token.toJwt();
+    const jwt = await token.toJwt();
 
-  return NextResponse.json({
-    token: jwt,
-    url: wsUrl,
-    roomName,
-  });
+    return NextResponse.json({
+      token: jwt,
+      url: wsUrl,
+      roomName,
+    });
+  } catch (err) {
+    console.error("Failed to generate LiveKit token:", err);
+    return NextResponse.json(
+      { error: "Failed to generate token", detail: String(err) },
+      { status: 500 }
+    );
+  }
 }
 
