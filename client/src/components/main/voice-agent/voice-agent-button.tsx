@@ -21,6 +21,18 @@ export function VoiceAgentButton() {
   const captionContainerRef = useRef<HTMLDivElement>(null);
   const segmentsMapRef = useRef<Map<string, string>>(new Map());
 
+  // Disable mic while video is playing so the agent doesn't process new input;
+  // re-enable when the video closes
+  useEffect(() => {
+    if (!roomRef.current) return;
+    if (videoPopup) {
+      roomRef.current.localParticipant.setMicrophoneEnabled(false);
+    } else if (connectionState === "connected") {
+      roomRef.current.localParticipant.setMicrophoneEnabled(!isMuted);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [videoPopup]);
+
   // Auto-scroll caption to bottom when text updates
   useEffect(() => {
     if (captionContainerRef.current) {
