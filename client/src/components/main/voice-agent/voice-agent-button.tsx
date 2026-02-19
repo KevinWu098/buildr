@@ -7,6 +7,7 @@ import { LoaderIcon, Mic, MicOff, Phone, PhoneOff } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 type ConnectionState = "disconnected" | "connecting" | "connected";
+type VideoPopup = { component: string; url: string };
 
 export function VoiceAgentButton() {
   const [connectionState, setConnectionState] =
@@ -14,6 +15,7 @@ export function VoiceAgentButton() {
   const [isMuted, setIsMuted] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [agentCaption, setAgentCaption] = useState("");
+  const [videoPopup, setVideoPopup] = useState<VideoPopup | null>(null);
   const roomRef = useRef<Room | null>(null);
   const captionTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const captionContainerRef = useRef<HTMLDivElement>(null);
@@ -120,11 +122,28 @@ export function VoiceAgentButton() {
         }
       );
 
+      room.on(RoomEvent.DataReceived, async (payload: Uint8Array) => {
+        try {
+          const data = JSON.parse(new TextDecoder().decode(payload));
+          if (
+            data.type === "show_video" &&
+            ["cpu", "gpu", "ram"].includes(data.component)
+          ) {
+            const res = await fetch(`/api/clip/${data.component}`);
+            const { url } = await res.json();
+            setVideoPopup({ component: data.component, url });
+          }
+        } catch {
+          // Ignore malformed data messages
+        }
+      });
+
       room.on(RoomEvent.Disconnected, () => {
         setConnectionState("disconnected");
         setIsMuted(false);
         setIsSpeaking(false);
         setAgentCaption("");
+        setVideoPopup(null);
         segmentsMapRef.current.clear();
         roomRef.current = null;
       });
@@ -215,6 +234,28 @@ export function VoiceAgentButton() {
   // Connected state
   return (
     <div className="flex flex-col items-center gap-3">
+      {videoPopup && (
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/80">
+          <div className="relative w-full max-w-md px-4">
+            <p className="mb-2 text-center text-sm font-semibold uppercase text-white">
+              {videoPopup.component} Installation
+            </p>
+            <video
+              src={videoPopup.url}
+              controls
+              autoPlay
+              className="w-full rounded-lg"
+              onEnded={() => setVideoPopup(null)}
+            />
+            <button
+              onClick={() => setVideoPopup(null)}
+              className="absolute right-6 top-0 text-xl text-white"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
       {/* Agent caption */}
       {agentCaption && (
         <div

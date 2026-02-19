@@ -23,6 +23,8 @@ const COMPONENTS_API_URL =
   process.env.COMPONENTS_API_URL || "http://localhost:8000";
 const ASSEMBLY_API_URL =
   process.env.ASSEMBLY_API_URL || "http://localhost:8002";
+const CLIPS_API_URL =
+  process.env.CLIPS_API_URL || "http://localhost:8002";
 
 // Track assembly state across the session
 // In a typical PC build, RAM should be installed before CPU on the motherboard
@@ -54,6 +56,9 @@ When users are in the assembly stage and ask what step they should take next, or
 4. Do NOT mention that you are dispatching an action or calling a service - just provide natural guidance
 
 When the user confirms they have completed installing a component, use the markComponentAssembled tool to record it.
+
+VIDEO TUTORIALS:
+When users ask how to install or insert a CPU, GPU, or RAM, call the showInstallationVideo tool with the relevant component ("cpu", "gpu", or "ram") to trigger a video tutorial popup in the UI, then provide brief verbal guidance as well.
 
 Be concise and helpful in your responses.`,
       tools: {
@@ -258,6 +263,27 @@ Be concise and helpful in your responses.`,
               assembledComponents: Array.from(assembledComponents),
               message: `${component} has been marked as installed.`,
             };
+          },
+        }),
+        showInstallationVideo: tool({
+          description:
+            "Trigger a video tutorial popup in the UI showing how to install a component. Use this when the user asks how to install or insert a CPU, GPU, or RAM.",
+          parameters: z.object({
+            component: z
+              .enum(["cpu", "gpu", "ram"])
+              .describe("The component to show the installation video for"),
+          }),
+          execute: async ({ component }: { component: "cpu" | "gpu" | "ram" }) => {
+            try {
+              const encoder = new TextEncoder();
+              await ctx.room.localParticipant.publishData(
+                encoder.encode(JSON.stringify({ type: "show_video", component })),
+                { reliable: true }
+              );
+              return { success: true, component };
+            } catch {
+              return { success: false, error: "Failed to send video signal" };
+            }
           },
         }),
       },
