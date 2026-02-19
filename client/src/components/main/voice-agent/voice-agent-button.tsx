@@ -212,6 +212,17 @@ export function VoiceAgentButton() {
     roomRef.current = null;
   }, []);
 
+  const closeVideoPopup = useCallback(() => {
+    setVideoPopup(null);
+    if (roomRef.current) {
+      const encoder = new TextEncoder();
+      roomRef.current.localParticipant.publishData(
+        encoder.encode(JSON.stringify({ type: "video_ended" })),
+        { reliable: true }
+      );
+    }
+  }, []);
+
   const toggleMute = useCallback(async () => {
     if (roomRef.current) {
       const newMuteState = !isMuted;
@@ -257,10 +268,10 @@ export function VoiceAgentButton() {
               controls
               autoPlay
               className="w-full rounded-lg"
-              onEnded={() => setVideoPopup(null)}
+              onEnded={closeVideoPopup}
             />
             <button
-              onClick={() => setVideoPopup(null)}
+              onClick={closeVideoPopup}
               className="absolute right-6 top-0 text-xl text-white"
             >
               ✕

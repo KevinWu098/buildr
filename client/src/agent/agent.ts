@@ -39,12 +39,26 @@ export default defineAgent({
   entry: async (ctx: JobContext) => {
     const vad = ctx.proc.userData.vad! as silero.VAD;
 
+    const session = new voice.AgentSession({
+      vad,
+      stt: new deepgram.STT({
+        model: "nova-3",
+      }),
+      llm: "openai/gpt-4.1-mini",
+      tts: "cartesia/sonic-3:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",
+      turnDetection: "stt",
+    });
+
     const assistant = new voice.Agent({
       instructions: `You are a helpful PC building assistant. You help users understand PC components, check compatibility, and answer questions about CPUs, memory, and motherboards.
 
 When users ask about specific CPUs, prices, or integrated graphics, use the queryCpuKnowledge tool to get accurate information.
 When users want to search for components, use the searchComponents tool.
 When users want to check if their parts are compatible, use the checkCompatibility tool.
+
+VIDEO TUTORIALS:
+When users ask how to install or insert a CPU, GPU, or RAM, call the showInstallationVideo tool with the relevant component ("cpu", "gpu", or "ram"). Do NOT say anything else after calling the tool — the video is self-explanatory and the user's microphone will be disabled while it plays.
+
 
 ASSEMBLY GUIDANCE:
 When users are in the assembly stage and ask what step they should take next, or what to do next:
@@ -55,8 +69,6 @@ When users are in the assembly stage and ask what step they should take next, or
 
 When the user confirms they have completed installing a component, use the markComponentAssembled tool to record it.
 
-VIDEO TUTORIALS:
-When users ask how to install or insert a CPU, GPU, or RAM, call the showInstallationVideo tool with the relevant component ("cpu", "gpu", or "ram"). Do NOT say anything else after calling the tool — the video is self-explanatory and the user's microphone will be disabled while it plays.
 
 Be concise and helpful in your responses.`,
       tools: {
@@ -278,6 +290,8 @@ Be concise and helpful in your responses.`,
                 encoder.encode(JSON.stringify({ type: "show_video", component })),
                 { reliable: true }
               );
+              // Stop any ongoing TTS so the agent is silent while the video plays
+              await session.interrupt().await;
               return { success: true, component };
             } catch {
               return { success: false, error: "Failed to send video signal" };
@@ -285,16 +299,6 @@ Be concise and helpful in your responses.`,
           },
         }),
       },
-    });
-
-    const session = new voice.AgentSession({
-      vad,
-      stt: new deepgram.STT({
-        model: "nova-3",
-      }),
-      llm: "openai/gpt-4.1-mini",
-      tts: "cartesia/sonic-3:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",
-      turnDetection: "stt",
     });
 
     await ctx.connect();
@@ -305,6 +309,21 @@ Be concise and helpful in your responses.`,
       inputOptions: {
         noiseCancellation: BackgroundVoiceCancellation(),
       },
+    });
+
+    // When the frontend signals the video has ended or been closed, ask if the
+    // user needs more help
+    ctx.room.on("dataReceived", (payload: Uint8Array) => {
+      try {
+        const data = JSON.parse(new TextDecoder().decode(payload));
+        if (data.type === "video_ended") {
+          session.say("Hope that helped! Do you need any more assistance?", {
+            allowInterruptions: true,
+          });
+        }
+      } catch {
+        // Ignore malformed messages
+      }
     });
 
     session.generateReply({
